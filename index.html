@@ -22,8 +22,22 @@
     <script type="text/javascript" src="./assets/js/turn.js"></script>
 
     <style type="text/css">
+      @font-face {
+        font-family: "Montserrat-Regular";
+        src: url("./assets/fonts/Montserrat/Montserrat-Regular.ttf");
+      }
+      @font-face {
+        font-family: "Montserrat-Medium";
+        src: url("./assets/fonts/Montserrat/Montserrat-Medium.ttf");
+      }
+      @font-face {
+        font-family: "Montserrat-SemiBold";
+        src: url("./assets/fonts/Montserrat/Montserrat-SemiBold.ttf");
+      }
       body {
         background: #5e5e5e;
+        font-family: "Montserrat-Medium", system-ui, -apple-system,
+          BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       }
       #magazine {
         width: 802px;
@@ -31,11 +45,10 @@
         margin-inline: auto;
       }
       #magazine .turn-page {
-        background-color: #1a370d;
+        background-color: #e0e0e0;
         background-size: 100% 100%;
       }
       .menu-index {
-        background-image: linear-gradient(#e2f1e5, #e2f1e5);
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
@@ -45,17 +58,22 @@
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
+        gap: 2.5rem;
       }
       .menu {
         display: flex;
         flex-flow: column nowrap;
         align-items: center;
         gap: 1.2rem;
-        margin-top: 5rem;
+        margin-top: 4rem;
         margin-bottom: 2rem;
       }
       .menu-btn {
         background-color: transparent;
+        font-family: "Montserrat-Medium", system-ui, -apple-system,
+          BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        letter-spacing: 4px;
+        color: #466c44;
         border: none;
         cursor: pointer;
         padding: 0;
@@ -67,19 +85,38 @@
       }
       .combo-btn {
         margin-bottom: 5rem;
+        letter-spacing: 4px;
+        color: #a28031;
+        font-family: "Montserrat-SemiBold", system-ui, -apple-system,
+          BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       }
       .menu-footer {
         text-align: center;
       }
+      .menu-footer h4 {
+        line-height: 4px;
+        font-size: 16px;
+        color: #a28031;
+      }
       .menu-footer p {
         line-height: 4px;
+        font-size: 10px;
+        color: #5b5b5b;
       }
     </style>
   </head>
   <body>
     <div id="magazine">
       <div style="background-image: url(./assets/img/pg1.png)"></div>
-      <div class="menu-index">
+      <div
+        class="menu-index"
+        style="
+          background-image: url(./assets/img/p2bg.svg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        "
+      >
         <div class="menu-heading">
           <img
             class="heading-text heading-img"
@@ -108,14 +145,28 @@
         <button class="menu-btn combo-btn" onclick="turnPageTo(10)">
           Combos
         </button>
-        <div class="menu-footer">
+        <!-- <div class="menu-footer">
           <h4 class="footer-heading">TIPS</h4>
           <p>Tap/Click category name to navigate to respective page</p>
           <p>Tap/Click on top of every menu to get back here</p>
-        </div>
+        </div> -->
       </div>
-      <div style="background-image: url(./pages/03.jpg)"></div>
-      <div style="background-image: url(./pages/04.jpg)"></div>
+      <div
+        style="
+          background-image: url(./assets/img/pg3.svg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        "
+      ></div>
+      <div
+        style="
+          background-image: url(./assets/img/pg4.svg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        "
+      ></div>
       <div style="background-image: url(./pages/05.jpg)"></div>
       <div style="background-image: url(./pages/06.jpg)"></div>
     </div>
