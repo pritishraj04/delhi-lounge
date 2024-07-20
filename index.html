@@ -18,27 +18,12 @@
     <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png"> -->
 
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
     <script type="text/javascript" src="./assets/js/jquery.js"></script>
     <script type="text/javascript" src="./assets/js/turn.js"></script>
 
     <style type="text/css">
-      @font-face {
-        font-family: "Montserrat-Regular";
-        src: url("./assets/fonts/Montserrat/Montserrat-Regular.ttf");
-      }
-      @font-face {
-        font-family: "Montserrat-Medium";
-        src: url("./assets/fonts/Montserrat/Montserrat-Medium.ttf");
-      }
-      @font-face {
-        font-family: "Montserrat-SemiBold";
-        src: url("./assets/fonts/Montserrat/Montserrat-SemiBold.ttf");
-      }
-      body {
-        background: #5e5e5e;
-        font-family: "Montserrat-Medium", system-ui, -apple-system,
-          BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      }
       #magazine {
         width: 802px;
         height: 1080px;
@@ -48,65 +33,17 @@
         background-color: #e0e0e0;
         background-size: 100% 100%;
       }
-      .menu-index {
-        display: flex;
-        flex-flow: column nowrap;
-        justify-content: center;
-        align-items: center;
-      }
-      .menu-heading {
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-        gap: 2.5rem;
-      }
-      .menu {
-        display: flex;
-        flex-flow: column nowrap;
-        align-items: center;
-        gap: 1.2rem;
-        margin-top: 4rem;
-        margin-bottom: 2rem;
-      }
-      .menu-btn {
+      .index-btn {
+        font-family: "DelhiLoungeFont", system-ui, -apple-system,
+          BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.2rem;
+        color: #a28031;
         background-color: transparent;
-        font-family: "Montserrat-Medium", system-ui, -apple-system,
-          BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-        letter-spacing: 4px;
-        color: #466c44;
-        border: none;
-        cursor: pointer;
-        padding: 0;
-        font-size: 1rem;
+        border: 1px currentColor solid;
+        border-radius: 3px;
+        padding: 0.2rem 0.5rem;
         text-transform: uppercase;
-      }
-      .heading-img {
-        width: 245px;
-      }
-      .combo-btn {
-        margin-bottom: 5rem;
-        letter-spacing: 4px;
-        color: #a28031;
-        font-family: "Montserrat-SemiBold", system-ui, -apple-system,
-          BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      }
-      .menu-footer {
-        text-align: center;
-      }
-      .menu-footer h4 {
-        line-height: 4px;
-        font-size: 16px;
-        color: #a28031;
-      }
-      .menu-footer p {
-        line-height: 4px;
-        font-size: 10px;
-        color: #5b5b5b;
-      }
-      .dev {
-        text-align: center;
-        margin-top: 50%;
-        transform: translateY(-50%);
       }
     </style>
   </head>
@@ -116,9 +53,9 @@
       <div
         class="menu-index"
         style="
-          background-image: url(./assets/img/p2bg.svg);
+          background-image: url(./assets/img/pg2.svg);
           background-size: cover;
-          background-position: center;
+          background-position: 0% 33%;
           background-repeat: no-repeat;
         "
       >
@@ -140,21 +77,18 @@
             Main Course (Non-Veg)
           </button>
           <button class="menu-btn" onclick="turnPageTo(5)">
-            Main Course(Veg)
+            Main Course (Veg)
           </button>
           <button class="menu-btn" onclick="turnPageTo(6)">Sea Food</button>
-          <button class="menu-btn" onclick="turnPageTo(7)">Biryani</button>
+          <button class="menu-btn" onclick="turnPageTo(7)">
+            Biryani & Pulaos
+          </button>
           <button class="menu-btn" onclick="turnPageTo(8)">Breads</button>
-          <button class="menu-btn" onclick="turnPageTo(9)">Desert</button>
+          <button class="menu-btn" onclick="turnPageTo(9)">Desserts</button>
         </div>
         <button class="menu-btn combo-btn" onclick="turnPageTo(10)">
           Combos
         </button>
-        <!-- <div class="menu-footer">
-          <h4 class="footer-heading">TIPS</h4>
-          <p>Tap/Click category name to navigate to respective page</p>
-          <p>Tap/Click on top of every menu to get back here</p>
-        </div> -->
       </div>
       <div
         style="
@@ -163,7 +97,9 @@
           background-position: center;
           background-repeat: no-repeat;
         "
-      ></div>
+      >
+        <button class="index-btn">Index Page</button>
+      </div>
       <div
         style="
           background-image: url(./assets/img/pg4.svg);
