@@ -37,25 +37,33 @@
         font-family: "DelhiLoungeFont", system-ui, -apple-system,
           BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
         font-weight: 600;
-        letter-spacing: 0.2rem;
+        letter-spacing: 2px;
         color: #a28031;
         background-color: transparent;
-        border: 1px currentColor solid;
+        border: 1px solid rgba(162, 128, 49, 0.547);
         border-radius: 3px;
-        padding: 0.2rem 0.5rem;
+        padding: 0.35rem 0.5rem;
         text-transform: uppercase;
+        margin-inline: auto;
       }
     </style>
   </head>
   <body>
     <div id="magazine">
-      <div style="background-image: url(./assets/img/pg1.png)"></div>
+      <div
+        style="
+          background-image: url(./assets/img/pg1.svg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        "
+      ></div>
       <div
         class="menu-index"
         style="
           background-image: url(./assets/img/pg2.svg);
           background-size: cover;
-          background-position: 0% 33%;
+          background-position: 0% 34%;
           background-repeat: no-repeat;
         "
       >
@@ -98,7 +106,37 @@
           background-repeat: no-repeat;
         "
       >
-        <button class="index-btn">Index Page</button>
+        <div class="top-nav">
+          <button class="index-btn">Index Page</button>
+        </div>
+        <section class="page-heading">
+          <div class="menu-item-heading">
+            <button class="prev"><-</button>
+            <h1>Chatak Chaat</h1>
+            <button class="next">-></button>
+          </div>
+          <div class="menu-item-sub-heading">
+            <p>Authentic Chaat</p>
+            <p>Straight From New Delhi</p>
+          </div>
+        </section>
+        <div class="menu-items">
+          <div class="menu-item">
+            <div class="menu-item-details">
+              <h4>Bengali Market ke Golgappe</h4>
+              Street style puffs sttuffed with boiled white peas and topped with
+              flavored water.
+            </div>
+            <div class="menu-item-cta">
+              <h4 class="menu-item-price">₹ 290</h4>
+              <div class="menu-item-action">
+                <button class="decrement-btn">-</button>
+                <input type="number" disabled />
+                <button class="increment-btn">+</button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <div
         style="
