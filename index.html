@@ -20,9 +20,6 @@
 
     <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <script type="text/javascript" src="./assets/js/jquery.js"></script>
-    <script type="text/javascript" src="./assets/js/turn.js"></script>
-
     <style type="text/css">
       #magazine {
         width: 802px;
@@ -32,19 +29,6 @@
       #magazine .turn-page {
         background-color: #e0e0e0;
         background-size: 100% 100%;
-      }
-      .index-btn {
-        font-family: "DelhiLoungeFont", system-ui, -apple-system,
-          BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-        font-weight: 600;
-        letter-spacing: 2px;
-        color: #a28031;
-        background-color: transparent;
-        border: 1px solid rgba(162, 128, 49, 0.547);
-        border-radius: 3px;
-        padding: 0.35rem 0.5rem;
-        text-transform: uppercase;
-        margin-inline: auto;
       }
     </style>
   </head>
@@ -106,33 +90,128 @@
           background-repeat: no-repeat;
         "
       >
-        <div class="top-nav">
-          <button class="index-btn">Index Page</button>
-        </div>
-        <section class="page-heading">
-          <div class="menu-item-heading">
-            <button class="prev"><-</button>
-            <h1>Chatak Chaat</h1>
-            <button class="next">-></button>
+        <div class="menu-wrapper">
+          <div class="top-nav">
+            <button class="index-btn" onclick="turnPageTo(2)">
+              Index Page
+            </button>
           </div>
-          <div class="menu-item-sub-heading">
-            <p>Authentic Chaat</p>
-            <p>Straight From New Delhi</p>
-          </div>
-        </section>
-        <div class="menu-items">
-          <div class="menu-item">
-            <div class="menu-item-details">
-              <h4>Bengali Market ke Golgappe</h4>
-              Street style puffs sttuffed with boiled white peas and topped with
-              flavored water.
+          <section class="page-heading">
+            <div class="menu-item-heading">
+              <button class="prev" onclick="turnPagePrevious()">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="0.88em"
+                  height="1em"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H109.3l105.3-105.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
+                  />
+                </svg>
+              </button>
+              <h1>Chatak Chaat</h1>
+              <button class="next" onclick="turnPageNext()">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="0.88em"
+                  height="1em"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32h306.7L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                  />
+                </svg>
+              </button>
             </div>
-            <div class="menu-item-cta">
-              <h4 class="menu-item-price">₹ 290</h4>
-              <div class="menu-item-action">
-                <button class="decrement-btn">-</button>
-                <input type="number" disabled />
-                <button class="increment-btn">+</button>
+            <div class="menu-item-sub-heading">
+              <p>Authentic Chaat</p>
+              <p>Straight From New Delhi</p>
+            </div>
+          </section>
+          <div class="menu-items">
+            <div class="menu-item" data-item-id="1">
+              <div class="menu-item-details">
+                <h4 class="menu-item-name">Bengali Market ke Golgappe</h4>
+                <p class="menu-item-description">
+                  Street style puffs sttuffed with boiled white peas and topped
+                  with flavored water.
+                </p>
+              </div>
+              <div class="menu-item-cta">
+                <h4 class="menu-item-price">₹290</h4>
+                <div class="menu-item-action">
+                  <button class="remove-from-cart cart-btn">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="0.88em"
+                      height="1em"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M432 256c0 17.7-14.3 32-32 32H48c-17.7 0-32-14.3-32-32s14.3-32 32-32h352c17.7 0 32 14.3 32 32"
+                      />
+                    </svg>
+                  </button>
+                  <input class="menu-item-qty" type="number" disabled />
+                  <button class="add-to-cart cart-btn">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="0.88em"
+                      height="1em"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32v144H48c-17.7 0-32 14.3-32 32s14.3 32 32 32h144v144c0 17.7 14.3 32 32 32s32-14.3 32-32V288h144c17.7 0 32-14.3 32-32s-14.3-32-32-32H256z"
+                      />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="menu-item" data-item-id="2">
+              <div class="menu-item-details">
+                <h4 class="menu-item-name">Purani Dili ke Aloo Kachalu</h4>
+                <p class="menu-item-description">
+                  Street style puffs sttuffed with boiled white peas and topped
+                  with flavored water.
+                </p>
+              </div>
+              <div class="menu-item-cta">
+                <h4 class="menu-item-price">₹120</h4>
+                <div class="menu-item-action">
+                  <button class="remove-from-cart cart-btn">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="0.88em"
+                      height="1em"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M432 256c0 17.7-14.3 32-32 32H48c-17.7 0-32-14.3-32-32s14.3-32 32-32h352c17.7 0 32 14.3 32 32"
+                      />
+                    </svg>
+                  </button>
+                  <input class="menu-item-qty" type="number" disabled />
+                  <button class="add-to-cart cart-btn">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="0.88em"
+                      height="1em"
+                      viewBox="0 0 448 512"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32v144H48c-17.7 0-32 14.3-32 32s14.3 32 32 32h144v144c0 17.7 14.3 32 32 32s32-14.3 32-32V288h144c17.7 0 32-14.3 32-32s-14.3-32-32-32H256z"
+                      />
+                    </svg>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -146,6 +225,7 @@
           background-repeat: no-repeat;
         "
       ></div>
+
       <div><h1 class="dev">Under Development</h1></div>
       <div><h1 class="dev">Under Development</h1></div>
       <div><h1 class="dev">Under Development</h1></div>
@@ -153,30 +233,16 @@
       <div><h1 class="dev">Under Development</h1></div>
       <div><h1 class="dev">Under Development</h1></div>
     </div>
-
-    <script type="text/javascript">
-      $(window).ready(function () {
-        $("#magazine").turn({
-          display: "single",
-          acceleration: true,
-          gradients: !$.isTouch,
-          elevation: 50,
-          when: {
-            turned: function (e, page) {
-              /*console.log('Current view: ', $(this).turn('view'));*/
-            },
-          },
-        });
-      });
-
-      function turnPageTo(number) {
-        $("#magazine").turn("page", number);
-      }
-
-      $(window).bind("keydown", function (e) {
-        if (e.keyCode == 37) $("#magazine").turn("previous");
-        else if (e.keyCode == 39) $("#magazine").turn("next");
-      });
-    </script>
+    <div class="cart-container">
+      <h1>Cart</h1>
+      <ul class="cart-items">
+        <!-- Cart items will be appended here -->
+      </ul>
+      <p class="cart-total">Total: $0</p>
+    </div>
+    <script type="text/javascript" src="./assets/js/jquery.js"></script>
+    <script type="text/javascript" src="./assets/js/turn.js"></script>
+    <script type="text/javascript" src="./assets/js/magazine.js"></script>
+    <script type="text/javascript" src="./assets/js/cart.js"></script>
   </body>
 </html>
