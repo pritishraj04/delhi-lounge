@@ -12,7 +12,7 @@ $(document).ready(function () {
 
       $(".cart-items").append(`
           <li class="cart-item" data-item-id="${id}">
-              <span>${item.name} (x${item.quantity})</span>
+              <span>${item.name} (x${item.quantity}): </span>
               <span>₹${itemTotal.toFixed(2)}</span>
           </li>
       `);
@@ -53,5 +53,15 @@ $(document).ready(function () {
     }
 
     updateCart();
+
+    if (Object.keys(cart).length === 0 && cart.constructor === Object) {
+      $(".cart-items").append(
+        `<li class="empty-cart cart-item">No items Selected</li>`
+      );
+    }
+  });
+
+  $(".cart-heading").on("click", function () {
+    $(".cart-details").toggleClass("cart-hidden");
   });
 });
