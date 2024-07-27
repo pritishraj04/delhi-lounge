@@ -22,11 +22,13 @@
 
     <style type="text/css">
       #magazine {
-        --max-width: 802px;
+        /* --max-width: 802px;
         --padding: 1rem;
         width: min(var(--max-width), 100% - (var(--padding) * 2));
         height: 100dvh;
-        height: 100vh;
+        height: 100vh; */
+        width: 802px;
+        height: 1080px;
         margin-inline: auto;
       }
       #magazine .turn-page {
@@ -37,7 +39,7 @@
   </head>
   <body>
     <div id="magazine">
-      <!-- <div
+      <div
         style="
           background-image: url(./assets/img/pg1.svg);
           background-size: cover;
@@ -84,13 +86,14 @@
         <button class="menu-btn combo-btn" onclick="turnPageTo(10)">
           Combos
         </button>
-      </div> -->
+      </div>
       <div
         style="
           background-image: url(./assets/img/pg3.svg);
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
+          position: relative;
         "
       >
         <div class="menu-wrapper">
@@ -219,6 +222,22 @@
             </div>
           </div>
         </div>
+        <div class="cart">
+          <div class="cart-container">
+            <button class="cart-heading">
+              <span class="cart-design-prev"></span>
+              <h3>Delhi Lounge Menu</h3>
+              <h4>Total Items Selected</h4>
+              <span class="cart-design-next"></span>
+            </button>
+            <div class="cart-details cart-hidden">
+              <ul class="cart-items">
+                <li class="empty-cart cart-item">No items Selected</li>
+              </ul>
+              <p class="cart-total">Total: ₹0.00</p>
+            </div>
+          </div>
+        </div>
       </div>
       <div
         style="
@@ -236,22 +255,7 @@
       <div><h1 class="dev">Under Development</h1></div>
       <div><h1 class="dev">Under Development</h1></div>
     </div>
-    <div class="cart">
-      <div class="cart-container">
-        <button class="cart-heading">
-          <span class="cart-design-prev"></span>
-          <h3>Delhi Lounge Menu</h3>
-          <h4>Total Items Selected</h4>
-          <span class="cart-design-next"></span>
-        </button>
-        <div class="cart-details cart-hidden">
-          <ul class="cart-items">
-            <li class="empty-cart cart-item">No items Selected</li>
-          </ul>
-          <p class="cart-total">Total: ₹0.00</p>
-        </div>
-      </div>
-    </div>
+
     <script type="text/javascript" src="./assets/js/jquery.js"></script>
     <script type="text/javascript" src="./assets/js/turn.js"></script>
     <script type="text/javascript" src="./assets/js/magazine.js"></script>
