@@ -22,8 +22,11 @@
 
     <style type="text/css">
       #magazine {
-        width: 802px;
-        height: 1080px;
+        --max-width: 802px;
+        --padding: 1rem;
+        width: min(var(--max-width), 100% - (var(--padding) * 2));
+        height: 100dvh;
+        height: 100vh;
         margin-inline: auto;
       }
       #magazine .turn-page {
