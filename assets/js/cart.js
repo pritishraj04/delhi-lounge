@@ -13,15 +13,14 @@ $(document).ready(function () {
       $(".cart-items").append(`
           <li class="cart-item" data-item-id="${id}">
               <span>${item.name} (x${item.quantity}): </span>
-              <span>₹${itemTotal.toFixed(2)}</span>
+              <span>$${itemTotal.toFixed(2)}</span>
           </li>
       `);
     }
-    $(".cart-total").text(`Total: ₹${total.toFixed(2)}`);
+    $(".cart-total").text(`Total: $${total.toFixed(2)}`);
   }
 
   $(".add-to-cart").on("click", function () {
-    $(".cart-heading").toggleClass("cart-add-animation");
     const itemElement = $(this).closest(".menu-item");
     const itemId = itemElement.data("item-id");
     const itemName = itemElement.find(".menu-item-name").text();
@@ -38,13 +37,12 @@ $(document).ready(function () {
     itemQty.val(cart[itemId].quantity);
 
     updateCart();
-    setTimeout(function () {
-      $(".cart-heading").toggleClass("cart-add-animation");
-    }, 1000);
+    if (Object.keys(cart).length > 0 && cart.constructor === Object) {
+      $(".cart-heading").addClass("cart-have-item");
+    }
   });
 
   $(".remove-from-cart").on("click", function () {
-    $(".cart-heading").toggleClass("cart-remove-animation");
     const itemElement = $(this).closest(".menu-item");
     const itemId = itemElement.data("item-id");
     const itemQty = itemElement.find(".menu-item-qty");
@@ -60,13 +58,11 @@ $(document).ready(function () {
     updateCart();
 
     if (Object.keys(cart).length === 0 && cart.constructor === Object) {
+      $(".cart-heading").removeClass("cart-have-item");
       $(".cart-items").append(
         `<li class="empty-cart cart-item">No items Selected</li>`
       );
     }
-    setTimeout(function () {
-      $(".cart-heading").toggleClass("cart-remove-animation");
-    }, 1000);
   });
 
   $(".cart-heading").on("click", function () {
