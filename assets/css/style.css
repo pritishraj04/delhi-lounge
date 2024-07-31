@@ -201,8 +201,8 @@ body {
   font-size: 1.1rem;
   font-family: "NotoSerif", serif;
   font-weight: 400;
-  letter-spacing: -0.4px;
   color: #4b4b4b;
+  text-transform: uppercase;
 }
 .menu-item-description {
   font-size: 0.52rem;

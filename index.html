@@ -3,9 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
+    <!-- <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    /> -->
+    <meta
+      name="viewport"
+      content="viewport-fit=cover,width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
     />
     <meta name="description" content="Delhi Lounge" />
     <meta name="author" content="Ansonika" />
@@ -27,7 +31,7 @@
         width: min(var(--max-width), 100% - (var(--padding) * 2));
         height: 100dvh;
         height: 100vh; */
-        width: 802px;
+        width: 810px;
         height: 1080px;
         margin-inline: auto;
       }
@@ -69,15 +73,15 @@
           />
         </div>
         <div class="menu">
-          <button class="menu-btn" onclick="turnPageTo(3)">Chatak Chaat</button>
-          <button class="menu-btn" onclick="turnPageTo(4)">
+          <button class="menu-btn" onclick="turnPageTo(4)">Chatak Chaat</button>
+          <button class="menu-btn" onclick="turnPageTo(6)">
             Main Course (Non-Veg)
           </button>
-          <button class="menu-btn" onclick="turnPageTo(5)">
+          <button class="menu-btn" onclick="turnPageTo(8)">
             Main Course (Veg)
           </button>
-          <button class="menu-btn" onclick="turnPageTo(6)">Sea Food</button>
-          <button class="menu-btn" onclick="turnPageTo(7)">
+          <button class="menu-btn" onclick="turnPageTo(10)">Sea Food</button>
+          <button class="menu-btn" onclick="turnPageTo(12)">
             Biryani & Pulaos
           </button>
           <button class="menu-btn" onclick="turnPageTo(8)">Breads</button>
@@ -110,6 +114,68 @@
           background-position: center;
           background-repeat: no-repeat;
           position: relative;
+        "
+      >
+        <div class="menu-wrapper">
+          <div class="top-nav">
+            <button class="index-btn" onclick="turnPageTo(2)">
+              Index Page
+            </button>
+          </div>
+          <section class="page-heading">
+            <div class="menu-item-heading">
+              <button class="prev" onclick="turnPagePrevious()">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1.88em"
+                  height="2em"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H109.3l105.3-105.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
+                  />
+                </svg>
+              </button>
+              <button class="next" onclick="turnPageNext()">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1.88em"
+                  height="2em"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32h306.7L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </section>
+        </div>
+        <div class="cart">
+          <div class="cart-container">
+            <button class="cart-heading">
+              <span class="cart-design-prev"></span>
+              <h3>Delhi Lounge Menu</h3>
+              <h4>Total Items Selected</h4>
+              <span class="cart-design-next"></span>
+            </button>
+            <div class="cart-details cart-hidden">
+              <ul class="cart-items">
+                <li class="empty-cart cart-item">No items Selected</li>
+              </ul>
+              <p class="cart-total">Total: $0.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        style="
+          background-image: url(./assets/img/pg4.svg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
         "
       >
         <div class="menu-wrapper">
@@ -305,14 +371,76 @@
       </div>
       <div
         style="
-          background-image: url(./assets/img/pg4.svg);
+          background-image: url(./assets/img/pg5.svg);
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
+          position: relative;
+        "
+      >
+        <div class="menu-wrapper">
+          <div class="top-nav">
+            <button class="index-btn" onclick="turnPageTo(2)">
+              Index Page
+            </button>
+          </div>
+          <section class="page-heading">
+            <div class="menu-item-heading">
+              <button class="prev" onclick="turnPagePrevious()">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1.88em"
+                  height="2em"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H109.3l105.3-105.4c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
+                  />
+                </svg>
+              </button>
+              <button class="next" onclick="turnPageNext()">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1.88em"
+                  height="2em"
+                  viewBox="0 0 448 512"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32h306.7L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </section>
+        </div>
+        <div class="cart">
+          <div class="cart-container">
+            <button class="cart-heading">
+              <span class="cart-design-prev"></span>
+              <h3>Delhi Lounge Menu</h3>
+              <h4>Total Items Selected</h4>
+              <span class="cart-design-next"></span>
+            </button>
+            <div class="cart-details cart-hidden">
+              <ul class="cart-items">
+                <li class="empty-cart cart-item">No items Selected</li>
+              </ul>
+              <p class="cart-total">Total: $0.00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        style="
+          background-image: url(./assets/img/pg6.svg);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          position: relative;
         "
       ></div>
-
-      <div><h1 class="dev">Under Development</h1></div>
       <div><h1 class="dev">Under Development</h1></div>
       <div><h1 class="dev">Under Development</h1></div>
       <div><h1 class="dev">Under Development</h1></div>
