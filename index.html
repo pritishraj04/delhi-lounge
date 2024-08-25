@@ -22,7 +22,8 @@
     <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/apple-touch-icon-114x114-precomposed.png">
     <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/apple-touch-icon-144x144-precomposed.png"> -->
 
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/modal.css" />
+    <link rel="stylesheet" href="./assets/css/style2.css" />
 
     <style type="text/css">
       #magazine {
@@ -45,7 +46,7 @@
     <div id="magazine">
       <div
         style="
-          background-image: url(./assets/img/pg1.svg);
+          background-image: url(./assets/img/menu-images/1.png);
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -54,7 +55,7 @@
       <div
         class="menu-index"
         style="
-          background-image: url(./assets/img/pg2.svg);
+          background-image: url(./assets/img/menu-images/2.png);
           background-size: cover;
           background-position: 0% 34%;
           background-repeat: no-repeat;
@@ -93,7 +94,7 @@
       </div>
       <div
         style="
-          background-image: url(./assets/img/pg3.svg);
+          background-image: url(./assets/img/menu-images/2.png);
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -123,7 +124,7 @@
       </div>
       <div
         style="
-          background-image: url(./assets/img/pg4.svg);
+          background-image: url(./assets/img/menu-images/2.png);
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -189,7 +190,7 @@
       </div>
       <div
         style="
-          background-image: url(./assets/img/pg5.svg);
+          background-image: url(./assets/img/menu-images/2.png);
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
@@ -219,21 +220,83 @@
       </div>
       <div
         style="
-          background-image: url(./assets/img/pg6.svg);
+          background-image: url(./assets/img/menu-images/2.png);
           background-size: cover;
           background-position: center;
           background-repeat: no-repeat;
           position: relative;
         "
+      >
+        <div class="menu-wrapper">
+          <div class="menu-headings">
+            <h1>Appetisers</h1>
+            <h2>Vegetarian</h2>
+          </div>
+          <ul class="menu-items">
+            <li class="menu-item">
+              <button class="menu-item-btn" onclick="toggleModalOne()">
+                <div class="details">
+                  <h3 class="name">Khumbh Ki Galouti</h3>
+                  <p class="metrics">Kcal / Gms / $USD</p>
+                </div>
+                <p class="desc">
+                  Melt-in-mouth mushroom patties marinated with a ost of
+                  aromatic spices, garlic chutney
+                </p>
+              </button>
+            </li>
+            <li class="menu-item">
+              <button class="menu-item-btn">
+                <div class="details">
+                  <h3 class="name">Khumbh Ki Galouti</h3>
+                  <p class="metrics">Kcal / Gms / $USD</p>
+                </div>
+                <p class="desc">
+                  Melt-in-mouth mushroom patties marinated with a ost of
+                  aromatic spices, garlic chutney
+                </p>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div><h1 class="dev">Under Development</h1></div>
+      <div
+        style="
+          background-image: url(./assets/img/menu-images/last.png);
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+        "
       ></div>
-      <div><h1 class="dev">Under Development</h1></div>
-      <div><h1 class="dev">Under Development</h1></div>
-      <div><h1 class="dev">Under Development</h1></div>
-      <div><h1 class="dev">Under Development</h1></div>
-      <div><h1 class="dev">Under Development</h1></div>
     </div>
 
+    <div id="modal-one" class="modal">
+      <div
+        id="content-one"
+        class="modal-content"
+        style="
+          background-image: url(./assets/img/menu-images/pops.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          width: 100%;
+          height: 100%;
+        "
+      >
+        <button
+          type="button"
+          class="close-button"
+          onclick="toggleModalOne()"
+          aria-label="Close modal"
+        >
+          <span aria-hidden="true" class="line"></span>
+          <span class="sr-only">Close Modal</span>
+        </button>
+      </div>
+    </div>
     <script type="text/javascript" src="./assets/js/jquery.js"></script>
+    <script type="text/javascript" src="./assets/js/modal.js"></script>
     <script type="text/javascript" src="./assets/js/turn.js"></script>
     <script type="text/javascript" src="./assets/js/magazine.js"></script>
     <script type="text/javascript" src="./assets/js/cart.js"></script>
