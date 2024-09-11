@@ -1,27 +1,31 @@
-const modalOne = document.getElementById("modal-one");
+const modal = document.getElementById("modal");
+const modalContent = document.getElementById("content");
 
-const modalOneContent = document.getElementById("content-one");
+// JSON object to store modal data
+const modalData = {
+  1: { title: "Title 1", body: "./assets/img/menu-images/pops.png" },
+  2: { title: "Title 2", body: "./assets/img/menu-images/posps.png" },
+};
 
-const modalTwo = document.getElementById("modal-two");
+const openModal = (e) => {
+  const button = e.currentTarget.closest("button[data-modal-id]");
 
-const modalTwoContent = document.getElementById("content-two");
-
-const toggleModalOne = () => {
-  if (modalOne.classList.contains("open")) {
-    modalOne.classList.remove("open");
-    modalOneContent.classList.remove("open");
-  } else {
-    modalOne.classList.add("open");
-    modalOneContent.classList.add("open");
+  if (button) {
+    const modalId = button.getAttribute("data-modal-id");
+    const data = modalData[modalId];
+    if (data) {
+      modalContent.style.backgroundImage = `url('${data.body}')`;
+      if (!modal.classList.contains("open")) {
+        modal.classList.add("open");
+        modalContent.classList.add("open");
+      }
+    }
   }
 };
 
-const toggleModalTwo = () => {
-  if (modalTwo.classList.contains("open")) {
-    modalTwo.classList.remove("open");
-    modalTwoContent.classList.remove("open");
-  } else {
-    modalTwo.classList.add("open");
-    modalTwoContent.classList.add("open");
+const closeModal = () => {
+  if (modal.classList.contains("open")) {
+    modal.classList.remove("open");
+    modalContent.classList.remove("open");
   }
 };
