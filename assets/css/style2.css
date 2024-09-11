@@ -37,6 +37,9 @@ body {
   display: flex;
   height: 100%;
 }
+.psudo-menu-wrapper {
+  width: 100%;
+}
 .menu-wrapper {
   display: flex;
   flex-flow: column nowrap;
@@ -98,7 +101,3 @@ body {
   border: none;
   width: 100px;
 }
-
-/* .navbtn img {
-  
-} */
