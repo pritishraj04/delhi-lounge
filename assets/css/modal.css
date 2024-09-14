@@ -1,8 +1,10 @@
 .modal {
   position: fixed;
-  width: 100vw;
-  height: 100vh;
-  top: 0;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 999;
   display: flex;
   justify-content: center;
@@ -141,4 +143,39 @@
   clip: rect(0, 0, 0, 0);
   white-space: nowrap;
   border-width: 0;
+}
+
+.modal-image {
+  width: 100%;
+  min-height: 272px;
+  margin-block: 20px;
+}
+.modal-title {
+  text-align: center;
+  font-family: "DelhiLoungeCinzel", "Times New Roman", Times, serif;
+  margin-bottom: 5px;
+  font-size: 32px;
+}
+.modal-tags {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+#modal-category,
+#modal-origin {
+  font-family: "DelhiLoungeCrimsonText", "Times New Roman", Times, serif;
+  font-size: 18px;
+}
+#modal-tagline {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #7f7f7f;
+}
+.modal-description {
+  font-family: "DelhiLoungeCrimsonText", "Times New Roman", Times, serif;
+  max-height: 200px;
+  overflow: auto;
+  padding-inline: 40px;
 }
