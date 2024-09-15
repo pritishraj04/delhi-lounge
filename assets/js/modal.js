@@ -1,6 +1,5 @@
 const modal = document.getElementById("modal");
 const modalContent = document.getElementById("content");
-const modalBody = document.getElementById("modal-body");
 const modalTitle = document.getElementById("modal-title");
 const modalDescription = document.getElementById("modal-description");
 const modalCategory = document.getElementById("modal-category");
