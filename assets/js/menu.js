@@ -788,6 +788,73 @@ const menuData = {
   },
 };
 
+const showCategoryIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 0 1-1.227.579L8 11.722l-3.773 3.107A.75.75 0 0 1 3 14.25z"/></svg>`;
+const hideCategoryIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5M6.854 5.146a.5.5 0 1 0-.708.708L7.293 7L6.146 8.146a.5.5 0 1 0 .708.708L8 7.707l1.146 1.147a.5.5 0 1 0 .708-.708L8.707 7l1.147-1.146a.5.5 0 0 0-.708-.708L8 6.293z"/></svg>`;
+function createCategoryIndex(
+  category,
+  index,
+  menuIndexDiv,
+  hiddenListDiv,
+  toggleButton
+) {
+  const categoryIndexButton = document.createElement("button");
+  categoryIndexButton.classList.add("menu-btn");
+  categoryIndexButton.textContent = category;
+
+  categoryIndexButton.onclick = function () {
+    turnPageTo(index); // Navigates to the correct page based on index
+
+    // Hide the list after clicking
+    hiddenListDiv.style.display = "none";
+    toggleButton.classList.add("show-list-btn");
+    toggleButton.classList.remove("hide-list-btn");
+    toggleButton.innerHTML = showCategoryIcon; // Reset button text
+  };
+
+  menuIndexDiv.appendChild(categoryIndexButton); // Append button to the index
+}
+
+function createCategoryIndexToggle(menuIndexContainer) {
+  // Create the toggle button
+  const toggleButton = document.createElement("button");
+  toggleButton.classList.add("toggle-btn", "show-list-btn");
+  toggleButton.innerHTML = showCategoryIcon;
+
+  // Create the div for the hidden list of category index buttons
+  const hiddenListDiv = document.createElement("div");
+  hiddenListDiv.classList.add("menu-index-hidden"); // This will be hidden by default
+  hiddenListDiv.style.display = "none"; // Hide the list initially
+
+  // Add a toggle functionality to the button
+  toggleButton.onclick = function () {
+    if (hiddenListDiv.style.display === "none") {
+      hiddenListDiv.style.display = "flex";
+      toggleButton.classList.remove("show-list-btn");
+      toggleButton.classList.add("hide-list-btn");
+      toggleButton.innerHTML = hideCategoryIcon; // Change button text
+    } else {
+      hiddenListDiv.style.display = "none";
+      toggleButton.classList.add("show-list-btn");
+      toggleButton.classList.remove("hide-list-btn");
+      toggleButton.innerHTML = showCategoryIcon; // Reset button text
+    }
+  };
+
+  // Append the category index buttons to the hidden list
+  Object.keys(menuData).forEach((category, index) => {
+    createCategoryIndex(
+      category,
+      index + 2,
+      hiddenListDiv,
+      hiddenListDiv,
+      toggleButton
+    ); // +2 for front cover adjustment
+  });
+
+  menuIndexContainer.appendChild(toggleButton);
+  menuIndexContainer.appendChild(hiddenListDiv);
+}
+
 function createMenuPage(category, type, items) {
   const pageDiv = document.createElement("div");
   pageDiv.classList.add("page");
@@ -804,6 +871,15 @@ function createMenuPage(category, type, items) {
 
   const menuWrapperDiv = document.createElement("div");
   menuWrapperDiv.classList.add("menu-wrapper");
+
+  const menuIndexDiv = document.createElement("div");
+  menuIndexDiv.classList.add("menu-index");
+
+  // Object.keys(menuData).forEach((cat, index) => {
+  //   createCategoryIndex(cat, index + 2, menuIndexDiv); // +2 to account for the front cover
+  // });
+  createCategoryIndexToggle(menuIndexDiv);
+  menuWrapperDiv.appendChild(menuIndexDiv);
 
   const menuHeadingsDiv = document.createElement("div");
   menuHeadingsDiv.classList.add("menu-headings");
@@ -906,12 +982,9 @@ function createLastPage() {
 }
 
 function initializeMenu() {
-  //   const menuContainer = document.getElementById("magazine");
-
   Object.keys(menuData).forEach((category) => {
     const { type, items } = menuData[category];
     const menuPage = createMenuPage(category, type, items);
-    // menuContainer.appendChild(menuPage);
     $("#magazine").turn("addPage", menuPage);
   });
   const lastPage = createLastPage();

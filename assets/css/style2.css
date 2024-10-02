@@ -47,12 +47,61 @@ body {
   width: 100%;
 }
 .menu-wrapper {
+  position: relative;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   justify-content: end;
   width: 100%;
 }
+.menu-index {
+  position: absolute;
+  top: 0;
+  margin-top: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-flow: column nowrap;
+  z-index: 2000;
+}
+.menu-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: "DelhiLoungeCinzel", "Times New Roman", Times, serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #473f20;
+}
+.menu-index-hidden {
+  display: none;
+  padding: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+}
+
+.toggle-btn {
+  color: #94b6e0;
+  font-size: 50px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.toggle-btn:hover {
+  transform: scaleY(1.1);
+}
+
+.hide-list-btn + .menu-index-hidden {
+  padding: 20px 60px;
+  background-color: #be8a46;
+}
+
 .menu-headings {
   display: flex;
   flex-flow: column nowrap;
