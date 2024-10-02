@@ -26,6 +26,19 @@ body {
   font-family: "DelhiLoungeCrimsonText", "Times New Roman", Times, serif;
   font-weight: 400;
 }
+.page {
+  background-image: url(../img/menu-images/page.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.last-page {
+  background-image: url(../img/menu-images/last.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .menu-page {
   display: flex;
   height: 100%;
