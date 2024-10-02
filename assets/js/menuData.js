@@ -153,8 +153,8 @@ const menuData = [
     ],
   },
   {
-    category: "Appetisers",
-    type: "Vegetarian",
+    category: "Vegetarian",
+    type: "Appetizers",
     items: [
       {
         title: "Khumbh ki Galouti",
@@ -270,7 +270,7 @@ const menuData = [
   },
   {
     category: "Seafood",
-    type: "Starters",
+    type: "Appetizers",
     items: [
       {
         title: "Tandoori Prawns",
@@ -316,7 +316,7 @@ const menuData = [
   },
   {
     category: "Meats",
-    type: "Starters",
+    type: "Appetizers",
     items: [
       {
         title: "Tandoori Quail",
@@ -564,7 +564,7 @@ const menuData = [
   },
   {
     category: "Seafood",
-    type: "Main-Course",
+    type: "Entrée",
     items: [
       {
         title: "Andhra Scallops",
@@ -600,7 +600,7 @@ const menuData = [
   },
   {
     category: "Meats",
-    type: "Main-Course",
+    type: "Entrée",
     items: [
       {
         title: "Lagan ki Bataer",
@@ -676,7 +676,7 @@ const menuData = [
   },
   {
     category: "Meats",
-    type: "Main-Course",
+    type: "Entrée",
     items: [
       {
         title: "The Delhi Lounge Tawa Chicken",
