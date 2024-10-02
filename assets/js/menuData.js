@@ -163,7 +163,7 @@ const menuData = [
         fullDesc:
           "These melt-in-mouth mushroom patties are marinated with a blend of aromatic spices and served with a flavorful garlic chutney.",
         metrics: "300 Kcal | 250g | $12",
-        image: "./assets/img/modal-images/khumbh-galouti.jpg",
+        image: "./assets/img/modal-images/khumbh-ki-galouti.jpg",
         chefSpecial: true,
       },
       {
@@ -675,7 +675,7 @@ const menuData = [
     ],
   },
   {
-    category: "Meats (2)",
+    category: "Meats",
     type: "Main-Course",
     items: [
       {

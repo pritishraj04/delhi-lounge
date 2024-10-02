@@ -147,8 +147,10 @@
 
 .modal-image {
   width: 100%;
-  min-height: 272px;
+  min-height: 287px;
   margin-block: 20px;
+  height: 370px;
+  object-fit: contain;
 }
 .modal-title {
   text-align: center;
