@@ -258,6 +258,12 @@ const openModal = (e) => {
 export const closeModal = () => {
   if (modal.classList.contains("open")) {
     modal.classList.remove("open");
+    modalTitle.textContent = "";
+    modalDescription.textContent = "";
+    modalCategory.textContent = "";
+    modalOrigin.textContent = "";
+    modalTagline.textContent = "";
+    modalImage.src = "";
     modalContent.classList.remove("open");
   }
 };
