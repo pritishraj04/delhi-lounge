@@ -74,6 +74,7 @@ body {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #473f20;
+  white-space: nowrap;
 }
 .menu-index-hidden {
   display: none;
@@ -148,6 +149,7 @@ body {
   justify-content: space-between;
   align-items: baseline;
   margin-bottom: 5px;
+  gap: 10px;
 }
 .menu-item .name {
   font-family: "DelhiLoungeCinzel", "Times New Roman", Times, serif;
@@ -155,12 +157,16 @@ body {
   letter-spacing: 0.6px;
   margin-bottom: 3px;
   color: #473f20;
+  text-align: start;
 }
 .menu-item .metrics {
   font-family: "DelhiLoungeCrimsonText", "Times New Roman", Times, serif;
   font-size: 12px;
   letter-spacing: 1px;
   color: #473f20;
+  text-align: end;
+  flex-grow: 0;
+  flex-basis: 41%;
 }
 .menu-item .desc {
   font-family: "DelhiLoungeCrimsonText", "Times New Roman", Times, serif;
