@@ -25,6 +25,7 @@ body {
     repeating-linear-gradient(#ffc60055, #ffc600);
   font-family: "DelhiLoungeCrimsonText", "Times New Roman", Times, serif;
   font-weight: 400;
+  overflow: hidden;
 }
 .container {
   --max-width: 802px;
