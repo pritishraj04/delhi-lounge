@@ -301,6 +301,14 @@ const findItemsById = (id) => {
     }
   }
 };
+function imageExists(image_url) {
+  var http = new XMLHttpRequest();
+
+  http.open("HEAD", image_url, false);
+  http.send();
+
+  return http.status != 404;
+}
 
 const openModal = (e) => {
   const button = e.currentTarget.closest("button[data-modal-id]");
@@ -317,7 +325,9 @@ const openModal = (e) => {
       modalCategory.textContent = category;
       modalOrigin.textContent = data.origin;
       modalTagline.textContent = data.tagline;
-      modalImage.src = data.image;
+      modalImage.src = imageExists(data.image)
+        ? data.image
+        : "./assets/img/menu-images/placeholder.svg";
 
       if (!modal.classList.contains("open")) {
         modal.classList.add("open");
