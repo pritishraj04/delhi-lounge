@@ -37,7 +37,7 @@ const menuData = [
             fullDesc:
               "Deliciously spiced mushroom patties that melt in your mouth, served with a flavorful garlic chutney.",
             metrics: "300 Kcal | 250g | $8.99",
-            image: "./assets/img/modal-images/khumbh-galouti.jpg",
+            image: "./assets/img/modal-images/khumbh-ki-galouti.jpg",
             chefSpecial: true,
           },
           {
@@ -92,7 +92,7 @@ const menuData = [
             fullDesc:
               "Deliciously soft goat meat patties spiced with a unique blend of flavors, served with garlic chutney.",
             metrics: "700 Kcal | 250-280g | $12.99",
-            image: "./assets/img/modal-images/mutton-galouti-kebab.jpg",
+            image: "./assets/img/modal-images/mutton-galauti-kebab.jpg",
             chefSpecial: true,
           },
           {
@@ -250,7 +250,7 @@ const menuData = [
             fullDesc:
               "A classic Awadhi-style biryani, featuring long grain Basmati rice and tender chicken, served with refreshing raita.",
             metrics: "730 Kcal | 220-250g | $14.99",
-            image: "./assets/img/modal-images/chicken-biryani.jpg",
+            image: "./assets/img/modal-images/dum-chicken-parda-biryani.jpg",
             chefSpecial: true,
           },
           {
@@ -261,7 +261,7 @@ const menuData = [
             fullDesc:
               "A rich and aromatic mutton biryani cooked in the Awadhi style, served with a side of raita.",
             metrics: "850 Kcal | 220-250g | $15.99",
-            image: "./assets/img/modal-images/mutton-biryani.jpg",
+            image: "./assets/img/modal-images/dum-mutton-parda-biryani.jpg",
             chefSpecial: true,
           },
           {
@@ -284,7 +284,7 @@ const menuData = [
               "A fluffy, leavened flatbread with the option of being plain, buttered, or topped with crushed pistachios for extra richness.",
             metrics:
               "450 Kcal (Plain), 525 Kcal (Butter), 580 Kcal (Pistachio) | 150g | $4.99",
-            image: "./assets/img/modal-images/khameeri-roti.jpg",
+            image: "./assets/img/modal-images/khamiri-roti-pistachio.jpg",
             chefSpecial: true,
           },
           {
@@ -328,7 +328,7 @@ const menuData = [
             fullDesc:
               "A delightful fusion of Indian rabri infused with gulkand (rose petal jam), served with fresh berries and honeycomb for added texture and flavor.",
             metrics: "550 Kcal | 150g | $9.99",
-            image: "./assets/img/modal-images/gulkand-rabri.jpg",
+            image: "./assets/img/modal-images/gulkand-rabri-mouse.jpg",
             chefSpecial: true,
           },
           {
@@ -370,7 +370,7 @@ const menuData = [
           "This nutritious salad combines the crunch of pomegranate seeds and the lightness of quinoa with fresh vegetables and a hint of mint and coriander.",
         metrics: "136 Kcal | 200-250g | $14",
         image: "./assets/img/modal-images/pomegranate-quinoa-salad.jpg",
-        chefSpecial: true,
+        chefSpecial: false,
       },
       {
         title: "Asparagus & Coconut Shorba",
@@ -427,7 +427,7 @@ const menuData = [
           "Crisp fried potatoes tossed in spicy chutneys and aromatic spices, offering a delightful taste of Old Delhi street food.",
         metrics: "185 Kcal | 180-200g | $9",
         image: "./assets/img/modal-images/aloo-kachalu.jpg",
-        chefSpecial: true,
+        chefSpecial: false,
       },
       {
         title: "Papdi Chaat",
@@ -447,7 +447,7 @@ const menuData = [
           "Crispy stuffed potato patties topped with white peas, a dollop of whipped yogurt, and a drizzle of tangy chutneys.",
         metrics: "111 Kcal | 120-150g | $7",
         image: "./assets/img/modal-images/aloo-tikki.jpg",
-        chefSpecial: false,
+        chefSpecial: true,
       },
       {
         title: "Bhalla Papdi Chaat",
@@ -477,7 +477,7 @@ const menuData = [
           "Crispy fried spinach leaves drizzled with yogurt and spicy chutneys, creating a delightful contrast of flavors.",
         metrics: "201 Kcal | 150-160g | $9",
         image: "./assets/img/modal-images/palak-patta-chaat.jpg",
-        chefSpecial: false,
+        chefSpecial: true,
       },
       {
         title: "Basket Chaat",
@@ -568,7 +568,7 @@ const menuData = [
               "Tender broccoli cooked in a creamy mixture, char-grilled to perfection, served with a cranberry and ginger sauce for a gourmet touch.",
             metrics: "532 Kcal | 250-300g | $14",
             image: "./assets/img/modal-images/truffle-malai-broccoli.jpg",
-            chefSpecial: false,
+            chefSpecial: true,
           },
           {
             title: "Tandoori Cottage Cheese",
@@ -588,7 +588,7 @@ const menuData = [
               "Scooped russet potatoes stuffed with a flavorful mixture of spiced potatoes and dry fruits, char-grilled for a smoky finish.",
             metrics: "389 Kcal | 250-280g | $10",
             image: "./assets/img/modal-images/tandoori-russet-potatoes.jpg",
-            chefSpecial: false,
+            chefSpecial: true,
           },
           {
             title: "Jackfruit Tikka",
@@ -655,7 +655,7 @@ const menuData = [
               "Rich Alaskan salmon steaks marinated in a blend of spices, char-grilled and served with a zesty lemon and black pepper chutney for a delightful experience.",
             metrics: "730 Kcal | 250-280g | $20",
             image: "./assets/img/modal-images/saloni-salmon-tikka.jpg",
-            chefSpecial: false,
+            chefSpecial: true,
           },
           {
             title: "Tandoori Pomfret",
@@ -682,7 +682,7 @@ const menuData = [
               "Tender quail marinated in a spicy yogurt marinade, char-grilled to perfection and served with a tangy cranberry and ginger chutney.",
             metrics: "704 Kcal | 220-260g | $18",
             image: "./assets/img/modal-images/tandoori-quail.jpg",
-            chefSpecial: false,
+            chefSpecial: true,
           },
           {
             title: "Chicken Tikka",
@@ -750,7 +750,7 @@ const menuData = [
               "Succulent goat meat patties that melt in your mouth, infused with aromatic spices and served with garlic chutney.",
             metrics: "700 Kcal | 250-280g | $18",
             image: "./assets/img/modal-images/mutton-galouti-kebab.jpg",
-            chefSpecial: false,
+            chefSpecial: true,
           },
           {
             title: "Mutton Seekh Gilafi",
@@ -789,7 +789,7 @@ const menuData = [
           "A classic combination of spicy chickpeas served with fluffy bhature, a popular dish from Old Delhi.",
         metrics: "750 Kcal | 250-300g | $14",
         image: "./assets/img/modal-images/purani-dilli-chole-bhature.jpg",
-        chefSpecial: false,
+        chefSpecial: true,
       },
       {
         title: "Amritsari Patties Kulcha Chana",
@@ -829,7 +829,7 @@ const menuData = [
               "Morel mushrooms stuffed with a rich and aromatic gravy, topped with slivers of almonds for an added crunch.",
             metrics: "700 Kcal | 300-350g | $20",
             image: "./assets/img/modal-images/almond-gucchi-korma.jpg",
-            chefSpecial: false,
+            chefSpecial: true,
           },
           {
             title: "Basil Paneer Rarah",
@@ -839,7 +839,7 @@ const menuData = [
               "Tender cottage cheese cubes cooked in a savory onion-tomato masala, infused with aromatic basil for a delightful flavor.",
             metrics: "955 Kcal | 300-350g | $18",
             image: "./assets/img/modal-images/basil-paneer-rarah.jpg",
-            chefSpecial: false,
+            chefSpecial: true,
           },
           {
             title: "Paneer Tikka Masala",
@@ -923,11 +923,11 @@ const menuData = [
             chefSpecial: false,
           },
           {
-            title: "Dry Spices Aloo Gobhi",
+            title: "Cauliflower Guncha-wa-Keema",
             origin: "Vegetarian",
-            desc: "A delicate preparation of tender cauliflower florets and potatoes, tossed in dry spices.",
+            desc: "A delicate preparation of tender cauliflower florets and bell peppers, tossed in tomatoes and fenugreek.",
             fullDesc:
-              "A flavorful mix of tender potatoes and cauliflower florets, sautéed with dry spices for a light and delicious dish.",
+              "A delicate preparation of tender caulilower florets and bell peppers, tossed in tomatoes and fenugreek",
             metrics: "465 Kcal | 300g | $12",
             image: "./assets/img/modal-images/dry-spices-aloo-gobhi.jpg",
             chefSpecial: false,
@@ -947,7 +947,7 @@ const menuData = [
               "Tender and juicy scallops perfectly cooked and served on a bed of tangy and spicy masala, creating a delightful burst of flavor.",
             metrics: "1020 Kcal | 380-400g | $24",
             image: "./assets/img/modal-images/andhra-scallops.jpg",
-            chefSpecial: false,
+            chefSpecial: true,
           },
           {
             title: "Kadhai Prawns",
@@ -968,7 +968,7 @@ const menuData = [
             metrics: "1360 Kcal | 380-400g | $22",
             image:
               "./assets/img/modal-images/chilian-sea-bass-coconut-curry.jpg",
-            chefSpecial: false,
+            chefSpecial: true,
           },
         ],
       },
@@ -985,7 +985,7 @@ const menuData = [
               "Succulent quail slow-cooked to perfection in a rich and creamy gravy made with cashew nuts and aromatic spices, delivering a luxurious flavor.",
             metrics: "1340 Kcal | 380-400g | $22",
             image: "./assets/img/modal-images/lagan-ki-bataer.jpg",
-            chefSpecial: false,
+            chefSpecial: true,
           },
           {
             title: "The Delhi Lounge Butter Chicken",
@@ -995,7 +995,7 @@ const menuData = [
               "Juicy chicken pieces simmered in a velvety creamy tomato-based gravy, enriched with a blend of aromatic spices for a rich, indulgent dish.",
             metrics: "1240 Kcal | 380-400g | $18",
             image: "./assets/img/modal-images/delhi-lounge-butter-chicken.jpg",
-            chefSpecial: false,
+            chefSpecial: true,
           },
           {
             title: "Chicken Tikka Masala",
@@ -1055,7 +1055,7 @@ const menuData = [
               "Shredded chicken tikka sautéed with fresh ginger, chilies, onions, and tomatoes, delivering a burst of flavor in every bite.",
             metrics: "1150 Kcal | 380-400g | $18",
             image: "./assets/img/modal-images/delhi-lounge-tawa-chicken.jpg",
-            chefSpecial: false,
+            chefSpecial: true,
           },
         ],
       },
@@ -1112,7 +1112,7 @@ const menuData = [
               "Succulent pieces of mutton cooked in a spicy and tangy tomato gravy, complemented with minced goat meat for added richness.",
             metrics: "1420 Kcal | 380-400g | $22",
             image: "./assets/img/modal-images/bakre-ke-nakhre.jpg",
-            chefSpecial: false,
+            chefSpecial: true,
           },
           {
             title: "The Delhi Lounge Imperial Raan",
@@ -1151,7 +1151,7 @@ const menuData = [
           "Rich and creamy black lentils slow-cooked for 24 hours, finished with a generous amount of fresh cream and butter for an indulgent taste.",
         metrics: "810 Kcal | 250-300g | $14",
         image: "./assets/img/modal-images/delhi-lounge-dal-makhani.jpg",
-        chefSpecial: false,
+        chefSpecial: true,
       },
       {
         title: "Steamed Basmati Rice",
@@ -1181,7 +1181,7 @@ const menuData = [
           "A fragrant pulao made with basmati rice and stuffed morel mushrooms, served with cooling raita for a perfect balance.",
         metrics: "410 Kcal | 150-180g | $16",
         image: "./assets/img/modal-images/morels-pulao.jpg",
-        chefSpecial: false,
+        chefSpecial: true,
       },
       {
         title: "Dum Jackfruit Parda Biryani",
@@ -1201,7 +1201,7 @@ const menuData = [
           "An aromatic dum biryani with long-grain basmati rice layered with tender chicken pieces, served with raita for added flavor.",
         metrics: "730 Kcal | 220-250g | $22",
         image: "./assets/img/modal-images/dum-chicken-parda-biryani.jpg",
-        chefSpecial: false,
+        chefSpecial: true,
       },
       {
         title: "Dum Mutton Parda Biryani",
@@ -1211,7 +1211,7 @@ const menuData = [
           "A flavorful dum biryani made with long-grain basmati rice layered with succulent goat meat, served with a side of raita.",
         metrics: "850 Kcal | 220-250g | $24",
         image: "./assets/img/modal-images/dum-mutton-parda-biryani.jpg",
-        chefSpecial: false,
+        chefSpecial: true,
       },
     ],
   },
@@ -1268,7 +1268,7 @@ const menuData = [
           "Unique naan infused with the flavors of scotch whiskey, offering a distinct taste to complement your meal.",
         metrics: "350 Kcal | 80-100g | $5",
         image: "./assets/img/modal-images/scotch-whiskey-naan.jpg",
-        chefSpecial: false,
+        chefSpecial: true,
       },
       {
         title: "Chur Chur Naan",
@@ -1288,7 +1288,7 @@ const menuData = [
           "Soft and fluffy khameeri roti made with fermented whole wheat flour, served plain, with butter, or enhanced with pistachios.",
         metrics: "450 Kcal (Plain) | 525 Kcal (Butter) | 150g | $4",
         image: "./assets/img/modal-images/khameeri-roti.jpg",
-        chefSpecial: false,
+        chefSpecial: true,
       },
       {
         title: "Kulcha (Aloo Pyaaz | Onion | Patties)",
@@ -1309,7 +1309,7 @@ const menuData = [
           "Rich and fluffy kulcha stuffed with chicken and cheese, baked in a tandoor for a delectable taste.",
         metrics: "540 Kcal (Cheese) | 525 Kcal (Chicken) | 150g | $6",
         image: "./assets/img/modal-images/chicken-cheese-kulcha.jpg",
-        chefSpecial: false,
+        chefSpecial: true,
       },
       {
         title: "Assorted Bread Basket",
@@ -1414,7 +1414,7 @@ const menuData = [
           "Delicate paneer discs soaked in rich and creamy Baileys-infused milk, topped with nuts.",
         metrics: "450 Kcal | 120-150g | $8",
         image: "./assets/img/modal-images/baileys-rasmalai.jpg",
-        chefSpecial: false,
+        chefSpecial: true,
       },
       {
         title: "Gulab Jamun",
@@ -1454,7 +1454,7 @@ const menuData = [
           "Traditional Indian ice cream made with milk, flavored with cardamom, and served with falooda noodles.",
         metrics: "560 Kcal | 150g | $8",
         image: "./assets/img/modal-images/kulfi-falooda.jpg",
-        chefSpecial: false,
+        chefSpecial: true,
       },
       {
         title: "Gulkand Rabri Mousse ē Berries & Honeycomb",
@@ -1464,7 +1464,7 @@ const menuData = [
           "A light and airy mousse made with gulkand (rose petal jam), layered with fresh berries and crunchy honeycomb.",
         metrics: "550 Kcal | 150g | $9",
         image: "./assets/img/modal-images/gulkand-rabri-mousse.jpg",
-        chefSpecial: false,
+        chefSpecial: true,
       },
       {
         title: "Custard Gulab Jamun ē Citrus Confit & Saffron Shortbread",
@@ -1474,7 +1474,7 @@ const menuData = [
           "Delicious gulab jamun served with creamy custard, citrus confit, and saffron-infused shortbread.",
         metrics: "480 Kcal | 120g | $9",
         image: "./assets/img/modal-images/custard-gulab-jamun.jpg",
-        chefSpecial: false,
+        chefSpecial: true,
       },
     ],
   },
