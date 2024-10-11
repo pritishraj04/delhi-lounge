@@ -671,7 +671,7 @@ const menuData = [
       },
       {
         subCategory: "Appetizers",
-        type: "Meats",
+        type: "Poultry",
         backgroundImage: "../assets/img/menu-images/page.jpg",
         items: [
           {
@@ -735,6 +735,13 @@ const menuData = [
             image: "./assets/img/modal-images/chinatown-chili-chicken.jpg",
             chefSpecial: false,
           },
+        ],
+      },
+      {
+        subCategory: "Appetizers",
+        type: "Meats",
+        backgroundImage: "../assets/img/menu-images/page.jpg",
+        items: [
           {
             title: "Mutton Galouti Kebab",
             origin: "Non-Vegetarian",
@@ -806,126 +813,127 @@ const menuData = [
       },
     ],
   },
-  // {
-  //   category: "Mains",
-  //   type: "Vegetarian",
-  //   backgroundImage: "../assets/img/menu-images/page.jpg",
-  //   items: [
-  //     {
-  //       title: "Almond Gucchi Korma",
-  //       origin: "Vegetarian",
-  //       desc: "Stuffed morel mushrooms in an aromatic gravy, topped with almond slivers.",
-  //       fullDesc:
-  //         "Morel mushrooms stuffed with a rich and aromatic gravy, topped with slivers of almonds for an added crunch.",
-  //       metrics: "700 Kcal | 300-350g | $20",
-  //       image: "./assets/img/modal-images/almond-gucchi-korma.jpg",
-  //       chefSpecial: false,
-  //     },
-  //     {
-  //       title: "Basil Paneer Rarah",
-  //       origin: "Vegetarian",
-  //       desc: "Cottage cheese cubes simmered in onion-tomato masala gravy, flavored with basil.",
-  //       fullDesc:
-  //         "Tender cottage cheese cubes cooked in a savory onion-tomato masala, infused with aromatic basil for a delightful flavor.",
-  //       metrics: "955 Kcal | 300-350g | $18",
-  //       image: "./assets/img/modal-images/basil-paneer-rarah.jpg",
-  //       chefSpecial: false,
-  //     },
-  //     {
-  //       title: "Paneer Tikka Masala",
-  //       origin: "Vegetarian",
-  //       desc: "Grilled cottage cheese tikka in creamy tomato-based gravy, infused with aromatic spices.",
-  //       fullDesc:
-  //         "Grilled paneer tikka pieces served in a rich and creamy tomato-based gravy, laced with aromatic spices for a delightful experience.",
-  //       metrics: "1050 Kcal | 300-350g | $20",
-  //       image: "./assets/img/modal-images/paneer-tikka-masala.jpg",
-  //       chefSpecial: false,
-  //     },
-  //     {
-  //       title: "Paneer Khurchan",
-  //       origin: "Vegetarian",
-  //       desc: "Spiced cottage cheese cooked with onions, tomatoes, bell peppers, and aromatic spices.",
-  //       fullDesc:
-  //         "A hearty dish of cottage cheese sautéed with onions, tomatoes, and bell peppers, seasoned with aromatic spices for a flavorful finish.",
-  //       metrics: "930 Kcal | 300-350g | $16",
-  //       image: "./assets/img/modal-images/paneer-khurchan.jpg",
-  //       chefSpecial: false,
-  //     },
-  //     {
-  //       title: "Palak Paneer",
-  //       origin: "Vegetarian",
-  //       desc: "Cottage cheese cooked in luscious green gravy seasoned with spices.",
-  //       fullDesc:
-  //         "Soft paneer cubes cooked in a creamy spinach gravy, perfectly seasoned with spices for a rich flavor.",
-  //       metrics: "1000 Kcal | 300-350g | $15",
-  //       image: "./assets/img/modal-images/palak-paneer.jpg",
-  //       chefSpecial: false,
-  //     },
-  //     {
-  //       title: "Shahi Paneer",
-  //       origin: "Vegetarian",
-  //       desc: "Cottage cheese simmered in rich and creamy nuts and yoghurt gravy with aromatic spices.",
-  //       fullDesc:
-  //         "Luxurious shahi paneer cooked in a rich nuts and yogurt gravy, delicately spiced for an exquisite flavor.",
-  //       metrics: "1250 Kcal | 300-350g | $22",
-  //       image: "./assets/img/modal-images/shahi-paneer.jpg",
-  //       chefSpecial: false,
-  //     },
-  //     {
-  //       title: "Malai Kofta",
-  //       origin: "Vegetarian",
-  //       desc: "Deep-fried potato and cottage cheese dumplings served in a creamy nuts and yoghurt gravy.",
-  //       fullDesc:
-  //         "Deliciously creamy malai kofta made with deep-fried potato and cottage cheese dumplings in a rich and nutty gravy.",
-  //       metrics: "1100 Kcal | 300-350g | $20",
-  //       image: "./assets/img/modal-images/malai-kofta.jpg",
-  //       chefSpecial: false,
-  //     },
-  //     {
-  //       title: "Kaju Methi Malai Matar",
-  //       origin: "Vegetarian",
-  //       desc: "Fenugreek leaves and green peas simmered in creamy nuts gravy with cashew nuts and aromatic spices.",
-  //       fullDesc:
-  //         "A delightful dish of fenugreek leaves and green peas cooked in a rich, creamy cashew gravy, seasoned with aromatic spices.",
-  //       metrics: "960 Kcal | 300-350g | $18",
-  //       image: "./assets/img/modal-images/kaju-methi-malai-matar.jpg",
-  //       chefSpecial: false,
-  //     },
-  //     {
-  //       title: "Dum Aloo Kashmiri",
-  //       origin: "Vegetarian",
-  //       desc: "Stuffed potatoes cooked in spicy and aromatic red gravy.",
-  //       fullDesc:
-  //         "Baby potatoes stuffed with spices and cooked in a rich, aromatic red gravy, offering a taste of Kashmiri cuisine.",
-  //       metrics: "920 Kcal | 300-350g | $15",
-  //       image: "./assets/img/modal-images/dum-aloo-kashmiri.jpg",
-  //       chefSpecial: false,
-  //     },
-  //     {
-  //       title: "Charcoal Roasted Baingan Bharta",
-  //       origin: "Vegetarian",
-  //       desc: "Roasted and mashed eggplant cooked with tomatoes, onions, and spices.",
-  //       fullDesc:
-  //         "Charcoal-roasted eggplant mashed and cooked with a flavorful blend of tomatoes, onions, and spices for a smoky taste.",
-  //       metrics: "310 Kcal | 300g | $12",
-  //       image: "./assets/img/modal-images/charcoal-roasted-baingan-bharta.jpg",
-  //       chefSpecial: false,
-  //     },
-  //     {
-  //       title: "Dry Spices Aloo Gobhi",
-  //       origin: "Vegetarian",
-  //       desc: "A delicate preparation of tender cauliflower florets and potatoes, tossed in dry spices.",
-  //       fullDesc:
-  //         "A flavorful mix of tender potatoes and cauliflower florets, sautéed with dry spices for a light and delicious dish.",
-  //       metrics: "465 Kcal | 300g | $12",
-  //       image: "./assets/img/modal-images/dry-spices-aloo-gobhi.jpg",
-  //       chefSpecial: false,
-  //     },
-  //   ],
-  // },
   {
     category: "Entrées",
     subCategories: [
+      {
+        subCategory: "Entrées",
+        type: "Vegiterian",
+        backgroundImage: "../assets/img/menu-images/page.jpg",
+        items: [
+          {
+            title: "Almond Gucchi Korma",
+            origin: "Vegetarian",
+            desc: "Stuffed morel mushrooms in an aromatic gravy, topped with almond slivers.",
+            fullDesc:
+              "Morel mushrooms stuffed with a rich and aromatic gravy, topped with slivers of almonds for an added crunch.",
+            metrics: "700 Kcal | 300-350g | $20",
+            image: "./assets/img/modal-images/almond-gucchi-korma.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Basil Paneer Rarah",
+            origin: "Vegetarian",
+            desc: "Cottage cheese cubes simmered in onion-tomato masala gravy, flavored with basil.",
+            fullDesc:
+              "Tender cottage cheese cubes cooked in a savory onion-tomato masala, infused with aromatic basil for a delightful flavor.",
+            metrics: "955 Kcal | 300-350g | $18",
+            image: "./assets/img/modal-images/basil-paneer-rarah.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Paneer Tikka Masala",
+            origin: "Vegetarian",
+            desc: "Grilled cottage cheese tikka in creamy tomato-based gravy, infused with aromatic spices.",
+            fullDesc:
+              "Grilled paneer tikka pieces served in a rich and creamy tomato-based gravy, laced with aromatic spices for a delightful experience.",
+            metrics: "1050 Kcal | 300-350g | $20",
+            image: "./assets/img/modal-images/paneer-tikka-masala.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Paneer Khurchan",
+            origin: "Vegetarian",
+            desc: "Spiced cottage cheese cooked with onions, tomatoes, bell peppers, and aromatic spices.",
+            fullDesc:
+              "A hearty dish of cottage cheese sautéed with onions, tomatoes, and bell peppers, seasoned with aromatic spices for a flavorful finish.",
+            metrics: "930 Kcal | 300-350g | $16",
+            image: "./assets/img/modal-images/paneer-khurchan.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Palak Paneer",
+            origin: "Vegetarian",
+            desc: "Cottage cheese cooked in luscious green gravy seasoned with spices.",
+            fullDesc:
+              "Soft paneer cubes cooked in a creamy spinach gravy, perfectly seasoned with spices for a rich flavor.",
+            metrics: "1000 Kcal | 300-350g | $15",
+            image: "./assets/img/modal-images/palak-paneer.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Shahi Paneer",
+            origin: "Vegetarian",
+            desc: "Cottage cheese simmered in rich and creamy nuts and yoghurt gravy with aromatic spices.",
+            fullDesc:
+              "Luxurious shahi paneer cooked in a rich nuts and yogurt gravy, delicately spiced for an exquisite flavor.",
+            metrics: "1250 Kcal | 300-350g | $22",
+            image: "./assets/img/modal-images/shahi-paneer.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Malai Kofta",
+            origin: "Vegetarian",
+            desc: "Deep-fried potato and cottage cheese dumplings served in a creamy nuts and yoghurt gravy.",
+            fullDesc:
+              "Deliciously creamy malai kofta made with deep-fried potato and cottage cheese dumplings in a rich and nutty gravy.",
+            metrics: "1100 Kcal | 300-350g | $20",
+            image: "./assets/img/modal-images/malai-kofta.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Kaju Methi Malai Matar",
+            origin: "Vegetarian",
+            desc: "Fenugreek leaves and green peas simmered in creamy nuts gravy with cashew nuts and aromatic spices.",
+            fullDesc:
+              "A delightful dish of fenugreek leaves and green peas cooked in a rich, creamy cashew gravy, seasoned with aromatic spices.",
+            metrics: "960 Kcal | 300-350g | $18",
+            image: "./assets/img/modal-images/kaju-methi-malai-matar.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Dum Aloo Kashmiri",
+            origin: "Vegetarian",
+            desc: "Stuffed potatoes cooked in spicy and aromatic red gravy.",
+            fullDesc:
+              "Baby potatoes stuffed with spices and cooked in a rich, aromatic red gravy, offering a taste of Kashmiri cuisine.",
+            metrics: "920 Kcal | 300-350g | $15",
+            image: "./assets/img/modal-images/dum-aloo-kashmiri.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Charcoal Roasted Baingan Bharta",
+            origin: "Vegetarian",
+            desc: "Roasted and mashed eggplant cooked with tomatoes, onions, and spices.",
+            fullDesc:
+              "Charcoal-roasted eggplant mashed and cooked with a flavorful blend of tomatoes, onions, and spices for a smoky taste.",
+            metrics: "310 Kcal | 300g | $12",
+            image:
+              "./assets/img/modal-images/charcoal-roasted-baingan-bharta.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Dry Spices Aloo Gobhi",
+            origin: "Vegetarian",
+            desc: "A delicate preparation of tender cauliflower florets and potatoes, tossed in dry spices.",
+            fullDesc:
+              "A flavorful mix of tender potatoes and cauliflower florets, sautéed with dry spices for a light and delicious dish.",
+            metrics: "465 Kcal | 300g | $12",
+            image: "./assets/img/modal-images/dry-spices-aloo-gobhi.jpg",
+            chefSpecial: false,
+          },
+        ],
+      },
       {
         subCategory: "Entrées",
         type: "Seafood",
@@ -966,7 +974,7 @@ const menuData = [
       },
       {
         subCategory: "Entrées",
-        type: "Meats",
+        type: "Poultry",
         backgroundImage: "../assets/img/menu-images/page.jpg",
         items: [
           {
@@ -1039,13 +1047,6 @@ const menuData = [
             image: "./assets/img/modal-images/saag-chicken.jpg",
             chefSpecial: false,
           },
-        ],
-      },
-      {
-        subCategory: "Entrées",
-        type: "Meats",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
-        items: [
           {
             title: "The Delhi Lounge Tawa Chicken",
             origin: "Non-Vegetarian",
@@ -1056,6 +1057,13 @@ const menuData = [
             image: "./assets/img/modal-images/delhi-lounge-tawa-chicken.jpg",
             chefSpecial: false,
           },
+        ],
+      },
+      {
+        subCategory: "Entrées",
+        type: "Meats",
+        backgroundImage: "../assets/img/menu-images/page.jpg",
+        items: [
           {
             title: "Tawa Masala Seekh Kebab",
             origin: "Non-Vegetarian",
