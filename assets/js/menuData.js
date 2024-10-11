@@ -1,7 +1,355 @@
 const menuData = [
   {
+    category: "Signature Cuisine",
+    subCategories: [
+      {
+        subCategory: "Signature Cuisine",
+        type: "",
+        backgroundImage: "../assets/img/menu-images/page.jpg",
+        items: [
+          {
+            title: "Karol Bagh Aloo Tikki",
+            origin: "Vegetarian",
+            tagline: "Crispy and flavorful potato pattice",
+            desc: "Stuffed potato pattice, topped with white peas, whipped yoghurt, and chutneys.",
+            fullDesc:
+              "A delightful street food favorite, with stuffed potato pattice topped with tangy chutneys and whipped yoghurt.",
+            metrics: "111 Kcal | 120-150g | $6.99",
+            image: "./assets/img/modal-images/karol-bagh-aloo-tikki.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "Palak Patta Chaat",
+            origin: "Vegetarian",
+            tagline: "Crispy and flavorful spinach",
+            desc: "Crispy fried spinach leaves tossed with spices, yogurt, and chutneys.",
+            fullDesc:
+              "A flavorful chaat with crispy fried spinach leaves, enhanced with tangy yogurt and spices.",
+            metrics: "201 Kcal | 150-160g | $7.49",
+            image: "./assets/img/modal-images/palak-patta-chaat.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "Khumbh ki Galouti",
+            origin: "Vegetarian",
+            tagline: "Melt-in-mouth mushroom patties",
+            desc: "Melt-in-mouth mushroom patties marinated with aromatic spices, garlic chutney.",
+            fullDesc:
+              "Deliciously spiced mushroom patties that melt in your mouth, served with a flavorful garlic chutney.",
+            metrics: "300 Kcal | 250g | $8.99",
+            image: "./assets/img/modal-images/khumbh-galouti.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "Truffle Malai Broccoli",
+            origin: "Vegetarian",
+            tagline: "Creamy and rich grilled broccoli",
+            desc: "Tender broccoli in a mixture of cream and spices, char-grilled, cranberry & ginger launji.",
+            fullDesc:
+              "Char-grilled broccoli infused with rich cream and spices, served with cranberry and ginger relish.",
+            metrics: "532 Kcal | 250-300g | $10.99",
+            image: "./assets/img/modal-images/truffle-malai-broccoli.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "Tandoori Russet Potatoes",
+            origin: "Vegetarian",
+            tagline: "Char-grilled and flavorful potatoes",
+            desc: "Scooped potatoes stuffed with a mixture of spiced potatoes and dry fruits, char-grilled, garlic chutney.",
+            fullDesc:
+              "A delightful tandoori preparation of russet potatoes stuffed with spices and dry fruits, served with garlic chutney.",
+            metrics: "389 Kcal | 250-280g | $9.49",
+            image: "./assets/img/modal-images/tandoori-russet-potatoes.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "Saloni Salmon Tikka",
+            origin: "Seafood",
+            tagline: "Grilled Alaskan Salmon",
+            desc: "Alaskan Salmon steaks marinated with aromatic spices, char-grilled, lemon & black pepper chutney.",
+            fullDesc:
+              "Juicy Alaskan Salmon steaks, marinated with spices and char-grilled to perfection, served with lemon and black pepper chutney.",
+            metrics: "730 Kcal | 250-280g | $18.99",
+            image: "./assets/img/modal-images/saloni-salmon-tikka.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "Tandoori Quail",
+            origin: "Meats",
+            tagline: "Spiced and char-grilled quail",
+            desc: "Aromatic and tender Quail marinated in spicy yoghurt marinade, char-grilled, cranberry & ginger launji.",
+            fullDesc:
+              "Tender quail marinated in a spicy yogurt mix and char-grilled, complemented with cranberry and ginger launji.",
+            metrics: "704 Kcal | 220-260g | $15.99",
+            image: "./assets/img/modal-images/tandoori-quail.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "Mutton Galouti Kebab",
+            origin: "Meats",
+            tagline: "Melt-in-mouth mutton kebabs",
+            desc: "Melt-in-mouth goat meat patties marinated with a host of aromatic spices, garlic chutney.",
+            fullDesc:
+              "Deliciously soft goat meat patties spiced with a unique blend of flavors, served with garlic chutney.",
+            metrics: "700 Kcal | 250-280g | $12.99",
+            image: "./assets/img/modal-images/mutton-galouti-kebab.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "Purani Dilli Chole Bhature",
+            origin: "Vegetarian",
+            tagline: "Classic chickpea and fried bread",
+            desc: "A semi-dry specialty preparation of spicy chickpea served with leavened deep-fried bread.",
+            fullDesc:
+              "A classic dish from Old Delhi, featuring spiced chickpeas and fluffy deep-fried bread.",
+            metrics: "750 Kcal | 250-300g | $8.99",
+            image: "./assets/img/modal-images/purani-dilli-chole-bhature.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "Almond Gucchi Korma",
+            origin: "Vegetarian",
+            tagline: "Aromatic and nutty stuffed mushrooms",
+            desc: "Stuffed morel mushrooms in an aromatic gravy, topped with almond slivers.",
+            fullDesc:
+              "Tender morel mushrooms stuffed and served in a nutty almond-based aromatic korma gravy.",
+            metrics: "700 Kcal | 300-350g | $14.99",
+            image: "./assets/img/modal-images/almond-gucchi-korma.jpg",
+            chefSpecial: true,
+          },
+        ],
+      },
+      {
+        subCategory: "Signature Cuisine",
+        type: "",
+        backgroundImage: "../assets/img/menu-images/page.jpg",
+        items: [
+          {
+            title: "Basil Paneer Rarah",
+            origin: "Vegetarian",
+            tagline: "Rich cottage cheese curry with basil flavor",
+            desc: "Cottage cheese cubes simmered in onion-tomato masala gravy, flavored with basil.",
+            fullDesc:
+              "A flavorful curry of tender paneer cubes cooked in a rich onion-tomato masala, infused with fresh basil.",
+            metrics: "955 Kcal | 300-350g | $13.99",
+            image: "./assets/img/modal-images/basil-paneer-rarah.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "Andhra Scallops",
+            origin: "Seafood",
+            tagline: "Spicy and tangy scallops",
+            desc: "Exquisite Scallops served on a tangy and spicy masala.",
+            fullDesc:
+              "Succulent scallops served with a flavorful Andhra-style spicy masala, bursting with tangy flavors.",
+            metrics: "1020 Kcal | 380-400g | $16.99",
+            image: "./assets/img/modal-images/andhra-scallops.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "Chilian Sea Bass Coconut Curry",
+            origin: "Seafood",
+            tagline: "Delicately simmered sea bass in coconut broth",
+            desc: "Chilian Sea Bass delicately simmered in a coconut broth, tempered with mustard seeds.",
+            fullDesc:
+              "A delicate preparation of sea bass in a creamy coconut curry, enhanced with mustard seed tempering.",
+            metrics: "1360 Kcal | 380-400g | $18.99",
+            image:
+              "./assets/img/modal-images/chilian-sea-bass-coconut-curry.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "Lagan ki Bataer",
+            origin: "Meats",
+            tagline: "Slow-cooked quail in rich cashew gravy",
+            desc: "Tender Quail slow-cooked in a rich gravy of cashew nuts and aromatic spices.",
+            fullDesc:
+              "Tender and aromatic quail slow-cooked in a luxurious cashew nut gravy, infused with aromatic spices.",
+            metrics: "1340 Kcal | 380-400g | $17.99",
+            image: "./assets/img/modal-images/lagan-ki-bataer.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "The Delhi Lounge Butter Chicken",
+            origin: "Meats",
+            tagline: "Classic butter chicken, rich and creamy",
+            desc: "Tender chicken pieces cooked in creamy tomato-based gravy, infused with aromatic spices.",
+            fullDesc:
+              "The all-time favorite butter chicken, featuring tender chicken pieces cooked in a rich tomato-based gravy.",
+            metrics: "1240 Kcal | 380-400g | $14.99",
+            image: "./assets/img/modal-images/butter-chicken.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "The Delhi Lounge Tawa Chicken",
+            origin: "Meats",
+            tagline: "Spicy tawa-cooked chicken",
+            desc: "Shredded chicken tikka pieces tossed with fresh ginger, chili, onions, and tomatoes.",
+            fullDesc:
+              "Flavor-packed tawa chicken, tossed with aromatic spices, ginger, and chili, giving it a fiery finish.",
+            metrics: "1150 Kcal | 380-400g | $12.99",
+            image: "./assets/img/modal-images/tawa-chicken.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "The Delhi Lounge Bakre ke Nakhre",
+            origin: "Meats",
+            tagline: "Spicy and tangy mutton with minced goat meat",
+            desc: "Tender mutton cooked in spicy and tangy tomato-based gravy with minced goat meat.",
+            fullDesc:
+              "A tangy and spicy preparation of mutton, served with minced goat meat, full of robust flavors.",
+            metrics: "1420 Kcal | 380-400g | $16.99",
+            image: "./assets/img/modal-images/bakre-ke-nakhre.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "The Delhi Lounge Imperial Raan",
+            origin: "Meats",
+            tagline: "Grand slow-cooked lamb leg with a luxurious touch",
+            desc: "48-hours slow-cooked leg of spring lamb, char-grilled, flambéed with dark rum, pine nuts, & 18 carat gold.",
+            fullDesc:
+              "A grand dish featuring slow-cooked spring lamb leg, finished with a flambé of dark rum and pine nuts, served with an elegant touch of gold.",
+            metrics: "4950 Kcal | 1.5kg | $45.99",
+            image: "./assets/img/modal-images/imperial-raan.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "The Delhi Lounge Dal Makhani",
+            origin: "Vegetarian",
+            tagline: "Slow-cooked, rich, and creamy lentils",
+            desc: "24 hour slow cooked black lentils, finished with fresh cream and butter.",
+            fullDesc:
+              "A rich and creamy preparation of black lentils, slow-cooked for 24 hours to bring out deep flavors.",
+            metrics: "810 Kcal | 250-300g | $8.99",
+            image: "./assets/img/modal-images/dal-makhani.jpg",
+            chefSpecial: true,
+          },
+        ],
+      },
+      {
+        subCategory: "Signature Cuisine",
+        type: "",
+        backgroundImage: "../assets/img/menu-images/page.jpg",
+        items: [
+          {
+            title: "Morels Pulao",
+            origin: "Vegetarian",
+            tagline: "Fragrant pulao with stuffed morel mushrooms",
+            desc: "Stuffed morel mushrooms layered with fragrant Basmati rice, served with raita.",
+            fullDesc:
+              "A luxurious pulao layered with aromatic Basmati rice and stuffed morel mushrooms, served with a side of raita.",
+            metrics: "410 Kcal | 150-180g | $12.99",
+            image: "./assets/img/modal-images/morels-pulao.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "Dum Chicken Parda Biryani",
+            origin: "Meats",
+            tagline: "Flavorful chicken biryani in the Awadhi style",
+            desc: "Awadhi preparation of long grain Basmati rice, layered with choicest cuts of chicken, served with raita.",
+            fullDesc:
+              "A classic Awadhi-style biryani, featuring long grain Basmati rice and tender chicken, served with refreshing raita.",
+            metrics: "730 Kcal | 220-250g | $14.99",
+            image: "./assets/img/modal-images/chicken-biryani.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "Dum Mutton Parda Biryani",
+            origin: "Meats",
+            tagline: "Spiced mutton biryani in the Awadhi style",
+            desc: "Awadhi preparation of long grain Basmati rice, layered with choicest cuts of goat meat, served with raita.",
+            fullDesc:
+              "A rich and aromatic mutton biryani cooked in the Awadhi style, served with a side of raita.",
+            metrics: "850 Kcal | 220-250g | $15.99",
+            image: "./assets/img/modal-images/mutton-biryani.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "Scotch Whiskey Naan",
+            origin: "Bread",
+            tagline: "Flambéed with a hint of scotch whiskey",
+            desc: "",
+            fullDesc:
+              "A unique twist on naan, flambéed with a splash of scotch whiskey, adding a smoky, rich flavor.",
+            metrics: "350 Kcal | 80-100g | $5.99",
+            image: "./assets/img/modal-images/scotch-whiskey-naan.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "Khameeri Roti (Plain | Butter | Pistachio)",
+            origin: "Bread",
+            tagline: "Fluffy, leavened bread with options",
+            desc: "",
+            fullDesc:
+              "A fluffy, leavened flatbread with the option of being plain, buttered, or topped with crushed pistachios for extra richness.",
+            metrics:
+              "450 Kcal (Plain), 525 Kcal (Butter), 580 Kcal (Pistachio) | 150g | $4.99",
+            image: "./assets/img/modal-images/khameeri-roti.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "The Delhi Lounge Chicken & Cheese Kulcha",
+            origin: "Bread",
+            tagline: "Stuffed kulcha with chicken and cheese",
+            desc: "",
+            fullDesc:
+              "A rich kulcha stuffed with a flavorful combination of tender chicken and melted cheese, perfect as an accompaniment or standalone dish.",
+            metrics: "540 Kcal (Cheese), 525 Kcal (Chicken) | 150g | $6.99",
+            image: "./assets/img/modal-images/chicken-cheese-kulcha.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "Baileys Rasmalai",
+            origin: "Desserts",
+            tagline: "Classic rasmalai infused with Baileys",
+            desc: "",
+            fullDesc:
+              "A unique fusion of traditional Indian rasmalai with the creamy liqueur Baileys, creating a perfect blend of flavors.",
+            metrics: "450 Kcal | 120-150g | $8.99",
+            image: "./assets/img/modal-images/baileys-rasmalai.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "The Delhi Lounge Kulfi Falooda",
+            origin: "Desserts",
+            tagline: "A rich and creamy Indian dessert",
+            desc: "",
+            fullDesc:
+              "A refreshing Indian dessert of creamy kulfi served with falooda (sweet vermicelli noodles), topped with a rich syrup.",
+            metrics: "560 Kcal | 150g | $7.99",
+            image: "./assets/img/modal-images/kulfi-falooda.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "Gulkand Rabri Mousse ē Berries & Honeycomb",
+            origin: "Desserts",
+            tagline: "Fusion of Indian rabri and berries",
+            desc: "",
+            fullDesc:
+              "A delightful fusion of Indian rabri infused with gulkand (rose petal jam), served with fresh berries and honeycomb for added texture and flavor.",
+            metrics: "550 Kcal | 150g | $9.99",
+            image: "./assets/img/modal-images/gulkand-rabri.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "Custard Gulab Jamun ē Citrus Confit & Saffron Shortbread",
+            origin: "Desserts",
+            tagline: "A creative twist on gulab jamun",
+            desc: "",
+            fullDesc:
+              "Traditional gulab jamun served with custard, complemented by a citrus confit and a saffron-infused shortbread for a delightful fusion dessert.",
+            metrics: "480 Kcal | 120g | $8.99",
+            image: "./assets/img/modal-images/custard-gulab-jamun.jpg",
+            chefSpecial: true,
+          },
+        ],
+      },
+    ],
+  },
+  {
     category: "Salads & Soups",
     type: "",
+    backgroundImage: "../assets/img/menu-images/page.jpg",
     items: [
       {
         title: "Mango & Avocado Kachumber Salad",
@@ -59,6 +407,7 @@ const menuData = [
   {
     category: "Chaat",
     type: "",
+    backgroundImage: "../assets/img/menu-images/page.jpg",
     items: [
       {
         title: "Pani Puri (Jaljeera | Gud Imli | Pineapple)",
@@ -153,266 +502,277 @@ const menuData = [
     ],
   },
   {
-    category: "Vegetarian",
-    type: "Appetizers",
-    items: [
+    category: "Appetizers",
+    subCategories: [
       {
-        title: "Khumbh ki Galouti",
-        origin: "Vegetarian",
-        desc: "Melt-in-mouth mushroom patties marinated with a host of aromatic spices, garlic chutney.",
-        fullDesc:
-          "These melt-in-mouth mushroom patties are marinated with a blend of aromatic spices and served with a flavorful garlic chutney.",
-        metrics: "300 Kcal | 250g | $12",
-        image: "./assets/img/modal-images/khumbh-ki-galouti.jpg",
-        chefSpecial: true,
+        subCategory: "Appetizers",
+        type: "Vegetarian",
+        backgroundImage: "../assets/img/menu-images/page.jpg",
+        items: [
+          {
+            title: "Khumbh ki Galouti",
+            origin: "Vegetarian",
+            desc: "Melt-in-mouth mushroom patties marinated with a host of aromatic spices, garlic chutney.",
+            fullDesc:
+              "These melt-in-mouth mushroom patties are marinated with a blend of aromatic spices and served with a flavorful garlic chutney.",
+            metrics: "300 Kcal | 250g | $12",
+            image: "./assets/img/modal-images/khumbh-ki-galouti.jpg",
+            chefSpecial: true,
+          },
+          {
+            title: "Beetroot Shammi Labgeer",
+            origin: "Vegetarian",
+            desc: "Melt-in-mouth beetroot patties flavored with aromatic spices, lemon & black pepper chutney.",
+            fullDesc:
+              "Delicately spiced beetroot patties served with a refreshing lemon and black pepper chutney that enhances the earthy flavors.",
+            metrics: "400 Kcal | 250g | $10",
+            image: "./assets/img/modal-images/beetroot-shammi.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Green Pea Mint Kebab",
+            origin: "Vegetarian",
+            desc: "Ground green pea patties enhanced with fresh mint, cranberry & ginger launji.",
+            fullDesc:
+              "Light and flavorful ground green pea patties infused with fresh mint, served with a tangy cranberry and ginger launji.",
+            metrics: "437 Kcal | 250g | $9",
+            image: "./assets/img/modal-images/green-pea-mint-kebab.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Bullet Kebab",
+            origin: "Vegetarian",
+            desc: "Spinach croquettes stuffed with cheese, garlic chutney.",
+            fullDesc:
+              "Crispy spinach croquettes filled with a cheesy center, served with garlic chutney for a delightful combination.",
+            metrics: "319 Kcal | 250g | $10",
+            image: "./assets/img/modal-images/bullet-kebab.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Chinatown Chili Cottage Cheese",
+            origin: "Vegetarian",
+            desc: "Stir-fried cottage cheese cubes tossed with chilies, bell peppers, and onions in a spicy sauce.",
+            fullDesc:
+              "Sautéed cottage cheese cubes combined with bell peppers and chilies in a spicy sauce, offering a delightful flavor.",
+            metrics: "905 Kcal | 250-300g | $12",
+            image:
+              "./assets/img/modal-images/chinatown-chili-cottage-cheese.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Truffle Malai Broccoli",
+            origin: "Vegetarian",
+            desc: "Tender broccoli in a mixture of cream and spices, char-grilled, cranberry & ginger launji.",
+            fullDesc:
+              "Tender broccoli cooked in a creamy mixture, char-grilled to perfection, served with a cranberry and ginger sauce for a gourmet touch.",
+            metrics: "532 Kcal | 250-300g | $14",
+            image: "./assets/img/modal-images/truffle-malai-broccoli.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Tandoori Cottage Cheese",
+            origin: "Vegetarian",
+            desc: "Cottage cheese, capsicum, and onions marinated in yoghurt and char-grilled, lemon & black pepper chutney.",
+            fullDesc:
+              "Marinated cottage cheese, capsicum, and onions char-grilled to perfection, served with a zesty lemon and black pepper chutney.",
+            metrics: "864 Kcal | 250-280g | $14",
+            image: "./assets/img/modal-images/tandoori-cottage-cheese.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Tandoori Russet Potatoes",
+            origin: "Vegetarian",
+            desc: "Scooped potatoes stuffed with a mixture of spiced potatoes and dry fruits, char-grilled, garlic chutney.",
+            fullDesc:
+              "Scooped russet potatoes stuffed with a flavorful mixture of spiced potatoes and dry fruits, char-grilled for a smoky finish.",
+            metrics: "389 Kcal | 250-280g | $10",
+            image: "./assets/img/modal-images/tandoori-russet-potatoes.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Jackfruit Tikka",
+            origin: "Vegetarian",
+            desc: "Jackfruit marinated with brown onion, yoghurt, and spices, char-grilled, lemon & black pepper chutney.",
+            fullDesc:
+              "Marinated jackfruit cooked on a grill, offering a unique taste with a hint of lemon and black pepper chutney.",
+            metrics: "289 Kcal | 250-280g | $10",
+            image: "./assets/img/modal-images/jackfruit-tikka.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Garden Grill Seekh Kebab",
+            origin: "Vegetarian",
+            desc: "Minced vegetables marinated and skewered, char-grilled, pineapple & green chili chutney.",
+            fullDesc:
+              "Grilled minced vegetable kebabs, skewered and served with a sweet and spicy pineapple and green chili chutney.",
+            metrics: "425 Kcal | 250-280g | $12",
+            image: "./assets/img/modal-images/garden-grill-seekh-kebab.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Tandoori Salad",
+            origin: "Vegetarian",
+            desc: "Vegetables & stone fruits marinated with tandoori spices, char-grilled, garlic chutney.",
+            fullDesc:
+              "A vibrant salad with char-grilled vegetables and stone fruits marinated in tandoori spices, paired with a zesty garlic chutney.",
+            metrics: "275 Kcal | 250-280g | $10",
+            image: "./assets/img/modal-images/tandoori-salad.jpg",
+            chefSpecial: false,
+          },
+        ],
       },
       {
-        title: "Beetroot Shammi Labgeer",
-        origin: "Vegetarian",
-        desc: "Melt-in-mouth beetroot patties flavored with aromatic spices, lemon & black pepper chutney.",
-        fullDesc:
-          "Delicately spiced beetroot patties served with a refreshing lemon and black pepper chutney that enhances the earthy flavors.",
-        metrics: "400 Kcal | 250g | $10",
-        image: "./assets/img/modal-images/beetroot-shammi.jpg",
-        chefSpecial: false,
+        subCategory: "Appetizers",
+        type: "Seafood",
+        backgroundImage: "../assets/img/menu-images/page.jpg",
+        items: [
+          {
+            title: "Tandoori Prawns",
+            origin: "Non-Vegetarian",
+            desc: "Freshwater jumbo prawns marinated with spices, char-grilled, pineapple & green chili chutney.",
+            fullDesc:
+              "Jumbo freshwater prawns marinated in a blend of aromatic spices and char-grilled, served with a refreshing pineapple and green chili chutney.",
+            metrics: "485 Kcal | 280-300g | $18",
+            image: "./assets/img/modal-images/tandoori-prawns.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Fish Tikka",
+            origin: "Non-Vegetarian",
+            desc: "Fish steaks, marinated with carom seeds, yoghurt and spices, char-grilled, cranberry & ginger launji.",
+            fullDesc:
+              "Delicious fish steaks marinated with aromatic carom seeds and yogurt, char-grilled to perfection and served with a tangy cranberry and ginger chutney.",
+            metrics: "545 Kcal | 250-280g | $16",
+            image: "./assets/img/modal-images/fish-tikka.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Saloni Salmon Tikka",
+            origin: "Non-Vegetarian",
+            desc: "Alaskan salmon steaks marinated with aromatic spices, char-grilled, lemon & black pepper chutney.",
+            fullDesc:
+              "Rich Alaskan salmon steaks marinated in a blend of spices, char-grilled and served with a zesty lemon and black pepper chutney for a delightful experience.",
+            metrics: "730 Kcal | 250-280g | $20",
+            image: "./assets/img/modal-images/saloni-salmon-tikka.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Tandoori Pomfret",
+            origin: "Non-Vegetarian",
+            desc: "Whole silver pomfret, marinated with spices, char-grilled, garlic chutney.",
+            fullDesc:
+              "Whole silver pomfret marinated in spices and char-grilled to perfection, served with a flavorful garlic chutney.",
+            metrics: "459 Kcal | 220g per piece | $22",
+            image: "./assets/img/modal-images/tandoori-pomfret.jpg",
+            chefSpecial: false,
+          },
+        ],
       },
       {
-        title: "Green Pea Mint Kebab",
-        origin: "Vegetarian",
-        desc: "Ground green pea patties enhanced with fresh mint, cranberry & ginger launji.",
-        fullDesc:
-          "Light and flavorful ground green pea patties infused with fresh mint, served with a tangy cranberry and ginger launji.",
-        metrics: "437 Kcal | 250g | $9",
-        image: "./assets/img/modal-images/green-pea-mint-kebab.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Bullet Kebab",
-        origin: "Vegetarian",
-        desc: "Spinach croquettes stuffed with cheese, garlic chutney.",
-        fullDesc:
-          "Crispy spinach croquettes filled with a cheesy center, served with garlic chutney for a delightful combination.",
-        metrics: "319 Kcal | 250g | $10",
-        image: "./assets/img/modal-images/bullet-kebab.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Chinatown Chili Cottage Cheese",
-        origin: "Vegetarian",
-        desc: "Stir-fried cottage cheese cubes tossed with chilies, bell peppers, and onions in a spicy sauce.",
-        fullDesc:
-          "Sautéed cottage cheese cubes combined with bell peppers and chilies in a spicy sauce, offering a delightful flavor.",
-        metrics: "905 Kcal | 250-300g | $12",
-        image: "./assets/img/modal-images/chinatown-chili-cottage-cheese.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Truffle Malai Broccoli",
-        origin: "Vegetarian",
-        desc: "Tender broccoli in a mixture of cream and spices, char-grilled, cranberry & ginger launji.",
-        fullDesc:
-          "Tender broccoli cooked in a creamy mixture, char-grilled to perfection, served with a cranberry and ginger sauce for a gourmet touch.",
-        metrics: "532 Kcal | 250-300g | $14",
-        image: "./assets/img/modal-images/truffle-malai-broccoli.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Tandoori Cottage Cheese",
-        origin: "Vegetarian",
-        desc: "Cottage cheese, capsicum, and onions marinated in yoghurt and char-grilled, lemon & black pepper chutney.",
-        fullDesc:
-          "Marinated cottage cheese, capsicum, and onions char-grilled to perfection, served with a zesty lemon and black pepper chutney.",
-        metrics: "864 Kcal | 250-280g | $14",
-        image: "./assets/img/modal-images/tandoori-cottage-cheese.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Tandoori Russet Potatoes",
-        origin: "Vegetarian",
-        desc: "Scooped potatoes stuffed with a mixture of spiced potatoes and dry fruits, char-grilled, garlic chutney.",
-        fullDesc:
-          "Scooped russet potatoes stuffed with a flavorful mixture of spiced potatoes and dry fruits, char-grilled for a smoky finish.",
-        metrics: "389 Kcal | 250-280g | $10",
-        image: "./assets/img/modal-images/tandoori-russet-potatoes.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Jackfruit Tikka",
-        origin: "Vegetarian",
-        desc: "Jackfruit marinated with brown onion, yoghurt, and spices, char-grilled, lemon & black pepper chutney.",
-        fullDesc:
-          "Marinated jackfruit cooked on a grill, offering a unique taste with a hint of lemon and black pepper chutney.",
-        metrics: "289 Kcal | 250-280g | $10",
-        image: "./assets/img/modal-images/jackfruit-tikka.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Garden Grill Seekh Kebab",
-        origin: "Vegetarian",
-        desc: "Minced vegetables marinated and skewered, char-grilled, pineapple & green chili chutney.",
-        fullDesc:
-          "Grilled minced vegetable kebabs, skewered and served with a sweet and spicy pineapple and green chili chutney.",
-        metrics: "425 Kcal | 250-280g | $12",
-        image: "./assets/img/modal-images/garden-grill-seekh-kebab.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Tandoori Salad",
-        origin: "Vegetarian",
-        desc: "Vegetables & stone fruits marinated with tandoori spices, char-grilled, garlic chutney.",
-        fullDesc:
-          "A vibrant salad with char-grilled vegetables and stone fruits marinated in tandoori spices, paired with a zesty garlic chutney.",
-        metrics: "275 Kcal | 250-280g | $10",
-        image: "./assets/img/modal-images/tandoori-salad.jpg",
-        chefSpecial: false,
-      },
-    ],
-  },
-  {
-    category: "Seafood",
-    type: "Appetizers",
-    items: [
-      {
-        title: "Tandoori Prawns",
-        origin: "Non-Vegetarian",
-        desc: "Freshwater jumbo prawns marinated with spices, char-grilled, pineapple & green chili chutney.",
-        fullDesc:
-          "Jumbo freshwater prawns marinated in a blend of aromatic spices and char-grilled, served with a refreshing pineapple and green chili chutney.",
-        metrics: "485 Kcal | 280-300g | $18",
-        image: "./assets/img/modal-images/tandoori-prawns.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Fish Tikka",
-        origin: "Non-Vegetarian",
-        desc: "Fish steaks, marinated with carom seeds, yoghurt and spices, char-grilled, cranberry & ginger launji.",
-        fullDesc:
-          "Delicious fish steaks marinated with aromatic carom seeds and yogurt, char-grilled to perfection and served with a tangy cranberry and ginger chutney.",
-        metrics: "545 Kcal | 250-280g | $16",
-        image: "./assets/img/modal-images/fish-tikka.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Saloni Salmon Tikka",
-        origin: "Non-Vegetarian",
-        desc: "Alaskan salmon steaks marinated with aromatic spices, char-grilled, lemon & black pepper chutney.",
-        fullDesc:
-          "Rich Alaskan salmon steaks marinated in a blend of spices, char-grilled and served with a zesty lemon and black pepper chutney for a delightful experience.",
-        metrics: "730 Kcal | 250-280g | $20",
-        image: "./assets/img/modal-images/saloni-salmon-tikka.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Tandoori Pomfret",
-        origin: "Non-Vegetarian",
-        desc: "Whole silver pomfret, marinated with spices, char-grilled, garlic chutney.",
-        fullDesc:
-          "Whole silver pomfret marinated in spices and char-grilled to perfection, served with a flavorful garlic chutney.",
-        metrics: "459 Kcal | 220g per piece | $22",
-        image: "./assets/img/modal-images/tandoori-pomfret.jpg",
-        chefSpecial: false,
-      },
-    ],
-  },
-  {
-    category: "Meats",
-    type: "Appetizers",
-    items: [
-      {
-        title: "Tandoori Quail",
-        origin: "Non-Vegetarian",
-        desc: "Aromatic and tender quail marinated in spicy yoghurt marinade, char-grilled, cranberry & ginger launji.",
-        fullDesc:
-          "Tender quail marinated in a spicy yogurt marinade, char-grilled to perfection and served with a tangy cranberry and ginger chutney.",
-        metrics: "704 Kcal | 220-260g | $18",
-        image: "./assets/img/modal-images/tandoori-quail.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Chicken Tikka",
-        origin: "Non-Vegetarian",
-        desc: "Morsels of chicken marinated in a spicy yoghurt marinade, char-grilled, pineapple & green chili chutney.",
-        fullDesc:
-          "Succulent morsels of chicken marinated in a spicy yogurt marinade and char-grilled, served with a refreshing pineapple and green chili chutney.",
-        metrics: "704 Kcal | 260-280g | $16",
-        image: "./assets/img/modal-images/chicken-tikka.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Chicken Malai Tikka",
-        origin: "Non-Vegetarian",
-        desc: "Creamy and tender chicken kebabs marinated in a mixture of cream and spices, char-grilled, garlic chutney.",
-        fullDesc:
-          "Creamy chicken kebabs marinated in rich cream and spices, char-grilled and served with a flavorful garlic chutney.",
-        metrics: "829 Kcal | 260-280g | $16",
-        image: "./assets/img/modal-images/chicken-malai-tikka.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Reshmi Seekh Kebab",
-        origin: "Non-Vegetarian",
-        desc: "Minced chicken kebabs marinated and skewered, char-grilled, lemon & black pepper chutney.",
-        fullDesc:
-          "Juicy minced chicken kebabs marinated with spices, skewered, char-grilled, and served with a zesty lemon and black pepper chutney.",
-        metrics: "1025 Kcal | 260-280g | $18",
-        image: "./assets/img/modal-images/reshmi-seekh-kebab.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Tandoori Chicken (Half | Full)",
-        origin: "Non-Vegetarian",
-        desc: "Whole spring chicken marinated in spicy yoghurt marinade, char-grilled, cranberry & ginger launji.",
-        fullDesc:
-          "A whole spring chicken marinated in a spicy yogurt marinade, char-grilled to perfection, and served with tangy cranberry and ginger chutney.",
-        metrics: "869 Kcal (Half) | 1838 Kcal (Full) | $32 (Half) | $60 (Full)",
-        image: "./assets/img/modal-images/tandoori-chicken.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Chinatown Chili Chicken",
-        origin: "Non-Vegetarian",
-        desc: "Stir-fried chicken cubes tossed with chilies, bell peppers, and onions in a spicy sauce.",
-        fullDesc:
-          "Tender chicken cubes stir-fried with fresh chilies, bell peppers, and onions in a flavorful spicy sauce.",
-        metrics: "901 Kcal | 250-300g | $16",
-        image: "./assets/img/modal-images/chinatown-chili-chicken.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Mutton Galouti Kebab",
-        origin: "Non-Vegetarian",
-        desc: "Melt-in-mouth goat meat patties marinated with a host of aromatic spices, garlic chutney.",
-        fullDesc:
-          "Succulent goat meat patties that melt in your mouth, infused with aromatic spices and served with garlic chutney.",
-        metrics: "700 Kcal | 250-280g | $18",
-        image: "./assets/img/modal-images/mutton-galouti-kebab.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Mutton Seekh Gilafi",
-        origin: "Non-Vegetarian",
-        desc: "Minced goat meat skewered and enveloped in peppers, char-grilled, cranberry & ginger launji.",
-        fullDesc:
-          "Minced goat meat skewered with colorful peppers, char-grilled, and served with a zesty cranberry and ginger chutney.",
-        metrics: "800 Kcal | 250-280g | $20",
-        image: "./assets/img/modal-images/mutton-seekh-gilafi.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Tandoori Lamb Chops",
-        origin: "Non-Vegetarian",
-        desc: "Flavorful and marinated lamb chops char-grilled to perfection, pineapple & green chili chutney.",
-        fullDesc:
-          "Juicy lamb chops marinated in aromatic spices, char-grilled to perfection, and served with a refreshing pineapple and green chili chutney.",
-        metrics: "900 Kcal | 300-350g | $24",
-        image: "./assets/img/modal-images/tandoori-lamb-chops.jpg",
-        chefSpecial: false,
+        subCategory: "Appetizers",
+        type: "Meats",
+        backgroundImage: "../assets/img/menu-images/page.jpg",
+        items: [
+          {
+            title: "Tandoori Quail",
+            origin: "Non-Vegetarian",
+            desc: "Aromatic and tender quail marinated in spicy yoghurt marinade, char-grilled, cranberry & ginger launji.",
+            fullDesc:
+              "Tender quail marinated in a spicy yogurt marinade, char-grilled to perfection and served with a tangy cranberry and ginger chutney.",
+            metrics: "704 Kcal | 220-260g | $18",
+            image: "./assets/img/modal-images/tandoori-quail.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Chicken Tikka",
+            origin: "Non-Vegetarian",
+            desc: "Morsels of chicken marinated in a spicy yoghurt marinade, char-grilled, pineapple & green chili chutney.",
+            fullDesc:
+              "Succulent morsels of chicken marinated in a spicy yogurt marinade and char-grilled, served with a refreshing pineapple and green chili chutney.",
+            metrics: "704 Kcal | 260-280g | $16",
+            image: "./assets/img/modal-images/chicken-tikka.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Chicken Malai Tikka",
+            origin: "Non-Vegetarian",
+            desc: "Creamy and tender chicken kebabs marinated in a mixture of cream and spices, char-grilled, garlic chutney.",
+            fullDesc:
+              "Creamy chicken kebabs marinated in rich cream and spices, char-grilled and served with a flavorful garlic chutney.",
+            metrics: "829 Kcal | 260-280g | $16",
+            image: "./assets/img/modal-images/chicken-malai-tikka.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Reshmi Seekh Kebab",
+            origin: "Non-Vegetarian",
+            desc: "Minced chicken kebabs marinated and skewered, char-grilled, lemon & black pepper chutney.",
+            fullDesc:
+              "Juicy minced chicken kebabs marinated with spices, skewered, char-grilled, and served with a zesty lemon and black pepper chutney.",
+            metrics: "1025 Kcal | 260-280g | $18",
+            image: "./assets/img/modal-images/reshmi-seekh-kebab.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Tandoori Chicken (Half | Full)",
+            origin: "Non-Vegetarian",
+            desc: "Whole spring chicken marinated in spicy yoghurt marinade, char-grilled, cranberry & ginger launji.",
+            fullDesc:
+              "A whole spring chicken marinated in a spicy yogurt marinade, char-grilled to perfection, and served with tangy cranberry and ginger chutney.",
+            metrics:
+              "869 Kcal (Half) | 1838 Kcal (Full) | $32 (Half) | $60 (Full)",
+            image: "./assets/img/modal-images/tandoori-chicken.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Chinatown Chili Chicken",
+            origin: "Non-Vegetarian",
+            desc: "Stir-fried chicken cubes tossed with chilies, bell peppers, and onions in a spicy sauce.",
+            fullDesc:
+              "Tender chicken cubes stir-fried with fresh chilies, bell peppers, and onions in a flavorful spicy sauce.",
+            metrics: "901 Kcal | 250-300g | $16",
+            image: "./assets/img/modal-images/chinatown-chili-chicken.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Mutton Galouti Kebab",
+            origin: "Non-Vegetarian",
+            desc: "Melt-in-mouth goat meat patties marinated with a host of aromatic spices, garlic chutney.",
+            fullDesc:
+              "Succulent goat meat patties that melt in your mouth, infused with aromatic spices and served with garlic chutney.",
+            metrics: "700 Kcal | 250-280g | $18",
+            image: "./assets/img/modal-images/mutton-galouti-kebab.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Mutton Seekh Gilafi",
+            origin: "Non-Vegetarian",
+            desc: "Minced goat meat skewered and enveloped in peppers, char-grilled, cranberry & ginger launji.",
+            fullDesc:
+              "Minced goat meat skewered with colorful peppers, char-grilled, and served with a zesty cranberry and ginger chutney.",
+            metrics: "800 Kcal | 250-280g | $20",
+            image: "./assets/img/modal-images/mutton-seekh-gilafi.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Tandoori Lamb Chops",
+            origin: "Non-Vegetarian",
+            desc: "Flavorful and marinated lamb chops char-grilled to perfection, pineapple & green chili chutney.",
+            fullDesc:
+              "Juicy lamb chops marinated in aromatic spices, char-grilled to perfection, and served with a refreshing pineapple and green chili chutney.",
+            metrics: "900 Kcal | 300-350g | $24",
+            image: "./assets/img/modal-images/tandoori-lamb-chops.jpg",
+            chefSpecial: false,
+          },
+        ],
       },
     ],
   },
   {
     category: "Combos",
     type: "",
+    backgroundImage: "../assets/img/menu-images/page.jpg",
     items: [
       {
         title: "Purani Dilli Chole Bhature",
@@ -446,313 +806,324 @@ const menuData = [
       },
     ],
   },
+  // {
+  //   category: "Mains",
+  //   type: "Vegetarian",
+  //   backgroundImage: "../assets/img/menu-images/page.jpg",
+  //   items: [
+  //     {
+  //       title: "Almond Gucchi Korma",
+  //       origin: "Vegetarian",
+  //       desc: "Stuffed morel mushrooms in an aromatic gravy, topped with almond slivers.",
+  //       fullDesc:
+  //         "Morel mushrooms stuffed with a rich and aromatic gravy, topped with slivers of almonds for an added crunch.",
+  //       metrics: "700 Kcal | 300-350g | $20",
+  //       image: "./assets/img/modal-images/almond-gucchi-korma.jpg",
+  //       chefSpecial: false,
+  //     },
+  //     {
+  //       title: "Basil Paneer Rarah",
+  //       origin: "Vegetarian",
+  //       desc: "Cottage cheese cubes simmered in onion-tomato masala gravy, flavored with basil.",
+  //       fullDesc:
+  //         "Tender cottage cheese cubes cooked in a savory onion-tomato masala, infused with aromatic basil for a delightful flavor.",
+  //       metrics: "955 Kcal | 300-350g | $18",
+  //       image: "./assets/img/modal-images/basil-paneer-rarah.jpg",
+  //       chefSpecial: false,
+  //     },
+  //     {
+  //       title: "Paneer Tikka Masala",
+  //       origin: "Vegetarian",
+  //       desc: "Grilled cottage cheese tikka in creamy tomato-based gravy, infused with aromatic spices.",
+  //       fullDesc:
+  //         "Grilled paneer tikka pieces served in a rich and creamy tomato-based gravy, laced with aromatic spices for a delightful experience.",
+  //       metrics: "1050 Kcal | 300-350g | $20",
+  //       image: "./assets/img/modal-images/paneer-tikka-masala.jpg",
+  //       chefSpecial: false,
+  //     },
+  //     {
+  //       title: "Paneer Khurchan",
+  //       origin: "Vegetarian",
+  //       desc: "Spiced cottage cheese cooked with onions, tomatoes, bell peppers, and aromatic spices.",
+  //       fullDesc:
+  //         "A hearty dish of cottage cheese sautéed with onions, tomatoes, and bell peppers, seasoned with aromatic spices for a flavorful finish.",
+  //       metrics: "930 Kcal | 300-350g | $16",
+  //       image: "./assets/img/modal-images/paneer-khurchan.jpg",
+  //       chefSpecial: false,
+  //     },
+  //     {
+  //       title: "Palak Paneer",
+  //       origin: "Vegetarian",
+  //       desc: "Cottage cheese cooked in luscious green gravy seasoned with spices.",
+  //       fullDesc:
+  //         "Soft paneer cubes cooked in a creamy spinach gravy, perfectly seasoned with spices for a rich flavor.",
+  //       metrics: "1000 Kcal | 300-350g | $15",
+  //       image: "./assets/img/modal-images/palak-paneer.jpg",
+  //       chefSpecial: false,
+  //     },
+  //     {
+  //       title: "Shahi Paneer",
+  //       origin: "Vegetarian",
+  //       desc: "Cottage cheese simmered in rich and creamy nuts and yoghurt gravy with aromatic spices.",
+  //       fullDesc:
+  //         "Luxurious shahi paneer cooked in a rich nuts and yogurt gravy, delicately spiced for an exquisite flavor.",
+  //       metrics: "1250 Kcal | 300-350g | $22",
+  //       image: "./assets/img/modal-images/shahi-paneer.jpg",
+  //       chefSpecial: false,
+  //     },
+  //     {
+  //       title: "Malai Kofta",
+  //       origin: "Vegetarian",
+  //       desc: "Deep-fried potato and cottage cheese dumplings served in a creamy nuts and yoghurt gravy.",
+  //       fullDesc:
+  //         "Deliciously creamy malai kofta made with deep-fried potato and cottage cheese dumplings in a rich and nutty gravy.",
+  //       metrics: "1100 Kcal | 300-350g | $20",
+  //       image: "./assets/img/modal-images/malai-kofta.jpg",
+  //       chefSpecial: false,
+  //     },
+  //     {
+  //       title: "Kaju Methi Malai Matar",
+  //       origin: "Vegetarian",
+  //       desc: "Fenugreek leaves and green peas simmered in creamy nuts gravy with cashew nuts and aromatic spices.",
+  //       fullDesc:
+  //         "A delightful dish of fenugreek leaves and green peas cooked in a rich, creamy cashew gravy, seasoned with aromatic spices.",
+  //       metrics: "960 Kcal | 300-350g | $18",
+  //       image: "./assets/img/modal-images/kaju-methi-malai-matar.jpg",
+  //       chefSpecial: false,
+  //     },
+  //     {
+  //       title: "Dum Aloo Kashmiri",
+  //       origin: "Vegetarian",
+  //       desc: "Stuffed potatoes cooked in spicy and aromatic red gravy.",
+  //       fullDesc:
+  //         "Baby potatoes stuffed with spices and cooked in a rich, aromatic red gravy, offering a taste of Kashmiri cuisine.",
+  //       metrics: "920 Kcal | 300-350g | $15",
+  //       image: "./assets/img/modal-images/dum-aloo-kashmiri.jpg",
+  //       chefSpecial: false,
+  //     },
+  //     {
+  //       title: "Charcoal Roasted Baingan Bharta",
+  //       origin: "Vegetarian",
+  //       desc: "Roasted and mashed eggplant cooked with tomatoes, onions, and spices.",
+  //       fullDesc:
+  //         "Charcoal-roasted eggplant mashed and cooked with a flavorful blend of tomatoes, onions, and spices for a smoky taste.",
+  //       metrics: "310 Kcal | 300g | $12",
+  //       image: "./assets/img/modal-images/charcoal-roasted-baingan-bharta.jpg",
+  //       chefSpecial: false,
+  //     },
+  //     {
+  //       title: "Dry Spices Aloo Gobhi",
+  //       origin: "Vegetarian",
+  //       desc: "A delicate preparation of tender cauliflower florets and potatoes, tossed in dry spices.",
+  //       fullDesc:
+  //         "A flavorful mix of tender potatoes and cauliflower florets, sautéed with dry spices for a light and delicious dish.",
+  //       metrics: "465 Kcal | 300g | $12",
+  //       image: "./assets/img/modal-images/dry-spices-aloo-gobhi.jpg",
+  //       chefSpecial: false,
+  //     },
+  //   ],
+  // },
   {
-    category: "Mains",
-    type: "Vegetarian",
-    items: [
+    category: "Entrées",
+    subCategories: [
       {
-        title: "Almond Gucchi Korma",
-        origin: "Vegetarian",
-        desc: "Stuffed morel mushrooms in an aromatic gravy, topped with almond slivers.",
-        fullDesc:
-          "Morel mushrooms stuffed with a rich and aromatic gravy, topped with slivers of almonds for an added crunch.",
-        metrics: "700 Kcal | 300-350g | $20",
-        image: "./assets/img/modal-images/almond-gucchi-korma.jpg",
-        chefSpecial: false,
+        subCategory: "Entrées",
+        type: "Seafood",
+        backgroundImage: "../assets/img/menu-images/page.jpg",
+        items: [
+          {
+            title: "Andhra Scallops",
+            origin: "Non-Vegetarian",
+            desc: "Exquisite scallops served on a tangy and spicy masala.",
+            fullDesc:
+              "Tender and juicy scallops perfectly cooked and served on a bed of tangy and spicy masala, creating a delightful burst of flavor.",
+            metrics: "1020 Kcal | 380-400g | $24",
+            image: "./assets/img/modal-images/andhra-scallops.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Kadhai Prawns",
+            origin: "Non-Vegetarian",
+            desc: "Freshwater prawns tossed with tomatoes, capsicum and dry spices, tempered with ginger, green chilies.",
+            fullDesc:
+              "Succulent freshwater prawns stir-fried with vibrant tomatoes and capsicum, seasoned with aromatic dry spices and tempered with ginger and green chilies.",
+            metrics: "840 Kcal | 380-400g | $20",
+            image: "./assets/img/modal-images/kadhai-prawns.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Chilian Sea Bass Coconut Curry",
+            origin: "Non-Vegetarian",
+            desc: "Chilian Sea Bass delicately simmered in a coconut broth, tempered with mustard seeds.",
+            fullDesc:
+              "Delicate Chilian Sea Bass cooked to perfection in a creamy coconut broth, enhanced with the richness of mustard seeds, offering a comforting and flavorful dish.",
+            metrics: "1360 Kcal | 380-400g | $22",
+            image:
+              "./assets/img/modal-images/chilian-sea-bass-coconut-curry.jpg",
+            chefSpecial: false,
+          },
+        ],
       },
       {
-        title: "Basil Paneer Rarah",
-        origin: "Vegetarian",
-        desc: "Cottage cheese cubes simmered in onion-tomato masala gravy, flavored with basil.",
-        fullDesc:
-          "Tender cottage cheese cubes cooked in a savory onion-tomato masala, infused with aromatic basil for a delightful flavor.",
-        metrics: "955 Kcal | 300-350g | $18",
-        image: "./assets/img/modal-images/basil-paneer-rarah.jpg",
-        chefSpecial: false,
+        subCategory: "Entrées",
+        type: "Meats",
+        backgroundImage: "../assets/img/menu-images/page.jpg",
+        items: [
+          {
+            title: "Lagan ki Bataer",
+            origin: "Non-Vegetarian",
+            desc: "Tender quail slow-cooked in a rich gravy of cashew nuts and aromatic spices.",
+            fullDesc:
+              "Succulent quail slow-cooked to perfection in a rich and creamy gravy made with cashew nuts and aromatic spices, delivering a luxurious flavor.",
+            metrics: "1340 Kcal | 380-400g | $22",
+            image: "./assets/img/modal-images/lagan-ki-bataer.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "The Delhi Lounge Butter Chicken",
+            origin: "Non-Vegetarian",
+            desc: "Tender chicken pieces cooked in creamy tomato-based gravy, infused with aromatic spices.",
+            fullDesc:
+              "Juicy chicken pieces simmered in a velvety creamy tomato-based gravy, enriched with a blend of aromatic spices for a rich, indulgent dish.",
+            metrics: "1240 Kcal | 380-400g | $18",
+            image: "./assets/img/modal-images/delhi-lounge-butter-chicken.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Chicken Tikka Masala",
+            origin: "Non-Vegetarian",
+            desc: "Grilled chicken tikka pieces simmered in a rich tomato and onion gravy.",
+            fullDesc:
+              "Marinated grilled chicken tikka cooked in a rich and flavorful tomato and onion gravy, a classic Indian dish that packs a punch.",
+            metrics: "1320 Kcal | 380-400g | $20",
+            image: "./assets/img/modal-images/chicken-tikka-masala.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Chicken Khurchan",
+            origin: "Non-Vegetarian",
+            desc: "Char-grilled chicken pieces cooked with onions, tomatoes, bell peppers, and aromatic spices.",
+            fullDesc:
+              "Char-grilled chicken pieces sautéed with onions, tomatoes, and bell peppers, seasoned with aromatic spices for a tantalizing flavor.",
+            metrics: "1190 Kcal | 380-400g | $16",
+            image: "./assets/img/modal-images/chicken-khurchan.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Kali Mirch Chicken",
+            origin: "Non-Vegetarian",
+            desc: "Grilled chicken malai pieces simmered in creamy nuts gravy, enhanced with black pepper.",
+            fullDesc:
+              "Tender grilled chicken in a creamy nut gravy, perfectly seasoned with black pepper for an exquisite taste experience.",
+            metrics: "1210 Kcal | 380-400g | $20",
+            image: "./assets/img/modal-images/kali-mirch-chicken.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Korma Chicken",
+            origin: "Non-Vegetarian",
+            desc: "Choicest cuts of chicken simmered in aromatic brown onion gravy.",
+            fullDesc:
+              "Delicious chicken cuts slow-cooked in a rich brown onion gravy, infused with a blend of aromatic spices for a comforting dish.",
+            metrics: "1620 Kcal | 380-400g | $22",
+            image: "./assets/img/modal-images/korma-chicken.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Saag Chicken",
+            origin: "Non-Vegetarian",
+            desc: "Tender chicken pieces cooked in luscious green gravy delicately seasoned with spices.",
+            fullDesc:
+              "Tender chicken pieces simmered in a creamy green gravy made with spinach and spices, offering a rich and nutritious flavor.",
+            metrics: "1150 Kcal | 380-400g | $18",
+            image: "./assets/img/modal-images/saag-chicken.jpg",
+            chefSpecial: false,
+          },
+        ],
       },
       {
-        title: "Paneer Tikka Masala",
-        origin: "Vegetarian",
-        desc: "Grilled cottage cheese tikka in creamy tomato-based gravy, infused with aromatic spices.",
-        fullDesc:
-          "Grilled paneer tikka pieces served in a rich and creamy tomato-based gravy, laced with aromatic spices for a delightful experience.",
-        metrics: "1050 Kcal | 300-350g | $20",
-        image: "./assets/img/modal-images/paneer-tikka-masala.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Paneer Khurchan",
-        origin: "Vegetarian",
-        desc: "Spiced cottage cheese cooked with onions, tomatoes, bell peppers, and aromatic spices.",
-        fullDesc:
-          "A hearty dish of cottage cheese sautéed with onions, tomatoes, and bell peppers, seasoned with aromatic spices for a flavorful finish.",
-        metrics: "930 Kcal | 300-350g | $16",
-        image: "./assets/img/modal-images/paneer-khurchan.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Palak Paneer",
-        origin: "Vegetarian",
-        desc: "Cottage cheese cooked in luscious green gravy seasoned with spices.",
-        fullDesc:
-          "Soft paneer cubes cooked in a creamy spinach gravy, perfectly seasoned with spices for a rich flavor.",
-        metrics: "1000 Kcal | 300-350g | $15",
-        image: "./assets/img/modal-images/palak-paneer.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Shahi Paneer",
-        origin: "Vegetarian",
-        desc: "Cottage cheese simmered in rich and creamy nuts and yoghurt gravy with aromatic spices.",
-        fullDesc:
-          "Luxurious shahi paneer cooked in a rich nuts and yogurt gravy, delicately spiced for an exquisite flavor.",
-        metrics: "1250 Kcal | 300-350g | $22",
-        image: "./assets/img/modal-images/shahi-paneer.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Malai Kofta",
-        origin: "Vegetarian",
-        desc: "Deep-fried potato and cottage cheese dumplings served in a creamy nuts and yoghurt gravy.",
-        fullDesc:
-          "Deliciously creamy malai kofta made with deep-fried potato and cottage cheese dumplings in a rich and nutty gravy.",
-        metrics: "1100 Kcal | 300-350g | $20",
-        image: "./assets/img/modal-images/malai-kofta.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Kaju Methi Malai Matar",
-        origin: "Vegetarian",
-        desc: "Fenugreek leaves and green peas simmered in creamy nuts gravy with cashew nuts and aromatic spices.",
-        fullDesc:
-          "A delightful dish of fenugreek leaves and green peas cooked in a rich, creamy cashew gravy, seasoned with aromatic spices.",
-        metrics: "960 Kcal | 300-350g | $18",
-        image: "./assets/img/modal-images/kaju-methi-malai-matar.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Dum Aloo Kashmiri",
-        origin: "Vegetarian",
-        desc: "Stuffed potatoes cooked in spicy and aromatic red gravy.",
-        fullDesc:
-          "Baby potatoes stuffed with spices and cooked in a rich, aromatic red gravy, offering a taste of Kashmiri cuisine.",
-        metrics: "920 Kcal | 300-350g | $15",
-        image: "./assets/img/modal-images/dum-aloo-kashmiri.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Charcoal Roasted Baingan Bharta",
-        origin: "Vegetarian",
-        desc: "Roasted and mashed eggplant cooked with tomatoes, onions, and spices.",
-        fullDesc:
-          "Charcoal-roasted eggplant mashed and cooked with a flavorful blend of tomatoes, onions, and spices for a smoky taste.",
-        metrics: "310 Kcal | 300g | $12",
-        image: "./assets/img/modal-images/charcoal-roasted-baingan-bharta.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Dry Spices Aloo Gobhi",
-        origin: "Vegetarian",
-        desc: "A delicate preparation of tender cauliflower florets and potatoes, tossed in dry spices.",
-        fullDesc:
-          "A flavorful mix of tender potatoes and cauliflower florets, sautéed with dry spices for a light and delicious dish.",
-        metrics: "465 Kcal | 300g | $12",
-        image: "./assets/img/modal-images/dry-spices-aloo-gobhi.jpg",
-        chefSpecial: false,
-      },
-    ],
-  },
-  {
-    category: "Seafood",
-    type: "Entrée",
-    items: [
-      {
-        title: "Andhra Scallops",
-        origin: "Non-Vegetarian",
-        desc: "Exquisite scallops served on a tangy and spicy masala.",
-        fullDesc:
-          "Tender and juicy scallops perfectly cooked and served on a bed of tangy and spicy masala, creating a delightful burst of flavor.",
-        metrics: "1020 Kcal | 380-400g | $24",
-        image: "./assets/img/modal-images/andhra-scallops.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Kadhai Prawns",
-        origin: "Non-Vegetarian",
-        desc: "Freshwater prawns tossed with tomatoes, capsicum and dry spices, tempered with ginger, green chilies.",
-        fullDesc:
-          "Succulent freshwater prawns stir-fried with vibrant tomatoes and capsicum, seasoned with aromatic dry spices and tempered with ginger and green chilies.",
-        metrics: "840 Kcal | 380-400g | $20",
-        image: "./assets/img/modal-images/kadhai-prawns.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Chilian Sea Bass Coconut Curry",
-        origin: "Non-Vegetarian",
-        desc: "Chilian Sea Bass delicately simmered in a coconut broth, tempered with mustard seeds.",
-        fullDesc:
-          "Delicate Chilian Sea Bass cooked to perfection in a creamy coconut broth, enhanced with the richness of mustard seeds, offering a comforting and flavorful dish.",
-        metrics: "1360 Kcal | 380-400g | $22",
-        image: "./assets/img/modal-images/chilian-sea-bass-coconut-curry.jpg",
-        chefSpecial: false,
-      },
-    ],
-  },
-  {
-    category: "Meats",
-    type: "Entrée",
-    items: [
-      {
-        title: "Lagan ki Bataer",
-        origin: "Non-Vegetarian",
-        desc: "Tender quail slow-cooked in a rich gravy of cashew nuts and aromatic spices.",
-        fullDesc:
-          "Succulent quail slow-cooked to perfection in a rich and creamy gravy made with cashew nuts and aromatic spices, delivering a luxurious flavor.",
-        metrics: "1340 Kcal | 380-400g | $22",
-        image: "./assets/img/modal-images/lagan-ki-bataer.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "The Delhi Lounge Butter Chicken",
-        origin: "Non-Vegetarian",
-        desc: "Tender chicken pieces cooked in creamy tomato-based gravy, infused with aromatic spices.",
-        fullDesc:
-          "Juicy chicken pieces simmered in a velvety creamy tomato-based gravy, enriched with a blend of aromatic spices for a rich, indulgent dish.",
-        metrics: "1240 Kcal | 380-400g | $18",
-        image: "./assets/img/modal-images/delhi-lounge-butter-chicken.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Chicken Tikka Masala",
-        origin: "Non-Vegetarian",
-        desc: "Grilled chicken tikka pieces simmered in a rich tomato and onion gravy.",
-        fullDesc:
-          "Marinated grilled chicken tikka cooked in a rich and flavorful tomato and onion gravy, a classic Indian dish that packs a punch.",
-        metrics: "1320 Kcal | 380-400g | $20",
-        image: "./assets/img/modal-images/chicken-tikka-masala.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Chicken Khurchan",
-        origin: "Non-Vegetarian",
-        desc: "Char-grilled chicken pieces cooked with onions, tomatoes, bell peppers, and aromatic spices.",
-        fullDesc:
-          "Char-grilled chicken pieces sautéed with onions, tomatoes, and bell peppers, seasoned with aromatic spices for a tantalizing flavor.",
-        metrics: "1190 Kcal | 380-400g | $16",
-        image: "./assets/img/modal-images/chicken-khurchan.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Kali Mirch Chicken",
-        origin: "Non-Vegetarian",
-        desc: "Grilled chicken malai pieces simmered in creamy nuts gravy, enhanced with black pepper.",
-        fullDesc:
-          "Tender grilled chicken in a creamy nut gravy, perfectly seasoned with black pepper for an exquisite taste experience.",
-        metrics: "1210 Kcal | 380-400g | $20",
-        image: "./assets/img/modal-images/kali-mirch-chicken.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Korma Chicken",
-        origin: "Non-Vegetarian",
-        desc: "Choicest cuts of chicken simmered in aromatic brown onion gravy.",
-        fullDesc:
-          "Delicious chicken cuts slow-cooked in a rich brown onion gravy, infused with a blend of aromatic spices for a comforting dish.",
-        metrics: "1620 Kcal | 380-400g | $22",
-        image: "./assets/img/modal-images/korma-chicken.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Saag Chicken",
-        origin: "Non-Vegetarian",
-        desc: "Tender chicken pieces cooked in luscious green gravy delicately seasoned with spices.",
-        fullDesc:
-          "Tender chicken pieces simmered in a creamy green gravy made with spinach and spices, offering a rich and nutritious flavor.",
-        metrics: "1150 Kcal | 380-400g | $18",
-        image: "./assets/img/modal-images/saag-chicken.jpg",
-        chefSpecial: false,
-      },
-    ],
-  },
-  {
-    category: "Meats",
-    type: "Entrée",
-    items: [
-      {
-        title: "The Delhi Lounge Tawa Chicken",
-        origin: "Non-Vegetarian",
-        desc: "Shredded chicken tikka pieces tossed with fresh ginger, chili, onions, and tomatoes.",
-        fullDesc:
-          "Shredded chicken tikka sautéed with fresh ginger, chilies, onions, and tomatoes, delivering a burst of flavor in every bite.",
-        metrics: "1150 Kcal | 380-400g | $18",
-        image: "./assets/img/modal-images/delhi-lounge-tawa-chicken.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Tawa Masala Seekh Kebab",
-        origin: "Non-Vegetarian",
-        desc: "Luscious goat seekh kebab tossed in spicy masala gravy.",
-        fullDesc:
-          "Succulent goat seekh kebabs tossed in a spicy masala gravy, offering a perfect blend of flavors and textures.",
-        metrics: "1220 Kcal | 380-400g | $20",
-        image: "./assets/img/modal-images/tawa-masala-seekh-kebab.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Mutton Korma",
-        origin: "Non-Vegetarian",
-        desc: "Choicest cuts of goat simmered in aromatic brown onion gravy.",
-        fullDesc:
-          "Tender cuts of goat meat slowly cooked in a rich brown onion gravy, infused with aromatic spices for a flavorful experience.",
-        metrics: "2020 Kcal | 380-400g | $24",
-        image: "./assets/img/modal-images/mutton-korma.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Mutton Rogan Josh",
-        origin: "Non-Vegetarian",
-        desc: "Slow-cooked lamb curry with a flavorful blend of aromatic Kashmiri spices and yogurt.",
-        fullDesc:
-          "A classic lamb curry made with tender pieces of mutton, slow-cooked with aromatic Kashmiri spices and yogurt for a rich flavor.",
-        metrics: "1440 Kcal | 380-400g | $22",
-        image: "./assets/img/modal-images/mutton-rogan-josh.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Goat Shank Nehari",
-        origin: "Non-Vegetarian",
-        desc: "Slow-cooked and spiced goat shank stew, from the royal kitchens of Awadh.",
-        fullDesc:
-          "A traditional Awadhi stew made with tender goat shank, slow-cooked with aromatic spices, offering a melt-in-your-mouth experience.",
-        metrics: "1305 Kcal | 380-400g | $24",
-        image: "./assets/img/modal-images/goat-shank-nehari.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "The Delhi Lounge Bakre ke Nakhre",
-        origin: "Non-Vegetarian",
-        desc: "Tender mutton cooked in spicy and tangy tomato-based gravy with minced goat meat.",
-        fullDesc:
-          "Succulent pieces of mutton cooked in a spicy and tangy tomato gravy, complemented with minced goat meat for added richness.",
-        metrics: "1420 Kcal | 380-400g | $22",
-        image: "./assets/img/modal-images/bakre-ke-nakhre.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "The Delhi Lounge Imperial Raan",
-        origin: "Non-Vegetarian",
-        desc: "48-hours slow-cooked leg of spring lamb, char-grilled, flambéed with dark rum, pine nuts, & 18-carat gold.",
-        fullDesc:
-          "An exquisite dish featuring a leg of spring lamb that is slow-cooked for 48 hours, char-grilled, and flambéed with dark rum and garnished with pine nuts and edible gold for a luxurious touch.",
-        metrics: "4950 Kcal | 1500g | $150",
-        image: "./assets/img/modal-images/imperial-raan.jpg",
-        chefSpecial: true,
+        subCategory: "Entrées",
+        type: "Meats",
+        backgroundImage: "../assets/img/menu-images/page.jpg",
+        items: [
+          {
+            title: "The Delhi Lounge Tawa Chicken",
+            origin: "Non-Vegetarian",
+            desc: "Shredded chicken tikka pieces tossed with fresh ginger, chili, onions, and tomatoes.",
+            fullDesc:
+              "Shredded chicken tikka sautéed with fresh ginger, chilies, onions, and tomatoes, delivering a burst of flavor in every bite.",
+            metrics: "1150 Kcal | 380-400g | $18",
+            image: "./assets/img/modal-images/delhi-lounge-tawa-chicken.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Tawa Masala Seekh Kebab",
+            origin: "Non-Vegetarian",
+            desc: "Luscious goat seekh kebab tossed in spicy masala gravy.",
+            fullDesc:
+              "Succulent goat seekh kebabs tossed in a spicy masala gravy, offering a perfect blend of flavors and textures.",
+            metrics: "1220 Kcal | 380-400g | $20",
+            image: "./assets/img/modal-images/tawa-masala-seekh-kebab.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Mutton Korma",
+            origin: "Non-Vegetarian",
+            desc: "Choicest cuts of goat simmered in aromatic brown onion gravy.",
+            fullDesc:
+              "Tender cuts of goat meat slowly cooked in a rich brown onion gravy, infused with aromatic spices for a flavorful experience.",
+            metrics: "2020 Kcal | 380-400g | $24",
+            image: "./assets/img/modal-images/mutton-korma.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Mutton Rogan Josh",
+            origin: "Non-Vegetarian",
+            desc: "Slow-cooked lamb curry with a flavorful blend of aromatic Kashmiri spices and yogurt.",
+            fullDesc:
+              "A classic lamb curry made with tender pieces of mutton, slow-cooked with aromatic Kashmiri spices and yogurt for a rich flavor.",
+            metrics: "1440 Kcal | 380-400g | $22",
+            image: "./assets/img/modal-images/mutton-rogan-josh.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Goat Shank Nehari",
+            origin: "Non-Vegetarian",
+            desc: "Slow-cooked and spiced goat shank stew, from the royal kitchens of Awadh.",
+            fullDesc:
+              "A traditional Awadhi stew made with tender goat shank, slow-cooked with aromatic spices, offering a melt-in-your-mouth experience.",
+            metrics: "1305 Kcal | 380-400g | $24",
+            image: "./assets/img/modal-images/goat-shank-nehari.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "The Delhi Lounge Bakre ke Nakhre",
+            origin: "Non-Vegetarian",
+            desc: "Tender mutton cooked in spicy and tangy tomato-based gravy with minced goat meat.",
+            fullDesc:
+              "Succulent pieces of mutton cooked in a spicy and tangy tomato gravy, complemented with minced goat meat for added richness.",
+            metrics: "1420 Kcal | 380-400g | $22",
+            image: "./assets/img/modal-images/bakre-ke-nakhre.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "The Delhi Lounge Imperial Raan",
+            origin: "Non-Vegetarian",
+            desc: "48-hours slow-cooked leg of spring lamb, char-grilled, flambéed with dark rum, pine nuts, & 18-carat gold.",
+            fullDesc:
+              "An exquisite dish featuring a leg of spring lamb that is slow-cooked for 48 hours, char-grilled, and flambéed with dark rum and garnished with pine nuts and edible gold for a luxurious touch.",
+            metrics: "4950 Kcal | 1500g | $150",
+            image: "./assets/img/modal-images/imperial-raan.jpg",
+            chefSpecial: true,
+          },
+        ],
       },
     ],
   },
   {
     category: "Lentils & Rice",
     type: "",
+    backgroundImage: "../assets/img/menu-images/page.jpg",
     items: [
       {
         title: "Dal Tadka",
@@ -839,6 +1210,7 @@ const menuData = [
   {
     category: "Breads",
     type: "",
+    backgroundImage: "../assets/img/menu-images/page.jpg",
     items: [
       {
         title: "Tandoori Roti (Plain | Butter)",
@@ -947,6 +1319,7 @@ const menuData = [
   {
     category: "Sides",
     type: "",
+    backgroundImage: "../assets/img/menu-images/page.jpg",
     items: [
       {
         title: "Burrhani Raita",
@@ -1003,6 +1376,7 @@ const menuData = [
   {
     category: "Desserts",
     type: "",
+    backgroundImage: "../assets/img/menu-images/page.jpg",
     items: [
       {
         title: "Saffron Rabri",

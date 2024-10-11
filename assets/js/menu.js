@@ -2,8 +2,11 @@ import menuData from "./menuData.js";
 
 const showCategoryIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 0 1-1.227.579L8 11.722l-3.773 3.107A.75.75 0 0 1 3 14.25z"/></svg>`;
 const hideCategoryIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5M6.854 5.146a.5.5 0 1 0-.708.708L7.293 7L6.146 8.146a.5.5 0 1 0 .708.708L8 7.707l1.146 1.147a.5.5 0 1 0 .708-.708L8.707 7l1.147-1.146a.5.5 0 0 0-.708-.708L8 6.293z"/></svg>`;
+const chefSpecialIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M15.398 4.41A3.601 3.601 0 0 1 21 7.405A3.6 3.6 0 0 1 17.625 11H17m-1.602-6.59a3.602 3.602 0 0 0-6.796 0m6.796 0a3.6 3.6 0 0 1 .089 2.093m-5.769-.9A3.6 3.6 0 0 0 8.602 4.41m0 0A3.601 3.601 0 0 0 3 7.405A3.6 3.6 0 0 0 6.375 11H7m10 3v-4M7 14v-4m11 4.5c-1.599-.622-3.7-1-6-1s-4.4.378-6 1M17 17a5 5 0 0 1-10 0" color="currentColor"/></svg>`;
+const homeIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1200 1200"><path fill="currentColor" d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0m0 276.489l292.969 227.71v419.312H691.406V670.386H508.594v253.125H307.031V504.199z"/></svg>`;
+
 function createCategoryIndex(
-  category,
+  categoryObj,
   index,
   menuIndexDiv,
   hiddenListDiv,
@@ -11,11 +14,11 @@ function createCategoryIndex(
 ) {
   const categoryIndexButton = document.createElement("button");
   categoryIndexButton.classList.add("menu-btn");
-  categoryIndexButton.textContent = category;
-
+  categoryIndexButton.textContent = categoryObj.category;
   categoryIndexButton.onclick = function () {
-    turnPageTo(index); // Navigates to the correct page based on index
+    let targetPageIndex = index;
 
+    turnPageTo(targetPageIndex);
     // Hide the list after clicking
     hiddenListDiv.style.display = "none";
     toggleButton.classList.add("show-list-btn");
@@ -52,24 +55,37 @@ function createCategoryIndexToggle(menuIndexContainer) {
     }
   };
 
-  // Append the category index buttons to the hidden list
-  menuData.forEach((page, index) => {
+  let currentPageIndex = 2; // Start from 2 due to the front cover adjustment
+
+  menuData.forEach((categoryObj) => {
+    // Create a navigation index for the parent category (though it doesn't have a direct page)
     createCategoryIndex(
-      page.category,
-      index + 2,
+      categoryObj,
+      currentPageIndex, // Track current index for parent
       hiddenListDiv,
       hiddenListDiv,
       toggleButton
-    ); // +2 for front cover adjustment
-  });
+    );
 
+    // Check if the category has subcategories
+    if (categoryObj.subCategories && categoryObj.subCategories.length > 0) {
+      // For each subcategory, assign its own page index and increment
+      categoryObj.subCategories.forEach(() => {
+        currentPageIndex++; // Increment the page for each subcategory
+      });
+    } else {
+      // If no subcategories, increment the index for the parent category page
+      currentPageIndex++;
+    }
+  });
   menuIndexContainer.appendChild(toggleButton);
   menuIndexContainer.appendChild(hiddenListDiv);
 }
 
-function createMenuPage(category, type, items) {
+function createMenuPage(category, type, backgroundImage, items) {
   const pageDiv = document.createElement("div");
   pageDiv.classList.add("page");
+  pageDiv.style.backgroundImage = `url(${backgroundImage})`;
 
   const menuPageDiv = document.createElement("div");
   menuPageDiv.classList.add("menu-page");
@@ -87,9 +103,18 @@ function createMenuPage(category, type, items) {
   const menuIndexDiv = document.createElement("div");
   menuIndexDiv.classList.add("menu-index");
 
-  // menuData.forEach((cat, index) => {
-  //   createCategoryIndex(cat, index + 2, menuIndexDiv); // +2 to account for the front cover
-  // });
+  // const homeDiv = document.createElement("div");
+  // homeDiv.classList.add("home");
+
+  // const homeLink = document.createElement("a");
+  // homeLink.classList.add("home-link");
+  // homeLink.href = "/";
+
+  // homeLink.innerHTML = homeIcon;
+
+  // homeDiv.appendChild(homeLink);
+  // menuWrapperDiv.appendChild(homeDiv);
+
   createCategoryIndexToggle(menuIndexDiv);
   menuWrapperDiv.appendChild(menuIndexDiv);
 
@@ -99,6 +124,11 @@ function createMenuPage(category, type, items) {
   const categoryName = document.createElement("h1");
   categoryName.classList.add("category-name");
   categoryName.textContent = category;
+  if (category.length > 13 && category.length <= 16) {
+    categoryName.style.fontSize = "52px";
+  } else if (category.length > 16) {
+    categoryName.style.fontSize = "42px";
+  }
   menuHeadingsDiv.appendChild(categoryName);
 
   const typeName = document.createElement("h2");
@@ -129,6 +159,13 @@ function createMenuPage(category, type, items) {
     itemName.classList.add("name");
     itemName.textContent = item.title;
     detailsDiv.appendChild(itemName);
+
+    if (item.chefSpecial) {
+      const chefSpecial = document.createElement("span");
+      chefSpecial.classList.add("chef-special");
+      chefSpecial.innerHTML = chefSpecialIcon;
+      itemName.appendChild(chefSpecial);
+    }
 
     const itemMetrics = document.createElement("p");
     itemMetrics.classList.add("metrics");
@@ -195,15 +232,34 @@ function createLastPage() {
 
 function initializeMenu() {
   menuData.forEach((categoryData) => {
-    const { category, type, items } = categoryData;
+    if (categoryData.subCategories) {
+      categoryData.subCategories.forEach((subCategoryData) => {
+        const { subCategory, type, backgroundImage, items } = subCategoryData;
 
-    // Assign a unique ID to each item using UUID
-    items.forEach((item) => {
-      item.id = crypto.randomUUID(); // Generates a unique ID
-    });
+        // Assign a unique ID to each item using UUID
+        items.forEach((item) => {
+          item.id = crypto.randomUUID(); // Generates a unique ID
+        });
 
-    const menuPage = createMenuPage(category, type, items);
-    $("#magazine").turn("addPage", menuPage);
+        const menuPage = createMenuPage(
+          subCategory,
+          type,
+          backgroundImage,
+          items
+        );
+        $("#magazine").turn("addPage", menuPage);
+      });
+    } else {
+      const { category, type, backgroundImage, items } = categoryData;
+
+      // Assign a unique ID to each item using UUID
+      items.forEach((item) => {
+        item.id = crypto.randomUUID(); // Generates a unique ID
+      });
+
+      const menuPage = createMenuPage(category, type, backgroundImage, items);
+      $("#magazine").turn("addPage", menuPage);
+    }
   });
   const lastPage = createLastPage();
   $("#magazine").turn("addPage", lastPage);
@@ -222,27 +278,42 @@ const modalOrigin = document.getElementById("modal-origin");
 const modalTagline = document.getElementById("modal-tagline");
 const modalImage = document.getElementById("modal-image");
 
+const findItemsById = (id) => {
+  for (const categoryPage of menuData) {
+    if (categoryPage.subCategories) {
+      for (const subCategoryPage of categoryPage.subCategories) {
+        const items = subCategoryPage.items;
+
+        const foundItems = items.find((item) => item.id === id);
+
+        if (foundItems) {
+          return { data: foundItems, category: subCategoryPage.subCategory };
+        }
+      }
+    } else {
+      const items = categoryPage.items;
+
+      const foundItems = items.find((item) => item.id === id);
+      if (foundItems) {
+        return { data: foundItems, category: categoryPage.category };
+      }
+    }
+  }
+};
+
 const openModal = (e) => {
   const button = e.currentTarget.closest("button[data-modal-id]");
 
   if (button) {
     const modalId = button.getAttribute("data-modal-id");
-    // const data = modalData[modalId];
-    let data;
-    let selectedCategory;
 
-    for (const categoryPage in menuData) {
-      selectedCategory = menuData[categoryPage].category;
-      const items = menuData[categoryPage].items;
+    const result = findItemsById(modalId);
 
-      data = items.find((item) => item.id === modalId);
-      if (data) break; // Break loop if item is found
-    }
-
-    if (data) {
+    if (result) {
+      const { data, category } = result;
       modalTitle.textContent = data.title;
       modalDescription.textContent = data.fullDesc;
-      modalCategory.textContent = selectedCategory;
+      modalCategory.textContent = category;
       modalOrigin.textContent = data.origin;
       modalTagline.textContent = data.tagline;
       modalImage.src = data.image;
