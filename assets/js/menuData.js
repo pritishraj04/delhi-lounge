@@ -722,7 +722,7 @@ const menuData = [
               "A whole spring chicken marinated in a spicy yogurt marinade, char-grilled to perfection, and served with tangy cranberry and ginger chutney.",
             metrics:
               "869 Kcal (Half) | 1838 Kcal (Full) | $32 (Half) | $60 (Full)",
-            image: "./assets/img/modal-images/tandoori-chicken.jpg",
+            image: "./assets/img/modal-images/tandoori-chicken-(full).jpg",
             chefSpecial: false,
           },
           {
@@ -1227,7 +1227,7 @@ const menuData = [
         fullDesc:
           "Soft and warm tandoori roti, served plain or brushed with butter for an extra touch of richness.",
         metrics: "180 Kcal (Plain) | 255 Kcal (Butter) | 60g | $3",
-        image: "./assets/img/modal-images/tandoori-roti.jpg",
+        image: "./assets/img/modal-images/butter-tandoori-roti.jpg",
         chefSpecial: false,
       },
       {
@@ -1247,7 +1247,7 @@ const menuData = [
         fullDesc:
           "Flaky and crispy laccha paratha, layered and cooked on a tawa, available in plain, butter, pudina, or mirchi flavors.",
         metrics: "360 Kcal (Plain) | 435 Kcal (Butter) | 100-120g | $4",
-        image: "./assets/img/modal-images/laccha-paratha.jpg",
+        image: "./assets/img/modal-images/butter-laccha-paratha.jpg",
         chefSpecial: false,
       },
       {
@@ -1257,7 +1257,7 @@ const menuData = [
         fullDesc:
           "Soft and fluffy naan, made with leavened dough and cooked in a tandoor, available plain, buttered, with garlic, or stuffed with cheese.",
         metrics: "300 Kcal (Plain) | 375 Kcal (Butter) | 80-100g | $4",
-        image: "./assets/img/modal-images/naan.jpg",
+        image: "./assets/img/modal-images/butter-naan.jpg",
         chefSpecial: false,
       },
       {
@@ -1287,7 +1287,7 @@ const menuData = [
         fullDesc:
           "Soft and fluffy khameeri roti made with fermented whole wheat flour, served plain, with butter, or enhanced with pistachios.",
         metrics: "450 Kcal (Plain) | 525 Kcal (Butter) | 150g | $4",
-        image: "./assets/img/modal-images/khameeri-roti.jpg",
+        image: "./assets/img/modal-images/khameeri-roti-pistachio.jpg",
         chefSpecial: true,
       },
       {
@@ -1298,7 +1298,7 @@ const menuData = [
           "Soft kulchas stuffed with a choice of potato, onion, or patties, baked in a tandoor for a perfect texture.",
         metrics:
           "450 Kcal (Aloo Pyaaz) | 440 Kcal (Onion) | 460 Kcal (Patties) | 150g | $5",
-        image: "./assets/img/modal-images/kulcha.jpg",
+        image: "./assets/img/modal-images/kulcha-aloo-pyaz.jpg",
         chefSpecial: false,
       },
       {
