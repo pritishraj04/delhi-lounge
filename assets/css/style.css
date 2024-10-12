@@ -25,8 +25,14 @@ body {
     repeating-linear-gradient(#ffc60055, #ffc600);
   font-family: "DelhiLoungeCrimsonText", "Times New Roman", Times, serif;
   font-weight: 400;
-  overflow: hidden;
 }
+@media (max-width: 1025px) and (min-width: 600px) {
+  body {
+    overflow: hidden;
+  }
+  /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */
+}
+
 .container {
   --max-width: 802px;
   --padding: 1rem;
