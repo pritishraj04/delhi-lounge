@@ -13,6 +13,11 @@
     />
     <meta name="description" content="Delhi Lounge" />
     <meta name="author" content="PolarDot" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta
+      name="apple-mobile-web-app-status-bar-style"
+      content="black-translucent"
+    />
     <title>Delhi Lounge</title>
 
     <!-- Favicons-->
@@ -59,13 +64,12 @@
         </div>
       </div>
     </div>
-
     <div id="modal" class="modal">
       <div
         id="content"
         class="modal-content"
         style="
-          background-image: url(./assets/img/menu-images/pops.jpg);
+          background-image: url(./assets/img/menu-images/modalbg.svg);
           background-position: center;
           background-repeat: no-repeat;
           background-size: cover;
@@ -92,12 +96,14 @@
           </svg>
         </button>
         <div id="modal-body" class="modal-body">
-          <img
-            id="modal-image"
-            class="modal-image"
-            src="https://via.placeholder.com/1920x1080/eee?text=16:9"
-            alt=""
-          />
+          <div class="loading">
+            <img
+              id="modal-image"
+              class="modal-image"
+              lowsrc="./assets/img/icons/loading.svg"
+              alt=""
+            />
+          </div>
           <div class="modal-details">
             <h3 id="modal-title" class="modal-title">Title</h3>
             <div class="modal-tags">
@@ -112,9 +118,13 @@
       </div>
     </div>
     <script type="text/javascript" src="./assets/js/jquery.js"></script>
-    <script type="module" src="./assets/js/menu.js"></script>
-    <script type="module" src="./assets/js/menuData.js"></script>
+    <script type="module" src="./assets/js/barMenu.js"></script>
+    <script type="module" src="./assets/js/barMenuData.js"></script>
     <script type="text/javascript" src="./assets/js/turn.js"></script>
     <script type="text/javascript" src="./assets/js/magazine.js"></script>
+    <script
+      type="text/javascript"
+      src="./assets/js/fullscreenScript.js"
+    ></script>
   </body>
 </html>
