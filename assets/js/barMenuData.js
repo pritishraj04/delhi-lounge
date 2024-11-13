@@ -1,5 +1,357 @@
 const barMenuData = [
   {
+    category: "Cocktails",
+    subCategories: [
+      {
+        subCategory: "Cocktails",
+        type: "",
+        backgroundImage: "../assets/img/menu-images/page.jpg",
+        items: [
+          {
+            title: "Lal Saag Martini",
+            origin: "India",
+            tagline: "A savory martini with an Indian twist.",
+            desc: "Bold flavors with a touch of spice.",
+            fullDesc:
+              "Lal Saag Martini blends the boldness of Indian spices with the elegance of a martini, creating a unique and flavorful cocktail experience.",
+            metrics: "30 ml - $9.99 | 60 ml - $16.99",
+            image: "./assets/img/modal-images/lal-saag-martini.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Royal Vodka Sour",
+            origin: "Global",
+            tagline: "A classic vodka sour with royal flavors.",
+            desc: "Smooth and refreshing with a hint of citrus.",
+            fullDesc:
+              "The Royal Vodka Sour offers a smooth and refreshing experience with bright citrus notes, bringing sophistication to the classic sour.",
+            metrics: "30 ml - $9.99 | 60 ml - $16.99",
+            image: "./assets/img/modal-images/royal-vodka-sour.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Liptain Di Chah",
+            origin: "India",
+            tagline: "Inspired by traditional Indian tea.",
+            desc: "Warm spices with a balanced sweetness.",
+            fullDesc:
+              "Liptain Di Chah combines the comforting flavors of Indian tea with a cocktail twist, offering a warm and spiced drink with balanced sweetness.",
+            metrics: "30 ml - $10.99 | 60 ml - $18.99",
+            image: "./assets/img/modal-images/liptain-di-chah.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Kaapi Martini",
+            origin: "India",
+            tagline: "A coffee lover's martini.",
+            desc: "Rich coffee flavors with a smooth finish.",
+            fullDesc:
+              "Kaapi Martini is a delightful blend of coffee and spirits, creating a rich and smooth cocktail that’s perfect for coffee enthusiasts.",
+            metrics: "30 ml - $9.99 | 60 ml - $16.99",
+            image: "./assets/img/modal-images/kaapi-martini.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Kashmiri Kahwa Julep",
+            origin: "India",
+            tagline: "A refreshing julep with Kashmiri kahwa flavors.",
+            desc: "Delicate spices with a hint of mint.",
+            fullDesc:
+              "The Kashmiri Kahwa Julep captures the essence of Kashmiri kahwa tea in a refreshing cocktail, with hints of spices and mint.",
+            metrics: "30 ml - $9.99 | 60 ml - $16.99",
+            image: "./assets/img/modal-images/kashmiri-kahwa-julep.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Beat the Heat",
+            origin: "India",
+            tagline: "A cooling cocktail to beat the heat.",
+            desc: "Refreshing and light with a tropical touch.",
+            fullDesc:
+              "Beat the Heat combines tropical flavors with refreshing ingredients, creating a cooling cocktail perfect for warm weather.",
+            metrics: "30 ml - $8.99 | 60 ml - $15.99",
+            image: "./assets/img/modal-images/beat-the-heat.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Tamrind Whisky Sour",
+            origin: "India",
+            tagline: "A tangy twist on the whisky sour.",
+            desc: "Whisky with a tangy tamarind kick.",
+            fullDesc:
+              "The Tamrind Whisky Sour brings a unique twist to the classic whisky sour, adding tangy tamarind for a flavorful kick.",
+            metrics: "30 ml - $10.99 | 60 ml - $18.99",
+            image: "./assets/img/modal-images/tamrind-whisky-sour.jpg",
+            chefSpecial: false,
+          },
+        ],
+      },
+      {
+        subCategory: "Cocktails",
+        type: "",
+        backgroundImage: "../assets/img/menu-images/page.jpg",
+        items: [
+          {
+            title: "Banarasi Boulevardier",
+            origin: "India",
+            tagline: "An Indian twist on the classic boulevardier.",
+            desc: "Bold and balanced with Banarasi flavors.",
+            fullDesc:
+              "The Banarasi Boulevardier combines the classic boulevardier with flavors inspired by Banaras, bringing boldness to every sip.",
+            metrics: "30 ml - $10.99 | 60 ml - $18.99",
+            image: "./assets/img/modal-images/banarasi-boulevardier.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Aam Panna Mule",
+            origin: "India",
+            tagline: "A refreshing mule with mango notes.",
+            desc: "Tangy and refreshing with a hint of spice.",
+            fullDesc:
+              "Aam Panna Mule brings the tangy flavors of mango and spices into a refreshing cocktail, offering a twist on the classic mule.",
+            metrics: "30 ml - $9.99 | 60 ml - $16.99",
+            image: "./assets/img/modal-images/aam-panna-mule.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Guava Dark & Stormy",
+            origin: "Global",
+            tagline: "A stormy cocktail with tropical guava.",
+            desc: "Sweet and spicy with dark rum.",
+            fullDesc:
+              "The Guava Dark & Stormy brings a tropical twist with guava and dark rum, blending sweetness with spice.",
+            metrics: "30 ml - $9.99 | 60 ml - $16.99",
+            image: "./assets/img/modal-images/guava-dark-stormy.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Tropic City",
+            origin: "Global",
+            tagline: "An exotic escape in every sip.",
+            desc: "Fruity and refreshing with tropical vibes.",
+            fullDesc:
+              "Tropic City combines an array of tropical fruits for a refreshing cocktail that feels like a mini-vacation in each sip.",
+            metrics: "30 ml - $9.99 | 60 ml - $16.99",
+            image: "./assets/img/modal-images/tropic-city.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Turmeric Gin Old Fashioned",
+            origin: "India",
+            tagline: "An earthy gin old fashioned with turmeric.",
+            desc: "Earthy turmeric meets classic gin.",
+            fullDesc:
+              "The Turmeric Gin Old Fashioned combines the earthy flavor of turmeric with the elegance of gin, creating a unique and refined cocktail.",
+            metrics: "30 ml - $10.99 | 60 ml - $18.99",
+            image: "./assets/img/modal-images/turmeric-gin-old-fashioned.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Raw Mango Picante",
+            origin: "India",
+            tagline: "Spicy and tangy with raw mango.",
+            desc: "Tangy mango with a spicy twist.",
+            fullDesc:
+              "The Raw Mango Picante balances tangy raw mango with a hint of spice, making it a cocktail with vibrant flavors.",
+            metrics: "30 ml - $9.99 | 60 ml - $16.99",
+            image: "./assets/img/modal-images/raw-mango-picante.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Betel Leaf Paloma",
+            origin: "India",
+            tagline: "A refreshing paloma with betel leaf.",
+            desc: "Unique, earthy flavors with betel leaf.",
+            fullDesc:
+              "The Betel Leaf Paloma takes the classic paloma and adds an earthy twist with betel leaf, creating a unique and refreshing cocktail.",
+            metrics: "30 ml - $9.99 | 60 ml - $16.99",
+            image: "./assets/img/modal-images/betel-leaf-paloma.jpg",
+            chefSpecial: false,
+          },
+        ],
+      },
+    ],
+  },
+  {
+    category: "Delhi To Dallas",
+    type: "",
+    backgroundImage: "../assets/img/menu-images/page.jpg",
+    items: [
+      {
+        title: "I Got No Chill",
+        origin: "India",
+        tagline: "A refreshing, chill cocktail with a spicy kick.",
+        desc: "Balanced with a touch of spice and cool flavors.",
+        fullDesc:
+          "The I Got No Chill cocktail combines cooling elements with a spicy kick, creating a refreshing experience perfect for any occasion.",
+        metrics: "30 ml - $10.99 | 60 ml - $18.99",
+        image: "./assets/img/modal-images/i-got-no-chill.jpg",
+        chefSpecial: false,
+      },
+      {
+        title: "Amla Hi Ball",
+        origin: "India",
+        tagline: "A classic highball with tangy amla.",
+        desc: "Amla’s tanginess meets the classic highball.",
+        fullDesc:
+          "Amla Hi Ball merges the sharp, tangy flavor of amla with the refreshing qualities of a highball, creating a truly unique drink.",
+        metrics: "30 ml - $9.99 | 60 ml - $16.99",
+        image: "./assets/img/modal-images/amla-hi-ball.jpg",
+        chefSpecial: false,
+      },
+      {
+        title: "Spicy Corn Margarita",
+        origin: "India",
+        tagline: "A spicy twist on the classic margarita.",
+        desc: "Sweet corn with a hint of spice in a margarita.",
+        fullDesc:
+          "Spicy Corn Margarita combines the sweetness of corn with a spicy kick, transforming the classic margarita into a memorable drink.",
+        metrics: "30 ml - $9.99 | 60 ml - $16.99",
+        image: "./assets/img/modal-images/spicy-corn-margarita.jpg",
+        chefSpecial: false,
+      },
+      {
+        title: "Dr. Gogia's Prescription",
+        origin: "India",
+        tagline: "A medicinal-inspired cocktail with a unique blend.",
+        desc: "Strong and smooth with intriguing flavors.",
+        fullDesc:
+          "Dr. Gogia's Prescription is a strong, smooth cocktail inspired by medicinal flavors, creating a truly memorable and unique experience.",
+        metrics: "30 ml - $10.99 | 60 ml - $18.99",
+        image: "./assets/img/modal-images/dr-gogias-prescription.jpg",
+        chefSpecial: false,
+      },
+      {
+        title: "Plum & Galangal Fizz",
+        origin: "India",
+        tagline: "A fruity fizz with a hint of galangal.",
+        desc: "Refreshing plum with spicy galangal.",
+        fullDesc:
+          "The Plum & Galangal Fizz blends juicy plum flavors with a hint of galangal, offering a refreshing and slightly spicy cocktail.",
+        metrics: "30 ml - $9.99 | 60 ml - $16.99",
+        image: "./assets/img/modal-images/plum-galangal-fizz.jpg",
+        chefSpecial: false,
+      },
+      {
+        title: "Tropic Tingle",
+        origin: "Global",
+        tagline: "A tropical cocktail that tingles the senses.",
+        desc: "Bright, fruity flavors with tropical vibes.",
+        fullDesc:
+          "Tropic Tingle is a vibrant tropical cocktail filled with fruity flavors, bringing a refreshing and exotic twist to every sip.",
+        metrics: "30 ml - $9.99 | 60 ml - $16.99",
+        image: "./assets/img/modal-images/tropic-tingle.jpg",
+        chefSpecial: false,
+      },
+      {
+        title: "Hibiscus Fizz",
+        origin: "India",
+        tagline: "A floral fizz with hibiscus.",
+        desc: "Floral and refreshing with a light sweetness.",
+        fullDesc:
+          "Hibiscus Fizz combines the delicate floral notes of hibiscus with refreshing fizz, resulting in a light, sweet, and aromatic cocktail.",
+        metrics: "30 ml - $9.99 | 60 ml - $16.99",
+        image: "./assets/img/modal-images/hibiscus-fizz.jpg",
+        chefSpecial: false,
+      },
+    ],
+  },
+  {
+    category: "Mocktails",
+    type: "",
+    backgroundImage: "../assets/img/menu-images/page.jpg",
+    items: [
+      {
+        title: "Pineapple Ginger Fizz",
+        origin: "Global",
+        tagline: "A tropical blend with a zesty kick.",
+        desc: "Refreshing pineapple and ginger with a fizzy twist.",
+        fullDesc:
+          "The Pineapple Ginger Fizz combines tropical pineapple with the zesty heat of ginger, making for a refreshing and invigorating non-alcoholic beverage.",
+        metrics: "30 ml - $5.99 | 60 ml - $9.99",
+        image: "./assets/img/modal-images/pineapple-ginger-fizz.jpg",
+        chefSpecial: false,
+      },
+      {
+        title: "Very Berry Sour",
+        origin: "Global",
+        tagline: "A berry lover's sour delight.",
+        desc: "A tangy mix of berries with a sour twist.",
+        fullDesc:
+          "The Very Berry Sour features a medley of fresh berries, balanced by a tangy sour flavor, creating a refreshing and bold mocktail.",
+        metrics: "30 ml - $5.99 | 60 ml - $9.99",
+        image: "./assets/img/modal-images/very-berry-sour.jpg",
+        chefSpecial: false,
+      },
+      {
+        title: "Mango Lassi",
+        origin: "India",
+        tagline: "A classic Indian mango yogurt drink.",
+        desc: "Smooth and creamy with fresh mango flavor.",
+        fullDesc:
+          "Mango Lassi is a traditional Indian drink made with yogurt and fresh mangoes, offering a smooth, creamy, and refreshing experience.",
+        metrics: "30 ml - $5.99 | 60 ml - $9.99",
+        image: "./assets/img/modal-images/mango-lassi.jpg",
+        chefSpecial: false,
+      },
+      {
+        title: "Strawberry Lassi",
+        origin: "India",
+        tagline: "A fruity twist on the classic lassi.",
+        desc: "Creamy yogurt with fresh strawberry flavor.",
+        fullDesc:
+          "Strawberry Lassi takes the classic Indian yogurt drink and adds a sweet, fruity twist with fresh strawberries.",
+        metrics: "30 ml - $5.99 | 60 ml - $9.99",
+        image: "./assets/img/modal-images/strawberry-lassi.jpg",
+        chefSpecial: false,
+      },
+      {
+        title: "Kiwi Mint Lemonade",
+        origin: "Global",
+        tagline: "Refreshing lemonade with kiwi and mint.",
+        desc: "Zesty lemonade with fresh kiwi and mint.",
+        fullDesc:
+          "The Kiwi Mint Lemonade is a refreshing drink that combines the zesty tang of lemonade with fresh kiwi and mint, perfect for hot days.",
+        metrics: "30 ml - $5.99 | 60 ml - $9.99",
+        image: "./assets/img/modal-images/kiwi-mint-lemonade.jpg",
+        chefSpecial: false,
+      },
+      {
+        title: "Lemon Mint Lemonade",
+        origin: "Global",
+        tagline: "A cooling mint and lemon classic.",
+        desc: "Classic lemonade with a hint of mint.",
+        fullDesc:
+          "Lemon Mint Lemonade is a cooling and refreshing drink that combines the tangy taste of lemon with a hint of fresh mint.",
+        metrics: "30 ml - $5.99 | 60 ml - $9.99",
+        image: "./assets/img/modal-images/lemon-mint-lemonade.jpg",
+        chefSpecial: false,
+      },
+      {
+        title: "Cucumber Basil Fizz",
+        origin: "Global",
+        tagline: "A crisp and herbal cucumber-basil mix.",
+        desc: "Fresh cucumber and basil with a fizzy finish.",
+        fullDesc:
+          "Cucumber Basil Fizz blends the crisp freshness of cucumber with fragrant basil and a fizzy finish, making for a refreshing mocktail.",
+        metrics: "30 ml - $5.99 | 60 ml - $9.99",
+        image: "./assets/img/modal-images/cucumber-basil-fizz.jpg",
+        chefSpecial: false,
+      },
+      {
+        title: "Dusk Till Dawn",
+        origin: "Global",
+        tagline: "A vibrant mocktail to refresh anytime.",
+        desc: "A lively mix of citrus and fruit flavors.",
+        fullDesc:
+          "Dusk Till Dawn offers a lively and vibrant mix of citrus and fruit flavors, perfect for refreshment at any time of day.",
+        metrics: "30 ml - $5.99 | 60 ml - $9.99",
+        image: "./assets/img/modal-images/dusk-till-dawn.jpg",
+        chefSpecial: false,
+      },
+    ],
+  },
+  {
     category: "Vodka",
     type: "",
     backgroundImage: "../assets/img/menu-images/page.jpg",
