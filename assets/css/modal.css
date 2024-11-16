@@ -145,7 +145,7 @@
 }
 .modal-description {
   font-family: "DelhiLoungeCrimsonText", "Times New Roman", Times, serif;
-  max-height: 200px;
+  max-height: 170px;
   overflow: auto;
   padding-inline: 40px;
 }

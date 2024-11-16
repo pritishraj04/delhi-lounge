@@ -25,6 +25,7 @@ body {
     repeating-linear-gradient(#ffc60055, #ffc600);
   font-family: "DelhiLoungeCrimsonText", "Times New Roman", Times, serif;
   font-weight: 400;
+  overflow: hidden;
 }
 .container {
   --max-width: 802px;
@@ -60,7 +61,19 @@ body {
   align-items: center;
   justify-content: end;
   width: 100%;
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
   user-select: none;
+}
+.loading {
+  background-image: url(../img/icons/loading.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 10%;
+}
+.d-none {
+  display: none;
 }
 .menu-index {
   position: absolute;
