@@ -15,7 +15,7 @@ const barMenuData = [
             fullDesc:
               "Lal Saag Martini blends the boldness of Indian spices with the elegance of a martini, creating a unique and flavorful cocktail experience.",
             metrics: "30 ml - $9.99 | 60 ml - $16.99",
-            image: "./assets/img/modal-images/lal-saag-martini.jpg",
+            image: "./assets/img/modal-images/bar-menu/laal-saag-martini.jpg",
             chefSpecial: false,
           },
           {
@@ -26,7 +26,7 @@ const barMenuData = [
             fullDesc:
               "The Royal Vodka Sour offers a smooth and refreshing experience with bright citrus notes, bringing sophistication to the classic sour.",
             metrics: "30 ml - $9.99 | 60 ml - $16.99",
-            image: "./assets/img/modal-images/royal-vodka-sour.jpg",
+            image: "./assets/img/modal-images/bar-menu/royal-vodka-sour.jpg",
             chefSpecial: false,
           },
           {
@@ -37,7 +37,7 @@ const barMenuData = [
             fullDesc:
               "Liptain Di Chah combines the comforting flavors of Indian tea with a cocktail twist, offering a warm and spiced drink with balanced sweetness.",
             metrics: "30 ml - $10.99 | 60 ml - $18.99",
-            image: "./assets/img/modal-images/liptain-di-chah.jpg",
+            image: "./assets/img/modal-images/bar-menu/lipton-di-chai.jpg",
             chefSpecial: false,
           },
           {
@@ -48,7 +48,7 @@ const barMenuData = [
             fullDesc:
               "Kaapi Martini is a delightful blend of coffee and spirits, creating a rich and smooth cocktail that’s perfect for coffee enthusiasts.",
             metrics: "30 ml - $9.99 | 60 ml - $16.99",
-            image: "./assets/img/modal-images/kaapi-martini.jpg",
+            image: "./assets/img/modal-images/bar-menu/kaapi-martini.jpg",
             chefSpecial: false,
           },
           {
@@ -59,7 +59,8 @@ const barMenuData = [
             fullDesc:
               "The Kashmiri Kahwa Julep captures the essence of Kashmiri kahwa tea in a refreshing cocktail, with hints of spices and mint.",
             metrics: "30 ml - $9.99 | 60 ml - $16.99",
-            image: "./assets/img/modal-images/kashmiri-kahwa-julep.jpg",
+            image:
+              "./assets/img/modal-images/bar-menu/kashmiri-kahwa-julep.jpg",
             chefSpecial: false,
           },
           {
@@ -70,7 +71,7 @@ const barMenuData = [
             fullDesc:
               "Beat the Heat combines tropical flavors with refreshing ingredients, creating a cooling cocktail perfect for warm weather.",
             metrics: "30 ml - $8.99 | 60 ml - $15.99",
-            image: "./assets/img/modal-images/beat-the-heat.jpg",
+            image: "./assets/img/modal-images/bar-menu/beat-the-heat.jpg",
             chefSpecial: false,
           },
           {
@@ -81,7 +82,7 @@ const barMenuData = [
             fullDesc:
               "The Tamrind Whisky Sour brings a unique twist to the classic whisky sour, adding tangy tamarind for a flavorful kick.",
             metrics: "30 ml - $10.99 | 60 ml - $18.99",
-            image: "./assets/img/modal-images/tamrind-whisky-sour.jpg",
+            image: "./assets/img/modal-images/bar-menu/tamring-whisky-sour.jpg",
             chefSpecial: false,
           },
         ],
@@ -99,7 +100,8 @@ const barMenuData = [
             fullDesc:
               "The Banarasi Boulevardier combines the classic boulevardier with flavors inspired by Banaras, bringing boldness to every sip.",
             metrics: "30 ml - $10.99 | 60 ml - $18.99",
-            image: "./assets/img/modal-images/banarasi-boulevardier.jpg",
+            image:
+              "./assets/img/modal-images/bar-menu/banarasi-boulevardier.jpg",
             chefSpecial: false,
           },
           {
@@ -110,7 +112,7 @@ const barMenuData = [
             fullDesc:
               "Aam Panna Mule brings the tangy flavors of mango and spices into a refreshing cocktail, offering a twist on the classic mule.",
             metrics: "30 ml - $9.99 | 60 ml - $16.99",
-            image: "./assets/img/modal-images/aam-panna-mule.jpg",
+            image: "./assets/img/modal-images/bar-menu/aam-panna-mule.jpg",
             chefSpecial: false,
           },
           {
@@ -121,7 +123,7 @@ const barMenuData = [
             fullDesc:
               "The Guava Dark & Stormy brings a tropical twist with guava and dark rum, blending sweetness with spice.",
             metrics: "30 ml - $9.99 | 60 ml - $16.99",
-            image: "./assets/img/modal-images/guava-dark-stormy.jpg",
+            image: "./assets/img/modal-images/bar-menu/guava-dark-stormy.jpg",
             chefSpecial: false,
           },
           {
@@ -132,7 +134,7 @@ const barMenuData = [
             fullDesc:
               "Tropic City combines an array of tropical fruits for a refreshing cocktail that feels like a mini-vacation in each sip.",
             metrics: "30 ml - $9.99 | 60 ml - $16.99",
-            image: "./assets/img/modal-images/tropic-city.jpg",
+            image: "./assets/img/modal-images/bar-menu/tropic-city.jpg",
             chefSpecial: false,
           },
           {
@@ -143,7 +145,8 @@ const barMenuData = [
             fullDesc:
               "The Turmeric Gin Old Fashioned combines the earthy flavor of turmeric with the elegance of gin, creating a unique and refined cocktail.",
             metrics: "30 ml - $10.99 | 60 ml - $18.99",
-            image: "./assets/img/modal-images/turmeric-gin-old-fashioned.jpg",
+            image:
+              "./assets/img/modal-images/bar-menu/turmeric-gin-old-fashioned.jpg",
             chefSpecial: false,
           },
           {
@@ -154,7 +157,7 @@ const barMenuData = [
             fullDesc:
               "The Raw Mango Picante balances tangy raw mango with a hint of spice, making it a cocktail with vibrant flavors.",
             metrics: "30 ml - $9.99 | 60 ml - $16.99",
-            image: "./assets/img/modal-images/raw-mango-picante.jpg",
+            image: "./assets/img/modal-images/bar-menu/raw-mango-picante.jpg",
             chefSpecial: false,
           },
           {
@@ -165,7 +168,7 @@ const barMenuData = [
             fullDesc:
               "The Betel Leaf Paloma takes the classic paloma and adds an earthy twist with betel leaf, creating a unique and refreshing cocktail.",
             metrics: "30 ml - $9.99 | 60 ml - $16.99",
-            image: "./assets/img/modal-images/betel-leaf-paloma.jpg",
+            image: "./assets/img/modal-images/bar-menu/betel-leaf-paloma.jpg",
             chefSpecial: false,
           },
         ],
@@ -185,7 +188,7 @@ const barMenuData = [
         fullDesc:
           "The I Got No Chill cocktail combines cooling elements with a spicy kick, creating a refreshing experience perfect for any occasion.",
         metrics: "30 ml - $10.99 | 60 ml - $18.99",
-        image: "./assets/img/modal-images/i-got-no-chill.jpg",
+        image: "./assets/img/modal-images/bar-menu/i-got-no-chill.jpg",
         chefSpecial: false,
       },
       {
@@ -196,7 +199,7 @@ const barMenuData = [
         fullDesc:
           "Amla Hi Ball merges the sharp, tangy flavor of amla with the refreshing qualities of a highball, creating a truly unique drink.",
         metrics: "30 ml - $9.99 | 60 ml - $16.99",
-        image: "./assets/img/modal-images/amla-hi-ball.jpg",
+        image: "./assets/img/modal-images/bar-menu/amla-hi-ball.jpg",
         chefSpecial: false,
       },
       {
@@ -207,7 +210,7 @@ const barMenuData = [
         fullDesc:
           "Spicy Corn Margarita combines the sweetness of corn with a spicy kick, transforming the classic margarita into a memorable drink.",
         metrics: "30 ml - $9.99 | 60 ml - $16.99",
-        image: "./assets/img/modal-images/spicy-corn-margarita.jpg",
+        image: "./assets/img/modal-images/bar-menu/spicy-corn-margarita.jpg",
         chefSpecial: false,
       },
       {
@@ -218,7 +221,7 @@ const barMenuData = [
         fullDesc:
           "Dr. Gogia's Prescription is a strong, smooth cocktail inspired by medicinal flavors, creating a truly memorable and unique experience.",
         metrics: "30 ml - $10.99 | 60 ml - $18.99",
-        image: "./assets/img/modal-images/dr-gogias-prescription.jpg",
+        image: "./assets/img/modal-images/bar-menu/dr-gogias-prescription.jpg",
         chefSpecial: false,
       },
       {
@@ -229,7 +232,7 @@ const barMenuData = [
         fullDesc:
           "The Plum & Galangal Fizz blends juicy plum flavors with a hint of galangal, offering a refreshing and slightly spicy cocktail.",
         metrics: "30 ml - $9.99 | 60 ml - $16.99",
-        image: "./assets/img/modal-images/plum-galangal-fizz.jpg",
+        image: "./assets/img/modal-images/bar-menu/plum-galangal-fizz.jpg",
         chefSpecial: false,
       },
       {
@@ -240,7 +243,7 @@ const barMenuData = [
         fullDesc:
           "Tropic Tingle is a vibrant tropical cocktail filled with fruity flavors, bringing a refreshing and exotic twist to every sip.",
         metrics: "30 ml - $9.99 | 60 ml - $16.99",
-        image: "./assets/img/modal-images/tropic-tingle.jpg",
+        image: "./assets/img/modal-images/bar-menu/tropic-tingle.jpg",
         chefSpecial: false,
       },
       {
@@ -251,7 +254,7 @@ const barMenuData = [
         fullDesc:
           "Hibiscus Fizz combines the delicate floral notes of hibiscus with refreshing fizz, resulting in a light, sweet, and aromatic cocktail.",
         metrics: "30 ml - $9.99 | 60 ml - $16.99",
-        image: "./assets/img/modal-images/hibiscus-fizz.jpg",
+        image: "./assets/img/modal-images/bar-menu/hibiscus-fizz.jpg",
         chefSpecial: false,
       },
     ],
@@ -269,7 +272,7 @@ const barMenuData = [
         fullDesc:
           "The Pineapple Ginger Fizz combines tropical pineapple with the zesty heat of ginger, making for a refreshing and invigorating non-alcoholic beverage.",
         metrics: "30 ml - $5.99 | 60 ml - $9.99",
-        image: "./assets/img/modal-images/pineapple-ginger-fizz.jpg",
+        image: "./assets/img/modal-images/bar-menu/pineapple-ginger-fizz.jpg",
         chefSpecial: false,
       },
       {
@@ -280,7 +283,7 @@ const barMenuData = [
         fullDesc:
           "The Very Berry Sour features a medley of fresh berries, balanced by a tangy sour flavor, creating a refreshing and bold mocktail.",
         metrics: "30 ml - $5.99 | 60 ml - $9.99",
-        image: "./assets/img/modal-images/very-berry-sour.jpg",
+        image: "./assets/img/modal-images/bar-menu/very-berry-sour.jpg",
         chefSpecial: false,
       },
       {
@@ -291,7 +294,7 @@ const barMenuData = [
         fullDesc:
           "Mango Lassi is a traditional Indian drink made with yogurt and fresh mangoes, offering a smooth, creamy, and refreshing experience.",
         metrics: "30 ml - $5.99 | 60 ml - $9.99",
-        image: "./assets/img/modal-images/mango-lassi.jpg",
+        image: "./assets/img/modal-images/bar-menu/mango-lassi.jpg",
         chefSpecial: false,
       },
       {
@@ -302,7 +305,7 @@ const barMenuData = [
         fullDesc:
           "Strawberry Lassi takes the classic Indian yogurt drink and adds a sweet, fruity twist with fresh strawberries.",
         metrics: "30 ml - $5.99 | 60 ml - $9.99",
-        image: "./assets/img/modal-images/strawberry-lassi.jpg",
+        image: "./assets/img/modal-images/bar-menu/strawberry-lassi.jpg",
         chefSpecial: false,
       },
       {
@@ -313,7 +316,7 @@ const barMenuData = [
         fullDesc:
           "The Kiwi Mint Lemonade is a refreshing drink that combines the zesty tang of lemonade with fresh kiwi and mint, perfect for hot days.",
         metrics: "30 ml - $5.99 | 60 ml - $9.99",
-        image: "./assets/img/modal-images/kiwi-mint-lemonade.jpg",
+        image: "./assets/img/modal-images/bar-menu/kiwi-mint-lemonade.jpg",
         chefSpecial: false,
       },
       {
@@ -324,7 +327,7 @@ const barMenuData = [
         fullDesc:
           "Lemon Mint Lemonade is a cooling and refreshing drink that combines the tangy taste of lemon with a hint of fresh mint.",
         metrics: "30 ml - $5.99 | 60 ml - $9.99",
-        image: "./assets/img/modal-images/lemon-mint-lemonade.jpg",
+        image: "./assets/img/modal-images/bar-menu/lemon-mint-lemonade.jpg",
         chefSpecial: false,
       },
       {
@@ -335,7 +338,7 @@ const barMenuData = [
         fullDesc:
           "Cucumber Basil Fizz blends the crisp freshness of cucumber with fragrant basil and a fizzy finish, making for a refreshing mocktail.",
         metrics: "30 ml - $5.99 | 60 ml - $9.99",
-        image: "./assets/img/modal-images/cucumber-basil-fizz.jpg",
+        image: "./assets/img/modal-images/bar-menu/cucumber-basil-fizz.jpg",
         chefSpecial: false,
       },
       {
@@ -346,7 +349,7 @@ const barMenuData = [
         fullDesc:
           "Dusk Till Dawn offers a lively and vibrant mix of citrus and fruit flavors, perfect for refreshment at any time of day.",
         metrics: "30 ml - $5.99 | 60 ml - $9.99",
-        image: "./assets/img/modal-images/dusk-till-dawn.jpg",
+        image: "./assets/img/modal-images/bar-menu/dusk-till-dawn.jpg",
         chefSpecial: false,
       },
     ],
@@ -364,7 +367,7 @@ const barMenuData = [
         fullDesc:
           "Beluga Noble is a meticulously crafted vodka with an unmatched smoothness, embodying Russian vodka tradition and quality.",
         metrics: "30 ml - $8.99 | 60 ml - $15.99",
-        image: "./assets/img/modal-images/beluga-noble.jpg",
+        image: "./assets/img/modal-images/bar-menu/beluga-noble.jpg",
         chefSpecial: false,
       },
       {
@@ -375,7 +378,7 @@ const barMenuData = [
         fullDesc:
           "Grey Goose is known for its soft, clear taste profile and refined French heritage, ideal for a variety of cocktails.",
         metrics: "30 ml - $9.99 | 60 ml - $17.99",
-        image: "./assets/img/modal-images/grey-goose.jpg",
+        image: "./assets/img/modal-images/bar-menu/grey-goose.jpg",
         chefSpecial: false,
       },
       {
@@ -386,7 +389,7 @@ const barMenuData = [
         fullDesc:
           "Ciroc is unique in its use of grapes, which gives it a fruity and fresh profile, perfect for sophisticated cocktails.",
         metrics: "30 ml - $10.99 | 60 ml - $18.99",
-        image: "./assets/img/modal-images/ciroc.jpg",
+        image: "./assets/img/modal-images/bar-menu/ciroc.jpg",
         chefSpecial: false,
       },
       {
@@ -397,7 +400,7 @@ const barMenuData = [
         fullDesc:
           "Absolut is synonymous with clarity and quality, making it a versatile choice for a range of mixed drinks.",
         metrics: "30 ml - $7.99 | 60 ml - $13.99",
-        image: "./assets/img/modal-images/absolut.jpg",
+        image: "./assets/img/modal-images/bar-menu/absolut.jpg",
         chefSpecial: false,
       },
       {
@@ -408,7 +411,7 @@ const barMenuData = [
         fullDesc:
           "Ketel One is carefully crafted in small batches, ensuring each bottle has a refined and smooth finish.",
         metrics: "30 ml - $9.49 | 60 ml - $16.99",
-        image: "./assets/img/modal-images/ketel-one.jpg",
+        image: "./assets/img/modal-images/bar-menu/ketel-one.jpg",
         chefSpecial: false,
       },
       {
@@ -419,7 +422,7 @@ const barMenuData = [
         fullDesc:
           "Short Story Vodka combines a clean profile with a slight warmth, making it perfect for both shots and cocktails.",
         metrics: "30 ml - $8.49 | 60 ml - $14.49",
-        image: "./assets/img/modal-images/short-story-vodka.jpg",
+        image: "./assets/img/modal-images/bar-menu/short-story-vodka.jpg",
         chefSpecial: false,
       },
       {
@@ -430,7 +433,7 @@ const barMenuData = [
         fullDesc:
           "Smoke Lab is India’s pioneering premium vodka, known for its quality, smoothness, and unique Indian character.",
         metrics: "30 ml - $7.49 | 60 ml - $12.99",
-        image: "./assets/img/modal-images/smoke-lab-vodka.jpg",
+        image: "./assets/img/modal-images/bar-menu/smoke-lab-vodka.jpg",
         chefSpecial: false,
       },
     ],
@@ -448,7 +451,7 @@ const barMenuData = [
         fullDesc:
           "Roku gin combines the essence of Japanese botanicals like yuzu and sakura flower, offering a smooth, balanced gin experience.",
         metrics: "30 ml - $9.99 | 60 ml - $17.99",
-        image: "./assets/img/modal-images/roku-gin.jpg",
+        image: "./assets/img/modal-images/bar-menu/roku-gin.jpg",
         chefSpecial: false,
       },
       {
@@ -459,7 +462,7 @@ const barMenuData = [
         fullDesc:
           "Hendriks is distinct with its floral infusion, creating a refreshing gin with a touch of sophistication.",
         metrics: "30 ml - $10.49 | 60 ml - $18.49",
-        image: "./assets/img/modal-images/hendriks-gin.jpg",
+        image: "./assets/img/modal-images/bar-menu/hendriks-gin.jpg",
         chefSpecial: false,
       },
       {
@@ -470,7 +473,7 @@ const barMenuData = [
         fullDesc:
           "Monkey 47 offers a rich, herbal complexity, with flavors of berry and citrus, making it perfect for sophisticated cocktails.",
         metrics: "30 ml - $12.99 | 60 ml - $21.99",
-        image: "./assets/img/modal-images/monkey-47.jpg",
+        image: "./assets/img/modal-images/bar-menu/monkey-47.jpg",
         chefSpecial: false,
       },
       {
@@ -481,7 +484,7 @@ const barMenuData = [
         fullDesc:
           "Bombay Sapphire offers a smooth gin experience, with an aromatic blend of botanicals, perfect for any gin cocktail.",
         metrics: "30 ml - $8.99 | 60 ml - $15.99",
-        image: "./assets/img/modal-images/bombay-sapphire.jpg",
+        image: "./assets/img/modal-images/bar-menu/bombay-sapphire.jpg",
         chefSpecial: false,
       },
       {
@@ -492,7 +495,7 @@ const barMenuData = [
         fullDesc:
           "Beefeater Pink is a fun, fruity gin with strawberry notes, offering a sweet twist on the classic London dry gin.",
         metrics: "30 ml - $8.49 | 60 ml - $14.99",
-        image: "./assets/img/modal-images/beefeater-pink.jpg",
+        image: "./assets/img/modal-images/bar-menu/beefeater-pink.jpg",
         chefSpecial: false,
       },
       {
@@ -503,7 +506,7 @@ const barMenuData = [
         fullDesc:
           "Beefeater is a true London dry gin with a bold, juniper-forward flavor, perfect for gin and tonics.",
         metrics: "30 ml - $7.99 | 60 ml - $13.99",
-        image: "./assets/img/modal-images/beefeater.jpg",
+        image: "./assets/img/modal-images/bar-menu/beefeater.jpg",
         chefSpecial: false,
       },
       {
@@ -514,7 +517,7 @@ const barMenuData = [
         fullDesc:
           "Tanqueray is a classic London dry gin, delivering a rich, full-bodied taste perfect for cocktails.",
         metrics: "30 ml - $8.99 | 60 ml - $15.49",
-        image: "./assets/img/modal-images/tanqueray.jpg",
+        image: "./assets/img/modal-images/bar-menu/tanqueray.jpg",
         chefSpecial: false,
       },
       {
@@ -525,7 +528,7 @@ const barMenuData = [
         fullDesc:
           "Gordons is one of the oldest gin brands, with a smooth and classic profile, ideal for any gin-based drink.",
         metrics: "30 ml - $7.49 | 60 ml - $12.99",
-        image: "./assets/img/modal-images/gordons.jpg",
+        image: "./assets/img/modal-images/bar-menu/gordons.jpg",
         chefSpecial: false,
       },
       {
@@ -536,7 +539,7 @@ const barMenuData = [
         fullDesc:
           "Stranger & Sons is an award-winning gin with a unique Indian twist, rich in spices and citrus, making it perfect for adventurous cocktails.",
         metrics: "30 ml - $9.99 | 60 ml - $16.99",
-        image: "./assets/img/modal-images/stranger-sons.jpg",
+        image: "./assets/img/modal-images/bar-menu/stranger-sons.jpg",
         chefSpecial: false,
       },
       {
@@ -547,7 +550,7 @@ const barMenuData = [
         fullDesc:
           "Hapusa gin uses Himalayan juniper and local Indian botanicals, delivering a unique gin with earthy and aromatic notes.",
         metrics: "30 ml - $11.49 | 60 ml - $18.99",
-        image: "./assets/img/modal-images/hapusa.jpg",
+        image: "./assets/img/modal-images/bar-menu/hapusa.jpg",
         chefSpecial: false,
       },
       {
@@ -558,7 +561,7 @@ const barMenuData = [
         fullDesc:
           "Greater Than is India's first craft gin, offering a balanced profile perfect for any gin drink.",
         metrics: "30 ml - $8.49 | 60 ml - $13.99",
-        image: "./assets/img/modal-images/greater-than.jpg",
+        image: "./assets/img/modal-images/bar-menu/greater-than.jpg",
         chefSpecial: false,
       },
       {
@@ -569,7 +572,7 @@ const barMenuData = [
         fullDesc:
           "Tamras is a bold gin featuring a unique blend of Indian herbs and spices, ideal for a distinctive gin experience.",
         metrics: "30 ml - $9.49 | 60 ml - $15.99",
-        image: "./assets/img/modal-images/tamras.jpg",
+        image: "./assets/img/modal-images/bar-menu/tamras.jpg",
         chefSpecial: false,
       },
     ],
@@ -587,7 +590,7 @@ const barMenuData = [
         fullDesc:
           "Diplomatico rum offers a rich, complex flavor profile with caramel and vanilla notes, perfect for sipping or in cocktails.",
         metrics: "30 ml - $9.99 | 60 ml - $17.99",
-        image: "./assets/img/modal-images/diplomatico.jpg",
+        image: "./assets/img/modal-images/bar-menu/diplomatico.jpg",
         chefSpecial: false,
       },
       {
@@ -598,7 +601,7 @@ const barMenuData = [
         fullDesc:
           "Kraken Spiced Rum brings intense flavors of caramel, vanilla, and exotic spices, making it ideal for adventurous rum cocktails.",
         metrics: "30 ml - $8.99 | 60 ml - $15.99",
-        image: "./assets/img/modal-images/kraken.jpg",
+        image: "./assets/img/modal-images/bar-menu/kraken.jpg",
         chefSpecial: false,
       },
       {
@@ -609,7 +612,7 @@ const barMenuData = [
         fullDesc:
           "Bacardi Ocho Anejo is a refined rum aged for eight years, bringing smoothness and complexity with subtle notes of oak.",
         metrics: "30 ml - $8.49 | 60 ml - $14.99",
-        image: "./assets/img/modal-images/bacardi-ocho.jpg",
+        image: "./assets/img/modal-images/bar-menu/bacardi-ocho.jpg",
         chefSpecial: false,
       },
       {
@@ -620,7 +623,7 @@ const barMenuData = [
         fullDesc:
           "Bacardi Cuatro Anejo is a smooth rum with vanilla and oak undertones, ideal for those who enjoy a balanced rum.",
         metrics: "30 ml - $7.99 | 60 ml - $13.99",
-        image: "./assets/img/modal-images/bacardi-cuatro.jpg",
+        image: "./assets/img/modal-images/bar-menu/bacardi-cuatro.jpg",
         chefSpecial: false,
       },
       {
@@ -631,7 +634,7 @@ const barMenuData = [
         fullDesc:
           "Bacardi Carta Blanca is a versatile white rum with light, clean flavors, making it a staple for many classic cocktails.",
         metrics: "30 ml - $6.99 | 60 ml - $12.49",
-        image: "./assets/img/modal-images/bacardi-blanca.jpg",
+        image: "./assets/img/modal-images/bar-menu/bacardi-blanca.jpg",
         chefSpecial: false,
       },
       {
@@ -642,7 +645,7 @@ const barMenuData = [
         fullDesc:
           "Old Monk is an iconic Indian rum, known for its bold, caramelized taste and smooth finish, perfect for sipping or mixing.",
         metrics: "30 ml - $5.99 | 60 ml - $10.99",
-        image: "./assets/img/modal-images/old-monk.jpg",
+        image: "./assets/img/modal-images/bar-menu/old-monk.jpg",
         chefSpecial: false,
       },
     ],
@@ -663,7 +666,7 @@ const barMenuData = [
             fullDesc:
               "1800 Blanco is a smooth and crisp tequila that shines with bright citrus notes and a clean finish. Ideal for cocktails or sipping, it embodies the spirit of traditional Mexican craftsmanship.",
             metrics: "30 ml - $6.99 | 60 ml - $12.99",
-            image: "./assets/img/modal-images/1800-blanco.jpg",
+            image: "./assets/img/modal-images/bar-menu/1800-blanco.jpg",
             chefSpecial: false,
           },
           {
@@ -674,7 +677,7 @@ const barMenuData = [
             fullDesc:
               "1800 Reposado is a rich and complex tequila aged in oak barrels, giving it flavors of vanilla and caramel. Its smooth profile makes it an excellent choice for sipping neat or mixing in premium cocktails.",
             metrics: "30 ml - $7.99 | 60 ml - $14.99",
-            image: "./assets/img/modal-images/1800-reposado.jpg",
+            image: "./assets/img/modal-images/bar-menu/1800-reposado.jpg",
             chefSpecial: false,
           },
           {
@@ -685,7 +688,7 @@ const barMenuData = [
             fullDesc:
               "1800 Anejo is an exquisite tequila that is aged for at least a year, resulting in deep flavors of chocolate, spice, and oak. Perfect for sipping, it’s a true connoisseur's choice.",
             metrics: "30 ml - $8.99 | 60 ml - $15.99",
-            image: "./assets/img/modal-images/1800-anejo.jpg",
+            image: "./assets/img/modal-images/bar-menu/1800-anejo.jpg",
             chefSpecial: false,
           },
           {
@@ -696,7 +699,7 @@ const barMenuData = [
             fullDesc:
               "Patron Silver is a premium tequila known for its unmatched quality and freshness. With herbal notes and a smooth finish, it's perfect for cocktails or enjoyed straight.",
             metrics: "30 ml - $9.99 | 60 ml - $16.99",
-            image: "./assets/img/modal-images/patron-silver.jpg",
+            image: "./assets/img/modal-images/bar-menu/patron-silver.jpg",
             chefSpecial: false,
           },
           {
@@ -707,7 +710,7 @@ const barMenuData = [
             fullDesc:
               "Patron Reposado is a meticulously aged tequila that balances subtle oak and vanilla flavors. Its smooth finish makes it a fantastic choice for sipping or in cocktails.",
             metrics: "30 ml - $10.99 | 60 ml - $17.99",
-            image: "./assets/img/modal-images/patron-reposado.jpg",
+            image: "./assets/img/modal-images/bar-menu/patron-reposado.jpg",
             chefSpecial: false,
           },
           {
@@ -718,7 +721,7 @@ const barMenuData = [
             fullDesc:
               "Jose Cuervo Silver is a classic tequila that delivers a crisp and clean taste with a hint of sweetness. It's versatile enough for cocktails or enjoyable on its own.",
             metrics: "30 ml - $5.99 | 60 ml - $10.99",
-            image: "./assets/img/modal-images/jose-cuervo-silver.jpg",
+            image: "./assets/img/modal-images/bar-menu/jose-cuervo-silver.jpg",
             chefSpecial: false,
           },
         ],
@@ -736,7 +739,8 @@ const barMenuData = [
             fullDesc:
               "Creyente Joven Mezcal is a smoky spirit that offers a rich flavor profile, showcasing bold earthy notes with a hint of sweetness. Perfect for sipping or in creative cocktails.",
             metrics: "30 ml - $7.99 | 60 ml - $13.99",
-            image: "./assets/img/modal-images/creyente-joven-mezcal.jpg",
+            image:
+              "./assets/img/modal-images/bar-menu/creyente-joven-mezcal.jpg",
             chefSpecial: false,
           },
           {
@@ -747,7 +751,7 @@ const barMenuData = [
             fullDesc:
               "400 Conejos Mezcal is an artisanal spirit that stands out for its unique character. With smooth texture and complex flavors, it offers a smoky finish that enhances the tasting experience.",
             metrics: "30 ml - $8.99 | 60 ml - $14.99",
-            image: "./assets/img/modal-images/400-conejos-mezcal.jpg",
+            image: "./assets/img/modal-images/bar-menu/400-conejos-mezcal.jpg",
             chefSpecial: false,
           },
         ],
@@ -765,7 +769,7 @@ const barMenuData = [
             fullDesc:
               "Cazulo Feni / Tinto is a unique Indian spirit crafted from cashew apples, offering fruity and aromatic notes with a smooth finish. It's an excellent choice for mixing in cocktails or enjoying neat.",
             metrics: "30 ml - $6.99 | 60 ml - $11.99",
-            image: "./assets/img/modal-images/cazulo-feni.jpg",
+            image: "./assets/img/modal-images/bar-menu/cazulo-feni.jpg",
             chefSpecial: false,
           },
           {
@@ -776,7 +780,7 @@ const barMenuData = [
             fullDesc:
               "Pistola Joven is a smooth feni that showcases rich and vibrant flavors derived from cashew apples. Its tropical twist makes it perfect for refreshing cocktails or enjoyed straight.",
             metrics: "30 ml - $7.49 | 60 ml - $12.49",
-            image: "./assets/img/modal-images/pistola-joven.jpg",
+            image: "./assets/img/modal-images/bar-menu/pistola-joven.jpg",
             chefSpecial: false,
           },
           {
@@ -787,7 +791,7 @@ const barMenuData = [
             fullDesc:
               "Pistola Reposado is an aged feni that delivers a complex flavor profile with smooth notes of oak and fruit. It's a delightful option for sipping or in cocktails that require depth of flavor.",
             metrics: "30 ml - $8.49 | 60 ml - $13.49",
-            image: "./assets/img/modal-images/pistola-reposado.jpg",
+            image: "./assets/img/modal-images/bar-menu/pistola-reposado.jpg",
             chefSpecial: false,
           },
           {
@@ -798,7 +802,7 @@ const barMenuData = [
             fullDesc:
               "Pistola Anejo is a premium feni aged to perfection, offering rich and complex flavors that evolve beautifully in the glass. Perfect for sipping, it represents the best of Indian spirit-making.",
             metrics: "30 ml - $9.49 | 60 ml - $14.49",
-            image: "./assets/img/modal-images/pistola-anejo.jpg",
+            image: "./assets/img/modal-images/bar-menu/pistola-anejo.jpg",
             chefSpecial: false,
           },
           {
@@ -809,7 +813,7 @@ const barMenuData = [
             fullDesc:
               "Pistola Extra Anejo is an exquisite feni that showcases bold and smooth characteristics with layers of flavor. Its exceptional aging process results in a spirit that is perfect for savoring.",
             metrics: "30 ml - $10.49 | 60 ml - $15.49",
-            image: "./assets/img/modal-images/pistola-extra-anejo.jpg",
+            image: "./assets/img/modal-images/bar-menu/pistola-extra-anejo.jpg",
             chefSpecial: false,
           },
         ],
@@ -826,7 +830,7 @@ const barMenuData = [
     //     fullDesc:
     //       "1800 Blanco offers a fresh, unaged tequila experience with a smooth, crisp flavor, ideal for margaritas and other classic cocktails.",
     //     metrics: "30 ml - $9.99 | 60 ml - $17.99",
-    //     image: "./assets/img/modal-images/1800-blanco.jpg",
+    //     image: "./assets/img/modal-images/bar-menu/1800-blanco.jpg",
     //     chefSpecial: false,
     //   },
     //   {
@@ -837,7 +841,7 @@ const barMenuData = [
     //     fullDesc:
     //       "1800 Reposado is aged in oak barrels, giving it a richer, smoother profile with hints of oak and vanilla.",
     //     metrics: "30 ml - $10.49 | 60 ml - $18.49",
-    //     image: "./assets/img/modal-images/1800-reposado.jpg",
+    //     image: "./assets/img/modal-images/bar-menu/1800-reposado.jpg",
     //     chefSpecial: false,
     //   },
     //   {
@@ -848,7 +852,7 @@ const barMenuData = [
     //     fullDesc:
     //       "1800 Anejo is an elegant tequila with a well-rounded flavor profile from aging, offering hints of oak and a smooth finish.",
     //     metrics: "30 ml - $11.99 | 60 ml - $20.99",
-    //     image: "./assets/img/modal-images/1800-anejo.jpg",
+    //     image: "./assets/img/modal-images/bar-menu/1800-anejo.jpg",
     //     chefSpecial: false,
     //   },
     //   {
@@ -859,7 +863,7 @@ const barMenuData = [
     //     fullDesc:
     //       "Patron Silver is a premium silver tequila with a light, crisp taste, known for its smoothness and versatility in cocktails.",
     //     metrics: "30 ml - $10.99 | 60 ml - $19.49",
-    //     image: "./assets/img/modal-images/patron-silver.jpg",
+    //     image: "./assets/img/modal-images/bar-menu/patron-silver.jpg",
     //     chefSpecial: false,
     //   },
     //   {
@@ -870,7 +874,7 @@ const barMenuData = [
     //     fullDesc:
     //       "Patron Reposado is aged in oak barrels for added complexity, providing a smooth, rich flavor perfect for sipping.",
     //     metrics: "30 ml - $11.49 | 60 ml - $20.49",
-    //     image: "./assets/img/modal-images/patron-reposado.jpg",
+    //     image: "./assets/img/modal-images/bar-menu/patron-reposado.jpg",
     //     chefSpecial: false,
     //   },
     //   {
@@ -881,7 +885,7 @@ const barMenuData = [
     //     fullDesc:
     //       "Jose Cuervo Silver is a versatile tequila with a fresh, crisp taste, ideal for classic tequila cocktails.",
     //     metrics: "30 ml - $7.99 | 60 ml - $14.49",
-    //     image: "./assets/img/modal-images/jose-cuervo-silver.jpg",
+    //     image: "./assets/img/modal-images/bar-menu/jose-cuervo-silver.jpg",
     //     chefSpecial: false,
     //   },
     //   {
@@ -892,7 +896,7 @@ const barMenuData = [
     //     fullDesc:
     //       "Jose Cuervo Gold is a mellow, smooth tequila with a slight sweetness, ideal for sipping or enjoying in cocktails.",
     //     metrics: "30 ml - $8.49 | 60 ml - $15.49",
-    //     image: "./assets/img/modal-images/jose-cuervo-gold.jpg",
+    //     image: "./assets/img/modal-images/bar-menu/jose-cuervo-gold.jpg",
     //     chefSpecial: false,
     //   },
     //   {
@@ -903,7 +907,7 @@ const barMenuData = [
     //     fullDesc:
     //       "Creyente Joven Mezcal is a smooth mezcal from Oaxaca, featuring earthy, smoky notes that make it stand out in cocktails or sipping.",
     //     metrics: "30 ml - $12.99 | 60 ml - $22.99",
-    //     image: "./assets/img/modal-images/creyente-joven.jpg",
+    //     image: "./assets/img/modal-images/bar-menu/creyente-joven.jpg",
     //     chefSpecial: false,
     //   },
     //   {
@@ -914,7 +918,7 @@ const barMenuData = [
     //     fullDesc:
     //       "400 Conejos is a traditional mezcal from Oaxaca, with a unique blend of smoky and earthy flavors, ideal for mezcal lovers.",
     //     metrics: "30 ml - $13.49 | 60 ml - $23.99",
-    //     image: "./assets/img/modal-images/400-conejos.jpg",
+    //     image: "./assets/img/modal-images/bar-menu/400-conejos.jpg",
     //     chefSpecial: false,
     //   },
     //   {
@@ -925,7 +929,7 @@ const barMenuData = [
     //     fullDesc:
     //       "Cazulo Feni is a Goan specialty distilled from cashew fruit, offering a distinctive tropical flavor and rich heritage.",
     //     metrics: "30 ml - $6.99 | 60 ml - $12.49",
-    //     image: "./assets/img/modal-images/cazulo-feni.jpg",
+    //     image: "./assets/img/modal-images/bar-menu/cazulo-feni.jpg",
     //     chefSpecial: false,
     //   },
     //   {
@@ -936,7 +940,7 @@ const barMenuData = [
     //     fullDesc:
     //       "Pistola Joven is a young tequila with a vibrant, fruity flavor, making it perfect for cocktails and mixed drinks.",
     //     metrics: "30 ml - $8.99 | 60 ml - $15.99",
-    //     image: "./assets/img/modal-images/pistola-joven.jpg",
+    //     image: "./assets/img/modal-images/bar-menu/pistola-joven.jpg",
     //     chefSpecial: false,
     //   },
     //   {
@@ -947,7 +951,7 @@ const barMenuData = [
     //     fullDesc:
     //       "Pistola Reposado is aged to bring out smooth, mellow flavors with subtle oak undertones, ideal for sipping or cocktails.",
     //     metrics: "30 ml - $9.49 | 60 ml - $16.49",
-    //     image: "./assets/img/modal-images/pistola-reposado.jpg",
+    //     image: "./assets/img/modal-images/bar-menu/pistola-reposado.jpg",
     //     chefSpecial: false,
     //   },
     //   {
@@ -958,7 +962,7 @@ const barMenuData = [
     //     fullDesc:
     //       "Pistola Anejo is aged to perfection, offering a deep, rich flavor profile with hints of caramel and oak, perfect for sipping.",
     //     metrics: "30 ml - $10.99 | 60 ml - $18.99",
-    //     image: "./assets/img/modal-images/pistola-anejo.jpg",
+    //     image: "./assets/img/modal-images/bar-menu/pistola-anejo.jpg",
     //     chefSpecial: false,
     //   },
     //   {
@@ -969,7 +973,7 @@ const barMenuData = [
     //     fullDesc:
     //       "Pistola Extra Anejo offers an exquisite, multi-layered profile with hints of oak, caramel, and spices, perfect for special occasions.",
     //     metrics: "30 ml - $12.49 | 60 ml - $21.99",
-    //     image: "./assets/img/modal-images/pistola-extra-anejo.jpg",
+    //     image: "./assets/img/modal-images/bar-menu/pistola-extra-anejo.jpg",
     //     chefSpecial: false,
     //   },
     // ],
@@ -990,7 +994,7 @@ const barMenuData = [
             fullDesc:
               "The Balvenie Doublewood is a unique whiskey, aged in two types of casks to create a rich and complex flavor profile.",
             metrics: "30 ml - $14.99 | 60 ml - $25.99",
-            image: "./assets/img/modal-images/balvenie-doublewood.jpg",
+            image: "./assets/img/modal-images/bar-menu/balvenie-doublewood.jpg",
             chefSpecial: false,
           },
           {
@@ -1001,7 +1005,7 @@ const barMenuData = [
             fullDesc:
               "Balvenie Caribbean Cask 14 has a sweet, fruity profile from aging in rum barrels, adding a tropical depth to the whiskey.",
             metrics: "30 ml - $16.99 | 60 ml - $29.99",
-            image: "./assets/img/modal-images/balvenie-caribbean.jpg",
+            image: "./assets/img/modal-images/bar-menu/balvenie-caribbean.jpg",
             chefSpecial: false,
           },
           {
@@ -1012,7 +1016,8 @@ const barMenuData = [
             fullDesc:
               "The Lasanta by Glenmorangie is matured in sherry casks, delivering a sweet, rich profile with complex layers.",
             metrics: "30 ml - $13.99 | 60 ml - $24.99",
-            image: "./assets/img/modal-images/glenmorangie-lasanta.jpg",
+            image:
+              "./assets/img/modal-images/bar-menu/glenmorangie-lasanta.jpg",
             chefSpecial: false,
           },
           {
@@ -1023,7 +1028,7 @@ const barMenuData = [
             fullDesc:
               "Glenmorangie Quinta Ruban is aged in port casks, offering a rich, velvety texture with a hint of chocolate and fruit.",
             metrics: "30 ml - $15.49 | 60 ml - $26.99",
-            image: "./assets/img/modal-images/glenmorangie-quinta.jpg",
+            image: "./assets/img/modal-images/bar-menu/glenmorangie-quinta.jpg",
             chefSpecial: false,
           },
           {
@@ -1034,7 +1039,7 @@ const barMenuData = [
             fullDesc:
               "Glenfiddich IPA Experiment is a pioneering whiskey aged in IPA casks, combining crisp, fresh flavors with subtle sweetness.",
             metrics: "30 ml - $13.49 | 60 ml - $23.49",
-            image: "./assets/img/modal-images/glenfiddich-ipa.jpg",
+            image: "./assets/img/modal-images/bar-menu/glenfiddich-ipa.jpg",
             chefSpecial: false,
           },
         ],
@@ -1052,7 +1057,7 @@ const barMenuData = [
             fullDesc:
               "Laphroaig 10-year-old offers a bold, smoky flavor with signature Islay peat and a slight medicinal edge.",
             metrics: "30 ml - $13.99 | 60 ml - $24.99",
-            image: "./assets/img/modal-images/laphroaig-10.jpg",
+            image: "./assets/img/modal-images/bar-menu/laphroaig-10.jpg",
             chefSpecial: false,
           },
           {
@@ -1063,7 +1068,7 @@ const barMenuData = [
             fullDesc:
               "Lagavulin 16-year-old offers a well-balanced peatiness with sherry sweetness and a complex, full-bodied taste.",
             metrics: "30 ml - $17.99 | 60 ml - $30.99",
-            image: "./assets/img/modal-images/lagavulin-16.jpg",
+            image: "./assets/img/modal-images/bar-menu/lagavulin-16.jpg",
             chefSpecial: false,
           },
           {
@@ -1074,7 +1079,7 @@ const barMenuData = [
             fullDesc:
               "Talisker 10-year-old has a bold, smoky profile with a hint of pepper, embodying its coastal origins on the Isle of Skye.",
             metrics: "30 ml - $12.99 | 60 ml - $22.99",
-            image: "./assets/img/modal-images/talisker-10.jpg",
+            image: "./assets/img/modal-images/bar-menu/talisker-10.jpg",
             chefSpecial: false,
           },
         ],
@@ -1092,7 +1097,8 @@ const barMenuData = [
             fullDesc:
               "Glenmorangie Original 10-year-old offers a smooth, floral profile with fruity undertones and a touch of citrus.",
             metrics: "30 ml - $11.99 | 60 ml - $20.99",
-            image: "./assets/img/modal-images/glenmorangie-original.jpg",
+            image:
+              "./assets/img/modal-images/bar-menu/glenmorangie-original.jpg",
             chefSpecial: false,
           },
           {
@@ -1103,7 +1109,7 @@ const barMenuData = [
             fullDesc:
               "The Glenlivet 12 is a classic Speyside whisky with a smooth, fruity profile and delicate floral notes.",
             metrics: "30 ml - $10.99 | 60 ml - $19.99",
-            image: "./assets/img/modal-images/glenlivet-12.jpg",
+            image: "./assets/img/modal-images/bar-menu/glenlivet-12.jpg",
             chefSpecial: false,
           },
           {
@@ -1114,7 +1120,7 @@ const barMenuData = [
             fullDesc:
               "Glenfiddich 12-year-old offers a smooth, mellow flavor with a fresh pear note and creamy butterscotch finish.",
             metrics: "30 ml - $11.49 | 60 ml - $20.49",
-            image: "./assets/img/modal-images/glenfiddich-12.jpg",
+            image: "./assets/img/modal-images/bar-menu/glenfiddich-12.jpg",
             chefSpecial: false,
           },
         ],
@@ -1132,7 +1138,7 @@ const barMenuData = [
             fullDesc:
               "Johnnie Walker Black Label combines smoothness and complexity, offering rich smoky and malty flavors with a touch of sweetness.",
             metrics: "30 ml - $9.99 | 60 ml - $17.99",
-            image: "./assets/img/modal-images/jw-black-label.jpg",
+            image: "./assets/img/modal-images/bar-menu/jw-black-label.jpg",
             chefSpecial: false,
           },
           {
@@ -1143,7 +1149,7 @@ const barMenuData = [
             fullDesc:
               "Chivas Regal 12 is a well-rounded blend, known for its smooth, fruity profile with honey and vanilla undertones.",
             metrics: "30 ml - $8.99 | 60 ml - $15.99",
-            image: "./assets/img/modal-images/chivas-12.jpg",
+            image: "./assets/img/modal-images/bar-menu/chivas-12.jpg",
             chefSpecial: false,
           },
           {
@@ -1154,7 +1160,7 @@ const barMenuData = [
             fullDesc:
               "Dewar's 12-year-old offers a smooth and balanced experience with honey and floral notes, and a light smoky finish.",
             metrics: "30 ml - $8.49 | 60 ml - $14.99",
-            image: "./assets/img/modal-images/dewars-12.jpg",
+            image: "./assets/img/modal-images/bar-menu/dewars-12.jpg",
             chefSpecial: false,
           },
           {
@@ -1165,7 +1171,7 @@ const barMenuData = [
             fullDesc:
               "Chivas Regal 18-year-old is an opulent blend with rich, complex flavors of dark chocolate and dried fruits, perfect for special occasions.",
             metrics: "30 ml - $14.99 | 60 ml - $27.99",
-            image: "./assets/img/modal-images/chivas-18.jpg",
+            image: "./assets/img/modal-images/bar-menu/chivas-18.jpg",
             chefSpecial: false,
           },
           {
@@ -1176,7 +1182,7 @@ const barMenuData = [
             fullDesc:
               "Dewar's 18 offers a richly smooth profile with hints of honey and a smoky finish, perfect for those who appreciate a refined blend.",
             metrics: "30 ml - $16.49 | 60 ml - $28.99",
-            image: "./assets/img/modal-images/dewars-18.jpg",
+            image: "./assets/img/modal-images/bar-menu/dewars-18.jpg",
             chefSpecial: false,
           },
           {
@@ -1187,7 +1193,7 @@ const barMenuData = [
             fullDesc:
               "Monkey Shoulder is a smooth, triple-malt blend with a mellow profile, featuring vanilla and honey with a hint of spice.",
             metrics: "30 ml - $9.49 | 60 ml - $16.99",
-            image: "./assets/img/modal-images/monkey-shoulder.jpg",
+            image: "./assets/img/modal-images/bar-menu/monkey-shoulder.jpg",
             chefSpecial: false,
           },
           {
@@ -1198,7 +1204,7 @@ const barMenuData = [
             fullDesc:
               "Johnnie Walker Red Label offers a bold, peppery flavor with smoky undertones and a touch of fruit, ideal for mixing.",
             metrics: "30 ml - $7.99 | 60 ml - $13.99",
-            image: "./assets/img/modal-images/jw-red-label.jpg",
+            image: "./assets/img/modal-images/bar-menu/jw-red-label.jpg",
             chefSpecial: false,
           },
           {
@@ -1209,7 +1215,7 @@ const barMenuData = [
             fullDesc:
               "Ballantine’s Finest is a smooth, well-rounded blend with subtle honey flavors and a hint of spice and smoke.",
             metrics: "30 ml - $7.49 | 60 ml - $13.49",
-            image: "./assets/img/modal-images/ballantines-finest.jpg",
+            image: "./assets/img/modal-images/bar-menu/ballantines-finest.jpg",
             chefSpecial: false,
           },
           {
@@ -1220,7 +1226,7 @@ const barMenuData = [
             fullDesc:
               "Dewar's White Label is a smooth and light blend, offering notes of vanilla and pear with a gentle hint of smoke.",
             metrics: "30 ml - $7.49 | 60 ml - $13.49",
-            image: "./assets/img/modal-images/dewars-white.jpg",
+            image: "./assets/img/modal-images/bar-menu/dewars-white.jpg",
             chefSpecial: false,
           },
           {
@@ -1231,7 +1237,7 @@ const barMenuData = [
             fullDesc:
               "Johnnie Walker Gold Label Reserve offers a luxurious taste with creamy honey notes and a smooth, smoky finish.",
             metrics: "30 ml - $12.99 | 60 ml - $23.99",
-            image: "./assets/img/modal-images/jw-gold-label.jpg",
+            image: "./assets/img/modal-images/bar-menu/jw-gold-label.jpg",
             chefSpecial: false,
           },
           {
@@ -1242,7 +1248,7 @@ const barMenuData = [
             fullDesc:
               "Dewar's 15 is a rich, smooth blend with complex layers of honey, vanilla, and floral undertones, ideal for savoring slowly.",
             metrics: "30 ml - $14.49 | 60 ml - $25.99",
-            image: "./assets/img/modal-images/dewars-15.jpg",
+            image: "./assets/img/modal-images/bar-menu/dewars-15.jpg",
             chefSpecial: false,
           },
         ],
@@ -1260,7 +1266,7 @@ const barMenuData = [
             fullDesc:
               "Woodford Reserve is a premium bourbon whiskey that offers a complex and rich flavor profile, characterized by its notes of dried fruit, vanilla, and toasted oak. It's crafted using a unique grain recipe and a traditional pot still distillation process.",
             metrics: "30 ml - $8.99 | 60 ml - $15.99",
-            image: "./assets/img/modal-images/woodford-reserve.jpg",
+            image: "./assets/img/modal-images/bar-menu/woodford-reserve.jpg",
             chefSpecial: false,
           },
           {
@@ -1271,7 +1277,8 @@ const barMenuData = [
             fullDesc:
               "Jim Beam White Label is a classic bourbon whiskey that has been aged for four years to develop its light sweetness and smooth character. With notes of vanilla and oak, it's perfect for sipping or mixing in cocktails.",
             metrics: "30 ml - $6.99 | 60 ml - $12.99",
-            image: "./assets/img/modal-images/jim-beam-white-label.jpg",
+            image:
+              "./assets/img/modal-images/bar-menu/jim-beam-white-label.jpg",
             chefSpecial: false,
           },
           {
@@ -1282,7 +1289,8 @@ const barMenuData = [
             fullDesc:
               "Jack Daniel's Old No. 7 is a smooth Tennessee whiskey known for its rich caramel notes and a hint of smoke. Its distinctive flavor profile is achieved through the Lincoln County Process, which involves charcoal filtering, giving it a unique character.",
             metrics: "30 ml - $7.99 | 60 ml - $14.99",
-            image: "./assets/img/modal-images/jack-daniels-old-no-7.jpg",
+            image:
+              "./assets/img/modal-images/bar-menu/jack-daniels-old-no-7.jpg",
             chefSpecial: false,
           },
           {
@@ -1293,7 +1301,7 @@ const barMenuData = [
             fullDesc:
               "Paul John Nirvana is a tropical single malt whisky from India, offering a unique flavor profile with hints of caramel, honey, and dried fruits. Crafted using traditional methods, it reflects the rich heritage of Indian distillation.",
             metrics: "30 ml - $9.49 | 60 ml - $16.49",
-            image: "./assets/img/modal-images/paul-john-nirvana.jpg",
+            image: "./assets/img/modal-images/bar-menu/paul-john-nirvana.jpg",
             chefSpecial: false,
           },
           {
@@ -1304,7 +1312,7 @@ const barMenuData = [
             fullDesc:
               "Suntory Toki is a blended whisky that captures the essence of Japanese craftsmanship. With a crisp and refreshing taste, it features a blend of malt and grain whiskies, offering subtle notes of green apple, honey, and citrus.",
             metrics: "30 ml - $10.99 | 60 ml - $19.99",
-            image: "./assets/img/modal-images/suntory-toki.jpg",
+            image: "./assets/img/modal-images/bar-menu/suntory-toki.jpg",
             chefSpecial: false,
           },
           {
@@ -1315,7 +1323,8 @@ const barMenuData = [
             fullDesc:
               "Dewars 8 Japanese Smooth is a unique blend of Scotch whisky aged for eight years, influenced by Japanese craftsmanship. It delivers a rich and smooth palate with floral notes and a light finish, making it ideal for sipping neat or in cocktails.",
             metrics: "30 ml - $11.49 | 60 ml - $20.49",
-            image: "./assets/img/modal-images/dewars-8-japanese-smooth.jpg",
+            image:
+              "./assets/img/modal-images/bar-menu/dewars-8-japanese-smooth.jpg",
             chefSpecial: false,
           },
           {
@@ -1326,7 +1335,8 @@ const barMenuData = [
             fullDesc:
               "Suntory Hibiki Harmony is a blended whisky that harmonizes various malt and grain whiskies from the Yamazaki, Hakushu, and Chichibu distilleries. It boasts a complex flavor profile with notes of floral, honey, and a hint of oak, making it a true masterpiece of Japanese whisky.",
             metrics: "30 ml - $15.99 | 60 ml - $29.99",
-            image: "./assets/img/modal-images/suntory-hibiki-harmony.jpg",
+            image:
+              "./assets/img/modal-images/bar-menu/suntory-hibiki-harmony.jpg",
             chefSpecial: false,
           },
         ],
@@ -1346,7 +1356,7 @@ const barMenuData = [
         fullDesc:
           "Hennessy V.S is a classic cognac with a smooth and robust profile, featuring subtle notes of vanilla, almond, and oak.",
         metrics: "30 ml - $12.99 | 60 ml - $22.99",
-        image: "./assets/img/modal-images/hennessy-vs.jpg",
+        image: "./assets/img/modal-images/bar-menu/hennessy-vs.jpg",
         chefSpecial: false,
       },
       {
@@ -1357,7 +1367,7 @@ const barMenuData = [
         fullDesc:
           "Remy Martin V.S.O.P offers a balanced flavor profile with hints of ripe fruit, vanilla, and a touch of spice, perfect for sipping.",
         metrics: "30 ml - $13.99 | 60 ml - $23.99",
-        image: "./assets/img/modal-images/remy-martin-vsop.jpg",
+        image: "./assets/img/modal-images/bar-menu/remy-martin-vsop.jpg",
         chefSpecial: false,
       },
       {
@@ -1368,7 +1378,7 @@ const barMenuData = [
         fullDesc:
           "ST. Remy offers a rich and smooth taste, with subtle fruit and vanilla notes, making it ideal for sipping or mixing.",
         metrics: "30 ml - $7.99 | 60 ml - $14.99",
-        image: "./assets/img/modal-images/st-remy.jpg",
+        image: "./assets/img/modal-images/bar-menu/st-remy.jpg",
         chefSpecial: false,
       },
       {
@@ -1379,7 +1389,7 @@ const barMenuData = [
         fullDesc:
           "La Botija Quebranta is a traditional Peruvian pisco, known for its fruity and floral notes, making it a favorite in classic pisco cocktails.",
         metrics: "30 ml - $9.99 | 60 ml - $17.99",
-        image: "./assets/img/modal-images/la-botija-quebranta.jpg",
+        image: "./assets/img/modal-images/bar-menu/la-botija-quebranta.jpg",
         chefSpecial: false,
       },
     ],
@@ -1397,7 +1407,7 @@ const barMenuData = [
         fullDesc:
           "Baileys Irish Cream is the original Irish cream liqueur, crafted from a blend of smooth Irish whiskey, fresh cream, and chocolate. Its rich and creamy texture makes it perfect for sipping, over ice, or in coffee.",
         metrics: "30 ml - $6.99 | 60 ml - $12.99",
-        image: "./assets/img/modal-images/baileys-irish-cream.jpg",
+        image: "./assets/img/modal-images/bar-menu/baileys-irish-cream.jpg",
         chefSpecial: false,
       },
       {
@@ -1408,7 +1418,7 @@ const barMenuData = [
         fullDesc:
           "Kahlua Coffee Liqueur is a Mexican coffee-flavored liqueur made from Arabica coffee beans and sugarcane rum. Its rich and sweet flavor makes it an excellent addition to cocktails, desserts, or enjoyed straight.",
         metrics: "30 ml - $5.99 | 60 ml - $10.99",
-        image: "./assets/img/modal-images/kahlua-coffee-liqueur.jpg",
+        image: "./assets/img/modal-images/bar-menu/kahlua-coffee-liqueur.jpg",
         chefSpecial: false,
       },
       {
@@ -1419,7 +1429,7 @@ const barMenuData = [
         fullDesc:
           "Luxardo Sambuca Dei Cesari is a classic Italian liqueur with a strong anise flavor. Traditionally served with coffee beans, it can be enjoyed neat, on the rocks, or in cocktails, offering a unique and aromatic experience.",
         metrics: "30 ml - $7.49 | 60 ml - $13.49",
-        image: "./assets/img/modal-images/luxardo-sambuca.jpg",
+        image: "./assets/img/modal-images/bar-menu/luxardo-sambuca.jpg",
         chefSpecial: false,
       },
       {
@@ -1430,7 +1440,7 @@ const barMenuData = [
         fullDesc:
           "Jack Daniel Fire combines the classic flavor of Jack Daniel's Tennessee whiskey with a bold cinnamon flavor, creating a liqueur that’s perfect for sipping or mixing in cocktails. Its spicy finish adds a unique twist to any drink.",
         metrics: "30 ml - $6.99 | 60 ml - $12.99",
-        image: "./assets/img/modal-images/jack-daniel-fire.jpg",
+        image: "./assets/img/modal-images/bar-menu/jack-daniel-fire.jpg",
         chefSpecial: false,
       },
       {
@@ -1441,7 +1451,7 @@ const barMenuData = [
         fullDesc:
           "Jack Daniel Honey is a liqueur that combines the rich flavor of Jack Daniel's Tennessee whiskey with sweet honey. Its smooth and sweet profile makes it an excellent choice for sipping, cocktails, or adding a touch of sweetness to your favorite beverages.",
         metrics: "30 ml - $6.99 | 60 ml - $12.99",
-        image: "./assets/img/modal-images/jack-daniel-honey.jpg",
+        image: "./assets/img/modal-images/bar-menu/jack-daniel-honey.jpg",
         chefSpecial: false,
       },
       {
@@ -1452,7 +1462,8 @@ const barMenuData = [
         fullDesc:
           "Jack Daniel's Green Apple is a refreshing liqueur that blends the crisp flavor of green apples with the classic taste of Jack Daniel's whiskey. Perfect for cocktails, this liqueur adds a fruity twist to any drink.",
         metrics: "30 ml - $6.99 | 60 ml - $12.99",
-        image: "./assets/img/modal-images/jack-daniels-green-apple.jpg",
+        image:
+          "./assets/img/modal-images/bar-menu/jack-daniels-green-apple.jpg",
         chefSpecial: false,
       },
       {
@@ -1463,7 +1474,7 @@ const barMenuData = [
         fullDesc:
           "Jagermeister is a herbal liqueur from Germany, made from a secret blend of 56 herbs, fruits, and spices. Its unique flavor profile and herbal complexity make it perfect for sipping ice-cold, in cocktails, or as a digestif.",
         metrics: "30 ml - $5.99 | 60 ml - $10.99",
-        image: "./assets/img/modal-images/jagermeister.jpg",
+        image: "./assets/img/modal-images/bar-menu/jagermeister.jpg",
         chefSpecial: false,
       },
       {
@@ -1474,7 +1485,7 @@ const barMenuData = [
         fullDesc:
           "Absinthe is a highly alcoholic herbal liqueur that features a strong anise flavor and a unique preparation style. Traditionally served with sugar and water, it has a storied history as a favorite among artists and writers.",
         metrics: "30 ml - $8.99 | 60 ml - $15.99",
-        image: "./assets/img/modal-images/absinthe.jpg",
+        image: "./assets/img/modal-images/bar-menu/absinthe.jpg",
         chefSpecial: false,
       },
     ],
@@ -1492,7 +1503,7 @@ const barMenuData = [
         fullDesc:
           "Campari is a bitter liqueur known for its vibrant red color and complex flavor profile, featuring herbal and citrus notes. It is a key ingredient in many classic cocktails, such as the Negroni and the Americano, and is often enjoyed on the rocks with a slice of orange.",
         metrics: "30 ml - $6.49 | 60 ml - $11.99",
-        image: "./assets/img/modal-images/campari.jpg",
+        image: "./assets/img/modal-images/bar-menu/campari.jpg",
         chefSpecial: false,
       },
       {
@@ -1503,7 +1514,7 @@ const barMenuData = [
         fullDesc:
           "Aperol is a vibrant orange aperitif known for its sweet and slightly bitter flavor, making it a perfect choice for summer cocktails. Best enjoyed in an Aperol Spritz, it combines well with prosecco and soda for a refreshing drink.",
         metrics: "30 ml - $5.99 | 60 ml - $10.99",
-        image: "./assets/img/modal-images/aperol.jpg",
+        image: "./assets/img/modal-images/bar-menu/aperol.jpg",
         chefSpecial: false,
       },
       {
@@ -1514,7 +1525,7 @@ const barMenuData = [
         fullDesc:
           "Martini Extra Dry is a premium dry vermouth that is crisp, aromatic, and essential for crafting the perfect martini. With its delicate balance of botanicals and flavors, it's perfect for enhancing your favorite cocktails.",
         metrics: "30 ml - $6.49 | 60 ml - $11.49",
-        image: "./assets/img/modal-images/martini-extra-dry.jpg",
+        image: "./assets/img/modal-images/bar-menu/martini-extra-dry.jpg",
         chefSpecial: false,
       },
       {
@@ -1525,7 +1536,7 @@ const barMenuData = [
         fullDesc:
           "Martini Bianco is a sweet vermouth characterized by its smooth taste and notes of vanilla, herbs, and spices. It can be enjoyed straight, on the rocks, or as a key ingredient in cocktails, providing a sweet and aromatic flavor.",
         metrics: "30 ml - $6.49 | 60 ml - $11.49",
-        image: "./assets/img/modal-images/martini-bianco.jpg",
+        image: "./assets/img/modal-images/bar-menu/martini-bianco.jpg",
         chefSpecial: false,
       },
       {
@@ -1536,7 +1547,7 @@ const barMenuData = [
         fullDesc:
           "Martini Rosso is a sweet vermouth with a rich, dark color and complex flavor profile, featuring deep herbal notes and a hint of sweetness. It's perfect for classic cocktails like the Negroni or enjoyed straight over ice.",
         metrics: "30 ml - $6.49 | 60 ml - $11.49",
-        image: "./assets/img/modal-images/martini-rosso.jpg",
+        image: "./assets/img/modal-images/bar-menu/martini-rosso.jpg",
         chefSpecial: false,
       },
     ],
@@ -1554,7 +1565,7 @@ const barMenuData = [
         fullDesc:
           "JagerBomb is an exciting shooter that combines a shot of Jägermeister with an energy drink, typically dropped into a glass of beer. This high-energy drink is popular in bars and is known for its bold flavor and energizing effects.",
         metrics: "30 ml - $5.99 | 60 ml - $10.99",
-        image: "./assets/img/modal-images/jagerbomb.jpg",
+        image: "./assets/img/modal-images/bar-menu/jagerbomb.jpg",
         chefSpecial: false,
       },
       {
@@ -1565,7 +1576,7 @@ const barMenuData = [
         fullDesc:
           "The Irish Car Bomb is a fun and popular shooter that consists of a shot of Irish whiskey and Irish cream liqueur dropped into a pint of stout beer. When mixed together, it creates a deliciously creamy and chocolaty drink, perfect for celebrations.",
         metrics: "30 ml - $5.99 | 60 ml - $10.99",
-        image: "./assets/img/modal-images/irish-car-bomb.jpg",
+        image: "./assets/img/modal-images/bar-menu/irish-car-bomb.jpg",
         chefSpecial: false,
       },
       {
@@ -1576,7 +1587,7 @@ const barMenuData = [
         fullDesc:
           "The Pickle Back is a unique shooter that consists of a shot of whiskey followed by a shot of pickle brine. This tangy and refreshing combination enhances the whiskey's flavor while offering a savory twist.",
         metrics: "30 ml - $5.49 | 60 ml - $9.99",
-        image: "./assets/img/modal-images/pickle-back.jpg",
+        image: "./assets/img/modal-images/bar-menu/pickle-back.jpg",
         chefSpecial: false,
       },
       {
@@ -1587,7 +1598,7 @@ const barMenuData = [
         fullDesc:
           "Tropical Punk is a colorful and fruity shooter made from a blend of various fruity liqueurs, providing a sweet and refreshing flavor. It's perfect for summer parties and adds a fun touch to any gathering.",
         metrics: "30 ml - $5.99 | 60 ml - $10.99",
-        image: "./assets/img/modal-images/tropical-punk.jpg",
+        image: "./assets/img/modal-images/bar-menu/tropical-punk.jpg",
         chefSpecial: false,
       },
     ],
@@ -1605,7 +1616,7 @@ const barMenuData = [
         fullDesc:
           "Kingfisher Ultra is a light and refreshing lager beer that boasts a smooth taste with just a hint of bitterness. Perfect for hot days or casual gatherings, it pairs well with spicy foods and makes for an ideal companion at any celebration.",
         metrics: "330 ml - $4.99",
-        image: "./assets/img/modal-images/kingfisher-ultra.jpg",
+        image: "./assets/img/modal-images/bar-menu/kingfisher-ultra.jpg",
         chefSpecial: false,
       },
       {
@@ -1616,7 +1627,7 @@ const barMenuData = [
         fullDesc:
           "Budweiser is a classic American lager known for its smooth taste and crisp finish. Brewed with a blend of premium hops and barley, it's the perfect beer for any occasion, from casual barbecues to major events.",
         metrics: "330 ml - $4.99",
-        image: "./assets/img/modal-images/budweiser.jpg",
+        image: "./assets/img/modal-images/bar-menu/budweiser.jpg",
         chefSpecial: false,
       },
       {
@@ -1627,7 +1638,7 @@ const barMenuData = [
         fullDesc:
           "Corona Extra is a pale lager from Mexico, renowned for its crisp and refreshing taste. Often enjoyed with a wedge of lime, this beer is synonymous with relaxation and beach vibes, making it a popular choice for sunny days.",
         metrics: "330 ml - $5.49",
-        image: "./assets/img/modal-images/corona-extra.jpg",
+        image: "./assets/img/modal-images/bar-menu/corona-extra.jpg",
         chefSpecial: false,
       },
       {
@@ -1638,7 +1649,7 @@ const barMenuData = [
         fullDesc:
           "Hoegaarden is a traditional Belgian white beer, brewed with wheat and spiced with coriander and orange peel. It has a smooth and fruity taste with a refreshing finish, making it perfect for warm weather and outdoor gatherings.",
         metrics: "330 ml - $5.99",
-        image: "./assets/img/modal-images/hoegaarden.jpg",
+        image: "./assets/img/modal-images/bar-menu/hoegaarden.jpg",
         chefSpecial: false,
       },
       {
@@ -1649,7 +1660,7 @@ const barMenuData = [
         fullDesc:
           "Heineken is a globally recognized lager with a crisp and refreshing taste. Brewed with high-quality ingredients, it delivers a balanced flavor that makes it a favorite among beer lovers worldwide. Enjoy it chilled for the best experience.",
         metrics: "330 ml - $5.49",
-        image: "./assets/img/modal-images/heineken.jpg",
+        image: "./assets/img/modal-images/bar-menu/heineken.jpg",
         chefSpecial: false,
       },
     ],
@@ -1670,7 +1681,7 @@ const barMenuData = [
             fullDesc:
               "La Vielle Ferme Famille Perrin Rouge is a delightful red blend from the Rhône Valley, offering a smooth and fruity palate with hints of spice and soft tannins. It's an excellent choice for pairing with a variety of dishes, making it a versatile option for any occasion.",
             metrics: "750 ml - $14.99",
-            image: "./assets/img/modal-images/la-vielle-ferme-red.jpg",
+            image: "./assets/img/modal-images/bar-menu/la-vielle-ferme-red.jpg",
             chefSpecial: false,
           },
           {
@@ -1681,7 +1692,7 @@ const barMenuData = [
             fullDesc:
               "Pasqua Merlot is a rich and smooth red wine, characterized by its ripe fruit flavors and velvety texture. With soft tannins and a lingering finish, it's perfect for sipping on its own or pairing with red meats and pasta dishes.",
             metrics: "750 ml - $15.99",
-            image: "./assets/img/modal-images/pasqua-merlot.jpg",
+            image: "./assets/img/modal-images/bar-menu/pasqua-merlot.jpg",
             chefSpecial: false,
           },
           {
@@ -1692,7 +1703,7 @@ const barMenuData = [
             fullDesc:
               "Pasqua Chianti DOCG is a classic Italian red wine that showcases vibrant cherry flavors and a lively acidity. With a medium body and subtle herbal notes, it pairs wonderfully with Italian cuisine, making it a staple for any pasta lover.",
             metrics: "750 ml - $16.49",
-            image: "./assets/img/modal-images/pasqua-chianti.jpg",
+            image: "./assets/img/modal-images/bar-menu/pasqua-chianti.jpg",
             chefSpecial: false,
           },
           {
@@ -1703,7 +1714,8 @@ const barMenuData = [
             fullDesc:
               "Jacky Marteau AOC Touraine is a charming red wine known for its refreshing character and elegant fruit flavors. With a crisp finish and well-balanced structure, it makes an excellent companion for grilled meats and cheese platters.",
             metrics: "750 ml - $17.99",
-            image: "./assets/img/modal-images/jacky-marteau-touraine.jpg",
+            image:
+              "./assets/img/modal-images/bar-menu/jacky-marteau-touraine.jpg",
             chefSpecial: false,
           },
           {
@@ -1714,7 +1726,8 @@ const barMenuData = [
             fullDesc:
               "Clarendelle AOC Bordeaux Rouge is a refined blend that showcases the best of Bordeaux's rich terroir. With full-bodied depth, notes of dark fruit, and a touch of oak, it offers a complex flavor profile that pairs beautifully with hearty dishes.",
             metrics: "750 ml - $19.99",
-            image: "./assets/img/modal-images/clarendelle-bordeaux.jpg",
+            image:
+              "./assets/img/modal-images/bar-menu/clarendelle-bordeaux.jpg",
             chefSpecial: false,
           },
         ],
@@ -1732,7 +1745,8 @@ const barMenuData = [
             fullDesc:
               "La Vielle Ferme Famille Perrin Blanc is a delightful white blend that offers a crisp and refreshing palate. With fruity and floral notes balanced by zesty acidity, it pairs wonderfully with seafood dishes, salads, and light appetizers.",
             metrics: "750 ml - $14.99",
-            image: "./assets/img/modal-images/la-vielle-ferme-white.jpg",
+            image:
+              "./assets/img/modal-images/bar-menu/la-vielle-ferme-white.jpg",
             chefSpecial: false,
           },
           {
@@ -1743,7 +1757,7 @@ const barMenuData = [
             fullDesc:
               "Pasqua Pinot Grigio is a refreshing Italian white wine, known for its vibrant citrus notes and crisp finish. Ideal for sipping on its own or pairing with light pasta dishes and seafood, it’s a great choice for warm weather gatherings.",
             metrics: "750 ml - $15.49",
-            image: "./assets/img/modal-images/pasqua-pinot-grigio.jpg",
+            image: "./assets/img/modal-images/bar-menu/pasqua-pinot-grigio.jpg",
             chefSpecial: false,
           },
           {
@@ -1754,7 +1768,8 @@ const barMenuData = [
             fullDesc:
               "Jacky Marteau AOC Touraine Sauvignon Blanc is an aromatic white wine, bursting with crisp acidity and notes of green apple and citrus. Its refreshing character makes it a perfect match for shellfish and fresh salads.",
             metrics: "750 ml - $16.49",
-            image: "./assets/img/modal-images/jacky-marteau-sauvignon.jpg",
+            image:
+              "./assets/img/modal-images/bar-menu/jacky-marteau-sauvignon.jpg",
             chefSpecial: false,
           },
           {
@@ -1765,7 +1780,7 @@ const barMenuData = [
             fullDesc:
               "Bex Nahe Riesling is a beautifully balanced white wine that exhibits delicate sweetness paired with fruity and floral notes. With a touch of minerality, it’s an excellent choice for spicy dishes and Asian cuisine.",
             metrics: "750 ml - $18.99",
-            image: "./assets/img/modal-images/bex-riesling.jpg",
+            image: "./assets/img/modal-images/bar-menu/bex-riesling.jpg",
             chefSpecial: false,
           },
           {
@@ -1776,7 +1791,7 @@ const barMenuData = [
             fullDesc:
               "Hugel Gentil Alsace Blend is a delightful white wine that brings together various grape varieties to create a harmonious and complex profile. With fruity and spicy notes complemented by a smooth finish, it pairs well with a range of dishes from grilled fish to poultry.",
             metrics: "750 ml - $21.99",
-            image: "./assets/img/modal-images/hugel-alsace.jpg",
+            image: "./assets/img/modal-images/bar-menu/hugel-alsace.jpg",
             chefSpecial: false,
           },
         ],
@@ -1794,7 +1809,8 @@ const barMenuData = [
             fullDesc:
               "La Vielle Ferme Famille Perrin Rosé is a charming and refreshing wine that delights the palate with its crispness and flavors of strawberries and cherries. Ideal for sipping on a sunny afternoon, it pairs beautifully with light salads and seafood dishes.",
             metrics: "750 ml - $14.99",
-            image: "./assets/img/modal-images/la-vielle-ferme-rose.jpg",
+            image:
+              "./assets/img/modal-images/bar-menu/la-vielle-ferme-rose.jpg",
             chefSpecial: false,
           },
           {
@@ -1805,7 +1821,8 @@ const barMenuData = [
             fullDesc:
               "Domaine Montrose Rosé is a beautifully crafted wine that showcases elegant floral notes and a refreshing character. Its delicate flavors and smooth finish make it a perfect match for grilled vegetables, seafood, or simply enjoyed on its own.",
             metrics: "750 ml - $16.99",
-            image: "./assets/img/modal-images/domaine-montrose-rose.jpg",
+            image:
+              "./assets/img/modal-images/bar-menu/domaine-montrose-rose.jpg",
             chefSpecial: false,
           },
         ],
@@ -1823,7 +1840,7 @@ const barMenuData = [
             fullDesc:
               "Grover Zampa is a renowned Indian wine that delivers a rich and complex palate, showcasing bold flavors of dark fruits with hints of spice. This full-bodied wine is perfect for pairing with grilled meats and hearty dishes.",
             metrics: "750 ml - $19.99",
-            image: "./assets/img/modal-images/grover-zampa.jpg",
+            image: "./assets/img/modal-images/bar-menu/grover-zampa.jpg",
             chefSpecial: false,
           },
           {
@@ -1834,7 +1851,7 @@ const barMenuData = [
             fullDesc:
               "Fratelli wine embodies the essence of Indian terroir, offering a smooth and balanced taste with a delightful fruity finish. Perfect for any occasion, it pairs well with a variety of cuisines, from Indian to international.",
             metrics: "750 ml - $17.49",
-            image: "./assets/img/modal-images/fratelli.jpg",
+            image: "./assets/img/modal-images/bar-menu/fratelli.jpg",
             chefSpecial: false,
           },
           {
@@ -1845,7 +1862,7 @@ const barMenuData = [
             fullDesc:
               "Sula is a trailblazer in Indian winemaking, known for its fresh and fruity profile complemented by vibrant acidity. It’s an excellent choice for pairing with spicy Indian dishes, seafood, or enjoyed on its own.",
             metrics: "750 ml - $15.99",
-            image: "./assets/img/modal-images/sula.jpg",
+            image: "./assets/img/modal-images/bar-menu/sula.jpg",
             chefSpecial: false,
           },
         ],

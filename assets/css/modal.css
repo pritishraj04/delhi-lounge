@@ -116,6 +116,14 @@
   width: 100%;
   min-height: 287px;
   height: 370px;
+  object-fit: cover;
+  object-position: center;
+}
+.bar-menu-modal-image {
+  object-fit: contain;
+}
+.modal-image[src=""] {
+  display: none;
 }
 .modal-details {
   padding: 20px 15px;

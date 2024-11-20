@@ -78,6 +78,9 @@ body {
   background-repeat: no-repeat;
   background-size: 10%;
 }
+.loading {
+  height: 370px;
+}
 .d-none {
   display: none;
 }

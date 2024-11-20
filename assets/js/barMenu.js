@@ -325,6 +325,9 @@ const openModal = (e) => {
       modalCategory.textContent = category;
       modalOrigin.textContent = data.origin;
       modalTagline.textContent = data.tagline;
+      modalImage.onerror = () => {
+        modalImage.src = "";
+      };
       modalImage.src = imageExists(data.image)
         ? data.image
         : "./assets/img/menu-images/placeholder.svg";
