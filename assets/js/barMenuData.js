@@ -13,7 +13,7 @@ const barMenuData = [
             tagline: "A savory martini with an Indian twist.",
             desc: "Bold flavors with a touch of spice.",
             fullDesc:
-              "Lal Saag Martini blends the boldness of Indian spices with the elegance of a martini, creating a unique and flavorful cocktail experience.",
+              "Lal Saag Martini blends the earthiness of Indian greens, with the boldness of the land’s spices to birth an elegant martini with a unique flavour profile.",
             metrics: "30 ml - $9.99 | 60 ml - $16.99",
             image: "./assets/img/modal-images/bar-menu/laal-saag-martini.jpg",
             chefSpecial: false,
@@ -35,7 +35,7 @@ const barMenuData = [
             tagline: "Inspired by traditional Indian tea.",
             desc: "Warm spices with a balanced sweetness.",
             fullDesc:
-              "Liptain Di Chah combines the comforting flavors of Indian tea with a cocktail twist, offering a warm and spiced drink with balanced sweetness.",
+              "Liptain Di Chah brings the warmth of Indian tea to your palate in a spiced drink that is also sweetly well balanced. Served with a savoury matthi.",
             metrics: "30 ml - $10.99 | 60 ml - $18.99",
             image: "./assets/img/modal-images/bar-menu/lipton-di-chai.jpg",
             chefSpecial: false,
@@ -57,7 +57,7 @@ const barMenuData = [
             tagline: "A refreshing julep with Kashmiri kahwa flavors.",
             desc: "Delicate spices with a hint of mint.",
             fullDesc:
-              "The Kashmiri Kahwa Julep captures the essence of Kashmiri kahwa tea in a refreshing cocktail, with hints of spices and mint.",
+              "The Kashmiri Kahwa Julep captures the essence of Kashmiri kahwa tea in a gourmet cocktail, with hints of spices and a generous dose of rose.",
             metrics: "30 ml - $9.99 | 60 ml - $16.99",
             image:
               "./assets/img/modal-images/bar-menu/kashmiri-kahwa-julep.jpg",
@@ -75,12 +75,12 @@ const barMenuData = [
             chefSpecial: false,
           },
           {
-            title: "Tamrind Whisky Sour",
+            title: "Tamarind Whisky Sour",
             origin: "India",
             tagline: "A tangy twist on the whisky sour.",
             desc: "Whisky with a tangy tamarind kick.",
             fullDesc:
-              "The Tamrind Whisky Sour brings a unique twist to the classic whisky sour, adding tangy tamarind for a flavorful kick.",
+              "The Tamarind Whisky Sour brings a unique twist to the classic whisky sour, adding tangy tamarind for a flavorful kick.",
             metrics: "30 ml - $10.99 | 60 ml - $18.99",
             image: "./assets/img/modal-images/bar-menu/tamring-whisky-sour.jpg",
             chefSpecial: false,
