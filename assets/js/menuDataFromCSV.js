@@ -81,8 +81,6 @@ function loadCSVAndGenerateMenuData() {
       header: true,
       skipEmptyLines: true,
       complete: function (result) {
-        console.log("result.data: ", result.data);
-
         const transformedData = transformCSVtoMenuData(result.data);
         resolve(transformedData); // Resolve the Promise with transformed data
       },
