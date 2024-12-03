@@ -436,18 +436,18 @@ const menuData = [
         image: "./assets/img/modal-images/food-menu/pani-puri.jpg",
         chefSpecial: false,
       },
+      // {
+      //   title: "Purani Dilli ke Aloo Kachalu",
+      //   origin: "Vegetarian",
+      //   desc: "Tender potatoes, crisp fried and tossed with spices and chutneys.",
+      //   fullDesc:
+      //     "Crisp fried potatoes tossed in spicy chutneys and aromatic spices, offering a delightful taste of Old Delhi street food.",
+      //   metrics: "185 Kcal | 180-200g | $9",
+      //   image: "./assets/img/modal-images/food-menu/aloo-kachalu.jpg",
+      //   chefSpecial: false,
+      // },
       {
-        title: "Purani Dilli ke Aloo Kachalu",
-        origin: "Vegetarian",
-        desc: "Tender potatoes, crisp fried and tossed with spices and chutneys.",
-        fullDesc:
-          "Crisp fried potatoes tossed in spicy chutneys and aromatic spices, offering a delightful taste of Old Delhi street food.",
-        metrics: "185 Kcal | 180-200g | $9",
-        image: "./assets/img/modal-images/food-menu/aloo-kachalu.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Papdi Chaat",
+        title: "Bhalla Papdi Chaat",
         origin: "Vegetarian",
         desc: "Crispy discs of refined flour topped with potato mixture, chutneys, yoghurt and vermicelli.",
         fullDesc:
