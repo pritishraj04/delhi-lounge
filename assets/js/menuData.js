@@ -463,7 +463,7 @@ const menuData = [
         fullDesc:
           "Crispy stuffed potato patties topped with white peas, a dollop of whipped yogurt, and a drizzle of tangy chutneys.",
         metrics: "111 Kcal | 120-150g | $7",
-        image: "./assets/img/modal-images/food-menu/aloo-tikki.jpg",
+        image: "./assets/img/modal-images/food-menu/karol-bagh-aloo-tikki.jpg",
         chefSpecial: true,
       },
       {
