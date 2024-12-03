@@ -18,6 +18,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/karol-bagh-aloo-tikki.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Palak Patta Chaat",
@@ -29,6 +30,7 @@ const menuData = [
             metrics: "201 Kcal | 150-160g | $7.49",
             image: "./assets/img/modal-images/food-menu/palak-patta-chaat.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Khumbh ki Galouti",
@@ -40,6 +42,7 @@ const menuData = [
             metrics: "300 Kcal | 250g | $8.99",
             image: "./assets/img/modal-images/food-menu/khumbh-ki-galouti.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Truffle Malai Broccoli",
@@ -52,6 +55,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/truffle-malai-broccoli.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Tandoori Russet Potatoes",
@@ -64,6 +68,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/tandoori-russet-potatoes.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Saloni Salmon Tikka",
@@ -76,6 +81,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/saloni-salmon-tikka.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Tandoori Quail",
@@ -87,6 +93,7 @@ const menuData = [
             metrics: "704 Kcal | 220-260g | $15.99",
             image: "./assets/img/modal-images/food-menu/tandoori-quail.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Mutton Galouti Kebab",
@@ -99,6 +106,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/mutton-galauti-kebab.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Purani Dilli Chole Bhature",
@@ -111,6 +119,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/purani-dilli-chole-bhature.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Almond Gucchi Korma",
@@ -123,6 +132,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/almond-gucchi-korma.jpg",
             chefSpecial: true,
+            vegan: true,
           },
         ],
       },
@@ -141,6 +151,7 @@ const menuData = [
             metrics: "955 Kcal | 300-350g | $13.99",
             image: "./assets/img/modal-images/food-menu/basil-paneer-rarah.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Andhra Scallops",
@@ -152,6 +163,7 @@ const menuData = [
             metrics: "1020 Kcal | 380-400g | $16.99",
             image: "./assets/img/modal-images/food-menu/andhra-scallops.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Chilian Sea Bass Coconut Curry",
@@ -164,6 +176,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/chilian-sea-bass-coconut-curry.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Lagan ki Bataer",
@@ -175,6 +188,7 @@ const menuData = [
             metrics: "1340 Kcal | 380-400g | $17.99",
             image: "./assets/img/modal-images/food-menu/lagan-ki-bataer.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "The Delhi Lounge Butter Chicken",
@@ -186,6 +200,7 @@ const menuData = [
             metrics: "1240 Kcal | 380-400g | $14.99",
             image: "./assets/img/modal-images/food-menu/butter-chicken.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "The Delhi Lounge Tawa Chicken",
@@ -197,6 +212,7 @@ const menuData = [
             metrics: "1150 Kcal | 380-400g | $12.99",
             image: "./assets/img/modal-images/food-menu/tawa-chicken.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "The Delhi Lounge Bakre ke Nakhre",
@@ -208,6 +224,7 @@ const menuData = [
             metrics: "1420 Kcal | 380-400g | $16.99",
             image: "./assets/img/modal-images/food-menu/bakre-ke-nakhre.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "The Delhi Lounge Imperial Raan",
@@ -219,6 +236,7 @@ const menuData = [
             metrics: "4950 Kcal | 1.5kg | $45.99",
             image: "./assets/img/modal-images/food-menu/imperial-raan.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "The Delhi Lounge Dal Makhani",
@@ -230,6 +248,7 @@ const menuData = [
             metrics: "810 Kcal | 250-300g | $8.99",
             image: "./assets/img/modal-images/food-menu/dal-makhani.jpg",
             chefSpecial: true,
+            vegan: true,
           },
         ],
       },
@@ -248,6 +267,7 @@ const menuData = [
             metrics: "410 Kcal | 150-180g | $12.99",
             image: "./assets/img/modal-images/food-menu/morels-pulao.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Dum Chicken Parda Biryani",
@@ -260,6 +280,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/dum-chicken-parda-biryani.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Dum Mutton Parda Biryani",
@@ -272,6 +293,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/dum-mutton-parda-biryani.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Scotch Whiskey Naan",
@@ -284,6 +306,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/scotch-whiskey-naan.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Khameeri Roti (Plain | Butter | Pistachio)",
@@ -297,6 +320,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/khamiri-roti-pistachio.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "The Delhi Lounge Chicken & Cheese Kulcha",
@@ -309,6 +333,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/chicken-cheese-kulcha.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Baileys Rasmalai",
@@ -320,6 +345,7 @@ const menuData = [
             metrics: "450 Kcal | 120-150g | $8.99",
             image: "./assets/img/modal-images/food-menu/baileys-rasmalai.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "The Delhi Lounge Kulfi Falooda",
@@ -331,6 +357,7 @@ const menuData = [
             metrics: "560 Kcal | 150g | $7.99",
             image: "./assets/img/modal-images/food-menu/kulfi-falooda.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Gulkand Rabri Mousse ē Berries & Honeycomb",
@@ -343,6 +370,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/gulkand-rabri-mouse.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Custard Gulab Jamun ē Citrus Confit & Saffron Shortbread",
@@ -355,6 +383,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/custard-gulab-jamun.jpg",
             chefSpecial: true,
+            vegan: true,
           },
         ],
       },
@@ -375,6 +404,7 @@ const menuData = [
         metrics: "226 Kcal | 200-250g | $12",
         image: "./assets/img/modal-images/food-menu/mango-avocado-salad.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Pomegranate & Quinoa Chaat Salad",
@@ -386,6 +416,7 @@ const menuData = [
         image:
           "./assets/img/modal-images/food-menu/pomegranate-quinoa-salad.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Asparagus & Coconut Shorba",
@@ -397,6 +428,7 @@ const menuData = [
         image:
           "./assets/img/modal-images/food-menu/asparagus-coconut-shorba.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Smokey Tomato Shorba",
@@ -407,6 +439,7 @@ const menuData = [
         metrics: "133 Kcal | 120-150g | $9",
         image: "./assets/img/modal-images/food-menu/smokey-tomato-shorba.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Chicken Fenugreek Shorba",
@@ -418,6 +451,7 @@ const menuData = [
         image:
           "./assets/img/modal-images/food-menu/chicken-fenugreek-shorba.jpg",
         chefSpecial: false,
+        vegan: false,
       },
     ],
   },
@@ -435,6 +469,7 @@ const menuData = [
         metrics: "250 Kcal | 200-220g | $8",
         image: "./assets/img/modal-images/food-menu/pani-puri.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       // {
       //   title: "Purani Dilli ke Aloo Kachalu",
@@ -444,7 +479,8 @@ const menuData = [
       //     "Crisp fried potatoes tossed in spicy chutneys and aromatic spices, offering a delightful taste of Old Delhi street food.",
       //   metrics: "185 Kcal | 180-200g | $9",
       //   image: "./assets/img/modal-images/food-menu/aloo-kachalu.jpg",
-      //   chefSpecial: false,
+      // chefSpecial: false,
+      // vegan: false,
       // },
       {
         title: "Bhalla Papdi Chaat",
@@ -455,6 +491,7 @@ const menuData = [
         metrics: "242 Kcal | 150-180g | $8",
         image: "./assets/img/modal-images/food-menu/papdi-chaat.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Karol Bagh Aloo Tikki",
@@ -465,6 +502,7 @@ const menuData = [
         metrics: "111 Kcal | 120-150g | $7",
         image: "./assets/img/modal-images/food-menu/karol-bagh-aloo-tikki.jpg",
         chefSpecial: true,
+        vegan: true,
       },
       {
         title: "Bhalla Papdi Chaat",
@@ -475,6 +513,7 @@ const menuData = [
         metrics: "246 Kcal | 150-180g | $9",
         image: "./assets/img/modal-images/food-menu/bhalla-papdi-chaat.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Samosa Platter",
@@ -485,6 +524,7 @@ const menuData = [
         metrics: "320 Kcal | 160g | $10",
         image: "./assets/img/modal-images/food-menu/samosa-platter.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Palak Patta Chaat",
@@ -495,6 +535,7 @@ const menuData = [
         metrics: "201 Kcal | 150-160g | $9",
         image: "./assets/img/modal-images/food-menu/palak-patta-chaat.jpg",
         chefSpecial: true,
+        vegan: true,
       },
       {
         title: "Basket Chaat",
@@ -505,6 +546,7 @@ const menuData = [
         metrics: "399 Kcal | 150-180g | $10",
         image: "./assets/img/modal-images/food-menu/basket-chaat.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Samosa Chaat",
@@ -515,6 +557,7 @@ const menuData = [
         metrics: "280 Kcal | 150-180g | $9",
         image: "./assets/img/modal-images/food-menu/samosa-chaat.jpg",
         chefSpecial: false,
+        vegan: false,
       },
     ],
   },
@@ -535,6 +578,7 @@ const menuData = [
             metrics: "300 Kcal | 250g | $12",
             image: "./assets/img/modal-images/food-menu/khumbh-ki-galouti.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Beetroot Shammi Labgeer",
@@ -545,6 +589,7 @@ const menuData = [
             metrics: "400 Kcal | 250g | $10",
             image: "./assets/img/modal-images/food-menu/beetroot-shammi.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Green Pea Mint Kebab",
@@ -556,6 +601,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/green-pea-mint-kebab.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Bullet Kebab",
@@ -566,6 +612,7 @@ const menuData = [
             metrics: "319 Kcal | 250g | $10",
             image: "./assets/img/modal-images/food-menu/bullet-kebab.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Chinatown Chili Cottage Cheese",
@@ -577,6 +624,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/chinatown-chili-cottage-cheese.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Truffle Malai Broccoli",
@@ -588,6 +636,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/truffle-malai-broccoli.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Tandoori Cottage Cheese",
@@ -599,6 +648,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/tandoori-cottage-cheese.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Tandoori Russet Potatoes",
@@ -610,6 +660,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/tandoori-russet-potatoes.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Jackfruit Tikka",
@@ -620,6 +671,7 @@ const menuData = [
             metrics: "289 Kcal | 250-280g | $10",
             image: "./assets/img/modal-images/food-menu/jackfruit-tikka.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Garden Grill Seekh Kebab",
@@ -631,6 +683,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/garden-grill-seekh-kebab.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Tandoori Salad",
@@ -641,6 +694,7 @@ const menuData = [
             metrics: "275 Kcal | 250-280g | $10",
             image: "./assets/img/modal-images/food-menu/tandoori-salad.jpg",
             chefSpecial: false,
+            vegan: false,
           },
         ],
       },
@@ -658,6 +712,7 @@ const menuData = [
             metrics: "485 Kcal | 280-300g | $18",
             image: "./assets/img/modal-images/food-menu/tandoori-prawns.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Fish Tikka",
@@ -668,6 +723,7 @@ const menuData = [
             metrics: "545 Kcal | 250-280g | $16",
             image: "./assets/img/modal-images/food-menu/fish-tikka.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Saloni Salmon Tikka",
@@ -679,6 +735,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/saloni-salmon-tikka.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Tandoori Pomfret",
@@ -689,6 +746,7 @@ const menuData = [
             metrics: "459 Kcal | 220g per piece | $22",
             image: "./assets/img/modal-images/food-menu/tandoori-pomfret.jpg",
             chefSpecial: false,
+            vegan: false,
           },
         ],
       },
@@ -706,6 +764,7 @@ const menuData = [
             metrics: "704 Kcal | 220-260g | $18",
             image: "./assets/img/modal-images/food-menu/tandoori-quail.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Chicken Tikka",
@@ -716,6 +775,7 @@ const menuData = [
             metrics: "704 Kcal | 260-280g | $16",
             image: "./assets/img/modal-images/food-menu/chicken-tikka.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Chicken Malai Tikka",
@@ -727,6 +787,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/chicken-malai-tikka.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Reshmi Seekh Kebab",
@@ -737,6 +798,7 @@ const menuData = [
             metrics: "1025 Kcal | 260-280g | $18",
             image: "./assets/img/modal-images/food-menu/reshmi-seekh-kebab.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Tandoori Chicken (Half | Full)",
@@ -749,6 +811,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/tandoori-chicken-(full).jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Chinatown Chili Chicken",
@@ -760,6 +823,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/chinatown-chili-chicken.jpg",
             chefSpecial: false,
+            vegan: false,
           },
         ],
       },
@@ -778,6 +842,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/mutton-galouti-kebab.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Mutton Seekh Gilafi",
@@ -789,6 +854,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/mutton-seekh-gilafi.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Tandoori Lamb Chops",
@@ -800,6 +866,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/tandoori-lamb-chops.jpg",
             chefSpecial: false,
+            vegan: false,
           },
         ],
       },
@@ -820,6 +887,7 @@ const menuData = [
         image:
           "./assets/img/modal-images/food-menu/purani-dilli-chole-bhature.jpg",
         chefSpecial: true,
+        vegan: true,
       },
       {
         title: "Amritsari Patties Kulcha Chana",
@@ -831,6 +899,7 @@ const menuData = [
         image:
           "./assets/img/modal-images/food-menu/amritsari-patties-kulcha-chana.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Sarson Ka Saag, Makke ki Roti",
@@ -842,6 +911,7 @@ const menuData = [
         image:
           "./assets/img/modal-images/food-menu/sarson-ka-saag-makke-ki-roti.jpg",
         chefSpecial: false,
+        vegan: false,
       },
     ],
   },
@@ -863,6 +933,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/almond-gucchi-korma.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Basil Paneer Rarah",
@@ -873,6 +944,7 @@ const menuData = [
             metrics: "955 Kcal | 300-350g | $18",
             image: "./assets/img/modal-images/food-menu/basil-paneer-rarah.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Paneer Tikka Masala",
@@ -884,6 +956,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/paneer-tikka-masala.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Paneer Khurchan",
@@ -894,6 +967,7 @@ const menuData = [
             metrics: "930 Kcal | 300-350g | $16",
             image: "./assets/img/modal-images/food-menu/paneer-khurchan.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Palak Paneer",
@@ -904,6 +978,7 @@ const menuData = [
             metrics: "1000 Kcal | 300-350g | $15",
             image: "./assets/img/modal-images/food-menu/palak-paneer.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Shahi Paneer",
@@ -914,6 +989,7 @@ const menuData = [
             metrics: "1250 Kcal | 300-350g | $22",
             image: "./assets/img/modal-images/food-menu/shahi-paneer.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Malai Kofta",
@@ -924,6 +1000,7 @@ const menuData = [
             metrics: "1100 Kcal | 300-350g | $20",
             image: "./assets/img/modal-images/food-menu/malai-kofta.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Kaju Methi Malai Matar",
@@ -935,6 +1012,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/kaju-methi-malai-matar.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Dum Aloo Kashmiri",
@@ -945,6 +1023,7 @@ const menuData = [
             metrics: "920 Kcal | 300-350g | $15",
             image: "./assets/img/modal-images/food-menu/dum-aloo-kashmiri.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Charcoal Roasted Baingan Bharta",
@@ -956,6 +1035,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/charcoal-roasted-baingan-bharta.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Cauliflower Guncha-wa-Keema",
@@ -967,6 +1047,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/dry-spices-aloo-gobhi.jpg",
             chefSpecial: false,
+            vegan: false,
           },
         ],
       },
@@ -984,6 +1065,7 @@ const menuData = [
             metrics: "1020 Kcal | 380-400g | $24",
             image: "./assets/img/modal-images/food-menu/andhra-scallops.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Kadhai Prawns",
@@ -994,6 +1076,7 @@ const menuData = [
             metrics: "840 Kcal | 380-400g | $20",
             image: "./assets/img/modal-images/food-menu/kadhai-prawns.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Chilian Sea Bass Coconut Curry",
@@ -1005,6 +1088,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/chilian-sea-bass-coconut-curry.jpg",
             chefSpecial: true,
+            vegan: true,
           },
         ],
       },
@@ -1022,6 +1106,7 @@ const menuData = [
             metrics: "1340 Kcal | 380-400g | $22",
             image: "./assets/img/modal-images/food-menu/lagan-ki-bataer.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "The Delhi Lounge Butter Chicken",
@@ -1033,6 +1118,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/delhi-lounge-butter-chicken.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "Chicken Tikka Masala",
@@ -1044,6 +1130,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/chicken-tikka-masala.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Chicken Khurchan",
@@ -1054,6 +1141,7 @@ const menuData = [
             metrics: "1190 Kcal | 380-400g | $16",
             image: "./assets/img/modal-images/food-menu/chicken-khurchan.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Kali Mirch Chicken",
@@ -1064,6 +1152,7 @@ const menuData = [
             metrics: "1210 Kcal | 380-400g | $20",
             image: "./assets/img/modal-images/food-menu/kali-mirch-chicken.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Korma Chicken",
@@ -1074,6 +1163,7 @@ const menuData = [
             metrics: "1620 Kcal | 380-400g | $22",
             image: "./assets/img/modal-images/food-menu/korma-chicken.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Saag Chicken",
@@ -1084,6 +1174,7 @@ const menuData = [
             metrics: "1150 Kcal | 380-400g | $18",
             image: "./assets/img/modal-images/food-menu/saag-chicken.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "The Delhi Lounge Tawa Chicken",
@@ -1095,6 +1186,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/delhi-lounge-tawa-chicken.jpg",
             chefSpecial: true,
+            vegan: true,
           },
         ],
       },
@@ -1113,6 +1205,7 @@ const menuData = [
             image:
               "./assets/img/modal-images/food-menu/tawa-masala-seekh-kebab.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Mutton Korma",
@@ -1123,6 +1216,7 @@ const menuData = [
             metrics: "2020 Kcal | 380-400g | $24",
             image: "./assets/img/modal-images/food-menu/mutton-korma.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Mutton Rogan Josh",
@@ -1133,6 +1227,7 @@ const menuData = [
             metrics: "1440 Kcal | 380-400g | $22",
             image: "./assets/img/modal-images/food-menu/mutton-rogan-josh.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "Goat Shank Nehari",
@@ -1143,6 +1238,7 @@ const menuData = [
             metrics: "1305 Kcal | 380-400g | $24",
             image: "./assets/img/modal-images/food-menu/goat-shank-nehari.jpg",
             chefSpecial: false,
+            vegan: false,
           },
           {
             title: "The Delhi Lounge Bakre ke Nakhre",
@@ -1153,6 +1249,7 @@ const menuData = [
             metrics: "1420 Kcal | 380-400g | $22",
             image: "./assets/img/modal-images/food-menu/bakre-ke-nakhre.jpg",
             chefSpecial: true,
+            vegan: true,
           },
           {
             title: "The Delhi Lounge Imperial Raan",
@@ -1163,6 +1260,7 @@ const menuData = [
             metrics: "4950 Kcal | 1500g | $150",
             image: "./assets/img/modal-images/food-menu/imperial-raan.jpg",
             chefSpecial: true,
+            vegan: true,
           },
         ],
       },
@@ -1182,6 +1280,7 @@ const menuData = [
         metrics: "560 Kcal | 220-250g | $10",
         image: "./assets/img/modal-images/food-menu/dal-tadka.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "The Delhi Lounge Dal Makhani",
@@ -1193,6 +1292,7 @@ const menuData = [
         image:
           "./assets/img/modal-images/food-menu/delhi-lounge-dal-makhani.jpg",
         chefSpecial: true,
+        vegan: true,
       },
       {
         title: "Steamed Basmati Rice",
@@ -1203,6 +1303,7 @@ const menuData = [
         metrics: "130 Kcal | 80-100g | $5",
         image: "./assets/img/modal-images/food-menu/steamed-basmati-rice.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Cumin Coriander Rice",
@@ -1213,6 +1314,7 @@ const menuData = [
         metrics: "150 Kcal | 80-100g | $6",
         image: "./assets/img/modal-images/food-menu/cumin-coriander-rice.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Morels Pulao",
@@ -1223,6 +1325,7 @@ const menuData = [
         metrics: "410 Kcal | 150-180g | $16",
         image: "./assets/img/modal-images/food-menu/morels-pulao.jpg",
         chefSpecial: true,
+        vegan: true,
       },
       {
         title: "Dum Jackfruit Parda Biryani",
@@ -1234,6 +1337,7 @@ const menuData = [
         image:
           "./assets/img/modal-images/food-menu/dum-jackfruit-parda-biryani.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Dum Chicken Parda Biryani",
@@ -1245,6 +1349,7 @@ const menuData = [
         image:
           "./assets/img/modal-images/food-menu/dum-chicken-parda-biryani.jpg",
         chefSpecial: true,
+        vegan: true,
       },
       {
         title: "Dum Mutton Parda Biryani",
@@ -1256,6 +1361,7 @@ const menuData = [
         image:
           "./assets/img/modal-images/food-menu/dum-mutton-parda-biryani.jpg",
         chefSpecial: true,
+        vegan: true,
       },
     ],
   },
@@ -1273,6 +1379,7 @@ const menuData = [
         metrics: "180 Kcal (Plain) | 255 Kcal (Butter) | 60g | $3",
         image: "./assets/img/modal-images/food-menu/butter-tandoori-roti.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Missi Roti (Plain | Butter)",
@@ -1283,6 +1390,7 @@ const menuData = [
         metrics: "150 Kcal (Plain) | 225 Kcal (Butter) | 45-50g | $3",
         image: "./assets/img/modal-images/food-menu/missi-roti.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Laccha Paratha (Plain | Butter | Pudina | Mirchi)",
@@ -1293,6 +1401,7 @@ const menuData = [
         metrics: "360 Kcal (Plain) | 435 Kcal (Butter) | 100-120g | $4",
         image: "./assets/img/modal-images/food-menu/butter-laccha-paratha.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Naan (Plain | Butter | Garlic | Cheese)",
@@ -1303,6 +1412,7 @@ const menuData = [
         metrics: "300 Kcal (Plain) | 375 Kcal (Butter) | 80-100g | $4",
         image: "./assets/img/modal-images/food-menu/butter-naan.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Scotch Whiskey Naan",
@@ -1313,6 +1423,7 @@ const menuData = [
         metrics: "350 Kcal | 80-100g | $5",
         image: "./assets/img/modal-images/food-menu/scotch-whiskey-naan.jpg",
         chefSpecial: true,
+        vegan: true,
       },
       {
         title: "Chur Chur Naan",
@@ -1323,6 +1434,7 @@ const menuData = [
         metrics: "420 Kcal | 110-120g | $5",
         image: "./assets/img/modal-images/food-menu/chur-chur-naan.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Khameeri Roti (Plain | Butter | Pistachio)",
@@ -1334,6 +1446,7 @@ const menuData = [
         image:
           "./assets/img/modal-images/food-menu/khameeri-roti-pistachio.jpg",
         chefSpecial: true,
+        vegan: true,
       },
       {
         title: "Kulcha (Aloo Pyaaz | Onion | Patties)",
@@ -1345,6 +1458,7 @@ const menuData = [
           "450 Kcal (Aloo Pyaaz) | 440 Kcal (Onion) | 460 Kcal (Patties) | 150g | $5",
         image: "./assets/img/modal-images/food-menu/kulcha-aloo-pyaz.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "The Delhi Lounge Chicken & Cheese Kulcha",
@@ -1355,6 +1469,7 @@ const menuData = [
         metrics: "540 Kcal (Cheese) | 525 Kcal (Chicken) | 150g | $6",
         image: "./assets/img/modal-images/food-menu/chicken-cheese-kulcha.jpg",
         chefSpecial: true,
+        vegan: true,
       },
       {
         title: "Assorted Bread Basket",
@@ -1366,6 +1481,7 @@ const menuData = [
           "180 Kcal (Tandoori Roti) | 300 Kcal (Laccha Parantha) | 240 Kcal (Garlic Naan) | Varies | $12",
         image: "./assets/img/modal-images/food-menu/assorted-bread-basket.jpg",
         chefSpecial: false,
+        vegan: false,
       },
     ],
   },
@@ -1383,6 +1499,7 @@ const menuData = [
         metrics: "144 Kcal | 100-120g | $5",
         image: "./assets/img/modal-images/food-menu/burrhani-raita.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Anardana Boondi Raita",
@@ -1393,6 +1510,7 @@ const menuData = [
         metrics: "156 Kcal | 100-120g | $5",
         image: "./assets/img/modal-images/food-menu/anardana-boondi-raita.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Cherry Pineapple Raita",
@@ -1403,6 +1521,7 @@ const menuData = [
         metrics: "170 Kcal | 100-120g | $5",
         image: "./assets/img/modal-images/food-menu/cherry-pineapple-raita.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Mixed Vegetable Raita",
@@ -1413,6 +1532,7 @@ const menuData = [
         metrics: "150 Kcal | 100-120g | $5",
         image: "./assets/img/modal-images/food-menu/mixed-vegetable-raita.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Green Salad",
@@ -1423,6 +1543,7 @@ const menuData = [
         metrics: "60 Kcal | 100-120g | $4",
         image: "./assets/img/modal-images/food-menu/green-salad.jpg",
         chefSpecial: false,
+        vegan: false,
       },
     ],
   },
@@ -1440,6 +1561,7 @@ const menuData = [
         metrics: "375 Kcal | 150g | $6",
         image: "./assets/img/modal-images/food-menu/saffron-rabri.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Jaggery Rasgulla",
@@ -1450,6 +1572,7 @@ const menuData = [
         metrics: "250 Kcal | 100g | $5",
         image: "./assets/img/modal-images/food-menu/jaggery-rasgulla.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Baileys Rasmalai",
@@ -1460,6 +1583,7 @@ const menuData = [
         metrics: "450 Kcal | 120-150g | $8",
         image: "./assets/img/modal-images/food-menu/baileys-rasmalai.jpg",
         chefSpecial: true,
+        vegan: true,
       },
       {
         title: "Gulab Jamun",
@@ -1470,6 +1594,7 @@ const menuData = [
         metrics: "525 Kcal | 120-150g | $6",
         image: "./assets/img/modal-images/food-menu/gulab-jamun.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Gajar Halwa",
@@ -1480,6 +1605,7 @@ const menuData = [
         metrics: "375 Kcal | 150g | $7",
         image: "./assets/img/modal-images/food-menu/gajar-halwa.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "Moong Dal Halwa",
@@ -1490,6 +1616,7 @@ const menuData = [
         metrics: "545 Kcal | 150g | $7",
         image: "./assets/img/modal-images/food-menu/moong-dal-halwa.jpg",
         chefSpecial: false,
+        vegan: false,
       },
       {
         title: "The Delhi Lounge Kulfi Falooda",
@@ -1500,6 +1627,7 @@ const menuData = [
         metrics: "560 Kcal | 150g | $8",
         image: "./assets/img/modal-images/food-menu/kulfi-falooda.jpg",
         chefSpecial: true,
+        vegan: true,
       },
       {
         title: "Gulkand Rabri Mousse ē Berries & Honeycomb",
@@ -1510,6 +1638,7 @@ const menuData = [
         metrics: "550 Kcal | 150g | $9",
         image: "./assets/img/modal-images/food-menu/gulkand-rabri-mousse.jpg",
         chefSpecial: true,
+        vegan: true,
       },
       {
         title: "Custard Gulab Jamun ē Citrus Confit & Saffron Shortbread",
@@ -1520,6 +1649,7 @@ const menuData = [
         metrics: "480 Kcal | 120g | $9",
         image: "./assets/img/modal-images/food-menu/custard-gulab-jamun.jpg",
         chefSpecial: true,
+        vegan: true,
       },
     ],
   },
