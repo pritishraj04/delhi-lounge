@@ -68,6 +68,7 @@ function createMenuItem(row) {
     metrics: row.metrics || "",
     image: row.image || "",
     chefSpecial: row.chefSpecial.toLowerCase() === "true",
+    vegan: row.vegan.toLowerCase() === "true",
   };
 }
 
