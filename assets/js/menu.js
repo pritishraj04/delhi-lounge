@@ -14,7 +14,7 @@ function createCategoryIndex(
   categoryObj,
   index,
   menuIndexDiv,
-  hiddenListDiv,
+  hiddenListContainer,
   toggleButton
 ) {
   const categoryIndexButton = document.createElement("button");
@@ -25,7 +25,7 @@ function createCategoryIndex(
 
     turnPageTo(targetPageIndex);
     // Hide the list after clicking
-    hiddenListDiv.style.display = "none";
+    hiddenListContainer.style.display = "none";
     toggleButton.classList.add("show-list-btn");
     toggleButton.classList.remove("hide-list-btn");
     toggleButton.innerHTML = showCategoryIcon; // Reset button text
@@ -34,57 +34,79 @@ function createCategoryIndex(
   menuIndexDiv.appendChild(categoryIndexButton); // Append button to the index
 }
 
-function createCategoryIndexToggle(menuIndexContainer) {
+function createCategoryIndexToggle(menuIndexContainer, menuWrapperDiv) {
   // Create the toggle button
   const toggleButton = document.createElement("button");
   toggleButton.classList.add("toggle-btn", "show-list-btn");
   toggleButton.innerHTML = showCategoryIcon;
 
+  // Create the container for the hidden list and backdrop
+  const hiddenListContainer = document.createElement("div");
+  hiddenListContainer.classList.add("menu-index-container"); // Container for the hidden list and backdrop
+  hiddenListContainer.style.display = "none"; // Initially hidden
+
+  // Create the backdrop
+  const backdrop = document.createElement("div");
+  backdrop.classList.add("menu-index-backdrop");
+
   // Create the div for the hidden list of category index buttons
   const hiddenListDiv = document.createElement("div");
-  hiddenListDiv.classList.add("menu-index-hidden"); // This will be hidden by default
-  hiddenListDiv.style.display = "none"; // Hide the list initially
+  hiddenListDiv.classList.add("menu-index-hidden");
+
+  // Add backdrop click functionality
+  backdrop.onclick = function () {
+    hideHiddenList();
+  };
 
   // Add a toggle functionality to the button
   toggleButton.onclick = function () {
-    if (hiddenListDiv.style.display === "none") {
-      hiddenListDiv.style.display = "flex";
-      toggleButton.classList.remove("show-list-btn");
-      toggleButton.classList.add("hide-list-btn");
-      toggleButton.innerHTML = hideCategoryIcon; // Change button text
+    if (hiddenListContainer.style.display === "none") {
+      showHiddenList();
     } else {
-      hiddenListDiv.style.display = "none";
-      toggleButton.classList.add("show-list-btn");
-      toggleButton.classList.remove("hide-list-btn");
-      toggleButton.innerHTML = showCategoryIcon; // Reset button text
+      hideHiddenList();
     }
   };
+
+  // Function to show the hidden list
+  function showHiddenList() {
+    hiddenListContainer.style.display = "flex";
+    toggleButton.classList.remove("show-list-btn");
+    toggleButton.classList.add("hide-list-btn");
+    toggleButton.innerHTML = hideCategoryIcon; // Change button text
+  }
+
+  // Function to hide the hidden list
+  function hideHiddenList() {
+    hiddenListContainer.style.display = "none";
+    toggleButton.classList.add("show-list-btn");
+    toggleButton.classList.remove("hide-list-btn");
+    toggleButton.innerHTML = showCategoryIcon; // Reset button text
+  }
 
   let currentPageIndex = 2; // Start from 2 due to the front cover adjustment
 
   menuData.forEach((categoryObj) => {
-    // Create a navigation index for the parent category (though it doesn't have a direct page)
     createCategoryIndex(
       categoryObj,
       currentPageIndex, // Track current index for parent
       hiddenListDiv,
-      hiddenListDiv,
+      hiddenListContainer,
       toggleButton
     );
 
-    // Check if the category has subcategories
     if (categoryObj.subCategories && categoryObj.subCategories.length > 0) {
-      // For each subcategory, assign its own page index and increment
       categoryObj.subCategories.forEach(() => {
-        currentPageIndex++; // Increment the page for each subcategory
+        currentPageIndex++;
       });
     } else {
-      // If no subcategories, increment the index for the parent category page
       currentPageIndex++;
     }
   });
+
+  hiddenListContainer.appendChild(backdrop);
+  hiddenListContainer.appendChild(hiddenListDiv);
   menuIndexContainer.appendChild(toggleButton);
-  menuIndexContainer.appendChild(hiddenListDiv);
+  menuWrapperDiv.appendChild(hiddenListContainer);
 }
 
 function createMenuPage(category, type, backgroundImage, items) {
@@ -120,7 +142,7 @@ function createMenuPage(category, type, backgroundImage, items) {
   // homeDiv.appendChild(homeLink);
   // menuWrapperDiv.appendChild(homeDiv);
 
-  createCategoryIndexToggle(menuIndexDiv);
+  createCategoryIndexToggle(menuIndexDiv, menuWrapperDiv);
   menuWrapperDiv.appendChild(menuIndexDiv);
 
   const menuHeadingsDiv = document.createElement("div");
