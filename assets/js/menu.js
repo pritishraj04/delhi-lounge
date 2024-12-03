@@ -1,15 +1,20 @@
-import menuData from "./menuData.js";
+import { getMenuData } from "./menuDataFromCSV.js";
+
+const menuData = await getMenuData(); // Wait for the data to be fetched
+
+console.log(menuData);
 
 const showCategoryIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" d="M3 2.75C3 1.784 3.784 1 4.75 1h6.5c.966 0 1.75.784 1.75 1.75v11.5a.75.75 0 0 1-1.227.579L8 11.722l-3.773 3.107A.75.75 0 0 1 3 14.25z"/></svg>`;
 const hideCategoryIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M2 15.5V2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v13.5a.5.5 0 0 1-.74.439L8 13.069l-5.26 2.87A.5.5 0 0 1 2 15.5M6.854 5.146a.5.5 0 1 0-.708.708L7.293 7L6.146 8.146a.5.5 0 1 0 .708.708L8 7.707l1.146 1.147a.5.5 0 1 0 .708-.708L8.707 7l1.147-1.146a.5.5 0 0 0-.708-.708L8 6.293z"/></svg>`;
 const chefSpecialIcon = `<img src="../assets/img/icons/lotus.svg" alt="Chef Special">`;
+const veganIcon = `<img src="../assets/img/icons/vegan.svg" alt="Vegan Option">`;
 const homeIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1200 1200"><path fill="currentColor" d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0m0 276.489l292.969 227.71v419.312H691.406V670.386H508.594v253.125H307.031V504.199z"/></svg>`;
 
 function createCategoryIndex(
   categoryObj,
   index,
   menuIndexDiv,
-  hiddenListDiv,
+  hiddenListContainer,
   toggleButton
 ) {
   const categoryIndexButton = document.createElement("button");
@@ -20,7 +25,7 @@ function createCategoryIndex(
 
     turnPageTo(targetPageIndex);
     // Hide the list after clicking
-    hiddenListDiv.style.display = "none";
+    hiddenListContainer.style.display = "none";
     toggleButton.classList.add("show-list-btn");
     toggleButton.classList.remove("hide-list-btn");
     toggleButton.innerHTML = showCategoryIcon; // Reset button text
@@ -29,57 +34,79 @@ function createCategoryIndex(
   menuIndexDiv.appendChild(categoryIndexButton); // Append button to the index
 }
 
-function createCategoryIndexToggle(menuIndexContainer) {
+function createCategoryIndexToggle(menuIndexContainer, menuWrapperDiv) {
   // Create the toggle button
   const toggleButton = document.createElement("button");
   toggleButton.classList.add("toggle-btn", "show-list-btn");
   toggleButton.innerHTML = showCategoryIcon;
 
+  // Create the container for the hidden list and backdrop
+  const hiddenListContainer = document.createElement("div");
+  hiddenListContainer.classList.add("menu-index-container"); // Container for the hidden list and backdrop
+  hiddenListContainer.style.display = "none"; // Initially hidden
+
+  // Create the backdrop
+  const backdrop = document.createElement("div");
+  backdrop.classList.add("menu-index-backdrop");
+
   // Create the div for the hidden list of category index buttons
   const hiddenListDiv = document.createElement("div");
-  hiddenListDiv.classList.add("menu-index-hidden"); // This will be hidden by default
-  hiddenListDiv.style.display = "none"; // Hide the list initially
+  hiddenListDiv.classList.add("menu-index-hidden");
+
+  // Add backdrop click functionality
+  backdrop.onclick = function () {
+    hideHiddenList();
+  };
 
   // Add a toggle functionality to the button
   toggleButton.onclick = function () {
-    if (hiddenListDiv.style.display === "none") {
-      hiddenListDiv.style.display = "flex";
-      toggleButton.classList.remove("show-list-btn");
-      toggleButton.classList.add("hide-list-btn");
-      toggleButton.innerHTML = hideCategoryIcon; // Change button text
+    if (hiddenListContainer.style.display === "none") {
+      showHiddenList();
     } else {
-      hiddenListDiv.style.display = "none";
-      toggleButton.classList.add("show-list-btn");
-      toggleButton.classList.remove("hide-list-btn");
-      toggleButton.innerHTML = showCategoryIcon; // Reset button text
+      hideHiddenList();
     }
   };
+
+  // Function to show the hidden list
+  function showHiddenList() {
+    hiddenListContainer.style.display = "flex";
+    toggleButton.classList.remove("show-list-btn");
+    toggleButton.classList.add("hide-list-btn");
+    toggleButton.innerHTML = hideCategoryIcon; // Change button text
+  }
+
+  // Function to hide the hidden list
+  function hideHiddenList() {
+    hiddenListContainer.style.display = "none";
+    toggleButton.classList.add("show-list-btn");
+    toggleButton.classList.remove("hide-list-btn");
+    toggleButton.innerHTML = showCategoryIcon; // Reset button text
+  }
 
   let currentPageIndex = 2; // Start from 2 due to the front cover adjustment
 
   menuData.forEach((categoryObj) => {
-    // Create a navigation index for the parent category (though it doesn't have a direct page)
     createCategoryIndex(
       categoryObj,
       currentPageIndex, // Track current index for parent
       hiddenListDiv,
-      hiddenListDiv,
+      hiddenListContainer,
       toggleButton
     );
 
-    // Check if the category has subcategories
     if (categoryObj.subCategories && categoryObj.subCategories.length > 0) {
-      // For each subcategory, assign its own page index and increment
       categoryObj.subCategories.forEach(() => {
-        currentPageIndex++; // Increment the page for each subcategory
+        currentPageIndex++;
       });
     } else {
-      // If no subcategories, increment the index for the parent category page
       currentPageIndex++;
     }
   });
+
+  hiddenListContainer.appendChild(backdrop);
+  hiddenListContainer.appendChild(hiddenListDiv);
   menuIndexContainer.appendChild(toggleButton);
-  menuIndexContainer.appendChild(hiddenListDiv);
+  menuWrapperDiv.appendChild(hiddenListContainer);
 }
 
 function createMenuPage(category, type, backgroundImage, items) {
@@ -115,7 +142,7 @@ function createMenuPage(category, type, backgroundImage, items) {
   // homeDiv.appendChild(homeLink);
   // menuWrapperDiv.appendChild(homeDiv);
 
-  createCategoryIndexToggle(menuIndexDiv);
+  createCategoryIndexToggle(menuIndexDiv, menuWrapperDiv);
   menuWrapperDiv.appendChild(menuIndexDiv);
 
   const menuHeadingsDiv = document.createElement("div");
@@ -166,6 +193,14 @@ function createMenuPage(category, type, backgroundImage, items) {
       chefSpecial.innerHTML = chefSpecialIcon;
       chefSpecial.firstChild.style.width = "19px";
       itemName.appendChild(chefSpecial);
+    }
+    if (item.vegan) {
+      const vegan = document.createElement("span");
+      vegan.classList.add("vegan");
+      vegan.innerHTML = veganIcon;
+      vegan.firstChild.style.width = "14px";
+      vegan.firstChild.style.marginLeft = "10px";
+      itemName.appendChild(vegan);
     }
 
     const itemMetrics = document.createElement("p");
