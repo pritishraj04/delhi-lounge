@@ -13,7 +13,8 @@
     />
     <meta name="description" content="The Delhi Lounge" />
     <meta name="author" content="PolarDot" />
-    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!-- <meta name="mobile-web-app-capable" content="yes" /> -->
     <meta
       name="apple-mobile-web-app-status-bar-style"
       content="black-translucent"
@@ -142,6 +143,38 @@
     </div>
     <script type="text/javascript" src="./assets/js/jquery.js"></script>
     <script type="text/javascript" src="./assets/js/turn.js"></script>
+    <script type="text/javascript">
+      $(window).ready(function () {
+        $("#magazine").turn({
+          display: "single",
+          acceleration: true,
+          gradients: !$.isTouch,
+          elevation: 50,
+          preload: "all",
+          when: {
+            turned: function (e, page) {
+              console.log("Current view: ", $(this).turn("view"));
+            },
+          },
+        });
+      });
+
+      function turnPageTo(number) {
+        $("#magazine").turn("page", number);
+      }
+      function turnPagePrevious() {
+        $("#magazine").turn("previous");
+      }
+      function turnPageNext() {
+        $("#magazine").turn("next");
+      }
+
+      $(window).bind("keydown", function (e) {
+        if (e.keyCode == 37) $("#magazine").turn("previous");
+        else if (e.keyCode == 39) $("#magazine").turn("next");
+      });
+    </script>
+
     <!-- <script
       type="text/javascript"
       src="./assets/js/papaparse.js"
@@ -151,15 +184,7 @@
       type="text/javascript"
       src="./assets/js/fullscreenScript.js"
     ></script>
-    <script type="text/javascript">
-      function turnPagePrevious() {
-        $("#magazine").turn("previous");
-      }
-      function turnPageNext() {
-        $("#magazine").turn("next");
-      }
-    </script>
-    <script type="text/javascript" src="./assets/js/magazine.js"></script>
+    <!-- <script type="text/javascript" src="./assets/js/magazine.js"></script> -->
     <script type="module" src="./assets/js/menuData.js"></script>
     <script type="module" src="./assets/js/menu.js"></script>
   </body>
