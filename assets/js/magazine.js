@@ -4,6 +4,7 @@ $(window).ready(function () {
     acceleration: true,
     gradients: !$.isTouch,
     elevation: 50,
+    preload: "all",
     when: {
       turned: function (e, page) {
         /*console.log('Current view: ', $(this).turn('view'));*/
