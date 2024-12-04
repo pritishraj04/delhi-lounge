@@ -1,820 +1,684 @@
 const barMenuData = [
   {
-    category: "Cocktails",
+    category: "Classic Cocktails",
     subCategories: [
       {
-        subCategory: "Cocktails",
+        subCategory: "Classic Cocktails",
         type: "",
         backgroundImage: "../assets/img/menu-images/page.jpg",
         items: [
           {
-            title: "Lal Saag Martini",
-            origin: "India",
-            tagline: "A savory martini with an Indian twist.",
-            desc: "Bold flavors with a touch of spice.",
-            fullDesc:
-              "Lal Saag Martini blends the earthiness of Indian greens, with the boldness of the land’s spices to birth an elegant martini with a unique flavour profile.",
-            metrics: "30 ml - $9.99 | 60 ml - $16.99",
-            image: "./assets/img/modal-images/bar-menu/laal-saag-martini.jpg",
-            chefSpecial: false,
+            title: "Rum and Coke",
+            origin: "Cuba",
+            tagline: "A timeless classic for any occasion.",
+            desc: "Smooth rum mixed with refreshing cola for a simple yet satisfying cocktail.",
+            fullDesc: "A universally loved combination of smooth rum and cola, served over ice, making it a perfect companion for relaxed evenings or lively celebrations.",
+            metrics: "$10",
+            image: "./assets/img/modal-images/bar-menu/rum-and-coke.jpg",
+            chefSpecial: false
           },
           {
-            title: "Royal Vodka Sour",
-            origin: "Global",
-            tagline: "A classic vodka sour with royal flavors.",
-            desc: "Smooth and refreshing with a hint of citrus.",
-            fullDesc:
-              "The Royal Vodka Sour offers a smooth and refreshing experience with bright citrus notes, bringing sophistication to the classic sour.",
-            metrics: "30 ml - $9.99 | 60 ml - $16.99",
-            image: "./assets/img/modal-images/bar-menu/royal-vodka-sour.jpg",
-            chefSpecial: false,
+            title: "Screwdriver",
+            origin: "USA",
+            tagline: "The perfect blend of citrus and spirits.",
+            desc: "Vodka and orange juice combine for a refreshing, zesty cocktail.",
+            fullDesc: "A simple yet vibrant cocktail featuring smooth vodka and freshly squeezed orange juice, delivering a refreshing citrus kick with every sip.",
+            metrics: "$10",
+            image: "./assets/img/modal-images/bar-menu/screwdriver.jpg",
+            chefSpecial: false
           },
           {
-            title: "Liptain Di Chah",
-            origin: "India",
-            tagline: "Inspired by traditional Indian tea.",
-            desc: "Warm spices with a balanced sweetness.",
-            fullDesc:
-              "Liptain Di Chah brings the warmth of Indian tea to your palate in a spiced drink that is also sweetly well balanced. Served with a savoury matthi.",
-            metrics: "30 ml - $10.99 | 60 ml - $18.99",
-            image: "./assets/img/modal-images/bar-menu/lipton-di-chai.jpg",
-            chefSpecial: false,
+            title: "Cosmopolitan",
+            origin: "USA",
+            tagline: "Elegance in a glass.",
+            desc: "A zesty mix of vodka, lime, cranberry juice, and triple sec.",
+            fullDesc: "A stylish cocktail combining the tartness of cranberry and lime juices with smooth vodka and triple sec, served in a chilled martini glass for a touch of sophistication.",
+            metrics: "$10",
+            image: "./assets/img/modal-images/bar-menu/cosmopolitan.jpg",
+            chefSpecial: false
           },
           {
-            title: "Kaapi Martini",
-            origin: "India",
-            tagline: "A coffee lover's martini.",
-            desc: "Rich coffee flavors with a smooth finish.",
-            fullDesc:
-              "Kaapi Martini is a delightful blend of coffee and spirits, creating a rich and smooth cocktail that’s perfect for coffee enthusiasts.",
-            metrics: "30 ml - $9.99 | 60 ml - $16.99",
-            image: "./assets/img/modal-images/bar-menu/kaapi-martini.jpg",
-            chefSpecial: false,
+            title: "Old Fashioned",
+            origin: "USA",
+            tagline: "The grandfather of cocktails.",
+            desc: "Bourbon, bitters, sugar, and orange peel create a timeless drink.",
+            fullDesc: "A classic cocktail that highlights the bold flavors of bourbon, perfectly balanced with bitters, a touch of sugar, and the zest of orange peel, making it a true icon.",
+            metrics: "$10",
+            image: "./assets/img/modal-images/bar-menu/old-fashioned.jpg",
+            chefSpecial: false
           },
           {
-            title: "Kashmiri Kahwa Julep",
-            origin: "India",
-            tagline: "A refreshing julep with Kashmiri kahwa flavors.",
-            desc: "Delicate spices with a hint of mint.",
-            fullDesc:
-              "The Kashmiri Kahwa Julep captures the essence of Kashmiri kahwa tea in a gourmet cocktail, with hints of spices and a generous dose of rose.",
-            metrics: "30 ml - $9.99 | 60 ml - $16.99",
-            image:
-              "./assets/img/modal-images/bar-menu/kashmiri-kahwa-julep.jpg",
-            chefSpecial: false,
+            title: "Mojito",
+            origin: "Cuba",
+            tagline: "Refreshment in every sip.",
+            desc: "A cool mix of white rum, mint, lime, sugar, and club soda.",
+            fullDesc: "This Cuban classic blends white rum with fresh mint leaves, lime juice, sugar, and sparkling soda for a refreshing cocktail perfect for warm days.",
+            metrics: "$10",
+            image: "./assets/img/modal-images/bar-menu/mojito.jpg",
+            chefSpecial: false
           },
           {
-            title: "Beat the Heat",
-            origin: "India",
-            tagline: "A cooling cocktail to beat the heat.",
-            desc: "Refreshing and light with a tropical touch.",
-            fullDesc:
-              "Beat the Heat combines tropical flavors with refreshing ingredients, creating a cooling cocktail perfect for warm weather.",
-            metrics: "30 ml - $8.99 | 60 ml - $15.99",
-            image: "./assets/img/modal-images/bar-menu/beat-the-heat.jpg",
-            chefSpecial: false,
+            title: "Martini",
+            origin: "USA",
+            tagline: "Sophistication in a glass.",
+            desc: "A refined blend of gin, vermouth, and bitters, garnished with an olive or lemon twist.",
+            fullDesc: "The ultimate cocktail of elegance, made with gin and dry vermouth, enhanced by a dash of bitters, and served with a choice of olive or lemon twist for a polished finish.",
+            metrics: "$10",
+            image: "./assets/img/modal-images/bar-menu/martini.jpg",
+            chefSpecial: false
           },
           {
-            title: "Tamarind Whisky Sour",
-            origin: "India",
-            tagline: "A tangy twist on the whisky sour.",
-            desc: "Whisky with a tangy tamarind kick.",
-            fullDesc:
-              "The Tamarind Whisky Sour brings a unique twist to the classic whisky sour, adding tangy tamarind for a flavorful kick.",
-            metrics: "30 ml - $10.99 | 60 ml - $18.99",
-            image: "./assets/img/modal-images/bar-menu/tamring-whisky-sour.jpg",
-            chefSpecial: false,
+            title: "Bloody Mary",
+            origin: "USA",
+            tagline: "Bold, savory, and full of flavor.",
+            desc: "A unique mix of vodka, tomato juice, and lemon, garnished with a celery stalk.",
+            fullDesc: "This savory cocktail features vodka and tangy tomato juice, accented with lemon and spices, and garnished with a crisp celery stalk for a bold and refreshing experience.",
+            metrics: "$10",
+            image: "./assets/img/modal-images/bar-menu/bloody-mary.jpg",
+            chefSpecial: false
+          },
+          {
+            title: "Tom Collins",
+            origin: "England",
+            tagline: "A fizzy classic to brighten your day.",
+            desc: "Gin, lemon juice, sugar, and sparkling water create a delightful cocktail.",
+            fullDesc: "A refreshing cocktail featuring gin, fresh lemon juice, sugar, and sparkling water, served over ice for a light and bubbly experience.",
+            metrics: "$10",
+            image: "./assets/img/modal-images/bar-menu/tom-collins.jpg",
+            chefSpecial: false
+          },
+          {
+            title: "Manhattan",
+            origin: "USA",
+            tagline: "A cocktail of timeless elegance.",
+            desc: "Whiskey, vermouth, and bitters, garnished with a maraschino cherry.",
+            fullDesc: "A rich and sophisticated cocktail made with whiskey, sweet vermouth, and bitters, topped with a maraschino cherry for a perfect blend of flavors.",
+            metrics: "$10",
+            image: "./assets/img/modal-images/bar-menu/manhattan.jpg",
+            chefSpecial: false
+          },
+          {
+            title: "Mai Tai",
+            origin: "USA",
+            tagline: "A tropical escape in every sip.",
+            desc: "A vibrant mix of white and dark rums, orange curaçao, syrup, and lime juice.",
+            fullDesc: "This tropical cocktail combines the bold flavors of white and dark rums, balanced with orange curaçao, syrup, and fresh lime juice for a vibrant and refreshing experience.",
+            metrics: "$10",
+            image: "./assets/img/modal-images/bar-menu/mai-tai.jpg",
+            chefSpecial: false
+          },
+          {
+            title: "Long Island Iced Tea",
+            origin: "USA",
+            tagline: "A powerhouse of flavors.",
+            desc: "A bold mix of vodka, tequila, rum, gin, triple sec, and cola.",
+            fullDesc: "A robust cocktail featuring a unique blend of vodka, tequila, light rum, gin, triple sec, and a splash of cola, delivering a dynamic and refreshing taste.",
+            metrics: "$10",
+            image: "./assets/img/modal-images/bar-menu/long-island-iced-tea.jpg",
+            chefSpecial: false
           },
         ],
       },
-      {
-        subCategory: "Cocktails",
-        type: "",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
-        items: [
-          {
-            title: "Banarasi Boulevardier",
-            origin: "India",
-            tagline: "An Indian twist on the classic boulevardier.",
-            desc: "Bold and balanced with Banarasi flavors.",
-            fullDesc:
-              "The Banarasi Boulevardier combines the classic boulevardier with flavors inspired by Banaras, bringing boldness to every sip.",
-            metrics: "30 ml - $10.99 | 60 ml - $18.99",
-            image:
-              "./assets/img/modal-images/bar-menu/banarasi-boulevardier.jpg",
-            chefSpecial: false,
-          },
-          {
-            title: "Aam Panna Mule",
-            origin: "India",
-            tagline: "A refreshing mule with mango notes.",
-            desc: "Tangy and refreshing with a hint of spice.",
-            fullDesc:
-              "Aam Panna Mule brings the tangy flavors of mango and spices into a refreshing cocktail, offering a twist on the classic mule.",
-            metrics: "30 ml - $9.99 | 60 ml - $16.99",
-            image: "./assets/img/modal-images/bar-menu/aam-panna-mule.jpg",
-            chefSpecial: false,
-          },
-          {
-            title: "Guava Dark & Stormy",
-            origin: "Global",
-            tagline: "A stormy cocktail with tropical guava.",
-            desc: "Sweet and spicy with dark rum.",
-            fullDesc:
-              "The Guava Dark & Stormy brings a tropical twist with guava and dark rum, blending sweetness with spice.",
-            metrics: "30 ml - $9.99 | 60 ml - $16.99",
-            image: "./assets/img/modal-images/bar-menu/guava-dark-stormy.jpg",
-            chefSpecial: false,
-          },
-          {
-            title: "Tropic City",
-            origin: "Global",
-            tagline: "An exotic escape in every sip.",
-            desc: "Fruity and refreshing with tropical vibes.",
-            fullDesc:
-              "Tropic City combines an array of tropical fruits for a refreshing cocktail that feels like a mini-vacation in each sip.",
-            metrics: "30 ml - $9.99 | 60 ml - $16.99",
-            image: "./assets/img/modal-images/bar-menu/tropic-city.jpg",
-            chefSpecial: false,
-          },
-          {
-            title: "Turmeric Gin Old Fashioned",
-            origin: "India",
-            tagline: "An earthy gin old fashioned with turmeric.",
-            desc: "Earthy turmeric meets classic gin.",
-            fullDesc:
-              "The Turmeric Gin Old Fashioned combines the earthy flavor of turmeric with the elegance of gin, creating a unique and refined cocktail.",
-            metrics: "30 ml - $10.99 | 60 ml - $18.99",
-            image:
-              "./assets/img/modal-images/bar-menu/turmeric-gin-old-fashioned.jpg",
-            chefSpecial: false,
-          },
-          {
-            title: "Raw Mango Picante",
-            origin: "India",
-            tagline: "Spicy and tangy with raw mango.",
-            desc: "Tangy mango with a spicy twist.",
-            fullDesc:
-              "The Raw Mango Picante balances tangy raw mango with a hint of spice, making it a cocktail with vibrant flavors.",
-            metrics: "30 ml - $9.99 | 60 ml - $16.99",
-            image: "./assets/img/modal-images/bar-menu/raw-mango-picante.jpg",
-            chefSpecial: false,
-          },
-          {
-            title: "Betel Leaf Paloma",
-            origin: "India",
-            tagline: "A refreshing paloma with betel leaf.",
-            desc: "Unique, earthy flavors with betel leaf.",
-            fullDesc:
-              "The Betel Leaf Paloma takes the classic paloma and adds an earthy twist with betel leaf, creating a unique and refreshing cocktail.",
-            metrics: "30 ml - $9.99 | 60 ml - $16.99",
-            image: "./assets/img/modal-images/bar-menu/betel-leaf-paloma.jpg",
-            chefSpecial: false,
-          },
-        ],
-      },
+      // {
+        
+      //   subCategory: "House Cocktails",
+      //   type: "Non-Alcoholic",
+      //   backgroundImage: "../assets/img/menu-images/page.jpg",
+      //   items: [
+      //     {
+      //       title: "Very Berry Fizz",
+      //       origin: "Fusion",
+      //       tagline: "Berries with a sparkling twist.",
+      //       desc: "A vibrant mix of mixed berries, star anise, citrus, and ginger ale.",
+      //       fullDesc: "A refreshing concoction of mixed berries, star anise, and zesty citrus, topped with fizzy ginger ale, creating a drink that's bursting with flavor and charm.",
+      //       metrics: "$12",
+      //       image: "./assets/img/modal-images/bar-menu/very-berry-fizz.jpg",
+      //       chefSpecial: false
+      //     },
+      //     {
+      //       title: "Gondhraj Lemonade",
+      //       origin: "India",
+      //       tagline: "A zesty Indian refreshment.",
+      //       desc: "Lemon saccharum paired with an aperitif and tonic water.",
+      //       fullDesc: "A unique take on lemonade featuring the aromatic Gondhraj lime, blended with lemon saccharum, an aperitif, and effervescent tonic water for a refreshing twist.",
+      //       metrics: "$12",
+      //       image: "./assets/img/modal-images/bar-menu/gondhraj-lemonade.jpg",
+      //       chefSpecial: false
+      //     },
+      //     {
+      //       title: "Kiwi Fizz",
+      //       origin: "Fusion",
+      //       tagline: "A burst of tropical freshness.",
+      //       desc: "A delightful mix of kiwi, mint, citrus, and fizz.",
+      //       fullDesc: "A tropical delight combining the tangy sweetness of kiwi, the freshness of mint, a splash of citrus, and bubbly fizz, perfect for any occasion.",
+      //       metrics: "$12",
+      //       image: "./assets/img/modal-images/bar-menu/kiwi-fizz.jpg",
+      //       chefSpecial: false
+      //     },
+      //     {
+      //       title: "Orange Thyme Smash",
+      //       origin: "Fusion",
+      //       tagline: "Citrus meets herbal elegance.",
+      //       desc: "A blend of orange, thyme, citrus, and pineapple cordial.",
+      //       fullDesc: "A refreshing medley of juicy orange, aromatic thyme, and bright citrus, enhanced by the sweet notes of pineapple cordial for a drink that's both invigorating and satisfying.",
+      //       metrics: "$12",
+      //       image: "./assets/img/modal-images/bar-menu/orange-thyme-smash.jpg",
+      //       chefSpecial: false
+      //     },
+      //     {
+      //       title: "Cucumba",
+      //       origin: "Fusion",
+      //       tagline: "Cool and refreshing, naturally.",
+      //       desc: "A light mix of cucumber, basil, elderflower, and citrus.",
+      //       fullDesc: "A rejuvenating blend of fresh cucumber, fragrant basil, delicate elderflower, and a dash of citrus, delivering a cool and refreshing experience with every sip.",
+      //       metrics: "$12",
+      //       image: "./assets/img/modal-images/bar-menu/cucumba.jpg",
+      //       chefSpecial: false
+      //     },
+      //   ],
+        
+      // },
     ],
   },
   {
-    category: "Delhi To Dallas",
+    category: "House Cocktail",
+    type: "Non-Alcoholic",
+    backgroundImage: "../assets/img/menu-images/page.jpg",
+    items: [
+      {
+        title: "Very Berry Fizz",
+        origin: "Fusion",
+        tagline: "Berries with a sparkling twist.",
+        desc: "A vibrant mix of mixed berries, star anise, citrus, and ginger ale.",
+        fullDesc: "A refreshing concoction of mixed berries, star anise, and zesty citrus, topped with fizzy ginger ale, creating a drink that's bursting with flavor and charm.",
+        metrics: "$12",
+        image: "./assets/img/modal-images/bar-menu/very-berry-fizz.jpg",
+        chefSpecial: false
+      },
+      {
+        title: "Gondhraj Lemonade",
+        origin: "India",
+        tagline: "A zesty Indian refreshment.",
+        desc: "Lemon saccharum paired with an aperitif and tonic water.",
+        fullDesc: "A unique take on lemonade featuring the aromatic Gondhraj lime, blended with lemon saccharum, an aperitif, and effervescent tonic water for a refreshing twist.",
+        metrics: "$12",
+        image: "./assets/img/modal-images/bar-menu/gondhraj-lemonade.jpg",
+        chefSpecial: false
+      },
+      {
+        title: "Kiwi Fizz",
+        origin: "Fusion",
+        tagline: "A burst of tropical freshness.",
+        desc: "A delightful mix of kiwi, mint, citrus, and fizz.",
+        fullDesc: "A tropical delight combining the tangy sweetness of kiwi, the freshness of mint, a splash of citrus, and bubbly fizz, perfect for any occasion.",
+        metrics: "$12",
+        image: "./assets/img/modal-images/bar-menu/kiwi-fizz.jpg",
+        chefSpecial: false
+      },
+      {
+        title: "Orange Thyme Smash",
+        origin: "Fusion",
+        tagline: "Citrus meets herbal elegance.",
+        desc: "A blend of orange, thyme, citrus, and pineapple cordial.",
+        fullDesc: "A refreshing medley of juicy orange, aromatic thyme, and bright citrus, enhanced by the sweet notes of pineapple cordial for a drink that's both invigorating and satisfying.",
+        metrics: "$12",
+        image: "./assets/img/modal-images/bar-menu/orange-thyme-smash.jpg",
+        chefSpecial: false
+      },
+      {
+        title: "Cucumba",
+        origin: "Fusion",
+        tagline: "Cool and refreshing, naturally.",
+        desc: "A light mix of cucumber, basil, elderflower, and citrus.",
+        fullDesc: "A rejuvenating blend of fresh cucumber, fragrant basil, delicate elderflower, and a dash of citrus, delivering a cool and refreshing experience with every sip.",
+        metrics: "$12",
+        image: "./assets/img/modal-images/bar-menu/cucumba.jpg",
+        chefSpecial: false
+      }
+    ],
+    
+  },
+  {
+    category: "House Cocktail",
+    type: "Alcoholic",
+    backgroundImage: "../assets/img/menu-images/page.jpg",
+    items: [
+      {
+        title: "Banarasi Boulevardier",
+        origin: "India",
+        tagline: "A bold twist on a classic cocktail.",
+        desc: "Whisky, Campari, sweet vermouth, saffron, and betel leaf.",
+        fullDesc: "A sophisticated mix of whisky, Campari, and sweet vermouth infused with the richness of saffron and the earthy aroma of betel leaf, offering a unique Indian-inspired take on the Boulevardier.",
+        metrics: "$15",
+        image: "./assets/img/modal-images/bar-menu/banarasi-boulevardier.jpg",
+        chefSpecial: false
+      },
+      {
+        title: "Royal Vodka Sour",
+        origin: "Fusion",
+        tagline: "A royal blend of floral and citrus notes.",
+        desc: "Vodka, lemon saccharum, Campari, rose, and citrus.",
+        fullDesc: "A regal cocktail featuring vodka and lemon saccharum, with hints of Campari and rose petals, rounded off by zesty citrus for a luxurious and refreshing experience.",
+        metrics: "$15",
+        image: "./assets/img/modal-images/bar-menu/royal-vodka-sour.jpg",
+        chefSpecial: false
+      },
+      {
+        title: "Tropical City",
+        origin: "Fusion",
+        tagline: "An exotic escape in a glass.",
+        desc: "Rum, pineapple cordial, coconut, curry leaf, Campari, and citrus.",
+        fullDesc: "A vibrant concoction of rum, tropical pineapple cordial, creamy coconut, and aromatic curry leaf, balanced with Campari and citrus for a truly tropical vibe.",
+        metrics: "$15",
+        image: "./assets/img/modal-images/bar-menu/tropical-city.jpg",
+        chefSpecial: false
+      },
+      {
+        title: "Guava Dark & Stormy",
+        origin: "Fusion",
+        tagline: "A storm of flavors with a guava twist.",
+        desc: "Rum, pink guava, thyme, and citrus.",
+        fullDesc: "A bold and refreshing drink combining the richness of rum with the tropical sweetness of pink guava, complemented by aromatic thyme and a splash of citrus.",
+        metrics: "$15",
+        image: "./assets/img/modal-images/bar-menu/guava-dark-and-stormy.jpg",
+        chefSpecial: false
+      },
+      {
+        title: "Raw Mango Picante",
+        origin: "India",
+        tagline: "A spicy, tangy treat for the adventurous.",
+        desc: "Tequila, raw mango, citrus, celery, chili, and hemp seed salt.",
+        fullDesc: "A zesty blend of tequila, tangy raw mango, and a kick of chili, balanced with citrus and celery, finished with hemp seed salt for a bold and flavorful experience.",
+        metrics: "$15",
+        image: "./assets/img/modal-images/bar-menu/raw-mango-picante.jpg",
+        chefSpecial: false
+      },
+    ],
+    
+  },
+  {
+    category: "Wine",
     type: "",
     backgroundImage: "../assets/img/menu-images/page.jpg",
     items: [
       {
-        title: "I Got No Chill",
-        origin: "India",
-        tagline: "A refreshing, chill cocktail with a spicy kick.",
-        desc: "Balanced with a touch of spice and cool flavors.",
-        fullDesc:
-          "The I Got No Chill cocktail combines cooling elements with a spicy kick, creating a refreshing experience perfect for any occasion.",
-        metrics: "30 ml - $10.99 | 60 ml - $18.99",
-        image: "./assets/img/modal-images/bar-menu/i-got-no-chill.jpg",
-        chefSpecial: false,
+        title: "Casalforte, Prosecco Extra Dry",
+        origin: "Italy",
+        tagline: "A sparkling delight from Italy.",
+        desc: "Crisp, refreshing prosecco with notes of pear and apple.",
+        fullDesc: "This Italian prosecco offers a delightful balance of crisp acidity and gentle sweetness, with bright notes of pear and green apple, perfect for celebrations.",
+        metrics: "$8 (Glass) | $33 (Bottle)"
       },
       {
-        title: "Amla Hi Ball",
-        origin: "India",
-        tagline: "A classic highball with tangy amla.",
-        desc: "Amla’s tanginess meets the classic highball.",
-        fullDesc:
-          "Amla Hi Ball merges the sharp, tangy flavor of amla with the refreshing qualities of a highball, creating a truly unique drink.",
-        metrics: "30 ml - $9.99 | 60 ml - $16.99",
-        image: "./assets/img/modal-images/bar-menu/amla-hi-ball.jpg",
-        chefSpecial: false,
+        title: "Andre Clourt, Champagne Brut Grande Reserve (NV)",
+        origin: "France",
+        tagline: "Elegance in every bubble.",
+        desc: "Classic French champagne with refined effervescence and complex flavors.",
+        fullDesc: "A luxurious champagne featuring delicate bubbles, notes of brioche and citrus, and a finish that lingers with sophistication.",
+        metrics: "$25 (Glass) | $101 (Bottle)"
       },
       {
-        title: "Spicy Corn Margarita",
-        origin: "India",
-        tagline: "A spicy twist on the classic margarita.",
-        desc: "Sweet corn with a hint of spice in a margarita.",
-        fullDesc:
-          "Spicy Corn Margarita combines the sweetness of corn with a spicy kick, transforming the classic margarita into a memorable drink.",
-        metrics: "30 ml - $9.99 | 60 ml - $16.99",
-        image: "./assets/img/modal-images/bar-menu/spicy-corn-margarita.jpg",
-        chefSpecial: false,
+        title: "Perelada, Cava Brut Rosé",
+        origin: "Spain",
+        tagline: "Vibrant pink bubbles with a Spanish flair.",
+        desc: "A sparkling rosé with berry notes and a crisp finish.",
+        fullDesc: "This cava offers a lively effervescence with flavors of red berries and a refreshing acidity, perfect for any occasion.",
+        metrics: "$8 (Glass) | $32 (Bottle)"
       },
       {
-        title: "Dr. Gogia's Prescription",
-        origin: "India",
-        tagline: "A medicinal-inspired cocktail with a unique blend.",
-        desc: "Strong and smooth with intriguing flavors.",
-        fullDesc:
-          "Dr. Gogia's Prescription is a strong, smooth cocktail inspired by medicinal flavors, creating a truly memorable and unique experience.",
-        metrics: "30 ml - $10.99 | 60 ml - $18.99",
-        image: "./assets/img/modal-images/bar-menu/dr-gogias-prescription.jpg",
-        chefSpecial: false,
+        title: "Highway 12 Vineyards, Pinot Noir Rosé North Coast (2023)",
+        origin: "USA",
+        tagline: "California's coastal charm in a glass.",
+        desc: "A light and elegant rosé with strawberry and floral notes.",
+        fullDesc: "This Pinot Noir Rosé captures the essence of California's North Coast, delivering subtle strawberry and rose petal aromas with a refreshing finish.",
+        metrics: "$9 (Glass) | $36 (Bottle)"
       },
       {
-        title: "Plum & Galangal Fizz",
-        origin: "India",
-        tagline: "A fruity fizz with a hint of galangal.",
-        desc: "Refreshing plum with spicy galangal.",
-        fullDesc:
-          "The Plum & Galangal Fizz blends juicy plum flavors with a hint of galangal, offering a refreshing and slightly spicy cocktail.",
-        metrics: "30 ml - $9.99 | 60 ml - $16.99",
-        image: "./assets/img/modal-images/bar-menu/plum-galangal-fizz.jpg",
-        chefSpecial: false,
+        title: "Salmon Ru, Riesling Finger Lakes (2023)",
+        origin: "USA",
+        tagline: "A crisp and lively Riesling from New York.",
+        desc: "Fresh and fruity with hints of peach and citrus.",
+        fullDesc: "Hailing from the Finger Lakes, this Riesling boasts vibrant acidity and layers of stone fruit and citrus, making it a versatile choice.",
+        metrics: "$8 (Glass) | $30 (Bottle)"
       },
       {
-        title: "Tropic Tingle",
-        origin: "Global",
-        tagline: "A tropical cocktail that tingles the senses.",
-        desc: "Bright, fruity flavors with tropical vibes.",
-        fullDesc:
-          "Tropic Tingle is a vibrant tropical cocktail filled with fruity flavors, bringing a refreshing and exotic twist to every sip.",
-        metrics: "30 ml - $9.99 | 60 ml - $16.99",
-        image: "./assets/img/modal-images/bar-menu/tropic-tingle.jpg",
-        chefSpecial: false,
+        title: "Terracotta, Pinot Grigio della Venezie (2022)",
+        origin: "Italy",
+        tagline: "Refreshing Italian white wine.",
+        desc: "Light and crisp with hints of green apple and citrus.",
+        fullDesc: "This Pinot Grigio from Veneto is a classic expression of Italian elegance, featuring bright flavors of apple, citrus, and a clean finish.",
+        metrics: "$8 (Glass) | $31 (Bottle)"
       },
       {
-        title: "Hibiscus Fizz",
-        origin: "India",
-        tagline: "A floral fizz with hibiscus.",
-        desc: "Floral and refreshing with a light sweetness.",
-        fullDesc:
-          "Hibiscus Fizz combines the delicate floral notes of hibiscus with refreshing fizz, resulting in a light, sweet, and aromatic cocktail.",
-        metrics: "30 ml - $9.99 | 60 ml - $16.99",
-        image: "./assets/img/modal-images/bar-menu/hibiscus-fizz.jpg",
-        chefSpecial: false,
+        title: "Taft Street, Sauvignon Blanc Russian River Valley",
+        origin: "USA",
+        tagline: "A zesty white from California.",
+        desc: "Crisp and vibrant with tropical fruit and citrus notes.",
+        fullDesc: "A beautifully crafted Sauvignon Blanc from Russian River Valley, offering aromas of passionfruit, lime, and a hint of minerality.",
+        metrics: "$10 (Glass) | $39 (Bottle)"
       },
+      {
+        title: "Blue Rock Vineyard, Baby Blue Blanc (2023)",
+        origin: "USA",
+        tagline: "A bold white blend for every occasion.",
+        desc: "Rich and creamy with tropical fruit and vanilla notes.",
+        fullDesc: "This white blend combines lush tropical fruit flavors with a creamy texture, balanced by a touch of oak for a delightful complexity.",
+        metrics: "$13 (Glass) | $53 (Bottle)"
+      },
+      {
+        title: "Francois Labet, Bourgogne Chardonnay Vieilles Vignes (2022)",
+        origin: "France",
+        tagline: "A classic French Chardonnay.",
+        desc: "Elegant and balanced with notes of citrus and toasted almonds.",
+        fullDesc: "A refined Chardonnay from Burgundy, featuring flavors of citrus, ripe pear, and a hint of toasted almond with a silky finish.",
+        metrics: "$13 (Glass) | $53 (Bottle)"
+      },
+      
     ],
+    
   },
   {
-    category: "Mocktails",
+    category: "Wine-2",
     type: "",
     backgroundImage: "../assets/img/menu-images/page.jpg",
     items: [
       {
-        title: "Pineapple Ginger Fizz",
-        origin: "Global",
-        tagline: "A tropical blend with a zesty kick.",
-        desc: "Refreshing pineapple and ginger with a fizzy twist.",
-        fullDesc:
-          "The Pineapple Ginger Fizz combines tropical pineapple with the zesty heat of ginger, making for a refreshing and invigorating non-alcoholic beverage.",
-        metrics: "30 ml - $5.99 | 60 ml - $9.99",
-        image: "./assets/img/modal-images/bar-menu/pineapple-ginger-fizz.jpg",
-        chefSpecial: false,
+        title: "Highway 12 Vineyards, Chardonnay California (2023)",
+        origin: "USA",
+        tagline: "A vibrant Chardonnay from California.",
+        desc: "Bright and refreshing with notes of green apple and vanilla.",
+        fullDesc: "This California Chardonnay offers a delightful blend of fresh fruit and subtle oak, perfect for pairing with a variety of dishes.",
+        metrics: "$9 (Glass) | $37 (Bottle)"
       },
       {
-        title: "Very Berry Sour",
-        origin: "Global",
-        tagline: "A berry lover's sour delight.",
-        desc: "A tangy mix of berries with a sour twist.",
-        fullDesc:
-          "The Very Berry Sour features a medley of fresh berries, balanced by a tangy sour flavor, creating a refreshing and bold mocktail.",
-        metrics: "30 ml - $5.99 | 60 ml - $9.99",
-        image: "./assets/img/modal-images/bar-menu/very-berry-sour.jpg",
-        chefSpecial: false,
+        title: "Francois Labet, Bourgogne Vieilles Vignes (2022)",
+        origin: "France",
+        tagline: "A silky Pinot Noir from Burgundy.",
+        desc: "Light-bodied with notes of red berries and earthy undertones.",
+        fullDesc: "This Pinot Noir from Burgundy presents delicate flavors of cherry, raspberry, and a touch of earthiness, ideal for light meals.",
+        metrics: "$9 (Glass) | $37 (Bottle)"
       },
       {
-        title: "Mango Lassi",
-        origin: "India",
-        tagline: "A classic Indian mango yogurt drink.",
-        desc: "Smooth and creamy with fresh mango flavor.",
-        fullDesc:
-          "Mango Lassi is a traditional Indian drink made with yogurt and fresh mangoes, offering a smooth, creamy, and refreshing experience.",
-        metrics: "30 ml - $5.99 | 60 ml - $9.99",
-        image: "./assets/img/modal-images/bar-menu/mango-lassi.jpg",
-        chefSpecial: false,
+        title: "Matthieu de Brully, Pinot Noir La Fraisiere (2021)",
+        origin: "France",
+        tagline: "An expressive Pinot Noir with character.",
+        desc: "Rich and smooth with cherry, spice, and subtle oak.",
+        fullDesc: "This French Pinot Noir offers a harmonious balance of dark cherry, baking spices, and gentle oak for a classic yet bold flavor profile.",
+        metrics: "$8 (Glass) | $33 (Bottle)"
       },
       {
-        title: "Strawberry Lassi",
-        origin: "India",
-        tagline: "A fruity twist on the classic lassi.",
-        desc: "Creamy yogurt with fresh strawberry flavor.",
-        fullDesc:
-          "Strawberry Lassi takes the classic Indian yogurt drink and adds a sweet, fruity twist with fresh strawberries.",
-        metrics: "30 ml - $5.99 | 60 ml - $9.99",
-        image: "./assets/img/modal-images/bar-menu/strawberry-lassi.jpg",
-        chefSpecial: false,
+        title: "Cru Wine Company, Pinot Noir Santa Lucia Highlands",
+        origin: "USA",
+        tagline: "A refined Pinot Noir from California's Highlands.",
+        desc: "Elegant and smooth with red berry and floral notes.",
+        fullDesc: "This Pinot Noir from Santa Lucia Highlands offers a delicate balance of red berry flavors, subtle floral aromas, and a hint of spice, delivering a polished finish.",
+        metrics: "$11 (Glass) | $44 (Bottle)"
       },
       {
-        title: "Kiwi Mint Lemonade",
-        origin: "Global",
-        tagline: "Refreshing lemonade with kiwi and mint.",
-        desc: "Zesty lemonade with fresh kiwi and mint.",
-        fullDesc:
-          "The Kiwi Mint Lemonade is a refreshing drink that combines the zesty tang of lemonade with fresh kiwi and mint, perfect for hot days.",
-        metrics: "30 ml - $5.99 | 60 ml - $9.99",
-        image: "./assets/img/modal-images/bar-menu/kiwi-mint-lemonade.jpg",
-        chefSpecial: false,
+        title: "Bouchaine, Pinot Noir Carneros (2019)",
+        origin: "USA",
+        tagline: "A luxurious Pinot Noir from Napa Valley.",
+        desc: "Rich and complex with layers of cherry, plum, and earthy tones.",
+        fullDesc: "Bouchaine's Carneros Pinot Noir showcases ripe cherry and plum flavors, complemented by earthy undertones and a silky texture, making it an exquisite choice for any occasion.",
+        metrics: "$15 (Glass) | $60 (Bottle)"
       },
       {
-        title: "Lemon Mint Lemonade",
-        origin: "Global",
-        tagline: "A cooling mint and lemon classic.",
-        desc: "Classic lemonade with a hint of mint.",
-        fullDesc:
-          "Lemon Mint Lemonade is a cooling and refreshing drink that combines the tangy taste of lemon with a hint of fresh mint.",
-        metrics: "30 ml - $5.99 | 60 ml - $9.99",
-        image: "./assets/img/modal-images/bar-menu/lemon-mint-lemonade.jpg",
-        chefSpecial: false,
+        title: "Vite Colte, La Luna e Falo Barbera d'Asti Superiore (2019)",
+        origin: "Italy",
+        tagline: "An Italian classic with a modern twist.",
+        desc: "Vibrant and bold with notes of dark fruit and spice.",
+        fullDesc: "This Barbera d'Asti Superiore captivates with its intense flavors of blackberry, plum, and a touch of spice, supported by a balanced acidity and smooth finish.",
+        metrics: "$12 (Glass) | $47 (Bottle)"
       },
       {
-        title: "Cucumber Basil Fizz",
-        origin: "Global",
-        tagline: "A crisp and herbal cucumber-basil mix.",
-        desc: "Fresh cucumber and basil with a fizzy finish.",
-        fullDesc:
-          "Cucumber Basil Fizz blends the crisp freshness of cucumber with fragrant basil and a fizzy finish, making for a refreshing mocktail.",
-        metrics: "30 ml - $5.99 | 60 ml - $9.99",
-        image: "./assets/img/modal-images/bar-menu/cucumber-basil-fizz.jpg",
-        chefSpecial: false,
+        title: "Chateau de Callac, Graves Rouge (2019)",
+        origin: "France",
+        tagline: "A Bordeaux gem with depth and elegance.",
+        desc: "Full-bodied with flavors of dark berries and subtle oak.",
+        fullDesc: "From the Graves region, this Rouge combines rich dark berry flavors with hints of tobacco and oak, creating a balanced wine with a smooth and lasting finish.",
+        metrics: "$8 (Glass) | $33 (Bottle)"
       },
       {
-        title: "Dusk Till Dawn",
-        origin: "Global",
-        tagline: "A vibrant mocktail to refresh anytime.",
-        desc: "A lively mix of citrus and fruit flavors.",
-        fullDesc:
-          "Dusk Till Dawn offers a lively and vibrant mix of citrus and fruit flavors, perfect for refreshment at any time of day.",
-        metrics: "30 ml - $5.99 | 60 ml - $9.99",
-        image: "./assets/img/modal-images/bar-menu/dusk-till-dawn.jpg",
-        chefSpecial: false,
+        title: "Bliss Family Vineyards, Merlot Estate Bottled Mendocino (2021)",
+        origin: "USA",
+        tagline: "A smooth and approachable Merlot.",
+        desc: "Bright and fruity with hints of cherry and vanilla.",
+        fullDesc: "This estate-bottled Merlot from Mendocino offers a delightful medley of cherry and red berry flavors, complemented by soft tannins and a touch of vanilla.",
+        metrics: "$7 (Glass) | $29 (Bottle)"
       },
     ],
+          
   },
   {
-    category: "Vodka",
+    category: "Wine-3",
     type: "",
     backgroundImage: "../assets/img/menu-images/page.jpg",
     items: [
       {
-        title: "Beluga Noble",
-        origin: "Vodka",
-        tagline: "A refined, smooth Russian vodka",
-        desc: "Known for its mellow character, crafted in Siberia from artesian well water.",
-        fullDesc:
-          "Beluga Noble is a meticulously crafted vodka with an unmatched smoothness, embodying Russian vodka tradition and quality.",
-        metrics: "30 ml - $8.99 | 60 ml - $15.99",
-        image: "./assets/img/modal-images/bar-menu/beluga-noble.jpg",
-        chefSpecial: false,
+        title: "Senorio De Sarria, Navarra Crianza (2019)",
+        origin: "Spain",
+        tagline: "A Spanish classic with a modern flair.",
+        desc: "Balanced and vibrant with red fruit and oak nuances.",
+        fullDesc: "This Crianza from Navarra offers a delightful harmony of bright red fruit flavors, smooth tannins, and a subtle touch of oak, embodying the essence of Spanish winemaking.",
+        metrics: "$10 (Glass) | $39 (Bottle)"
       },
       {
-        title: "Grey Goose",
-        origin: "Vodka",
-        tagline: "Iconic French luxury vodka",
-        desc: "Distilled in France from fine French wheat, delivering a smooth and silky flavor.",
-        fullDesc:
-          "Grey Goose is known for its soft, clear taste profile and refined French heritage, ideal for a variety of cocktails.",
-        metrics: "30 ml - $9.99 | 60 ml - $17.99",
-        image: "./assets/img/modal-images/bar-menu/grey-goose.jpg",
-        chefSpecial: false,
+        title: "Highway 12 Vineyards, Cabernet Sauvignon Sonoma County (2020)",
+        origin: "USA",
+        tagline: "A bold Cabernet from the heart of Sonoma.",
+        desc: "Rich and robust with notes of black currant and spice.",
+        fullDesc: "This Cabernet Sauvignon showcases bold black currant and dark cherry flavors, layered with hints of spice and smooth tannins for a well-rounded finish.",
+        metrics: "$9 (Glass) | $35 (Bottle)"
       },
       {
-        title: "Ciroc",
-        origin: "Vodka",
-        tagline: "Ultra-premium vodka distilled from grapes",
-        desc: "Crafted from fine French grapes and distilled five times for smoothness.",
-        fullDesc:
-          "Ciroc is unique in its use of grapes, which gives it a fruity and fresh profile, perfect for sophisticated cocktails.",
-        metrics: "30 ml - $10.99 | 60 ml - $18.99",
-        image: "./assets/img/modal-images/bar-menu/ciroc.jpg",
-        chefSpecial: false,
+        title: "Bruocoa Family Vineyards, Cabernet",
+        origin: "USA",
+        tagline: "An indulgent Cabernet for all occasions.",
+        desc: "Deep and velvety with flavors of dark fruit and cocoa.",
+        fullDesc: "The Bruocoa Family Cabernet delivers a rich profile of blackberry, plum, and subtle cocoa, paired with elegant tannins and a lingering finish.",
+        metrics: "$11 (Glass) | $46 (Bottle)"
       },
       {
-        title: "Absolut",
-        origin: "Vodka",
-        tagline: "Sweden's most iconic vodka",
-        desc: "Known for its purity and smooth taste, crafted without any added sugar.",
-        fullDesc:
-          "Absolut is synonymous with clarity and quality, making it a versatile choice for a range of mixed drinks.",
-        metrics: "30 ml - $7.99 | 60 ml - $13.99",
-        image: "./assets/img/modal-images/bar-menu/absolut.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Ketel One",
-        origin: "Vodka",
-        tagline: "Handcrafted vodka from the Netherlands",
-        desc: "A smooth and crisp vodka with citrus hints, perfect for sipping and cocktails.",
-        fullDesc:
-          "Ketel One is carefully crafted in small batches, ensuring each bottle has a refined and smooth finish.",
-        metrics: "30 ml - $9.49 | 60 ml - $16.99",
-        image: "./assets/img/modal-images/bar-menu/ketel-one.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Short Story Vodka",
-        origin: "Vodka",
-        tagline: "A unique vodka with character",
-        desc: "Smooth and clean with a slight peppery finish, made for sipping or mixing.",
-        fullDesc:
-          "Short Story Vodka combines a clean profile with a slight warmth, making it perfect for both shots and cocktails.",
-        metrics: "30 ml - $8.49 | 60 ml - $14.49",
-        image: "./assets/img/modal-images/bar-menu/short-story-vodka.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Smoke Lab Vodka",
-        origin: "Vodka",
-        tagline: "India’s premium vodka",
-        desc: "A bold vodka with a smooth finish, distilled using high-quality grains from India.",
-        fullDesc:
-          "Smoke Lab is India’s pioneering premium vodka, known for its quality, smoothness, and unique Indian character.",
-        metrics: "30 ml - $7.49 | 60 ml - $12.99",
-        image: "./assets/img/modal-images/bar-menu/smoke-lab-vodka.jpg",
-        chefSpecial: false,
+        title: "Slate, Red Wine California",
+        origin: "USA",
+        tagline: "A versatile red with a Californian charm.",
+        desc: "Smooth and approachable with ripe berry notes.",
+        fullDesc: "Slate Red Wine embodies the essence of California with its ripe berry flavors, smooth texture, and a touch of spice, making it a perfect choice for any gathering.",
+        metrics: "$10 (Glass) | $41 (Bottle)"
       },
     ],
+    
   },
   {
-    category: "Gin",
-    type: "",
-    backgroundImage: "../assets/img/menu-images/page.jpg",
-    items: [
-      {
-        title: "Roku",
-        origin: "Gin",
-        tagline: "Japanese craft gin with a unique flavor profile",
-        desc: "Infused with six Japanese botanicals for a balanced and aromatic flavor.",
-        fullDesc:
-          "Roku gin combines the essence of Japanese botanicals like yuzu and sakura flower, offering a smooth, balanced gin experience.",
-        metrics: "30 ml - $9.99 | 60 ml - $17.99",
-        image: "./assets/img/modal-images/bar-menu/roku-gin.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Hendriks",
-        origin: "Gin",
-        tagline: "A quirky gin with cucumber and rose infusion",
-        desc: "Known for its unique blend of botanicals, highlighted by rose and cucumber.",
-        fullDesc:
-          "Hendriks is distinct with its floral infusion, creating a refreshing gin with a touch of sophistication.",
-        metrics: "30 ml - $10.49 | 60 ml - $18.49",
-        image: "./assets/img/modal-images/bar-menu/hendriks-gin.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Monkey 47",
-        origin: "Gin",
-        tagline: "Complex gin with 47 botanicals from Germany",
-        desc: "An intricate gin featuring botanicals from the Black Forest and beyond.",
-        fullDesc:
-          "Monkey 47 offers a rich, herbal complexity, with flavors of berry and citrus, making it perfect for sophisticated cocktails.",
-        metrics: "30 ml - $12.99 | 60 ml - $21.99",
-        image: "./assets/img/modal-images/bar-menu/monkey-47.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Bombay Sapphire",
-        origin: "Gin",
-        tagline: "A classic gin with a balanced flavor",
-        desc: "Distilled with ten botanicals, giving it a balanced and aromatic profile.",
-        fullDesc:
-          "Bombay Sapphire offers a smooth gin experience, with an aromatic blend of botanicals, perfect for any gin cocktail.",
-        metrics: "30 ml - $8.99 | 60 ml - $15.99",
-        image: "./assets/img/modal-images/bar-menu/bombay-sapphire.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Beefeater Pink Gin",
-        origin: "Gin",
-        tagline: "London dry gin with strawberry notes",
-        desc: "A playful twist on classic gin, infused with natural strawberry flavor.",
-        fullDesc:
-          "Beefeater Pink is a fun, fruity gin with strawberry notes, offering a sweet twist on the classic London dry gin.",
-        metrics: "30 ml - $8.49 | 60 ml - $14.99",
-        image: "./assets/img/modal-images/bar-menu/beefeater-pink.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Beefeater",
-        origin: "Gin",
-        tagline: "Iconic London dry gin with robust flavors",
-        desc: "A classic gin known for its strong juniper and citrus notes.",
-        fullDesc:
-          "Beefeater is a true London dry gin with a bold, juniper-forward flavor, perfect for gin and tonics.",
-        metrics: "30 ml - $7.99 | 60 ml - $13.99",
-        image: "./assets/img/modal-images/bar-menu/beefeater.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Tanqueray",
-        origin: "Gin",
-        tagline: "Classic gin with a rich, juniper-forward profile",
-        desc: "Known for its bold flavors of juniper and a slight citrus note.",
-        fullDesc:
-          "Tanqueray is a classic London dry gin, delivering a rich, full-bodied taste perfect for cocktails.",
-        metrics: "30 ml - $8.99 | 60 ml - $15.49",
-        image: "./assets/img/modal-images/bar-menu/tanqueray.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Gordons",
-        origin: "Gin",
-        tagline: "The original London dry gin",
-        desc: "A reliable, well-balanced gin with bold juniper and citrus notes.",
-        fullDesc:
-          "Gordons is one of the oldest gin brands, with a smooth and classic profile, ideal for any gin-based drink.",
-        metrics: "30 ml - $7.49 | 60 ml - $12.99",
-        image: "./assets/img/modal-images/bar-menu/gordons.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Stranger & Sons",
-        origin: "Gin",
-        tagline: "Indian gin with bold flavors and spices",
-        desc: "Crafted in India, featuring bold, herbal notes with a hint of citrus.",
-        fullDesc:
-          "Stranger & Sons is an award-winning gin with a unique Indian twist, rich in spices and citrus, making it perfect for adventurous cocktails.",
-        metrics: "30 ml - $9.99 | 60 ml - $16.99",
-        image: "./assets/img/modal-images/bar-menu/stranger-sons.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Hapusa",
-        origin: "Gin",
-        tagline: "Indian Himalayan juniper gin",
-        desc: "Crafted with Himalayan juniper, offering a bold and earthy flavor.",
-        fullDesc:
-          "Hapusa gin uses Himalayan juniper and local Indian botanicals, delivering a unique gin with earthy and aromatic notes.",
-        metrics: "30 ml - $11.49 | 60 ml - $18.99",
-        image: "./assets/img/modal-images/bar-menu/hapusa.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Greater Than",
-        origin: "Gin",
-        tagline: "Indian gin with a balanced profile",
-        desc: "Smooth and refreshing, with classic juniper and citrus notes.",
-        fullDesc:
-          "Greater Than is India's first craft gin, offering a balanced profile perfect for any gin drink.",
-        metrics: "30 ml - $8.49 | 60 ml - $13.99",
-        image: "./assets/img/modal-images/bar-menu/greater-than.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Tamras",
-        origin: "Gin",
-        tagline: "Indian gin with bold spices and herbs",
-        desc: "Aromatic and refreshing with a rich mix of Indian botanicals.",
-        fullDesc:
-          "Tamras is a bold gin featuring a unique blend of Indian herbs and spices, ideal for a distinctive gin experience.",
-        metrics: "30 ml - $9.49 | 60 ml - $15.99",
-        image: "./assets/img/modal-images/bar-menu/tamras.jpg",
-        chefSpecial: false,
-      },
-    ],
-  },
-  {
-    category: "Rum",
-    type: "",
-    backgroundImage: "../assets/img/menu-images/page.jpg",
-    items: [
-      {
-        title: "Diplomatico",
-        origin: "Rum",
-        tagline: "Premium Venezuelan rum with rich flavors",
-        desc: "Known for its sweetness and smoothness, with notes of caramel and vanilla.",
-        fullDesc:
-          "Diplomatico rum offers a rich, complex flavor profile with caramel and vanilla notes, perfect for sipping or in cocktails.",
-        metrics: "30 ml - $9.99 | 60 ml - $17.99",
-        image: "./assets/img/modal-images/bar-menu/diplomatico.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Kraken Spiced Rum",
-        origin: "Rum",
-        tagline: "Dark spiced rum with bold flavors",
-        desc: "A strong, bold rum with notes of caramel, vanilla, and spices.",
-        fullDesc:
-          "Kraken Spiced Rum brings intense flavors of caramel, vanilla, and exotic spices, making it ideal for adventurous rum cocktails.",
-        metrics: "30 ml - $8.99 | 60 ml - $15.99",
-        image: "./assets/img/modal-images/bar-menu/kraken.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Bacardi Ocho Anejo",
-        origin: "Rum",
-        tagline: "Aged rum with smooth and rich flavors",
-        desc: "Aged for eight years, delivering a smooth, rich taste with hints of oak.",
-        fullDesc:
-          "Bacardi Ocho Anejo is a refined rum aged for eight years, bringing smoothness and complexity with subtle notes of oak.",
-        metrics: "30 ml - $8.49 | 60 ml - $14.99",
-        image: "./assets/img/modal-images/bar-menu/bacardi-ocho.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Bacardi Cuatro Anejo",
-        origin: "Rum",
-        tagline: "Four-year-aged rum with smooth notes",
-        desc: "Aged for four years, offering a balanced flavor with vanilla and oak notes.",
-        fullDesc:
-          "Bacardi Cuatro Anejo is a smooth rum with vanilla and oak undertones, ideal for those who enjoy a balanced rum.",
-        metrics: "30 ml - $7.99 | 60 ml - $13.99",
-        image: "./assets/img/modal-images/bar-menu/bacardi-cuatro.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Bacardi Carta Blanca",
-        origin: "Rum",
-        tagline: "Classic white rum for cocktails",
-        desc: "A smooth and light white rum, perfect for mixing in cocktails.",
-        fullDesc:
-          "Bacardi Carta Blanca is a versatile white rum with light, clean flavors, making it a staple for many classic cocktails.",
-        metrics: "30 ml - $6.99 | 60 ml - $12.49",
-        image: "./assets/img/modal-images/bar-menu/bacardi-blanca.jpg",
-        chefSpecial: false,
-      },
-      {
-        title: "Old Monk",
-        origin: "Rum",
-        tagline: "Iconic Indian dark rum with a rich flavor",
-        desc: "Aged dark rum with bold, caramelized flavors and a slight sweetness.",
-        fullDesc:
-          "Old Monk is an iconic Indian rum, known for its bold, caramelized taste and smooth finish, perfect for sipping or mixing.",
-        metrics: "30 ml - $5.99 | 60 ml - $10.99",
-        image: "./assets/img/modal-images/bar-menu/old-monk.jpg",
-        chefSpecial: false,
-      },
-    ],
-  },
-  {
-    category: "Tequila, Mezcal & Feni",
+    category: "Wine(N)",
     subCategories: [
       {
-        subCategory: "Tequila",
+        subCategory: "Wine(N1)",
         type: "",
         backgroundImage: "../assets/img/menu-images/page.jpg",
         items: [
           {
-            title: "1800 Blanco",
-            origin: "Mexico",
-            tagline: "A smooth and crisp tequila perfect for cocktails.",
-            desc: "Clean and bright with hints of citrus.",
-            fullDesc:
-              "1800 Blanco is a smooth and crisp tequila that shines with bright citrus notes and a clean finish. Ideal for cocktails or sipping, it embodies the spirit of traditional Mexican craftsmanship.",
-            metrics: "30 ml - $6.99 | 60 ml - $12.99",
-            image: "./assets/img/modal-images/bar-menu/1800-blanco.jpg",
-            chefSpecial: false,
+            title: "Casalforte, Prosecco Extra Dry",
+            origin: "Italy",
+            tagline: "A sparkling delight from Italy.",
+            desc: "Crisp, refreshing prosecco with notes of pear and apple.",
+            fullDesc: "This Italian prosecco offers a delightful balance of crisp acidity and gentle sweetness, with bright notes of pear and green apple, perfect for celebrations.",
+            metrics: "$8 (Glass) | $33 (Bottle)"
           },
           {
-            title: "1800 Reposado",
-            origin: "Mexico",
-            tagline: "Rich and complex with a touch of oak.",
-            desc: "Smooth with flavors of vanilla and caramel.",
-            fullDesc:
-              "1800 Reposado is a rich and complex tequila aged in oak barrels, giving it flavors of vanilla and caramel. Its smooth profile makes it an excellent choice for sipping neat or mixing in premium cocktails.",
-            metrics: "30 ml - $7.99 | 60 ml - $14.99",
-            image: "./assets/img/modal-images/bar-menu/1800-reposado.jpg",
-            chefSpecial: false,
+            title: "Andre Clourt, Champagne Brut Grande Reserve (NV)",
+            origin: "France",
+            tagline: "Elegance in every bubble.",
+            desc: "Classic French champagne with refined effervescence and complex flavors.",
+            fullDesc: "A luxurious champagne featuring delicate bubbles, notes of brioche and citrus, and a finish that lingers with sophistication.",
+            metrics: "$25 (Glass) | $101 (Bottle)"
           },
           {
-            title: "1800 Anejo",
-            origin: "Mexico",
-            tagline: "An exquisite tequila with deep flavors.",
-            desc: "Rich with notes of chocolate and spice.",
-            fullDesc:
-              "1800 Anejo is an exquisite tequila that is aged for at least a year, resulting in deep flavors of chocolate, spice, and oak. Perfect for sipping, it’s a true connoisseur's choice.",
-            metrics: "30 ml - $8.99 | 60 ml - $15.99",
-            image: "./assets/img/modal-images/bar-menu/1800-anejo.jpg",
-            chefSpecial: false,
+            title: "Perelada, Cava Brut Rosé",
+            origin: "Spain",
+            tagline: "Vibrant pink bubbles with a Spanish flair.",
+            desc: "A sparkling rosé with berry notes and a crisp finish.",
+            fullDesc: "This cava offers a lively effervescence with flavors of red berries and a refreshing acidity, perfect for any occasion.",
+            metrics: "$8 (Glass) | $32 (Bottle)"
           },
           {
-            title: "Patron Silver",
-            origin: "Mexico",
-            tagline: "Premium tequila with unmatched quality.",
-            desc: "Fresh and smooth with herbal notes.",
-            fullDesc:
-              "Patron Silver is a premium tequila known for its unmatched quality and freshness. With herbal notes and a smooth finish, it's perfect for cocktails or enjoyed straight.",
-            metrics: "30 ml - $9.99 | 60 ml - $16.99",
-            image: "./assets/img/modal-images/bar-menu/patron-silver.jpg",
-            chefSpecial: false,
+            title: "Highway 12 Vineyards, Pinot Noir Rosé North Coast (2023)",
+            origin: "USA",
+            tagline: "California's coastal charm in a glass.",
+            desc: "A light and elegant rosé with strawberry and floral notes.",
+            fullDesc: "This Pinot Noir Rosé captures the essence of California's North Coast, delivering subtle strawberry and rose petal aromas with a refreshing finish.",
+            metrics: "$9 (Glass) | $36 (Bottle)"
           },
           {
-            title: "Patron Reposado",
-            origin: "Mexico",
-            tagline: "Aged perfection with a smooth finish.",
-            desc: "Subtle oak and vanilla flavors.",
-            fullDesc:
-              "Patron Reposado is a meticulously aged tequila that balances subtle oak and vanilla flavors. Its smooth finish makes it a fantastic choice for sipping or in cocktails.",
-            metrics: "30 ml - $10.99 | 60 ml - $17.99",
-            image: "./assets/img/modal-images/bar-menu/patron-reposado.jpg",
-            chefSpecial: false,
+            title: "Salmon Ru, Riesling Finger Lakes (2023)",
+            origin: "USA",
+            tagline: "A crisp and lively Riesling from New York.",
+            desc: "Fresh and fruity with hints of peach and citrus.",
+            fullDesc: "Hailing from the Finger Lakes, this Riesling boasts vibrant acidity and layers of stone fruit and citrus, making it a versatile choice.",
+            metrics: "$8 (Glass) | $30 (Bottle)"
           },
           {
-            title: "Jose Cuervo Silver",
-            origin: "Mexico",
-            tagline: "A classic tequila that's versatile and smooth.",
-            desc: "Crisp and clean with a hint of sweetness.",
-            fullDesc:
-              "Jose Cuervo Silver is a classic tequila that delivers a crisp and clean taste with a hint of sweetness. It's versatile enough for cocktails or enjoyable on its own.",
-            metrics: "30 ml - $5.99 | 60 ml - $10.99",
-            image: "./assets/img/modal-images/bar-menu/jose-cuervo-silver.jpg",
-            chefSpecial: false,
+            title: "Terracotta, Pinot Grigio della Venezie (2022)",
+            origin: "Italy",
+            tagline: "Refreshing Italian white wine.",
+            desc: "Light and crisp with hints of green apple and citrus.",
+            fullDesc: "This Pinot Grigio from Veneto is a classic expression of Italian elegance, featuring bright flavors of apple, citrus, and a clean finish.",
+            metrics: "$8 (Glass) | $31 (Bottle)"
+          },
+          {
+            title: "Taft Street, Sauvignon Blanc Russian River Valley",
+            origin: "USA",
+            tagline: "A zesty white from California.",
+            desc: "Crisp and vibrant with tropical fruit and citrus notes.",
+            fullDesc: "A beautifully crafted Sauvignon Blanc from Russian River Valley, offering aromas of passionfruit, lime, and a hint of minerality.",
+            metrics: "$10 (Glass) | $39 (Bottle)"
+          },
+          {
+            title: "Blue Rock Vineyard, Baby Blue Blanc (2023)",
+            origin: "USA",
+            tagline: "A bold white blend for every occasion.",
+            desc: "Rich and creamy with tropical fruit and vanilla notes.",
+            fullDesc: "This white blend combines lush tropical fruit flavors with a creamy texture, balanced by a touch of oak for a delightful complexity.",
+            metrics: "$13 (Glass) | $53 (Bottle)"
+          },
+          {
+            title: "Francois Labet, Bourgogne Chardonnay Vieilles Vignes (2022)",
+            origin: "France",
+            tagline: "A classic French Chardonnay.",
+            desc: "Elegant and balanced with notes of citrus and toasted almonds.",
+            fullDesc: "A refined Chardonnay from Burgundy, featuring flavors of citrus, ripe pear, and a hint of toasted almond with a silky finish.",
+            metrics: "$13 (Glass) | $53 (Bottle)"
+          },
+          
+        ],
+      },
+      {
+        subCategory: "Wine(N2)",
+        type: "",
+        backgroundImage: "../assets/img/menu-images/page.jpg",
+        items: [
+          {
+            title: "Highway 12 Vineyards, Chardonnay California (2023)",
+            origin: "USA",
+            tagline: "A vibrant Chardonnay from California.",
+            desc: "Bright and refreshing with notes of green apple and vanilla.",
+            fullDesc: "This California Chardonnay offers a delightful blend of fresh fruit and subtle oak, perfect for pairing with a variety of dishes.",
+            metrics: "$9 (Glass) | $37 (Bottle)"
+          },
+          {
+            title: "Francois Labet, Bourgogne Vieilles Vignes (2022)",
+            origin: "France",
+            tagline: "A silky Pinot Noir from Burgundy.",
+            desc: "Light-bodied with notes of red berries and earthy undertones.",
+            fullDesc: "This Pinot Noir from Burgundy presents delicate flavors of cherry, raspberry, and a touch of earthiness, ideal for light meals.",
+            metrics: "$9 (Glass) | $37 (Bottle)"
+          },
+          {
+            title: "Matthieu de Brully, Pinot Noir La Fraisiere (2021)",
+            origin: "France",
+            tagline: "An expressive Pinot Noir with character.",
+            desc: "Rich and smooth with cherry, spice, and subtle oak.",
+            fullDesc: "This French Pinot Noir offers a harmonious balance of dark cherry, baking spices, and gentle oak for a classic yet bold flavor profile.",
+            metrics: "$8 (Glass) | $33 (Bottle)"
+          },
+          {
+            title: "Cru Wine Company, Pinot Noir Santa Lucia Highlands",
+            origin: "USA",
+            tagline: "A refined Pinot Noir from California's Highlands.",
+            desc: "Elegant and smooth with red berry and floral notes.",
+            fullDesc: "This Pinot Noir from Santa Lucia Highlands offers a delicate balance of red berry flavors, subtle floral aromas, and a hint of spice, delivering a polished finish.",
+            metrics: "$11 (Glass) | $44 (Bottle)"
+          },
+          {
+            title: "Bouchaine, Pinot Noir Carneros (2019)",
+            origin: "USA",
+            tagline: "A luxurious Pinot Noir from Napa Valley.",
+            desc: "Rich and complex with layers of cherry, plum, and earthy tones.",
+            fullDesc: "Bouchaine's Carneros Pinot Noir showcases ripe cherry and plum flavors, complemented by earthy undertones and a silky texture, making it an exquisite choice for any occasion.",
+            metrics: "$15 (Glass) | $60 (Bottle)"
+          },
+          {
+            title: "Vite Colte, La Luna e Falo Barbera d'Asti Superiore (2019)",
+            origin: "Italy",
+            tagline: "An Italian classic with a modern twist.",
+            desc: "Vibrant and bold with notes of dark fruit and spice.",
+            fullDesc: "This Barbera d'Asti Superiore captivates with its intense flavors of blackberry, plum, and a touch of spice, supported by a balanced acidity and smooth finish.",
+            metrics: "$12 (Glass) | $47 (Bottle)"
+          },
+          {
+            title: "Chateau de Callac, Graves Rouge (2019)",
+            origin: "France",
+            tagline: "A Bordeaux gem with depth and elegance.",
+            desc: "Full-bodied with flavors of dark berries and subtle oak.",
+            fullDesc: "From the Graves region, this Rouge combines rich dark berry flavors with hints of tobacco and oak, creating a balanced wine with a smooth and lasting finish.",
+            metrics: "$8 (Glass) | $33 (Bottle)"
+          },
+          {
+            title: "Bliss Family Vineyards, Merlot Estate Bottled Mendocino (2021)",
+            origin: "USA",
+            tagline: "A smooth and approachable Merlot.",
+            desc: "Bright and fruity with hints of cherry and vanilla.",
+            fullDesc: "This estate-bottled Merlot from Mendocino offers a delightful medley of cherry and red berry flavors, complemented by soft tannins and a touch of vanilla.",
+            metrics: "$7 (Glass) | $29 (Bottle)"
           },
         ],
       },
       {
-        subCategory: "Mezcal",
+        subCategory: "Wine(N3)",
         type: "",
         backgroundImage: "../assets/img/menu-images/page.jpg",
         items: [
           {
-            title: "Creyente Joven Mezcal",
-            origin: "Mexico",
-            tagline: "A smoky mezcal with a rich flavor profile.",
-            desc: "Bold and earthy with a hint of sweetness.",
-            fullDesc:
-              "Creyente Joven Mezcal is a smoky spirit that offers a rich flavor profile, showcasing bold earthy notes with a hint of sweetness. Perfect for sipping or in creative cocktails.",
-            metrics: "30 ml - $7.99 | 60 ml - $13.99",
-            image:
-              "./assets/img/modal-images/bar-menu/creyente-joven-mezcal.jpg",
-            chefSpecial: false,
+            title: "Senorio De Sarria, Navarra Crianza (2019)",
+            origin: "Spain",
+            tagline: "A Spanish classic with a modern flair.",
+            desc: "Balanced and vibrant with red fruit and oak nuances.",
+            fullDesc: "This Crianza from Navarra offers a delightful harmony of bright red fruit flavors, smooth tannins, and a subtle touch of oak, embodying the essence of Spanish winemaking.",
+            metrics: "$10 (Glass) | $39 (Bottle)"
           },
           {
-            title: "400 Conejos Mezcal",
-            origin: "Mexico",
-            tagline: "An artisanal mezcal with unique character.",
-            desc: "Smooth with complex flavors and a smoky finish.",
-            fullDesc:
-              "400 Conejos Mezcal is an artisanal spirit that stands out for its unique character. With smooth texture and complex flavors, it offers a smoky finish that enhances the tasting experience.",
-            metrics: "30 ml - $8.99 | 60 ml - $14.99",
-            image: "./assets/img/modal-images/bar-menu/400-conejos-mezcal.jpg",
-            chefSpecial: false,
-          },
-        ],
-      },
-      {
-        subCategory: "Feni",
-        type: "",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
-        items: [
-          {
-            title: "Cazulo Feni / Tinto",
-            origin: "India",
-            tagline: "A unique Indian spirit with tropical notes.",
-            desc: "Fruity and aromatic with a smooth finish.",
-            fullDesc:
-              "Cazulo Feni / Tinto is a unique Indian spirit crafted from cashew apples, offering fruity and aromatic notes with a smooth finish. It's an excellent choice for mixing in cocktails or enjoying neat.",
-            metrics: "30 ml - $6.99 | 60 ml - $11.99",
-            image: "./assets/img/modal-images/bar-menu/cazulo-feni.jpg",
-            chefSpecial: false,
+            title: "Highway 12 Vineyards, Cabernet Sauvignon Sonoma County (2020)",
+            origin: "USA",
+            tagline: "A bold Cabernet from the heart of Sonoma.",
+            desc: "Rich and robust with notes of black currant and spice.",
+            fullDesc: "This Cabernet Sauvignon showcases bold black currant and dark cherry flavors, layered with hints of spice and smooth tannins for a well-rounded finish.",
+            metrics: "$9 (Glass) | $35 (Bottle)"
           },
           {
-            title: "Pistola Joven",
-            origin: "India",
-            tagline: "A smooth feni with a tropical twist.",
-            desc: "Rich and vibrant with cashew flavors.",
-            fullDesc:
-              "Pistola Joven is a smooth feni that showcases rich and vibrant flavors derived from cashew apples. Its tropical twist makes it perfect for refreshing cocktails or enjoyed straight.",
-            metrics: "30 ml - $7.49 | 60 ml - $12.49",
-            image: "./assets/img/modal-images/bar-menu/pistola-joven.jpg",
-            chefSpecial: false,
+            title: "Bruocoa Family Vineyards, Cabernet",
+            origin: "USA",
+            tagline: "An indulgent Cabernet for all occasions.",
+            desc: "Deep and velvety with flavors of dark fruit and cocoa.",
+            fullDesc: "The Bruocoa Family Cabernet delivers a rich profile of blackberry, plum, and subtle cocoa, paired with elegant tannins and a lingering finish.",
+            metrics: "$11 (Glass) | $46 (Bottle)"
           },
           {
-            title: "Pistola Reposado",
-            origin: "India",
-            tagline: "Aged feni with a complex flavor profile.",
-            desc: "Smooth with notes of oak and fruit.",
-            fullDesc:
-              "Pistola Reposado is an aged feni that delivers a complex flavor profile with smooth notes of oak and fruit. It's a delightful option for sipping or in cocktails that require depth of flavor.",
-            metrics: "30 ml - $8.49 | 60 ml - $13.49",
-            image: "./assets/img/modal-images/bar-menu/pistola-reposado.jpg",
-            chefSpecial: false,
-          },
-          {
-            title: "Pistola Anejo",
-            origin: "India",
-            tagline: "Premium feni aged to perfection.",
-            desc: "Rich and complex with a smooth finish.",
-            fullDesc:
-              "Pistola Anejo is a premium feni aged to perfection, offering rich and complex flavors that evolve beautifully in the glass. Perfect for sipping, it represents the best of Indian spirit-making.",
-            metrics: "30 ml - $9.49 | 60 ml - $14.49",
-            image: "./assets/img/modal-images/bar-menu/pistola-anejo.jpg",
-            chefSpecial: false,
-          },
-          {
-            title: "Pistola Extra Anejo",
-            origin: "India",
-            tagline: "An exquisite aged feni with depth and character.",
-            desc: "Bold and smooth with layers of flavor.",
-            fullDesc:
-              "Pistola Extra Anejo is an exquisite feni that showcases bold and smooth characteristics with layers of flavor. Its exceptional aging process results in a spirit that is perfect for savoring.",
-            metrics: "30 ml - $10.49 | 60 ml - $15.49",
-            image: "./assets/img/modal-images/bar-menu/pistola-extra-anejo.jpg",
-            chefSpecial: false,
+            title: "Slate, Red Wine California",
+            origin: "USA",
+            tagline: "A versatile red with a Californian charm.",
+            desc: "Smooth and approachable with ripe berry notes.",
+            fullDesc: "Slate Red Wine embodies the essence of California with its ripe berry flavors, smooth texture, and a touch of spice, making it a perfect choice for any gathering.",
+            metrics: "$10 (Glass) | $41 (Bottle)"
           },
         ],
       },
@@ -979,154 +843,218 @@ const barMenuData = [
     // ],
   },
   {
-    category: "World of Whishkey",
+    category: "Liquor",
     subCategories: [
       {
-        subCategory: "Wood Finish Whisky",
+        subCategory: "Bourbon & Cognac",
         type: "",
         backgroundImage: "../assets/img/menu-images/page.jpg",
         items: [
           {
-            title: "The Balvenie Doublewood 12",
-            origin: "Wood Finish Whisky",
-            tagline: "Aged in two casks for a rich, complex taste",
-            desc: "Smooth and layered with notes of honey, vanilla, and a hint of oak.",
-            fullDesc:
-              "The Balvenie Doublewood is a unique whiskey, aged in two types of casks to create a rich and complex flavor profile.",
-            metrics: "30 ml - $14.99 | 60 ml - $25.99",
-            image: "./assets/img/modal-images/bar-menu/balvenie-doublewood.jpg",
-            chefSpecial: false,
+            title: "Jim Beam (bourbon)",
+            origin: "USA",
+            tagline: "A classic taste of Kentucky's finest.",
+            desc: "Smooth and versatile, perfect for sipping or mixing.",
+            fullDesc: "Jim Beam bourbon delivers a timeless flavor profile with notes of vanilla, caramel, and oak, embodying the spirit of traditional Kentucky craftsmanship.",
+            metrics: "$7"
           },
           {
-            title: "The Balvenie Caribbean Cask 14",
-            origin: "Wood Finish Whisky",
-            tagline: "Finished in Caribbean rum casks for a tropical twist",
-            desc: "A blend of rich malt flavors with hints of caramel and tropical fruit.",
-            fullDesc:
-              "Balvenie Caribbean Cask 14 has a sweet, fruity profile from aging in rum barrels, adding a tropical depth to the whiskey.",
-            metrics: "30 ml - $16.99 | 60 ml - $29.99",
-            image: "./assets/img/modal-images/bar-menu/balvenie-caribbean.jpg",
-            chefSpecial: false,
+            title: "Makers Mark (bourbon)",
+            origin: "USA",
+            tagline: "Handcrafted for a smooth and sweet experience.",
+            desc: "Rich and flavorful with notes of caramel and vanilla.",
+            fullDesc: "Makers Mark bourbon is a handcrafted classic, offering a rich balance of sweet caramel, vanilla, and a subtle oak finish for a smooth sipping experience.",
+            metrics: "$11"
           },
           {
-            title: "Glenmorangie 12 The Lasanta",
-            origin: "Wood Finish Whisky",
-            tagline: "Sherry cask-finished for a sweet, complex taste",
-            desc: "Rich and sweet with notes of dried fruits, honey, and a hint of spice.",
-            fullDesc:
-              "The Lasanta by Glenmorangie is matured in sherry casks, delivering a sweet, rich profile with complex layers.",
-            metrics: "30 ml - $13.99 | 60 ml - $24.99",
-            image:
-              "./assets/img/modal-images/bar-menu/glenmorangie-lasanta.jpg",
-            chefSpecial: false,
+            title: "Four Roses (bourbon)",
+            origin: "USA",
+            tagline: "A delicate balance of flavor and smoothness.",
+            desc: "Crisp, smooth, and slightly fruity.",
+            fullDesc: "Four Roses bourbon delivers a unique blend of delicate fruit flavors, spices, and a smooth finish, crafted with precision and care.",
+            metrics: "$8"
           },
           {
-            title: "Glenmorangie 14 The Quinta Ruban",
-            origin: "Wood Finish Whisky",
-            tagline: "Aged in port casks for a deep, fruity profile",
-            desc: "Bold and velvety with dark chocolate and orange notes.",
-            fullDesc:
-              "Glenmorangie Quinta Ruban is aged in port casks, offering a rich, velvety texture with a hint of chocolate and fruit.",
-            metrics: "30 ml - $15.49 | 60 ml - $26.99",
-            image: "./assets/img/modal-images/bar-menu/glenmorangie-quinta.jpg",
-            chefSpecial: false,
+            title: "Woodford Reserve (bourbon)",
+            origin: "USA",
+            tagline: "A refined bourbon with a complex character.",
+            desc: "Rich and bold with notes of dark chocolate and spices.",
+            fullDesc: "Woodford Reserve bourbon is a premium choice, offering layers of complex flavors including dark chocolate, spices, and a hint of tobacco for a luxurious finish.",
+            metrics: "$13"
           },
           {
-            title: "Glenfiddich IPA Experiment",
-            origin: "Wood Finish Whisky",
-            tagline: "Aged in IPA casks for a unique hoppy twist",
-            desc: "Crisp and fresh with hints of hops, citrus, and a subtle sweetness.",
-            fullDesc:
-              "Glenfiddich IPA Experiment is a pioneering whiskey aged in IPA casks, combining crisp, fresh flavors with subtle sweetness.",
-            metrics: "30 ml - $13.49 | 60 ml - $23.49",
-            image: "./assets/img/modal-images/bar-menu/glenfiddich-ipa.jpg",
-            chefSpecial: false,
+            title: "Knob Creek (bourbon)",
+            origin: "USA",
+            tagline: "A full-bodied bourbon with bold flavors.",
+            desc: "Robust and intense with hints of maple and nutmeg.",
+            fullDesc: "Knob Creek bourbon is crafted to perfection, offering a bold flavor profile with maple syrup sweetness, nutmeg spice, and a lingering smoky finish.",
+            metrics: "$13"
+          },
+          {
+            title: "TX Bourbon (bourbon)",
+            origin: "USA",
+            tagline: "A Texas-made bourbon with a unique twist.",
+            desc: "Rich, smooth, and distinctly Texan.",
+            fullDesc: "TX Bourbon delivers a bold and distinctive flavor with hints of vanilla, caramel, and a uniquely smooth finish that pays homage to its Texan roots.",
+            metrics: "$17"
+          },
+          {
+            title: "Remy Martin VSOP (cognac)",
+            origin: "France",
+            tagline: "The epitome of smooth French elegance.",
+            desc: "Harmonious and rich with fruity and floral notes.",
+            fullDesc: "Remy Martin VSOP cognac is a perfectly balanced spirit, showcasing harmonious notes of ripe fruit, subtle floral tones, and a silky smooth finish.",
+            metrics: "$20"
           },
         ],
+        
       },
       {
-        subCategory: "Peaty & Intense",
+        subCategory: "Gin & Liqueur",
         type: "",
         backgroundImage: "../assets/img/menu-images/page.jpg",
         items: [
           {
-            title: "Laphroaig 10 Y.O",
-            origin: "Peaty & Intense",
-            tagline: "An iconic Islay whisky with intense peat smoke",
-            desc: "Bold peat smoke with hints of seaweed and medicinal notes.",
-            fullDesc:
-              "Laphroaig 10-year-old offers a bold, smoky flavor with signature Islay peat and a slight medicinal edge.",
-            metrics: "30 ml - $13.99 | 60 ml - $24.99",
-            image: "./assets/img/modal-images/bar-menu/laphroaig-10.jpg",
-            chefSpecial: false,
+            title: "Tanqueray (gin)",
+            origin: "England",
+            tagline: "A London Dry Gin crafted to perfection.",
+            desc: "Smooth and crisp with notes of juniper and citrus.",
+            fullDesc: "Tanqueray gin delivers a perfectly balanced blend of juniper, coriander, and citrus, making it an ideal choice for classic cocktails.",
+            metrics: "$11"
           },
           {
-            title: "Lagavulin 16 Y.O",
-            origin: "Peaty & Intense",
-            tagline: "Rich, intense Islay single malt with peaty depth",
-            desc: "Deep smoky flavor with hints of dried fruit and sherry sweetness.",
-            fullDesc:
-              "Lagavulin 16-year-old offers a well-balanced peatiness with sherry sweetness and a complex, full-bodied taste.",
-            metrics: "30 ml - $17.99 | 60 ml - $30.99",
-            image: "./assets/img/modal-images/bar-menu/lagavulin-16.jpg",
-            chefSpecial: false,
+            title: "Tanqueray 10 (gin)",
+            origin: "England",
+            tagline: "A premium gin with unparalleled smoothness.",
+            desc: "Rich and refreshing with citrus-forward botanicals.",
+            fullDesc: "Tanqueray 10 gin is a premium spirit crafted with the finest fresh citrus and botanicals, offering a velvety smooth finish for the discerning palate.",
+            metrics: "$12"
           },
           {
-            title: "Talisker 10 Y.O",
-            origin: "Peaty & Intense",
-            tagline: "Island single malt with maritime character",
-            desc: "Peaty, smoky, with hints of pepper and brine.",
-            fullDesc:
-              "Talisker 10-year-old has a bold, smoky profile with a hint of pepper, embodying its coastal origins on the Isle of Skye.",
-            metrics: "30 ml - $12.99 | 60 ml - $22.99",
-            image: "./assets/img/modal-images/bar-menu/talisker-10.jpg",
-            chefSpecial: false,
+            title: "Bombay Sapphire (gin)",
+            origin: "England",
+            tagline: "A vibrant gin infused with exotic botanicals.",
+            desc: "Bright and aromatic with a delicate spice finish.",
+            fullDesc: "Bombay Sapphire gin features a unique blend of 10 exotic botanicals, creating a refreshing and versatile spirit perfect for any occasion.",
+            metrics: "$10"
+          },
+          {
+            title: "Hendricks (gin)",
+            origin: "Scotland",
+            tagline: "A quirky gin with a hint of cucumber and rose.",
+            desc: "Unique and refreshing with floral undertones.",
+            fullDesc: "Hendricks gin stands out with its infusion of cucumber and rose petals, offering a delightfully refreshing and smooth flavor profile.",
+            metrics: "$13"
+          },
+          {
+            title: "Campari (liqueur)",
+            origin: "Italy",
+            tagline: "A classic Italian aperitif with bold flavors.",
+            desc: "Bitter and aromatic with notes of orange and herbs.",
+            fullDesc: "Campari is a timeless Italian liqueur, blending bold citrus and herbal flavors, perfect for cocktails like Negronis or as a pre-dinner aperitif.",
+            metrics: "$12"
+          },
+          {
+            title: "Grand Marnier (liqueur)",
+            origin: "France",
+            tagline: "An iconic blend of cognac and orange essence.",
+            desc: "Rich and smooth with a sweet orange finish.",
+            fullDesc: "Grand Marnier combines the elegance of cognac with the vibrant flavors of orange essence, delivering a luxurious and versatile liqueur.",
+            metrics: "$13"
+          },
+          {
+            title: "Disaronno Amaretto (liqueur)",
+            origin: "Italy",
+            tagline: "A sweet and almond-flavored Italian classic.",
+            desc: "Smooth and nutty with a hint of marzipan.",
+            fullDesc: "Disaronno Amaretto is a beloved Italian liqueur known for its rich almond flavor, smooth texture, and versatility in cocktails or on its own.",
+            metrics: "$12"
+          },
+          {
+            title: "Cointreau (liqueur)",
+            origin: "France",
+            tagline: "A refined orange liqueur for sophisticated cocktails.",
+            desc: "Crisp and zesty with a balanced sweetness.",
+            fullDesc: "Cointreau is a premium French liqueur, offering a perfect balance of sweet and bitter orange flavors, ideal for enhancing any cocktail.",
+            metrics: "$12"
+          },
+          {
+            title: "Kahlua (liqueur)",
+            origin: "Mexico",
+            tagline: "A rich coffee liqueur with a hint of sweetness.",
+            desc: "Velvety and bold with coffee and vanilla notes.",
+            fullDesc: "Kahlua is a renowned coffee liqueur, delivering deep coffee flavors with hints of vanilla, perfect for cocktails or as a standalone treat.",
+            metrics: "$11"
+          },
+          {
+            title: "Aperol (liqueur)",
+            origin: "Italy",
+            tagline: "A vibrant aperitif with a zesty twist.",
+            desc: "Lightly bitter with citrus and herbal undertones.",
+            fullDesc: "Aperol is a bright and refreshing Italian liqueur, featuring a unique blend of citrus, herbs, and a touch of sweetness, perfect for spritzes or sipping.",
+            metrics: "$10"
           },
         ],
+        
       },
       {
-        subCategory: "Fruity & Floral",
+        subCategory: "Rum & Scotch",
         type: "",
         backgroundImage: "../assets/img/menu-images/page.jpg",
         items: [
           {
-            title: "Glenmorangie The Original 10 Y.O",
-            origin: "Fruity & Floral",
-            tagline: "Smooth and floral Highland whisky",
-            desc: "Light and fruity with hints of vanilla and citrus.",
-            fullDesc:
-              "Glenmorangie Original 10-year-old offers a smooth, floral profile with fruity undertones and a touch of citrus.",
-            metrics: "30 ml - $11.99 | 60 ml - $20.99",
-            image:
-              "./assets/img/modal-images/bar-menu/glenmorangie-original.jpg",
-            chefSpecial: false,
+            title: "Bacardi Silver (rum)",
+            origin: "Puerto Rico",
+            tagline: "A versatile rum with a smooth finish.",
+            desc: "Light and crisp with subtle tropical notes.",
+            fullDesc: "Bacardi Silver is a classic light rum, offering a clean and smooth profile perfect for mixing in your favorite cocktails.",
+            metrics: "$7"
           },
           {
-            title: "The Glenlivet 12 Y.O",
-            origin: "Fruity & Floral",
-            tagline: "Classic Speyside single malt",
-            desc: "Smooth with fruity, floral aromas and hints of honey.",
-            fullDesc:
-              "The Glenlivet 12 is a classic Speyside whisky with a smooth, fruity profile and delicate floral notes.",
-            metrics: "30 ml - $10.99 | 60 ml - $19.99",
-            image: "./assets/img/modal-images/bar-menu/glenlivet-12.jpg",
-            chefSpecial: false,
+            title: "Malibu Coconut (rum)",
+            origin: "Barbados",
+            tagline: "A sweet rum with tropical coconut flavor.",
+            desc: "Smooth and creamy with a vibrant coconut essence.",
+            fullDesc: "Malibu Coconut brings the tropical vibes with its sweet coconut flavor, making it a favorite for beach-inspired cocktails.",
+            metrics: "$7"
           },
           {
-            title: "Glenfiddich 12 Y.O",
-            origin: "Fruity & Floral",
-            tagline: "Smooth and mellow with fresh pear notes",
-            desc: "Light and fruity with notes of pear and butterscotch.",
-            fullDesc:
-              "Glenfiddich 12-year-old offers a smooth, mellow flavor with a fresh pear note and creamy butterscotch finish.",
-            metrics: "30 ml - $11.49 | 60 ml - $20.49",
-            image: "./assets/img/modal-images/bar-menu/glenfiddich-12.jpg",
-            chefSpecial: false,
+            title: "Macallan 12 (scotch)",
+            origin: "Scotland",
+            tagline: "A premium single malt with rich character.",
+            desc: "Smooth and well-balanced with hints of dried fruit.",
+            fullDesc: "Macallan 12 is a luxurious single malt scotch, aged in sherry-seasoned oak casks, offering a rich and full-bodied flavor experience.",
+            metrics: "$27"
+          },
+          {
+            title: "Macallan 18 (scotch)",
+            origin: "Scotland",
+            tagline: "An exceptional single malt aged to perfection.",
+            desc: "Rich and complex with notes of dried fruits and spice.",
+            fullDesc: "Macallan 18 delivers a superior single malt experience, aged in fine oak casks, offering a harmonious blend of flavor and depth.",
+            metrics: "$42"
+          },
+          {
+            title: "Glenlivet 12 (scotch)",
+            origin: "Scotland",
+            tagline: "A smooth single malt with a fruity profile.",
+            desc: "Elegant and floral with a hint of sweetness.",
+            fullDesc: "Glenlivet 12 is a classic Speyside single malt, known for its smooth texture and delicate flavors of pear and honey.",
+            metrics: "$21"
+          },
+          {
+            title: "Glenfiddich 12 (scotch)",
+            origin: "Scotland",
+            tagline: "A pioneering single malt with timeless appeal.",
+            desc: "Fresh and fruity with hints of oak and orchard fruits.",
+            fullDesc: "Glenfiddich 12 is a renowned single malt scotch, celebrated for its signature pear notes and smooth, balanced finish.",
+            metrics: "$21"
           },
         ],
+        
       },
       {
-        subCategory: "Art of Blend",
+        subCategory: "Tequila",
         type: "",
         backgroundImage: "../assets/img/menu-images/page.jpg",
         items: [
