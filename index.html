@@ -61,8 +61,8 @@
         width: min(var(--max-width), 100% - (var(--padding) * 2));
         height: 100dvh;
         height: 100vh; */
-        width: 810px;
-        height: 1080px;
+        /* width: 810px;
+        height: 1080px; */
         margin-inline: auto;
       }
       #magazine .turn-page {
@@ -78,12 +78,19 @@
         $("#magazine").turn({
           display: "single",
           acceleration: true,
-          gradients: !$.isTouch,
+          // gradients: !$.isTouch,
           elevation: 50,
           preload: "all",
+          pages: 1,
+          width: 810,
+          height: 1080,
+          autoCenter: true,
           when: {
-            turned: function (e, page) {
-              console.log("Current view: ", $(this).turn("view"));
+            turned: function (event, page) {
+              console.log("Turned to page:", page);
+            },
+            start: function (event, page, corner) {
+              console.log("Turning page:", page);
             },
           },
         });
