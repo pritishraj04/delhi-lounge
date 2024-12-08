@@ -90,8 +90,12 @@
           autoCenter: true,
         });
 
-        $("#prevBtn").click(turnPagePrevious());
-        $("#nextBtn").click(turnPageNext());
+        $("#prevBtn").click(function () {
+          turnPagePrevious();
+        });
+        $("#nextBtn").click(function () {
+          turnPageNext();
+        });
       });
 
       function turnPageTo(number) {
