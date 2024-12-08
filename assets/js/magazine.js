@@ -1,4 +1,4 @@
-$(window).ready(function () {
+document.addEventListener("DOMContentLoaded", () => {
   $("#magazine").turn({
     display: "single",
     acceleration: true,
@@ -12,6 +12,14 @@ $(window).ready(function () {
     // when: {
     //   log for page turn envets
     // },
+  });
+  // Add click handlers for navigation buttons
+  document.querySelector(".navbtn.next").addEventListener("click", () => {
+    $("#magazine").turn("next");
+  });
+
+  document.querySelector(".navbtn.prev").addEventListener("click", () => {
+    $("#magazine").turn("previous");
   });
 });
 

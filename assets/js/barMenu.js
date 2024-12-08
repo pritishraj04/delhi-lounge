@@ -288,7 +288,9 @@ function initializeMenu() {
   $("#magazine").turn("addPage", lastPage);
 }
 
-window.onload = initializeMenu;
+document.addEventListener("DOMContentLoaded", () => {
+  initializeMenu();
+});
 
 //modal
 

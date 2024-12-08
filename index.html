@@ -64,6 +64,12 @@
         /* width: 810px;
         height: 1080px; */
         margin-inline: auto;
+        transform: translateZ(0);
+        -webkit-transform: translateZ(0);
+        backface-visibility: hidden;
+        -webkit-backface-visibility: hidden;
+        perspective: 1000px;
+        -webkit-perspective: 1000px;
       }
       #magazine .turn-page {
         background-color: #e0e0e0;
@@ -74,22 +80,22 @@
     <!-- Preload JavaScript -->
     <link rel="preload" href="./assets/js/jquery.js" as="script" />
     <link rel="preload" href="./assets/js/turn.js" as="script" />
-    <!-- <link rel="preload" href="./assets/js/magazine.js" as="script" /> -->
+    <link rel="preload" href="./assets/js/magazine.js" as="script" />
 
     <script type="text/javascript" src="./assets/js/jquery.js"></script>
     <script type="text/javascript" src="./assets/js/turn.js"></script>
     <script type="module" src="./assets/js/menuData.js"></script>
     <script type="module" src="./assets/js/menu.js"></script>
-    <script type="text/javascript" src="./assets/js/magazine.js" defer></script>
+    <script type="text/javascript" src="./assets/js/magazine.js"></script>
   </head>
   <body>
     <div onclick="void(0);">
       <div id="magazine">
         <div class="food-menu-first-page">
           <div class="menu-page">
-            <button class="navbtn prev" onclick="turnPagePrevious()"></button>
+            <button class="navbtn prev"></button>
             <div class="psudo-menu-wrapper"></div>
-            <button class="navbtn next" onclick="turnPageNext()"></button>
+            <button class="navbtn next"></button>
           </div>
         </div>
       </div>
