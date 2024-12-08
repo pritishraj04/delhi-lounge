@@ -70,6 +70,42 @@
         background-size: 100% 100%;
       }
     </style>
+
+    <script type="text/javascript" src="./assets/js/jquery.js"></script>
+    <script type="text/javascript" src="./assets/js/turn.js"></script>
+    <!-- <script type="text/javascript" src="./assets/js/magazine.js"></script> -->
+    <script type="module" src="./assets/js/barMenuData.js"></script>
+    <script type="module" src="./assets/js/barMenu.js"></script>
+    <script type="text/javascript">
+      $(window).ready(function () {
+        $("#magazine").turn({
+          display: "single",
+          acceleration: true,
+          gradients: !$.isTouch,
+          elevation: 50,
+          // preload: "all",
+          // pages: 1,
+          width: 810,
+          height: 1080,
+          autoCenter: true,
+        });
+      });
+
+      function turnPageTo(number) {
+        $("#magazine").turn("page", number);
+      }
+      function turnPagePrevious() {
+        $("#magazine").turn("previous");
+      }
+      function turnPageNext() {
+        $("#magazine").turn("next");
+      }
+
+      $(window).bind("keydown", function (e) {
+        if (e.keyCode == 37) $("#magazine").turn("previous");
+        else if (e.keyCode == 39) $("#magazine").turn("next");
+      });
+    </script>
   </head>
   <body>
     <div id="magazine">
@@ -141,14 +177,9 @@
         </div>
       </div>
     </div>
-    <script type="text/javascript" src="./assets/js/jquery.js"></script>
-    <script type="text/javascript" src="./assets/js/turn.js"></script>
-    <script type="text/javascript" src="./assets/js/magazine.js"></script>
     <!-- <script
       type="text/javascript"
       src="./assets/js/fullscreenScript.js"
     ></script> -->
-    <script type="module" src="./assets/js/barMenuData.js"></script>
-    <script type="module" src="./assets/js/barMenu.js"></script>
   </body>
 </html>
