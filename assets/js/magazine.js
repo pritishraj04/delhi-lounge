@@ -2,13 +2,15 @@ $(window).ready(function () {
   $("#magazine").turn({
     display: "single",
     acceleration: true,
-    gradients: !$.isTouch,
+    // gradients: !$.isTouch,
     elevation: 50,
     preload: "all",
+    pages: 1,
+    width: 810,
+    height: 1080,
+    autoCenter: true,
     when: {
-      turned: function (e, page) {
-        /*console.log('Current view: ', $(this).turn('view'));*/
-      },
+      //log for page turn envets
     },
   });
 });

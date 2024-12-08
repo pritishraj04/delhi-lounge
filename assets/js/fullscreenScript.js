@@ -28,6 +28,6 @@ function triggerFullScreen() {
   // Remove the event listeners after first interaction
   document.removeEventListener("click", triggerFullScreen);
   document.removeEventListener("keypress", triggerFullScreen);
-  //   document.removeEventListener("touchstart", triggerFullScreen);
+  document.removeEventListener("touchstart", triggerFullScreen);
   document.addEventListener("touchend", triggerFullScreen, { passive: true });
 }
