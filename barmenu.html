@@ -89,6 +89,9 @@
           height: 1080,
           autoCenter: true,
         });
+
+        $("#prevBtn").click(turnPagePrevious());
+        $("#nextBtn").click(turnPageNext());
       });
 
       function turnPageTo(number) {
@@ -101,10 +104,10 @@
         $("#magazine").turn("next");
       }
 
-      $(window).bind("keydown", function (e) {
-        if (e.keyCode == 37) $("#magazine").turn("previous");
-        else if (e.keyCode == 39) $("#magazine").turn("next");
-      });
+      // $(window).bind("keydown", function (e) {
+      //   if (e.keyCode == 37) $("#magazine").turn("previous");
+      //   else if (e.keyCode == 39) $("#magazine").turn("next");
+      // });
     </script>
   </head>
   <body>
@@ -118,9 +121,9 @@
         "
       >
         <div class="menu-page">
-          <button class="navbtn prev" onclick="turnPagePrevious()"></button>
+          <button class="navbtn prev" id="prevBtn"></button>
           <div class="psudo-menu-wrapper"></div>
-          <button class="navbtn next" onclick="turnPageNext()"></button>
+          <button class="navbtn next" id="nextBtn"></button>
         </div>
       </div>
     </div>
