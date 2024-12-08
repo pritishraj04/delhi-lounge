@@ -115,71 +115,75 @@
     </script>
   </head>
   <body>
-    <div id="magazine">
-      <div
-        style="
-          background-image: url(./assets/img/menu-images/foodmenu_cover.png);
-          background-size: cover;
-          background-position: center;
-          background-repeat: no-repeat;
-        "
-      >
-        <div class="menu-page">
-          <button class="navbtn prev" id="prevBtn"></button>
-          <div class="psudo-menu-wrapper"></div>
-          <button class="navbtn next" id="nextBtn"></button>
+    <div onclick="void(0);">
+      <div id="magazine">
+        <div
+          style="
+            background-image: url(./assets/img/menu-images/foodmenu_cover.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+          "
+        >
+          <div class="menu-page">
+            <button class="navbtn prev" id="prevBtn"></button>
+            <div class="psudo-menu-wrapper"></div>
+            <button class="navbtn next" id="nextBtn"></button>
+          </div>
         </div>
       </div>
-    </div>
-    <div id="modal" class="modal">
-      <div
-        id="content"
-        class="modal-content"
-        style="
-          background-image: url(./assets/img/menu-images/modalbg.svg);
-          background-position: center;
-          background-repeat: no-repeat;
-          background-size: cover;
-          width: 100%;
-          height: 100%;
-        "
-      >
-        <button
-          type="button"
-          class="close-button"
-          onclick="closeModal()"
-          aria-label="Close modal"
+      <div id="modal" class="modal">
+        <div
+          id="content"
+          class="modal-content"
+          style="
+            background-image: url(./assets/img/menu-images/modalbg.svg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+          "
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="1em"
-            height="1em"
-            viewBox="0 0 512 512"
+          <button
+            type="button"
+            class="close-button"
+            onclick="closeModal()"
+            aria-label="Close modal"
           >
-            <path
-              fill="currentColor"
-              d="m289.94 256l95-95A24 24 0 0 0 351 127l-95 95l-95-95a24 24 0 0 0-34 34l95 95l-95 95a24 24 0 1 0 34 34l95-95l95 95a24 24 0 0 0 34-34Z"
-            />
-          </svg>
-        </button>
-        <div id="modal-body" class="modal-body">
-          <div class="loading">
-            <img
-              id="modal-image"
-              class="modal-image"
-              lowsrc="./assets/img/icons/loading.svg"
-              alt=""
-            />
-          </div>
-          <div class="modal-details">
-            <h3 id="modal-title" class="modal-title">Title</h3>
-            <div class="modal-tags">
-              <p id="modal-category">Category</p>
-              <span> | </span>
-              <p id="modal-origin">Orgin</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="1em"
+              height="1em"
+              viewBox="0 0 512 512"
+            >
+              <path
+                fill="currentColor"
+                d="m289.94 256l95-95A24 24 0 0 0 351 127l-95 95l-95-95a24 24 0 0 0-34 34l95 95l-95 95a24 24 0 1 0 34 34l95-95l95 95a24 24 0 0 0 34-34Z"
+              />
+            </svg>
+          </button>
+          <div id="modal-body" class="modal-body">
+            <div class="loading">
+              <img
+                id="modal-image"
+                class="modal-image"
+                lowsrc="./assets/img/icons/loading.svg"
+                alt=""
+              />
             </div>
-            <p id="modal-tagline">Tagline</p>
-            <p id="modal-description" class="modal-description">Description</p>
+            <div class="modal-details">
+              <h3 id="modal-title" class="modal-title">Title</h3>
+              <div class="modal-tags">
+                <p id="modal-category">Category</p>
+                <span> | </span>
+                <p id="modal-origin">Orgin</p>
+              </div>
+              <p id="modal-tagline">Tagline</p>
+              <p id="modal-description" class="modal-description">
+                Description
+              </p>
+            </div>
           </div>
         </div>
       </div>
