@@ -10,15 +10,7 @@ $(window).ready(function () {
     height: 1080,
     autoCenter: true,
     when: {
-      turned: function (event, page) {
-        console.log("Turned to page:", page);
-        if (event.onerror) {
-          console.log(event.onerror);
-        }
-      },
-      start: function (event, page, corner) {
-        console.log("Turning page:", page);
-      },
+      //log for page turn envets
     },
   });
 });
