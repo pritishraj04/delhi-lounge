@@ -2,12 +2,22 @@ $(window).ready(function () {
   $("#magazine").turn({
     display: "single",
     acceleration: true,
-    gradients: !$.isTouch,
+    // gradients: !$.isTouch,
     elevation: 50,
     preload: "all",
+    pages: 1,
+    width: 810,
+    height: 1080,
+    autoCenter: true,
     when: {
-      turned: function (e, page) {
-        /*console.log('Current view: ', $(this).turn('view'));*/
+      turned: function (event, page) {
+        console.log("Turned to page:", page);
+        if (event.onerror) {
+          console.log(event.onerror);
+        }
+      },
+      start: function (event, page, corner) {
+        console.log("Turning page:", page);
       },
     },
   });

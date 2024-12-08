@@ -69,48 +69,21 @@
         background-color: #e0e0e0;
         background-size: 100% 100%;
       }
+      #target {
+        list-style: none;
+        -webkit-padding-start: 0;
+        -webkit-margin-after: 0;
+        -webkit-margin-before: 1em;
+        border: 1px solid #000;
+        overflow-y: auto;
+        width: 100%;
+        background: #333;
+        color: #fff;
+        height: 200px;
+      }
     </style>
     <script type="text/javascript" src="./assets/js/jquery.js"></script>
     <script type="text/javascript" src="./assets/js/turn.js"></script>
-    <!-- <script type="text/javascript" src="./assets/js/magazine.js"></script> -->
-    <script type="text/javascript">
-      $(window).ready(function () {
-        $("#magazine").turn({
-          display: "single",
-          acceleration: true,
-          // gradients: !$.isTouch,
-          elevation: 50,
-          preload: "all",
-          pages: 1,
-          width: 810,
-          height: 1080,
-          autoCenter: true,
-          when: {
-            turned: function (event, page) {
-              console.log("Turned to page:", page);
-            },
-            start: function (event, page, corner) {
-              console.log("Turning page:", page);
-            },
-          },
-        });
-      });
-
-      function turnPageTo(number) {
-        $("#magazine").turn("page", number);
-      }
-      function turnPagePrevious() {
-        $("#magazine").turn("previous");
-      }
-      function turnPageNext() {
-        $("#magazine").turn("next");
-      }
-
-      $(window).bind("keydown", function (e) {
-        if (e.keyCode == 37) $("#magazine").turn("previous");
-        else if (e.keyCode == 39) $("#magazine").turn("next");
-      });
-    </script>
   </head>
   <body>
     <div id="magazine">
@@ -182,6 +155,7 @@
         </div>
       </div>
     </div>
+    <ul id="target"></ul>
     <!-- <script type="text/javascript">
       $(window).ready(function () {
         $("#magazine").turn({
@@ -213,11 +187,20 @@
         else if (e.keyCode == 39) $("#magazine").turn("next");
       });
     </script> -->
-    <script
+    <!-- <script
       type="text/javascript"
       src="./assets/js/fullscreenScript.js"
-    ></script>
+    ></script> -->
     <script type="module" src="./assets/js/barMenuData.js"></script>
     <script type="module" src="./assets/js/barMenu.js"></script>
+    <script type="text/javascript" src="./assets/js/magazine.js"></script>
+    <script
+      type="text/javascript"
+      src="./assets/js/debug/consoleloghtml.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./assets/js/debug/mobileConsole.js"
+    ></script>
   </body>
 </html>
