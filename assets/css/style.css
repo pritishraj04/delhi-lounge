@@ -47,6 +47,18 @@ body {
   background-repeat: no-repeat;
   position: relative;
 }
+.food-menu-first-page {
+  background-image: url(../img/menu-images/foodmenu_cover.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.bar-menu-first-page {
+  background-image: url(../img/menu-images/barmenu_cover.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 .last-page {
   background-image: url(../img/menu-images/last.jpg);
   background-size: cover;

@@ -9,9 +9,9 @@ $(window).ready(function () {
     width: 810,
     height: 1080,
     autoCenter: true,
-    when: {
-      //log for page turn envets
-    },
+    // when: {
+    //   log for page turn envets
+    // },
   });
 });
 

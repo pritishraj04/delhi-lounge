@@ -71,64 +71,25 @@
       }
     </style>
 
+    <!-- Preload JavaScript -->
+    <link rel="preload" href="./assets/js/jquery.js" as="script" />
+    <link rel="preload" href="./assets/js/turn.js" as="script" />
+    <link rel="preload" href="./assets/js/magazine.js" as="script" />
+
     <script type="text/javascript" src="./assets/js/jquery.js"></script>
     <script type="text/javascript" src="./assets/js/turn.js"></script>
-    <!-- <script type="text/javascript" src="./assets/js/magazine.js"></script> -->
+    <script type="text/javascript" src="./assets/js/magazine.js"></script>
     <script type="module" src="./assets/js/barMenuData.js"></script>
     <script type="module" src="./assets/js/barMenu.js"></script>
-    <script type="text/javascript">
-      $(window).ready(function () {
-        $("#magazine").turn({
-          display: "single",
-          acceleration: true,
-          gradients: !$.isTouch,
-          elevation: 50,
-          // preload: "all",
-          // pages: 1,
-          width: 810,
-          height: 1080,
-          autoCenter: true,
-        });
-
-        $("#prevBtn").click(function () {
-          turnPagePrevious();
-        });
-        $("#nextBtn").click(function () {
-          turnPageNext();
-        });
-      });
-
-      function turnPageTo(number) {
-        $("#magazine").turn("page", number);
-      }
-      function turnPagePrevious() {
-        $("#magazine").turn("previous");
-      }
-      function turnPageNext() {
-        $("#magazine").turn("next");
-      }
-
-      // $(window).bind("keydown", function (e) {
-      //   if (e.keyCode == 37) $("#magazine").turn("previous");
-      //   else if (e.keyCode == 39) $("#magazine").turn("next");
-      // });
-    </script>
   </head>
   <body>
     <div onclick="void(0);">
       <div id="magazine">
-        <div
-          style="
-            background-image: url(./assets/img/menu-images/barmenu_cover.jpg);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-          "
-        >
+        <div class="bar-menu-first-page">
           <div class="menu-page">
-            <button class="navbtn prev" id="prevBtn"></button>
+            <button class="navbtn prev" onclick="turnPagePrevious()"></button>
             <div class="psudo-menu-wrapper"></div>
-            <button class="navbtn next" id="nextBtn"></button>
+            <button class="navbtn next" onclick="turnPageNext()"></button>
           </div>
         </div>
       </div>
