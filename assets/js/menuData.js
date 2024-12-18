@@ -250,7 +250,7 @@ let menuData = [
     backgroundImage: "../assets/img/menu-images/page.jpg",
     items: [
       {
-        title: "Desi-aeser Salad (Malai Broccoli | Malai Chicken)",
+        title: "Desi-Caeser Salad (Malai Broccoli | Malai Chicken)",
         origin: "Vegetarian",
         tagline: "A fresh and vibrant tropical salad",
         desc: "A twist to the iconic salad featuring crisp romaine, caeser dressing, parmesan, & your choice of toppings.",
@@ -614,7 +614,7 @@ let menuData = [
     subCategories: [
       {
         subCategory: "Entr\xe9es",
-        type: "Vegiterian",
+        type: "Vegetarian",
         backgroundImage: "../assets/img/menu-images/page.jpg",
         items: [
           {
@@ -1145,7 +1145,7 @@ let menuData = [
         desc: "Deep fried reduced milk spheres, soaked in a cardamom and saffron infused syrup.",
         fullDesc:
           "Deep-fried milk dumplings soaked in a sweet syrup, a classic Indian dessert that melts in your mouth.",
-        metrics: "60Gms | 225Kcal | $8",
+        metrics: "60Gms | 225Kcal | $12",
         image: "./assets/img/modal-images/food-menu/gulab-jamun.jpg",
         chefSpecial: false,
         vegan: false,
