@@ -1145,7 +1145,7 @@ let menuData = [
         desc: "Deep fried reduced milk spheres, soaked in a cardamom and saffron infused syrup.",
         fullDesc:
           "Deep-fried milk dumplings soaked in a sweet syrup, a classic Indian dessert that melts in your mouth.",
-        metrics: "60Gms | 225Kcal | $12",
+        metrics: "60Gms | 225Kcal | $8",
         image: "./assets/img/modal-images/food-menu/gulab-jamun.jpg",
         chefSpecial: false,
         vegan: false,
@@ -1157,7 +1157,7 @@ let menuData = [
         desc: "Tender carrots cooked in ghee with reduced milk and cardamom syrup, garnished with nuts.",
         fullDesc:
           "A rich dessert made from grated carrots, milk, and nuts, cooked until creamy and sweetened to perfection.",
-        metrics: "120Gms | 325Kcal | $10",
+        metrics: "120Gms | 325Kcal | $8",
         image: "./assets/img/modal-images/food-menu/gajar-halwa.jpg",
         chefSpecial: false,
         vegan: false,
@@ -1169,7 +1169,7 @@ let menuData = [
         desc: "Moong dal lentils cooked in ghee and saffron syrup, garnished with nuts.",
         fullDesc:
           "A delicious dessert made from split yellow lentils, cooked with ghee and sweetened with sugar, garnished with nuts.",
-        metrics: "120Gms | 386Kcal | $10",
+        metrics: "120Gms | 386Kcal | $8",
         image: "./assets/img/modal-images/food-menu/moong-dal-halwa.jpg",
         chefSpecial: false,
         vegan: false,
@@ -1193,7 +1193,7 @@ let menuData = [
         desc: "Rasmalai enhanced with Baileys Irish Cream.",
         fullDesc:
           "Delicate paneer discs soaked in rich and creamy Baileys-infused milk, topped with nuts.",
-        metrics: "100Gms | 368Kcal | $14",
+        metrics: "100Gms | 368Kcal | $10",
         image: "./assets/img/modal-images/food-menu/baileys-rasmalai.jpg",
         chefSpecial: false,
         vegan: false,
@@ -1205,7 +1205,7 @@ let menuData = [
         desc: "A frozen dessert of reduced milk, served with thin noodles soaked in a saffron syrup.",
         fullDesc:
           "Traditional Indian ice cream made with milk, flavored with cardamom, and served with falooda noodles.",
-        metrics: "100Gms | 385Kcal | $14",
+        metrics: "100Gms | 385Kcal | $9",
         image: "./assets/img/modal-images/food-menu/kulfi-falooda.jpg",
         chefSpecial: false,
         vegan: false,
@@ -1217,7 +1217,7 @@ let menuData = [
         desc: "Filter coffee soaked reduced milk spheres layered with cream cheese topped with dark cocoa.",
         fullDesc:
           "Soft and spongy dumplings made from chhena, sweetened with jaggery and soaked in syrup.",
-        metrics: "120Gms | 425Kcal | $16",
+        metrics: "120Gms | 425Kcal | $10",
         image: "./assets/img/modal-images/food-menu/jaggery-rasgulla.jpg",
         chefSpecial: false,
         vegan: false,
