@@ -793,7 +793,7 @@ let barMenuData = [
             desc: "Fresh and fruity with hints of oak and orchard fruits.",
             fullDesc:
               "Glenfiddich 12 is a renowned single malt scotch, celebrated for its signature pear notes and smooth, balanced finish.",
-            metrics: "$21",
+            metrics: "$23",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
