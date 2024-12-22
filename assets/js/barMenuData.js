@@ -195,6 +195,17 @@ let barMenuData = [
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
+          {
+            title: "Soft Drinks",
+origin: "Fusion",
+tagline: "Fizzy, chilled, and full of flavor.",
+desc: "A sparkling blend of classic soda flavors to cool and delight.",
+fullDesc:
+  "Experience the ultimate refreshment with our fizzy cold drinks. Bursting with vibrant flavors, each sip is perfectly carbonated and ice-cold, delivering a delightful zing that quenches your thirst and lifts your mood.",
+metrics: "$4",
+image: "./assets/img/modal-images/food-menu/imag.jpg",
+chefSpecial: false,
+          },
         ],
       },
       {

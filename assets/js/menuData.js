@@ -280,7 +280,7 @@ let menuData = [
         desc: "Char-grilled tomato broth, delicately spiced, enhanced with the freshness of coriander.",
         fullDesc:
           "A rich and flavorful shorba made from char-grilled tomatoes, delicately spiced, and finished with fresh coriander for a smoky aroma.",
-        metrics: "150Gms | 133Kcal | $10",
+        metrics: "150Gms | 133Kcal | $6",
         image: "./assets/img/modal-images/food-menu/smokey-tomato-shorba.jpg",
         chefSpecial: false,
         vegan: true,
@@ -292,7 +292,7 @@ let menuData = [
         desc: "Exquisitely spiced chicken broth, enhanced with fenugreek leaves.",
         fullDesc:
           "A hearty chicken broth infused with aromatic spices and the unique flavor of fenugreek leaves, offering a comforting start to your meal.",
-        metrics: "150Gms | 154Kcal | $12",
+        metrics: "150Gms | 154Kcal | $8",
         image:
           "./assets/img/modal-images/food-menu/chicken-fenugreek-shorba.jpg",
         chefSpecial: false,
@@ -324,7 +324,7 @@ let menuData = [
         desc: "Stuffed potato patties, topped with whipped yogurt, and chutneys.",
         fullDesc:
           "Crispy stuffed potato patties topped with white peas, a dollop of whipped yogurt, and a drizzle of tangy chutneys.",
-        metrics: "120Gms | 102Kcal | $14",
+        metrics: "120Gms | 102Kcal | $12",
         image: "./assets/img/modal-images/food-menu/karol-bagh-aloo-tikki.jpg",
         chefSpecial: false,
         vegan: false,
@@ -348,7 +348,7 @@ let menuData = [
         desc: "Crisp fried triangular pastry, stuffed with Paneer | Potato | Peas | Corn mixtures.",
         fullDesc:
           "A delightful platter of crispy samosas filled with a savory mix of cottage cheese, potatoes, peas, and corn, served with chutney.",
-        metrics: "160Gms | 320Kcal | $12",
+        metrics: "160Gms | 320Kcal | $10",
         image: "./assets/img/modal-images/food-menu/samosa-platter.jpg",
         chefSpecial: false,
         vegan: false,
@@ -360,7 +360,7 @@ let menuData = [
         desc: "Crispy fried spinach leaves tossed with spices, yogurt, and chutneys.",
         fullDesc:
           "Crispy fried spinach leaves drizzled with yogurt and spicy chutneys, creating a delightful contrast of flavors.",
-        metrics: "160Gms | 198Kcal | $14",
+        metrics: "160Gms | 198Kcal | $10",
         image: "./assets/img/modal-images/food-menu/palak-patta-chaat.jpg",
         chefSpecial: false,
         vegan: true,
@@ -466,7 +466,7 @@ let menuData = [
             desc: "Lobster tail, marinated with spices, char-grilled, pineapple & green chili chutney.",
             fullDesc:
               "Jumbo freshwater prawns marinated in a blend of aromatic spices and char-grilled, served with a refreshing pineapple and green chili chutney.",
-            metrics: "250Gms | 415Kcal | $34",
+            metrics: "250Gms | 415Kcal | $38",
             image: "./assets/img/modal-images/food-menu/tandoori-prawns.jpg",
             chefSpecial: false,
             vegan: false,
@@ -490,7 +490,7 @@ let menuData = [
             desc: "Whole silver Pomfret, marinated with spices, char-grilled, lemon & black pepper chutney.",
             fullDesc:
               "Whole silver pomfret marinated in spices and char-grilled to perfection, served with a flavorful garlic chutney.",
-            metrics: "220Gms | 359Kcal | $24",
+            metrics: "220Gms | 359Kcal | $28",
             image: "./assets/img/modal-images/food-menu/tandoori-pomfret.jpg",
             chefSpecial: false,
             vegan: false,
@@ -538,6 +538,30 @@ let menuData = [
             image: "./assets/img/modal-images/food-menu/reshmi-seekh-kebab.jpg",
             chefSpecial: false,
             vegan: false,
+          },
+          {
+            title: "Tandoori Chicken (Half)",
+origin: "Poultry",
+tagline: "",
+desc: "Whole chicken marinated in spicy yogurt marinade, char-grilled, cranberry & ginger launji.", 
+fullDesc:
+  "Experience the rich flavors of our Tandoori Chicken—succulent chicken marinated in a blend of spices, char-grilled to perfection, and served with a zesty lemon and black pepper chutney. A true delight for the senses!",
+metrics: "350Gms | 732Kcal | $18",
+image: "./assets/img/modal-images/food-menu/tandoori-chicken-(half).jpg",
+chefSpecial: false,
+vegan: false,
+          },
+          {
+            title: "Tandoori Chicken (Full)",
+origin: "Poultry",
+tagline: "",
+desc: "Whole chicken marinated in spicy yogurt marinade, char-grilled, cranberry & ginger launji.", 
+fullDesc:
+  "Experience the rich flavors of our Tandoori Chicken—succulent chicken marinated in a blend of spices, char-grilled to perfection, and served with a zesty lemon and black pepper chutney. A true delight for the senses!",
+metrics: "750Gms | 1529Kcal | $24",
+image: "./assets/img/modal-images/food-menu/tandoori-chicken-(full).jpg",
+chefSpecial: false,
+vegan: false,
           },
         ],
       },
@@ -723,7 +747,7 @@ let menuData = [
             desc: "A delicate preparation of tender cauliflower florets and bell peppers, tossed in tomatoes and fenugreek.",
             fullDesc:
               "A delicate preparation of tender cauliflower florets and bell peppers, tossed in tomatoes and fenugreek.",
-            metrics: "460Gms | 465Kcal | $20",
+            metrics: "460Gms | 465Kcal | $18",
             image: "./assets/img/modal-images/food-menu/aloo-gobhi.jpg",
             chefSpecial: false,
             vegan: true,
@@ -918,7 +942,7 @@ let menuData = [
             desc: "48-hours slow-cooked leg of spring lamb, char-grilled, adorned with 22 carat gold, & pine nuts.",
             fullDesc:
               "An exquisite dish featuring a leg of spring lamb that is slow-cooked for 48 hours, char-grilled, and flamb\xe9ed with dark rum and garnished with pine nuts and edible gold for a luxurious touch.",
-            metrics: "1600Gms | 3760Kcal | $125",
+            metrics: "1600Gms | 3760Kcal | $100",
             image: "./assets/img/modal-images/food-menu/imperial-raan.jpg",
             chefSpecial: false,
             vegan: false,
@@ -951,7 +975,7 @@ let menuData = [
         desc: "",
         fullDesc:
           "Fragrant basmati rice cooked with cumin and coriander, adding a delightful flavor to your meal.",
-        metrics: "250Gms | 225Kcal | $7",
+        metrics: "250Gms | 225Kcal | $6",
         image: "./assets/img/modal-images/food-menu/cumin-coriander-rice.jpg",
         chefSpecial: false,
         vegan: true,
@@ -1205,7 +1229,7 @@ let menuData = [
         desc: "A frozen dessert of reduced milk, served with thin noodles soaked in a saffron syrup.",
         fullDesc:
           "Traditional Indian ice cream made with milk, flavored with cardamom, and served with falooda noodles.",
-        metrics: "100Gms | 385Kcal | $9",
+        metrics: "100Gms | 385Kcal | $8",
         image: "./assets/img/modal-images/food-menu/kulfi-falooda.jpg",
         chefSpecial: false,
         vegan: false,
