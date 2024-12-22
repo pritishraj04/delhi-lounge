@@ -5,7 +5,7 @@ let menuData = [
   //     {
   //       subCategory: "Signature Cuisine",
   //       type: "",
-  //       backgroundImage: "../assets/img/menu-images/page.jpg",
+  //       backgroundImage: "../assets/img/menu-images/pageg.jpg",
   //       items: [
   //         {
   //           title: "Karol Bagh Aloo Tikki",
@@ -149,7 +149,7 @@ let menuData = [
   //     {
   //       subCategory: "Signature Cuisine",
   //       type: "",
-  //       backgroundImage: "../assets/img/menu-images/page.jpg",
+  //       backgroundImage: "../assets/img/menu-images/pageg.jpg",
   //       items: [
   //         {
   //           title: "Chilean Sea Bass Coconut Curry",
@@ -265,7 +265,7 @@ let menuData = [
   {
     category: "Salads & Soups",
     type: "",
-    backgroundImage: "../assets/img/menu-images/page.jpg",
+    backgroundImage: "../assets/img/menu-images/pageg.jpg",
     items: [
       {
         title: "Desi-Caeser Salad (Malai Broccoli | Malai Chicken)",
@@ -325,7 +325,7 @@ let menuData = [
   {
     category: "Chaat",
     type: "",
-    backgroundImage: "../assets/img/menu-images/page.jpg",
+    backgroundImage: "../assets/img/menu-images/pageg.jpg",
     items: [
       {
         title: "Pani Puri (Jaljeera | Gud Imli | Pineapple)",
@@ -400,7 +400,7 @@ let menuData = [
       {
         subCategory: "Appetizers",
         type: "Vegetarian",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
             title: "Tandoori Cottage Cheese",
@@ -491,7 +491,7 @@ let menuData = [
       {
         subCategory: "Appetizers",
         type: "Seafood",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
             title: "Tandoori Lobster",
@@ -538,7 +538,7 @@ let menuData = [
       {
         subCategory: "Appetizers",
         type: "Poultry",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
             title: "Chicken Tikka",
@@ -614,7 +614,7 @@ let menuData = [
       {
         subCategory: "Appetizers",
         type: "Meats",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
             title: "Goat Seekh",
@@ -652,7 +652,7 @@ let menuData = [
   {
     category: "Combos",
     type: "",
-    backgroundImage: "../assets/img/menu-images/page.jpg",
+    backgroundImage: "../assets/img/menu-images/pageg.jpg",
     items: [
       {
         title: "Purani Dilli Chole Bhature",
@@ -845,7 +845,7 @@ let menuData = [
       {
         subCategory: "Entr\xe9es",
         type: "Seafood",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
             title: "Kadhai Prawns",
@@ -880,7 +880,7 @@ let menuData = [
       {
         subCategory: "Entr\xe9es",
         type: "Poultry",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
             title: "The Delhi Lounge Butter Chicken",
@@ -969,7 +969,7 @@ let menuData = [
       {
         subCategory: "Entr\xe9es",
         type: "Meats",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
             title: "Tawa Masala Seekh",
@@ -1032,7 +1032,7 @@ let menuData = [
   {
     category: "Rice",
     type: "",
-    backgroundImage: "../assets/img/menu-images/page.jpg",
+    backgroundImage: "../assets/img/menu-images/pageg.jpg",
     items: [
       {
         title: "Steamed Basmati Rice",
@@ -1107,7 +1107,7 @@ let menuData = [
   {
     category: "Breads",
     type: "",
-    backgroundImage: "../assets/img/menu-images/page.jpg",
+    backgroundImage: "../assets/img/menu-images/pageg.jpg",
     items: [
       {
         title: "Tandoori Roti (Plain | Butter)",
@@ -1194,7 +1194,7 @@ let menuData = [
   {
     category: "Sides",
     type: "",
-    backgroundImage: "../assets/img/menu-images/page.jpg",
+    backgroundImage: "../assets/img/menu-images/pageg.jpg",
     items: [
       {
         title: "Plain Dahi",
@@ -1253,7 +1253,7 @@ let menuData = [
   {
     category: "Desserts",
     type: "",
-    backgroundImage: "../assets/img/menu-images/page.jpg",
+    backgroundImage: "../assets/img/menu-images/pageg.jpg",
     items: [
       {
         title: "Gulab Jamun",

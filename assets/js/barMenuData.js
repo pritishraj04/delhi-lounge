@@ -5,7 +5,7 @@ let barMenuData = [
       {
         subCategory: "Classic Cocktails",
         type: "",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
             title: "Rum and Coke",
@@ -138,7 +138,7 @@ let barMenuData = [
       {
         subCategory: "House Cocktails",
         type: "Non-Alcoholic",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
             title: "Very Berry Fizz",
@@ -197,21 +197,21 @@ let barMenuData = [
           },
           {
             title: "Soft Drinks",
-origin: "Fusion",
-tagline: "Fizzy, chilled, and full of flavor.",
-desc: "A sparkling blend of classic soda flavors to cool and delight.",
-fullDesc:
-  "Experience the ultimate refreshment with our fizzy cold drinks. Bursting with vibrant flavors, each sip is perfectly carbonated and ice-cold, delivering a delightful zing that quenches your thirst and lifts your mood.",
-metrics: "$4",
-image: "./assets/img/modal-images/food-menu/imag.jpg",
-chefSpecial: false,
+            origin: "Fusion",
+            tagline: "Fizzy, chilled, and full of flavor.",
+            desc: "A sparkling blend of classic soda flavors to cool and delight.",
+            fullDesc:
+              "Experience the ultimate refreshment with our fizzy cold drinks. Bursting with vibrant flavors, each sip is perfectly carbonated and ice-cold, delivering a delightful zing that quenches your thirst and lifts your mood.",
+            metrics: "$4",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
           },
         ],
       },
       {
         subCategory: "House Cocktails",
         type: "Alcoholic",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
             title: "Banarasi Boulevardier",
@@ -278,7 +278,7 @@ chefSpecial: false,
   //     {
   //       subCategory: "Wines",
   //       type: "",
-  //       backgroundImage: "../assets/img/menu-images/page.jpg",
+  //       backgroundImage: "../assets/img/menu-images/pageg.jpg",
   //       items: [
   //         {
   //           title: "Casalforte, Prosecco Extra Dry",
@@ -386,7 +386,7 @@ chefSpecial: false,
   //     {
   //       subCategory: "Wines",
   //       type: "",
-  //       backgroundImage: "../assets/img/menu-images/page.jpg",
+  //       backgroundImage: "../assets/img/menu-images/pageg.jpg",
   //       items: [
   //         {
   //           title: "Highway 12 Vineyards, Chardonnay California (2023)",
@@ -482,7 +482,7 @@ chefSpecial: false,
   //     {
   //       subCategory: "Wines",
   //       type: "",
-  //       backgroundImage: "../assets/img/menu-images/page.jpg",
+  //       backgroundImage: "../assets/img/menu-images/pageg.jpg",
   //       items: [
   //         {
   //           title: "Senorio De Sarria, Navarra Crianza (2019)",
@@ -539,7 +539,7 @@ chefSpecial: false,
       {
         subCategory: "Bourbon & Cognac",
         type: "",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
             title: "Jim Beam (bourbon)",
@@ -623,7 +623,7 @@ chefSpecial: false,
       {
         subCategory: "Gin & Liqueur",
         type: "",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
             title: "Tanqueray (gin)",
@@ -740,7 +740,7 @@ chefSpecial: false,
       {
         subCategory: "Rum & Scotch",
         type: "",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
             title: "Bacardi Silver (rum)",
@@ -813,7 +813,7 @@ chefSpecial: false,
       {
         subCategory: "Tequila",
         type: "",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
             title: "Don Julio 1942",
@@ -928,7 +928,7 @@ chefSpecial: false,
       {
         subCategory: "Vodka",
         type: "",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
             title: "Grey Goose",
@@ -988,7 +988,7 @@ chefSpecial: false,
       {
         subCategory: "Beers",
         type: "",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
             title: "Miller Lite",
@@ -1151,7 +1151,7 @@ chefSpecial: false,
       {
         subCategory: "Beers",
         type: "",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
             title: "Shiner Bock",
@@ -1326,7 +1326,7 @@ chefSpecial: false,
       {
         subCategory: "Beers",
         type: "",
-        backgroundImage: "../assets/img/menu-images/page.jpg",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
             title: "Garage Beer",
