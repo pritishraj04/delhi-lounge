@@ -202,7 +202,7 @@ let barMenuData = [
             desc: "A sparkling blend of classic soda flavors to cool and delight.",
             fullDesc:
               "Experience the ultimate refreshment with our fizzy cold drinks. Bursting with vibrant flavors, each sip is perfectly carbonated and ice-cold, delivering a delightful zing that quenches your thirst and lifts your mood.",
-            metrics: "$4",
+             metrics: "$4",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -749,7 +749,7 @@ let barMenuData = [
             desc: "Light and crisp with subtle tropical notes.",
             fullDesc:
               "Bacardi Silver is a classic light rum, offering a clean and smooth profile perfect for mixing in your favorite cocktails.",
-            metrics: "$7",
+            metrics: "$8",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -760,7 +760,7 @@ let barMenuData = [
             desc: "Smooth and creamy with a vibrant coconut essence.",
             fullDesc:
               "Malibu Coconut brings the tropical vibes with its sweet coconut flavor, making it a favorite for beach-inspired cocktails.",
-            metrics: "$7",
+            metrics: "$8",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -949,7 +949,7 @@ let barMenuData = [
             desc: "A smooth, corn-based vodka known for its clean finish and versatility.",
             fullDesc:
               "Tito's Handmade Vodka is an American classic, made from corn for a smoother, cleaner taste, and ideal for cocktails.",
-            metrics: "$7",
+            metrics: "$8",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -961,7 +961,7 @@ let barMenuData = [
             desc: "A luxurious vodka made from French grapes, offering a unique fruity taste.",
             fullDesc:
               "Ciroc is a premium vodka made from fine French grapes, known for its smooth, fruity flavor and silky finish, perfect for sipping or mixing.",
-            metrics: "$13",
+            metrics: "$10",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -973,7 +973,7 @@ let barMenuData = [
             desc: "An ultra-premium vodka crafted from Russian grains and pure water.",
             fullDesc:
               "Beluga Noble is a luxury Russian vodka made from malted barley and pure water, offering a rich, smooth flavor that's perfect for sipping.",
-            metrics: "$12",
+            metrics: "$13",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1244,7 +1244,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Dos Equis is a well-known Mexican lager, light and crisp with subtle malt flavors.",
-            metrics: "$8",
+            metrics: "$5",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1256,7 +1256,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Modelo Negro is a dark lager with rich malt flavors and a smooth finish.",
-            metrics: "$8",
+            metrics: "$5",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1292,7 +1292,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Stella Artois is a classic Belgian lager with a balanced flavor and crisp finish.",
-            metrics: "$8",
+            metrics: "$5",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1304,7 +1304,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Heineken is a pale lager with a light, crisp taste and a mild bitterness.",
-            metrics: "$8",
+            metrics: "$5",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1419,7 +1419,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Pacifico is a light, crisp lager brewed with a smooth, slightly sweet finish.",
-            metrics: "$8",
+            metrics: "$5",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1431,7 +1431,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Corona is a pale lager known for its light, refreshing taste and smooth finish.",
-            metrics: "$8",
+            metrics: "$5",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1443,7 +1443,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Corona Premier is a light lager with a crisp, clean flavor and fewer calories.",
-            metrics: "$8",
+            metrics: "$5",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
