@@ -6,7 +6,6 @@ const hideCategoryIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="1em" he
 const chefSpecialIcon = `<img src="../assets/img/icons/lotus.svg" alt="Chef Special">`;
 const veganIcon = `<img src="../assets/img/icons/vegan.svg" alt="Vegan Option">`;
 const peanutAllergyIcon = `<img src="../assets/img/icons/peanutAllergy.svg" alt="Peanut Allergy">`;
-const homeIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1200 1200"><path fill="currentColor" d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0m0 276.489l292.969 227.71v419.312H691.406V670.386H508.594v253.125H307.031V504.199z"/></svg>`;
 
 function createCategoryIndex(
   categoryObj,
@@ -127,18 +126,6 @@ function createMenuPage(category, type, backgroundImage, items) {
 
   const menuIndexDiv = document.createElement("div");
   menuIndexDiv.classList.add("menu-index");
-
-  // const homeDiv = document.createElement("div");
-  // homeDiv.classList.add("home");
-
-  // const homeLink = document.createElement("a");
-  // homeLink.classList.add("home-link");
-  // homeLink.href = "/";
-
-  // homeLink.innerHTML = homeIcon;
-
-  // homeDiv.appendChild(homeLink);
-  // menuWrapperDiv.appendChild(homeDiv);
 
   createCategoryIndexToggle(menuIndexDiv, menuWrapperDiv);
   menuWrapperDiv.appendChild(menuIndexDiv);

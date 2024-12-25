@@ -1,10 +1,9 @@
-import barMenuData from "./barMenuData.js";
+import { getBarMenuData } from "./barMenuDataFromCSV.js";
+
+const barMenuData = await getBarMenuData();
 
 const showCategoryIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 122"><defs><style>.cls-1{fill:#94b6e0;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M48,3V119c0,2.7-2.47,4.06-3.91,2.15L25.62,96.68a1.93,1.93,0,0,0-3.24,0L3.91,121.11C2.47,123,0,121.66,0,119V3C0,1.36,1,0,2.29,0H45.71C47,0,48,1.36,48,3Z"/></g></g></svg>`;
 const hideCategoryIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 121.99"><defs><style>.cls-1{fill:#94b6e0;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M45.71,0H2.29C1,0,0,1.35,0,3V119c0,2.7,2.47,4.05,3.91,2.14L22.38,96.68a1.93,1.93,0,0,1,3.24,0L44.09,121.1C45.53,123,48,121.66,48,119V3C48,1.35,47,0,45.71,0ZM36.57,70.84a2.82,2.82,0,1,1-4,4l-9.11-9.11L13.8,75.39a2.84,2.84,0,0,1-4,0l-.2-.2a2.82,2.82,0,0,1,0-4l9.67-9.68-9.11-9.11a2.82,2.82,0,0,1,4-4l9.11,9.11L32.84,48a2.82,2.82,0,0,1,4,0l.2.2a2.82,2.82,0,0,1,0,4l-9.57,9.57Z"/></g></g></svg>`;
-const chefSpecialIcon = `<img src="../assets/img/icons/lotus.svg" alt="Chef Special">`;
-const homeIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 1200 1200"><path fill="currentColor" d="M600 0C268.629 0 0 268.629 0 600s268.629 600 600 600s600-268.629 600-600S931.371 0 600 0m0 276.489l292.969 227.71v419.312H691.406V670.386H508.594v253.125H307.031V504.199z"/></svg>`;
-
 function createCategoryIndex(
   categoryObj,
   index,
@@ -125,18 +124,6 @@ function createMenuPage(category, type, backgroundImage, items) {
   const menuIndexDiv = document.createElement("div");
   menuIndexDiv.classList.add("menu-index");
 
-  // const homeDiv = document.createElement("div");
-  // homeDiv.classList.add("home");
-
-  // const homeLink = document.createElement("a");
-  // homeLink.classList.add("home-link");
-  // homeLink.href = "/";
-
-  // homeLink.innerHTML = homeIcon;
-
-  // homeDiv.appendChild(homeLink);
-  // menuWrapperDiv.appendChild(homeDiv);
-
   createCategoryIndexToggle(menuIndexDiv, menuWrapperDiv);
   menuWrapperDiv.appendChild(menuIndexDiv);
 
@@ -181,14 +168,6 @@ function createMenuPage(category, type, backgroundImage, items) {
     itemName.classList.add("name");
     itemName.textContent = item.title;
     detailsDiv.appendChild(itemName);
-
-    if (item.chefSpecial) {
-      const chefSpecial = document.createElement("span");
-      chefSpecial.classList.add("chef-special");
-      chefSpecial.innerHTML = chefSpecialIcon;
-      chefSpecial.firstChild.style.width = "19px";
-      itemName.appendChild(chefSpecial);
-    }
 
     const itemMetrics = document.createElement("p");
     itemMetrics.classList.add("metrics");
@@ -288,7 +267,7 @@ function initializeMenu() {
   $("#magazine").turn("addPage", lastPage);
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("load", () => {
   initializeMenu();
 });
 
