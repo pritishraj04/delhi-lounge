@@ -1,9 +1,9 @@
 function transformCSVtoMenuData(csvData) {
-  const menuData = [];
+  const barManuData = [];
 
   csvData.forEach((row) => {
     if (row.visibility.toLowerCase() === "true") {
-      let category = menuData.find((cat) => cat.category === row.category);
+      let category = barManuData.find((cat) => cat.category === row.category);
 
       if (!category) {
         category = {
@@ -13,7 +13,7 @@ function transformCSVtoMenuData(csvData) {
           items: [],
           subCategories: row.type ? [] : undefined,
         };
-        menuData.push(category);
+        barManuData.push(category);
       }
 
       if (row.type) {
@@ -29,15 +29,15 @@ function transformCSVtoMenuData(csvData) {
           };
           category.subCategories.push(subCategory);
         }
-        subCategory.items.push(createMenuItem(row));
+        subCategory.items.push(createBarMenuItem(row));
       } else {
-        category.items.push(createMenuItem(row));
+        category.items.push(createBarMenuItem(row));
       }
     }
   });
 
   // Distribute items into subcategories if more than 10 items
-  menuData.forEach((category) => {
+  barManuData.forEach((category) => {
     if (category.items && category.items.length > 10) {
       const numSubCategories = Math.ceil(category.items.length / 10);
       const itemsPerSubCategory = Math.ceil(
@@ -57,10 +57,10 @@ function transformCSVtoMenuData(csvData) {
     }
   });
 
-  return menuData;
+  return barManuData;
 }
 
-function createMenuItem(row) {
+function createBarMenuItem(row) {
   return {
     title: row.title || "",
     origin: row.origin || "",
@@ -69,15 +69,12 @@ function createMenuItem(row) {
     fullDesc: row.fullDesc || "",
     metrics: row.metrics || "",
     image: row.image || "",
-    chefSpecial: row.chefSpecial.toLowerCase() === "true",
-    vegan: row.vegan.toLowerCase() === "true",
-    peanutAllergy: row.peanutAllergy.toLowerCase() === "true",
   };
 }
 
 function loadCSVAndGenerateMenuData() {
   return new Promise((resolve, reject) => {
-    const csvFilePath = "./assets/data/menu-data.csv";
+    const csvFilePath = "./assets/data/barmenu-data.csv";
 
     Papa.parse(csvFilePath, {
       download: true,
@@ -96,4 +93,4 @@ function loadCSVAndGenerateMenuData() {
 }
 
 // Export the function to get menuData
-export const getMenuData = () => loadCSVAndGenerateMenuData();
+export const getBarMenuData = () => loadCSVAndGenerateMenuData();
