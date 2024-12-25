@@ -2,35 +2,37 @@ function transformCSVtoMenuData(csvData) {
   const menuData = [];
 
   csvData.forEach((row) => {
-    let category = menuData.find((cat) => cat.category === row.category);
+    if (row.visibility.toLowerCase() === "true") {
+      let category = menuData.find((cat) => cat.category === row.category);
 
-    if (!category) {
-      category = {
-        category: row.category,
-        type: row.type || "",
-        backgroundImage: row.backgroundImage || "",
-        items: [],
-        subCategories: row.type ? [] : undefined,
-      };
-      menuData.push(category);
-    }
-
-    if (row.type) {
-      let subCategory = category.subCategories.find(
-        (sub) => sub.type === row.type
-      );
-      if (!subCategory) {
-        subCategory = {
-          subCategory: row.category,
-          type: row.type,
+      if (!category) {
+        category = {
+          category: row.category,
+          type: row.type || "",
           backgroundImage: row.backgroundImage || "",
           items: [],
+          subCategories: row.type ? [] : undefined,
         };
-        category.subCategories.push(subCategory);
+        menuData.push(category);
       }
-      subCategory.items.push(createMenuItem(row));
-    } else {
-      category.items.push(createMenuItem(row));
+
+      if (row.type) {
+        let subCategory = category.subCategories.find(
+          (sub) => sub.type === row.type
+        );
+        if (!subCategory) {
+          subCategory = {
+            subCategory: row.category,
+            type: row.type,
+            backgroundImage: row.backgroundImage || "",
+            items: [],
+          };
+          category.subCategories.push(subCategory);
+        }
+        subCategory.items.push(createMenuItem(row));
+      } else {
+        category.items.push(createMenuItem(row));
+      }
     }
   });
 
@@ -69,6 +71,7 @@ function createMenuItem(row) {
     image: row.image || "",
     chefSpecial: row.chefSpecial.toLowerCase() === "true",
     vegan: row.vegan.toLowerCase() === "true",
+    peanutAllergy: row.peanutAllergy.toLowerCase() === "true",
   };
 }
 

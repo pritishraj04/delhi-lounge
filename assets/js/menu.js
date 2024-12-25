@@ -1,5 +1,6 @@
-import menuData from "./menuData.js";
+import { getMenuData } from "./menuDataFromCSV.js";
 
+const menuData = await getMenuData();
 const showCategoryIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 122"><defs><style>.cls-1{fill:#94b6e0;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M48,3V119c0,2.7-2.47,4.06-3.91,2.15L25.62,96.68a1.93,1.93,0,0,0-3.24,0L3.91,121.11C2.47,123,0,121.66,0,119V3C0,1.36,1,0,2.29,0H45.71C47,0,48,1.36,48,3Z"/></g></g></svg>`;
 const hideCategoryIcon = `<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 48 121.99"><defs><style>.cls-1{fill:#94b6e0;}</style></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><path class="cls-1" d="M45.71,0H2.29C1,0,0,1.35,0,3V119c0,2.7,2.47,4.05,3.91,2.14L22.38,96.68a1.93,1.93,0,0,1,3.24,0L44.09,121.1C45.53,123,48,121.66,48,119V3C48,1.35,47,0,45.71,0ZM36.57,70.84a2.82,2.82,0,1,1-4,4l-9.11-9.11L13.8,75.39a2.84,2.84,0,0,1-4,0l-.2-.2a2.82,2.82,0,0,1,0-4l9.67-9.68-9.11-9.11a2.82,2.82,0,0,1,4-4l9.11,9.11L32.84,48a2.82,2.82,0,0,1,4,0l.2.2a2.82,2.82,0,0,1,0,4l-9.57,9.57Z"/></g></g></svg>`;
 const chefSpecialIcon = `<img src="../assets/img/icons/lotus.svg" alt="Chef Special">`;
@@ -272,41 +273,44 @@ function createLastPage() {
 }
 
 function initializeMenu() {
-  menuData.forEach((categoryData) => {
-    if (categoryData.subCategories) {
-      categoryData.subCategories.forEach((subCategoryData) => {
-        const { subCategory, type, backgroundImage, items } = subCategoryData;
+  try {
+    menuData.forEach((categoryData) => {
+      if (categoryData.subCategories) {
+        categoryData.subCategories.forEach((subCategoryData) => {
+          const { subCategory, type, backgroundImage, items } = subCategoryData;
+          // Assign a unique ID to each item using UUID
+          items.forEach((item) => {
+            item.id = crypto.randomUUID(); // Generates a unique ID
+          });
+
+          const menuPage = createMenuPage(
+            subCategory,
+            type,
+            backgroundImage,
+            items
+          );
+          $("#magazine").turn("addPage", menuPage);
+        });
+      } else {
+        const { category, type, backgroundImage, items } = categoryData;
 
         // Assign a unique ID to each item using UUID
         items.forEach((item) => {
           item.id = crypto.randomUUID(); // Generates a unique ID
         });
 
-        const menuPage = createMenuPage(
-          subCategory,
-          type,
-          backgroundImage,
-          items
-        );
+        const menuPage = createMenuPage(category, type, backgroundImage, items);
         $("#magazine").turn("addPage", menuPage);
-      });
-    } else {
-      const { category, type, backgroundImage, items } = categoryData;
-
-      // Assign a unique ID to each item using UUID
-      items.forEach((item) => {
-        item.id = crypto.randomUUID(); // Generates a unique ID
-      });
-
-      const menuPage = createMenuPage(category, type, backgroundImage, items);
-      $("#magazine").turn("addPage", menuPage);
-    }
-  });
-  const lastPage = createLastPage();
-  $("#magazine").turn("addPage", lastPage);
+      }
+    });
+    const lastPage = createLastPage();
+    $("#magazine").turn("addPage", lastPage);
+  } catch (error) {
+    console.error("Error during menu initialization:", error);
+  }
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+window.addEventListener("load", () => {
   initializeMenu();
 });
 
