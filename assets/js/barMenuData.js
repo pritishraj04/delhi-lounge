@@ -272,267 +272,279 @@ let barMenuData = [
       },
     ],
   },
-  // {
-  //   category: "Wines",
-  //   subCategories: [
-  //     {
-  //       subCategory: "Wines",
-  //       type: "",
-  //       backgroundImage: "../assets/img/menu-images/pageg.jpg",
-  //       items: [
-  //         {
-  //           title: "Casalforte, Prosecco Extra Dry",
-  //           origin: "Italy",
-  //           tagline: "A sparkling delight from Italy.",
-  //           desc: "Crisp, refreshing prosecco with notes of pear and apple.",
-  //           fullDesc:
-  //             "This Italian prosecco offers a delightful balance of crisp acidity and gentle sweetness, with bright notes of pear and green apple, perfect for celebrations.",
-  //           metrics: "$8 (Glass) | $33 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //         {
-  //           title: "Andre Clourt, Champagne Brut Grande Reserve (NV)",
-  //           origin: "France",
-  //           tagline: "Elegance in every bubble.",
-  //           desc: "Classic French champagne with refined effervescence and complex flavors.",
-  //           fullDesc:
-  //             "A luxurious champagne featuring delicate bubbles, notes of brioche and citrus, and a finish that lingers with sophistication.",
-  //           metrics: "$25 (Glass) | $101 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //         {
-  //           title: "Perelada, Cava Brut Ros\xe9",
-  //           origin: "Spain",
-  //           tagline: "Vibrant pink bubbles with a Spanish flair.",
-  //           desc: "A sparkling ros\xe9 with berry notes and a crisp finish.",
-  //           fullDesc:
-  //             "This cava offers a lively effervescence with flavors of red berries and a refreshing acidity, perfect for any occasion.",
-  //           metrics: "$8 (Glass) | $32 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //         {
-  //           title:
-  //             "Highway 12 Vineyards, Pinot Noir Ros\xe9 North Coast (2023)",
-  //           origin: "USA",
-  //           tagline: "California's coastal charm in a glass.",
-  //           desc: "A light and elegant ros\xe9 with strawberry and floral notes.",
-  //           fullDesc:
-  //             "This Pinot Noir Ros\xe9 captures the essence of California's North Coast, delivering subtle strawberry and rose petal aromas with a refreshing finish.",
-  //           metrics: "$9 (Glass) | $36 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //         {
-  //           title: "Salmon Ru, Riesling Finger Lakes (2023)",
-  //           origin: "USA",
-  //           tagline: "A crisp and lively Riesling from New York.",
-  //           desc: "Fresh and fruity with hints of peach and citrus.",
-  //           fullDesc:
-  //             "Hailing from the Finger Lakes, this Riesling boasts vibrant acidity and layers of stone fruit and citrus, making it a versatile choice.",
-  //           metrics: "$8 (Glass) | $30 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //         {
-  //           title: "Terracotta, Pinot Grigio della Venezie (2022)",
-  //           origin: "Italy",
-  //           tagline: "Refreshing Italian white wine.",
-  //           desc: "Light and crisp with hints of green apple and citrus.",
-  //           fullDesc:
-  //             "This Pinot Grigio from Veneto is a classic expression of Italian elegance, featuring bright flavors of apple, citrus, and a clean finish.",
-  //           metrics: "$8 (Glass) | $31 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //         {
-  //           title: "Taft Street, Sauvignon Blanc Russian River Valley",
-  //           origin: "USA",
-  //           tagline: "A zesty white from California.",
-  //           desc: "Crisp and vibrant with tropical fruit and citrus notes.",
-  //           fullDesc:
-  //             "A beautifully crafted Sauvignon Blanc from Russian River Valley, offering aromas of passionfruit, lime, and a hint of minerality.",
-  //           metrics: "$10 (Glass) | $39 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //         {
-  //           title: "Blue Rock Vineyard, Baby Blue Blanc (2023)",
-  //           origin: "USA",
-  //           tagline: "A bold white blend for every occasion.",
-  //           desc: "Rich and creamy with tropical fruit and vanilla notes.",
-  //           fullDesc:
-  //             "This white blend combines lush tropical fruit flavors with a creamy texture, balanced by a touch of oak for a delightful complexity.",
-  //           metrics: "$13 (Glass) | $53 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //         {
-  //           title:
-  //             "Francois Labet, Bourgogne Chardonnay Vieilles Vignes (2022)",
-  //           origin: "France",
-  //           tagline: "A classic French Chardonnay.",
-  //           desc: "Elegant and balanced with notes of citrus and toasted almonds.",
-  //           fullDesc:
-  //             "A refined Chardonnay from Burgundy, featuring flavors of citrus, ripe pear, and a hint of toasted almond with a silky finish.",
-  //           metrics: "$13 (Glass) | $53 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       subCategory: "Wines",
-  //       type: "",
-  //       backgroundImage: "../assets/img/menu-images/pageg.jpg",
-  //       items: [
-  //         {
-  //           title: "Highway 12 Vineyards, Chardonnay California (2023)",
-  //           origin: "USA",
-  //           tagline: "A vibrant Chardonnay from California.",
-  //           desc: "Bright and refreshing with notes of green apple and vanilla.",
-  //           fullDesc:
-  //             "This California Chardonnay offers a delightful blend of fresh fruit and subtle oak, perfect for pairing with a variety of dishes.",
-  //           metrics: "$9 (Glass) | $37 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //         {
-  //           title: "Francois Labet, Bourgogne Vieilles Vignes (2022)",
-  //           origin: "France",
-  //           tagline: "A silky Pinot Noir from Burgundy.",
-  //           desc: "Light-bodied with notes of red berries and earthy undertones.",
-  //           fullDesc:
-  //             "This Pinot Noir from Burgundy presents delicate flavors of cherry, raspberry, and a touch of earthiness, ideal for light meals.",
-  //           metrics: "$9 (Glass) | $37 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //         {
-  //           title: "Matthieu de Brully, Pinot Noir La Fraisiere (2021)",
-  //           origin: "France",
-  //           tagline: "An expressive Pinot Noir with character.",
-  //           desc: "Rich and smooth with cherry, spice, and subtle oak.",
-  //           fullDesc:
-  //             "This French Pinot Noir offers a harmonious balance of dark cherry, baking spices, and gentle oak for a classic yet bold flavor profile.",
-  //           metrics: "$8 (Glass) | $33 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //         {
-  //           title: "Cru Wine Company, Pinot Noir Santa Lucia Highlands",
-  //           origin: "USA",
-  //           tagline: "A refined Pinot Noir from California's Highlands.",
-  //           desc: "Elegant and smooth with red berry and floral notes.",
-  //           fullDesc:
-  //             "This Pinot Noir from Santa Lucia Highlands offers a delicate balance of red berry flavors, subtle floral aromas, and a hint of spice, delivering a polished finish.",
-  //           metrics: "$11 (Glass) | $44 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //         {
-  //           title: "Bouchaine, Pinot Noir Carneros (2019)",
-  //           origin: "USA",
-  //           tagline: "A luxurious Pinot Noir from Napa Valley.",
-  //           desc: "Rich and complex with layers of cherry, plum, and earthy tones.",
-  //           fullDesc:
-  //             "Bouchaine's Carneros Pinot Noir showcases ripe cherry and plum flavors, complemented by earthy undertones and a silky texture, making it an exquisite choice for any occasion.",
-  //           metrics: "$15 (Glass) | $60 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //         {
-  //           title: "Vite Colte, La Luna e Falo Barbera d'Asti Superiore (2019)",
-  //           origin: "Italy",
-  //           tagline: "An Italian classic with a modern twist.",
-  //           desc: "Vibrant and bold with notes of dark fruit and spice.",
-  //           fullDesc:
-  //             "This Barbera d'Asti Superiore captivates with its intense flavors of blackberry, plum, and a touch of spice, supported by a balanced acidity and smooth finish.",
-  //           metrics: "$12 (Glass) | $47 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //         {
-  //           title: "Chateau de Callac, Graves Rouge (2019)",
-  //           origin: "France",
-  //           tagline: "A Bordeaux gem with depth and elegance.",
-  //           desc: "Full-bodied with flavors of dark berries and subtle oak.",
-  //           fullDesc:
-  //             "From the Graves region, this Rouge combines rich dark berry flavors with hints of tobacco and oak, creating a balanced wine with a smooth and lasting finish.",
-  //           metrics: "$8 (Glass) | $33 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //         {
-  //           title:
-  //             "Bliss Family Vineyards, Merlot Estate Bottled Mendocino (2021)",
-  //           origin: "USA",
-  //           tagline: "A smooth and approachable Merlot.",
-  //           desc: "Bright and fruity with hints of cherry and vanilla.",
-  //           fullDesc:
-  //             "This estate-bottled Merlot from Mendocino offers a delightful medley of cherry and red berry flavors, complemented by soft tannins and a touch of vanilla.",
-  //           metrics: "$7 (Glass) | $29 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //       ],
-  //     },
-  //     {
-  //       subCategory: "Wines",
-  //       type: "",
-  //       backgroundImage: "../assets/img/menu-images/pageg.jpg",
-  //       items: [
-  //         {
-  //           title: "Senorio De Sarria, Navarra Crianza (2019)",
-  //           origin: "Spain",
-  //           tagline: "A Spanish classic with a modern flair.",
-  //           desc: "Balanced and vibrant with red fruit and oak nuances.",
-  //           fullDesc:
-  //             "This Crianza from Navarra offers a delightful harmony of bright red fruit flavors, smooth tannins, and a subtle touch of oak, embodying the essence of Spanish winemaking.",
-  //           metrics: "$10 (Glass) | $39 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //         {
-  //           title:
-  //             "Highway 12 Vineyards, Cabernet Sauvignon Sonoma County (2020)",
-  //           origin: "USA",
-  //           tagline: "A bold Cabernet from the heart of Sonoma.",
-  //           desc: "Rich and robust with notes of black currant and spice.",
-  //           fullDesc:
-  //             "This Cabernet Sauvignon showcases bold black currant and dark cherry flavors, layered with hints of spice and smooth tannins for a well-rounded finish.",
-  //           metrics: "$9 (Glass) | $35 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //         {
-  //           title: "Bruocoa Family Vineyards, Cabernet",
-  //           origin: "USA",
-  //           tagline: "An indulgent Cabernet for all occasions.",
-  //           desc: "Deep and velvety with flavors of dark fruit and cocoa.",
-  //           fullDesc:
-  //             "The Bruocoa Family Cabernet delivers a rich profile of blackberry, plum, and subtle cocoa, paired with elegant tannins and a lingering finish.",
-  //           metrics: "$11 (Glass) | $46 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //         {
-  //           title: "Slate, Red Wine California",
-  //           origin: "USA",
-  //           tagline: "A versatile red with a Californian charm.",
-  //           desc: "Smooth and approachable with ripe berry notes.",
-  //           fullDesc:
-  //             "Slate Red Wine embodies the essence of California with its ripe berry flavors, smooth texture, and a touch of spice, making it a perfect choice for any gathering.",
-  //           metrics: "$10 (Glass) | $41 (Bottle)",
-  //           image: "./assets/img/modal-images/food-menu/imag.jpg",
-  //           chefSpecial: false,
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
+  {
+    category: "Wines",
+    subCategories: [
+      {
+        subCategory: "White Wine",
+        type: "",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
+        items: [
+          {
+            title: "Castello Poggio Moscato Pavia IGT VT",
+            origin: "Italy",
+            tagline: "A sweet and aromatic white wine.",
+            desc: "Glass of Castello Poggio Moscato.",
+            fullDesc: "Indulge in the delicate flavors of Castello Poggio Moscato Pavia IGT VT, a perfectly balanced sweet wine with floral and fruity notes.",
+            metrics: "$8.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false
+        },
+        {
+            title: "Castello Poggio Moscato Pavia IGT VT Bottle",
+            origin: "Italy",
+            tagline: "A sweet and aromatic wine for celebrations.",
+            desc: "Bottle of Castello Poggio Moscato.",
+            fullDesc: "Celebrate special moments with a bottle of Castello Poggio Moscato Pavia IGT VT, offering rich floral aromas and fruity sweetness.",
+            metrics: "$35.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false
+        },
+        {
+            title: "Tobias Chardonnay",
+            origin: "California",
+            tagline: "A classic and refined white wine.",
+            desc: "Glass of Tobias Chardonnay.",
+            fullDesc: "A delightful Chardonnay from California, Tobias offers a harmonious balance of crisp acidity and fruity richness.",
+            metrics: "$10.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false
+        },
+        {
+            title: "Tobias Chardonnay Bottle",
+            origin: "California",
+            tagline: "Perfect for sharing, a refined experience.",
+            desc: "Bottle of Tobias Chardonnay.",
+            fullDesc: "Elevate your gatherings with a bottle of Tobias Chardonnay, a sophisticated choice featuring hints of citrus and oak.",
+            metrics: "$45.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false
+        },
+        {
+            title: "Taft Street Sauvignon Blanc Russian VT",
+            origin: "California",
+            tagline: "Crisp and refreshing with a hint of herbs.",
+            desc: "Glass of Taft Street Sauvignon Blanc.",
+            fullDesc: "Enjoy the vibrant flavors of Taft Street Sauvignon Blanc, featuring zesty citrus and herbal undertones for a refreshing sip.",
+            metrics: "$12.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false
+        },
+        {
+            title: "Taft Street Sauvignon Blanc Russian VT Bottle",
+            origin: "California",
+            tagline: "A refreshing choice for any occasion.",
+            desc: "Bottle of Taft Street Sauvignon Blanc.",
+            fullDesc: "Perfect for dinners and celebrations, this bottle of Taft Street Sauvignon Blanc offers a crisp and invigorating wine experience.",
+            metrics: "$50.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false
+        },
+        {
+            title: "Terracotta Pinot Grigio",
+            origin: "Italy",
+            tagline: "Light and lively with fruity notes.",
+            desc: "Glass of Terracotta Pinot Grigio.",
+            fullDesc: "Discover the vibrant charm of Terracotta Pinot Grigio, a light-bodied Italian white wine with fresh fruit flavors.",
+            metrics: "$8.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false
+        },
+        {
+            title: "Terracotta Pinot Grigio Bottle",
+            origin: "Italy",
+            tagline: "Perfect for gatherings with a taste of Italy.",
+            desc: "Bottle of Terracotta Pinot Grigio.",
+            fullDesc: "A bottle of Terracotta Pinot Grigio is an excellent companion for lively gatherings, offering crisp and fruity notes.",
+            metrics: "$35.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false
+        },
+        ],
+      },
+      {
+        subCategory: "Red Wine",
+        type: "",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
+        items: [
+          {
+            title: "Glenlivet 12 Yr",
+            origin: "Scotland",
+            tagline: "Smooth and elegant single malt.",
+            desc: "A glass of Glenlivet 12 Year Old.",
+            fullDesc: "Savor the smooth and fruity flavors of Glenlivet 12 Year Old, a classic Scotch whisky with hints of pear and oak.",
+            metrics: "$23.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false
+        },
+        {
+            title: "Macallan 12 Yr",
+            origin: "Scotland",
+            tagline: "Rich and full-bodied Scotch.",
+            desc: "A glass of Macallan 12 Year Old.",
+            fullDesc: "Macallan 12 Year Old offers a luxurious experience with its rich flavors of dried fruits, sherry, and a hint of spice.",
+            metrics: "$23.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false
+        },
+        {
+            title: "Macallan 18 Yr",
+            origin: "Scotland",
+            tagline: "Premium whisky aged to perfection.",
+            desc: "A glass of Macallan 18 Year Old.",
+            fullDesc: "Indulge in the exquisite taste of Macallan 18 Year Old, a premium Scotch with complex flavors of oak, spice, and dried fruits.",
+            metrics: "$45.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false
+        },
+        {
+            title: "Glenfiddich 12 Yr",
+            origin: "Scotland",
+            tagline: "The world's favorite single malt.",
+            desc: "A glass of Glenfiddich 12 Year Old.",
+            fullDesc: "Enjoy the signature fruity notes of Glenfiddich 12 Year Old, a light and refreshing single malt Scotch.",
+            metrics: "$23.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false
+        },
+        {
+            title: "JW Black Label",
+            origin: "Scotland",
+            tagline: "A rich blend of fine whiskies.",
+            desc: "A glass of Johnnie Walker Black Label.",
+            fullDesc: "Johnnie Walker Black Label is a masterful blend with a bold, smoky flavor and smooth finish.",
+            metrics: "$14.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false
+        },
+        {
+            title: "Amrut Single Malt",
+            origin: "India",
+            tagline: "India's finest single malt whisky.",
+            desc: "A glass of Amrut Single Malt.",
+            fullDesc: "Discover the rich and intense flavors of Amrut Single Malt, crafted in the heart of India.",
+            metrics: "$12.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false
+        },
+        {
+            title: "Indri Single Malt",
+            origin: "India",
+            tagline: "A modern Indian single malt.",
+            desc: "A glass of Indri Single Malt.",
+            fullDesc: "Indri Single Malt showcases a blend of tradition and innovation, with a smooth, malty character and hints of spices.",
+            metrics: "$12.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false
+        },
+        {
+            title: "Glenlivet 15",
+            origin: "Scotland",
+            tagline: "Aged for depth and complexity.",
+            desc: "A glass of Glenlivet 15 Year Old.",
+            fullDesc: "Experience the rich and spicy notes of Glenlivet 15 Year Old, matured in French oak casks for an enhanced flavor.",
+            metrics: "$27.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false
+        },
+        {
+            title: "JW Blue Label",
+            origin: "Scotland",
+            tagline: "The pinnacle of luxury blended whisky.",
+            desc: "A glass of Johnnie Walker Blue Label.",
+            fullDesc: "Johnnie Walker Blue Label is an exceptional whisky with unparalleled smoothness and a rich, velvety flavor.",
+            metrics: "$45.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false
+        },
+        {
+            title: "Glenlivet 18",
+            origin: "Scotland",
+            tagline: "A masterfully aged single malt.",
+            desc: "A glass of Glenlivet 18 Year Old.",
+            fullDesc: "Savor the sophisticated flavors of Glenlivet 18 Year Old, featuring a perfect balance of sweet, floral, and woody notes.",
+            metrics: "$32.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false
+        },
+        {
+            title: "Highland Park 12",
+            origin: "Scotland",
+            tagline: "An iconic Orcadian single malt.",
+            desc: "A glass of Highland Park 12 Year Old.",
+            fullDesc: "Highland Park 12 Year Old is a vibrant whisky with a smoky sweetness and a gentle floral aroma.",
+            metrics: "$12.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false
+        },
+        
+        
+          
+        ],
+      },
+      // {
+      //   subCategory: "Red Wine",
+      //   type: "",
+      //   backgroundImage: "../assets/img/menu-images/pageg.jpg",
+      //   items: [
+      //     {
+      //       title: "Highland Park 18",
+      //       origin: "Scotland",
+      //       tagline: "Aged for an exceptional whisky experience.",
+      //       desc: "A glass of Highland Park 18 Year Old.",
+      //       fullDesc: "Highland Park 18 Year Old delivers a perfect balance of aromatic peat smoke and sweet sherry flavors.",
+      //       metrics: "$32.00",
+      //       image: "./assets/img/modal-images/food-menu/imag.jpg",
+      //       chefSpecial: false
+      //   },
+      //   {
+      //       title: "Chivas Regal 12",
+      //       origin: "Scotland",
+      //       tagline: "A timeless, smooth blended whisky.",
+      //       desc: "A glass of Chivas Regal 12 Year Old.",
+      //       fullDesc: "Chivas Regal 12 Year Old is a blend of the finest malts, offering a rich and harmonious flavor profile.",
+      //       metrics: "$10.00",
+      //       image: "./assets/img/modal-images/food-menu/imag.jpg",
+      //       chefSpecial: false
+      //   },
+      //     {
+      //       title:
+      //         "Highway 12 Vineyards, Cabernet Sauvignon Sonoma County (2020)",
+      //       origin: "USA",
+      //       tagline: "A bold Cabernet from the heart of Sonoma.",
+      //       desc: "Rich and robust with notes of black currant and spice.",
+      //       fullDesc:
+      //         "This Cabernet Sauvignon showcases bold black currant and dark cherry flavors, layered with hints of spice and smooth tannins for a well-rounded finish.",
+      //       metrics: "$9 (Glass) | $35 (Bottle)",
+      //       image: "./assets/img/modal-images/food-menu/imag.jpg",
+      //       chefSpecial: false,
+      //     },
+      //     {
+      //       title: "Bruocoa Family Vineyards, Cabernet",
+      //       origin: "USA",
+      //       tagline: "An indulgent Cabernet for all occasions.",
+      //       desc: "Deep and velvety with flavors of dark fruit and cocoa.",
+      //       fullDesc:
+      //         "The Bruocoa Family Cabernet delivers a rich profile of blackberry, plum, and subtle cocoa, paired with elegant tannins and a lingering finish.",
+      //       metrics: "$11 (Glass) | $46 (Bottle)",
+      //       image: "./assets/img/modal-images/food-menu/imag.jpg",
+      //       chefSpecial: false,
+      //     },
+      //     {
+      //       title: "Slate, Red Wine California",
+      //       origin: "USA",
+      //       tagline: "A versatile red with a Californian charm.",
+      //       desc: "Smooth and approachable with ripe berry notes.",
+      //       fullDesc:
+      //         "Slate Red Wine embodies the essence of California with its ripe berry flavors, smooth texture, and a touch of spice, making it a perfect choice for any gathering.",
+      //       metrics: "$10 (Glass) | $41 (Bottle)",
+      //       image: "./assets/img/modal-images/food-menu/imag.jpg",
+      //       chefSpecial: false,
+      //     },
+      //   ],
+      // },
+    ],
+  },
   {
     category: "Liquors",
     subCategories: [
@@ -749,7 +761,7 @@ let barMenuData = [
             desc: "Smooth and versatile silver rum.",
             fullDesc: "A timeless silver rum known for its smoothness and versatility, perfect for cocktails or sipping neat.",
             metrics: "$8.00",
-            image: "./assets/img/modal-images/food-menu/bacardi-silver.jpg",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
           {
@@ -759,7 +771,7 @@ let barMenuData = [
             desc: "Coconut-infused rum with a sweet finish.",
             fullDesc: "A light, coconut-flavored rum that adds a touch of tropical sweetness to any cocktail or occasion.",
             metrics: "$9.00",
-            image: "./assets/img/modal-images/food-menu/malibu.jpg",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
           {
@@ -769,7 +781,7 @@ let barMenuData = [
             desc: "Bold spiced rum with a smooth finish.",
             fullDesc: "A rich, spiced rum with bold flavors and a smooth finish, perfect for adding depth to your drinks.",
             metrics: "$11.00",
-            image: "./assets/img/modal-images/food-menu/captain-morgan.jpg",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
           {
@@ -779,7 +791,7 @@ let barMenuData = [
             desc: "Premium cachaca with a smooth finish.",
             fullDesc: "A premium cachaca crafted in Brazil, offering a smooth and refined taste ideal for caipirinhas.",
             metrics: "$10.00",
-            image: "./assets/img/modal-images/food-menu/ypioca-cachaca-prata.jpg",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
           {
@@ -789,7 +801,7 @@ let barMenuData = [
             desc: "Rich and full-bodied aged rum.",
             fullDesc: "An exceptional 7-year-aged rum with rich, full-bodied flavors that elevate any sipping or cocktail experience.",
             metrics: "$10.00",
-            image: "./assets/img/modal-images/food-menu/flor-de-cana.jpg",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
           {
@@ -799,7 +811,7 @@ let barMenuData = [
             desc: "Smooth rum with tropical notes.",
             fullDesc: "A smooth and flavorful Barbados rum with hints of tropical spices and caramel, embodying Caribbean excellence.",
             metrics: "$10.00",
-            image: "./assets/img/modal-images/food-menu/bumbu.jpg",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
           {
@@ -809,7 +821,7 @@ let barMenuData = [
             desc: "Rich spiced rum with a vanilla finish.",
             fullDesc: "A bold spiced rum infused with hints of vanilla and cinnamon, delivering a unique and unforgettable taste.",
             metrics: "$10.00",
-            image: "./assets/img/modal-images/food-menu/sailor-jerry.jpg",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
           {
@@ -819,7 +831,7 @@ let barMenuData = [
             desc: "Coconut-flavored rum with a sweet touch.",
             fullDesc: "A tropical classic, Malibu Coconut Rum adds a smooth and sweet coconut flavor to any cocktail.",
             metrics: "$10.00",
-            image: "./assets/img/modal-images/food-menu/malibu-coconut.jpg",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
           {
@@ -829,7 +841,7 @@ let barMenuData = [
             desc: "Smooth golden rum with a hint of vanilla.",
             fullDesc: "A smooth golden rum with subtle notes of vanilla and caramel, perfect for cocktails or on the rocks.",
             metrics: "$8.00",
-            image: "./assets/img/modal-images/food-menu/bacardi-gold.jpg",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
         ],
@@ -1006,52 +1018,104 @@ let barMenuData = [
         backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
-            title: "Grey Goose",
-            origin: "France",
-            tagline: "Premium vodka with a smooth finish",
-            desc: "A refined vodka with a delicate balance of smooth and crisp flavors.",
-            fullDesc:
-              "Grey Goose is a luxury vodka made from the finest ingredients, offering a smooth and crisp flavor that's perfect for sipping or mixing.",
-            metrics: "$12",
-            image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false,
-            vegan: !0,
-          },
-          {
             title: "Tito's",
             origin: "USA",
-            tagline: "Handcrafted and smooth",
-            desc: "A smooth, corn-based vodka known for its clean finish and versatility.",
-            fullDesc:
-              "Tito's Handmade Vodka is an American classic, made from corn for a smoother, cleaner taste, and ideal for cocktails.",
-            metrics: "$8",
+            tagline: "Crafted to perfection.",
+            desc: "Smooth and gluten-free vodka.",
+            fullDesc: "A high-quality gluten-free vodka known for its clean and smooth taste, perfect for cocktails or sipping neat.",
+            metrics: "$8.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
-            vegan: !0,
           },
           {
-            title: "Ciroc",
+            title: "Grey Goose",
             origin: "France",
-            tagline: "Distinctive, fruity vodka with a silky finish",
-            desc: "A luxurious vodka made from French grapes, offering a unique fruity taste.",
-            fullDesc:
-              "Ciroc is a premium vodka made from fine French grapes, known for its smooth, fruity flavor and silky finish, perfect for sipping or mixing.",
-            metrics: "$10",
+            tagline: "Exceptionally smooth.",
+            desc: "Premium French vodka.",
+            fullDesc: "A premium French vodka crafted with the finest wheat, offering exceptional smoothness and flavor.",
+            metrics: "$12.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
-            vegan: !0,
           },
           {
             title: "Beluga Noble",
             origin: "Russia",
-            tagline: "Luxury vodka with a rich, smooth flavor",
-            desc: "An ultra-premium vodka crafted from Russian grains and pure water.",
-            fullDesc:
-              "Beluga Noble is a luxury Russian vodka made from malted barley and pure water, offering a rich, smooth flavor that's perfect for sipping.",
-            metrics: "$13",
+            tagline: "Russian elegance in a bottle.",
+            desc: "Ultra-premium vodka with a refined taste.",
+            fullDesc: "An ultra-premium Russian vodka known for its refined taste, crafted from pure artesian water and malt spirit.",
+            metrics: "$13.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
-            vegan: !0,
+          },
+          {
+            title: "Ciroc",
+            origin: "France",
+            tagline: "Distilled from fine French grapes.",
+            desc: "Distinctive vodka with fruity undertones.",
+            fullDesc: "A distinctive vodka distilled from fine French grapes, delivering a smooth texture and fruity undertones.",
+            metrics: "$10.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Absolute",
+            origin: "Sweden",
+            tagline: "A global favorite.",
+            desc: "Smooth Swedish vodka.",
+            fullDesc: "A globally loved Swedish vodka known for its purity, smoothness, and versatility in cocktails.",
+            metrics: "$10.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Amsterdam",
+            origin: "USA",
+            tagline: "Crafted for smoothness.",
+            desc: "Affordable and versatile vodka.",
+            fullDesc: "An affordable vodka crafted for smoothness, perfect for mixing in cocktails or enjoying on the rocks.",
+            metrics: "$10.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Belvedere Organic Vodka",
+            origin: "Poland",
+            tagline: "Sustainably crafted.",
+            desc: "Certified organic Polish vodka.",
+            fullDesc: "A certified organic vodka crafted in Poland, offering a clean and smooth taste with a commitment to sustainability.",
+            metrics: "$10.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Grey Goose VX",
+            origin: "France",
+            tagline: "A vodka like no other.",
+            desc: "Premium vodka with a hint of cognac.",
+            fullDesc: "A luxurious vodka infused with a subtle hint of cognac, delivering an unparalleled smoothness and complexity.",
+            metrics: "$45.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Ketel One Vodka",
+            origin: "Netherlands",
+            tagline: "Craftsmanship at its finest.",
+            desc: "Smooth Dutch vodka with a rich heritage.",
+            fullDesc: "A smooth and versatile Dutch vodka, crafted with care and a rich heritage spanning generations.",
+            metrics: "$10.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Aspen Vodka",
+            origin: "USA",
+            tagline: "Pure mountain spirit.",
+            desc: "Smooth and crisp American vodka.",
+            fullDesc: "A smooth and crisp American vodka inspired by the pure mountain waters of Aspen, perfect for any occasion.",
+            metrics: "$10.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
           },
         ],
       },
