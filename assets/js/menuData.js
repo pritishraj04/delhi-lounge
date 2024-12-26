@@ -331,7 +331,7 @@ let menuData = [
         title: "Pani Puri (Jaljeera | Gud Imli | Pineapple)",
         origin: "Vegetarian",
         tagline: "",
-        desc: "Street style puffs stuffed with chickpeas, and potatoes, topped with flavored waters.",
+        desc: "Street style puffs stuffed with chickpeas and potatoes, topped with flavored waters.",
         fullDesc:
           "A classic Indian street snack featuring crispy puris filled with a tangy mix of flavored waters, chickpeas, and potatoes, providing an explosion of taste.",
         metrics: "180Gms | 197Kcal | $10",
@@ -344,7 +344,7 @@ let menuData = [
         title: "Karol Bagh Aloo Tikki",
         origin: "Vegetarian",
         tagline: "",
-        desc: "Stuffed potato patties, topped with whipped yogurt, and chutneys.",
+        desc: "Stuffed potato patties, topped with whipped yogurt and chutneys.",
         fullDesc:
           "Crispy stuffed potato patties topped with white peas, a dollop of whipped yogurt, and a drizzle of tangy chutneys.",
         metrics: "120Gms | 102Kcal | $12",
@@ -620,7 +620,7 @@ let menuData = [
             title: "Goat Seekh",
             origin: "Meats",
             tagline: "",
-            desc: "Minced goat meat marinated in spices skewered, and char-grilled, cranberry & ginger launji.",
+            desc: "Minced goat meat marinated in spices, skewered and char-grilled, cranberry & ginger launji.",
             fullDesc:
               "Minced goat meat skewered with colorful peppers, char-grilled, and served with a zesty cranberry and ginger chutney.",
             metrics: "260Gms | 718Kcal | $25",
@@ -816,9 +816,9 @@ let menuData = [
             title: "Dal Tadka",
             origin: "Vegetarian",
             tagline: "",
-            desc: "Toor & moong lentils cooked with turmeric, tempered with ghee, cumin, and asafetida.",
+            desc: "Toor & moong lentils cooked with turmeric, tempered with ghee, cumin, and asafoetida.",
             fullDesc:
-              "A comforting dish of moong and toor lentils cooked with turmeric and tempered with aromatic ghee, cumin, and asafetida, creating a flavorful dal.",
+              "A comforting dish of moong and toor lentils cooked with turmeric and tempered with aromatic ghee, cumin, and asafoetida, creating a flavorful dal.",
             metrics: "320Gms | 485Kcal | $18",
             image: "./assets/img/modal-images/food-menu/dal-tadka.jpg",
             chefSpecial: false,
