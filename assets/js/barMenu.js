@@ -233,43 +233,46 @@ function createLastPage() {
 }
 
 function initializeMenu() {
-  barMenuData.forEach((categoryData) => {
-    if (categoryData.subCategories) {
-      categoryData.subCategories.forEach((subCategoryData) => {
-        const { subCategory, type, backgroundImage, items } = subCategoryData;
+  console.log("Initializing bar menu");
+  try {
+    barMenuData.forEach((categoryData) => {
+      if (categoryData.subCategories) {
+        categoryData.subCategories.forEach((subCategoryData) => {
+          const { subCategory, type, backgroundImage, items } = subCategoryData;
+
+          // Assign a unique ID to each item using UUID
+          items.forEach((item) => {
+            item.id = crypto.randomUUID(); // Generates a unique ID
+          });
+
+          const menuPage = createMenuPage(
+            subCategory,
+            type,
+            backgroundImage,
+            items
+          );
+          $("#magazine").turn("addPage", menuPage);
+        });
+      } else {
+        const { category, type, backgroundImage, items } = categoryData;
 
         // Assign a unique ID to each item using UUID
         items.forEach((item) => {
           item.id = crypto.randomUUID(); // Generates a unique ID
         });
 
-        const menuPage = createMenuPage(
-          subCategory,
-          type,
-          backgroundImage,
-          items
-        );
+        const menuPage = createMenuPage(category, type, backgroundImage, items);
         $("#magazine").turn("addPage", menuPage);
-      });
-    } else {
-      const { category, type, backgroundImage, items } = categoryData;
+      }
+    });
+    console.log("Bar menu created successfully");
+  } catch (error) {
+    console.error("Error during bar menu initialization:", error);
+  }
 
-      // Assign a unique ID to each item using UUID
-      items.forEach((item) => {
-        item.id = crypto.randomUUID(); // Generates a unique ID
-      });
-
-      const menuPage = createMenuPage(category, type, backgroundImage, items);
-      $("#magazine").turn("addPage", menuPage);
-    }
-  });
   const lastPage = createLastPage();
   $("#magazine").turn("addPage", lastPage);
 }
-
-window.addEventListener("load", () => {
-  initializeMenu();
-});
 
 //modal
 
@@ -357,3 +360,13 @@ export const closeModal = () => {
 };
 
 window.closeModal = closeModal;
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", () => {
+    console.log("DOM fully loaded and parsed.");
+    initializeMenu();
+  });
+} else {
+  console.log("DOM already loaded.");
+  initializeMenu();
+}

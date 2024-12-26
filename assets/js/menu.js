@@ -260,6 +260,7 @@ function createLastPage() {
 }
 
 function initializeMenu() {
+  console.log("Initializing menu");
   try {
     menuData.forEach((categoryData) => {
       if (categoryData.subCategories) {
@@ -292,14 +293,11 @@ function initializeMenu() {
     });
     const lastPage = createLastPage();
     $("#magazine").turn("addPage", lastPage);
+    console.log("Menu created successfully");
   } catch (error) {
     console.error("Error during menu initialization:", error);
   }
 }
-
-window.addEventListener("load", () => {
-  initializeMenu();
-});
 
 //modal
 
@@ -384,3 +382,13 @@ export const closeModal = () => {
 };
 
 window.closeModal = closeModal;
+
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", () => {
+    console.log("DOM fully loaded and parsed.");
+    initializeMenu();
+  });
+} else {
+  console.log("DOM already loaded.");
+  initializeMenu();
+}
