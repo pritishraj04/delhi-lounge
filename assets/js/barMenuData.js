@@ -1005,12 +1005,12 @@ let barMenuData = [
             chefSpecial: false,
           },
           {
-            title: "Chivas Regal 22",
+            title: "Chivas Regal 21",
             origin: "Scotland",
             tagline: "Aged to perfection for an even deeper and richer flavor.",
             desc: "",
             fullDesc:
-              "Chivas Regal 22 delivers an exceptional and refined whisky experience, masterfully aged to perfection for the most sophisticated palate.",
+              "Chivas Regal 21 delivers an exceptional and refined whisky experience, masterfully aged to perfection for the most sophisticated palate.",
             metrics: "$38",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
