@@ -1011,7 +1011,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Chivas Regal 22 delivers an exceptional and refined whisky experience, masterfully aged to perfection for the most sophisticated palate.",
-            metrics: "$20",
+            metrics: "$38",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
