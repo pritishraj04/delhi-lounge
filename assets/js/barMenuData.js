@@ -1005,6 +1005,17 @@ let barMenuData = [
             chefSpecial: false,
           },
           {
+            title: "Chivas Regal 22",
+            origin: "Scotland",
+            tagline: "Aged to perfection for an even deeper and richer flavor.",
+            desc: "",
+            fullDesc:
+              "Chivas Regal 22 delivers an exceptional and refined whisky experience, masterfully aged to perfection for the most sophisticated palate.",
+            metrics: "$20",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
             title: "JW Gold Label Reserve",
             origin: "Scotland",
             tagline: "A luxurious blend with creamy texture.",
