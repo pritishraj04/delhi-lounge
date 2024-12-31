@@ -207,6 +207,16 @@ let barMenuData = [
             chefSpecial: false,
           },
           {
+            title: "Virgin Mai Tai",
+            origin: "N/A",
+            tagline: "A refreshing, non-alcoholic tropical delight.",
+            desc: "A vibrant, alcohol-free version of the classic Mai Tai, perfect for any occasion.",
+            fullDesc: "Virgin Mai Tai is a flavorful mix of tropical juices with a hint of lime and almond, offering a refreshing taste without alcohol.",
+            metrics: "$10",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
             title: "Coke",
             origin: "Classic",
             tagline: "The original taste of refreshment.",
@@ -288,6 +298,16 @@ let barMenuData = [
               "A zesty blend of tequila, tangy raw mango, and a kick of chili, balanced with citrus and celery, finished with hemp seed salt for a bold and flavorful experience.",
             metrics: "$15",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Pani Puri Martini",
+            origin: "India",
+            tagline: "A fusion of traditional street food and classic martini.",
+            desc: "An innovative cocktail inspired by the popular Indian street snack.",
+            fullDesc: "The Pani Puri Martini combines the flavors of tangy tamarind, spicy mint, and crisp puri, blended with vodka for a unique twist on the classic martini. A perfect fusion of tradition and innovation.",
+            metrics: "$15",
+            image: "./assets/img/modal-images/food-menu/pani-puri-martini.jpg", // Adjust the image path as needed
             chefSpecial: false,
           },
         ],
@@ -461,6 +481,26 @@ let barMenuData = [
               "The Muirwood Merlot California VT Bottle is a testament to California's winemaking excellence. Offering rich flavors of dark fruit and a velvety finish, this merlot is perfect for gatherings or quiet evenings.",
             metrics: "$40",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Caymus Bottle",
+            origin: "California, USA",
+            tagline: "A premium Napa Valley wine that epitomizes quality.",
+            desc: "A bold red wine known for its rich flavors and full-bodied profile.",
+            fullDesc: "Caymus Bottle offers an exquisite Napa Valley Cabernet Sauvignon with deep, rich flavors of blackberry, currant, and a touch of oak, ideal for wine lovers seeking sophistication.",
+            metrics: "$130",
+            image: "./assets/img/modal-images/food-menu/caymus.jpg", // Adjust the image path as needed
+            chefSpecial: false,
+          },
+          {
+            title: "Austin Hope Bottle",
+            origin: "Paso Robles, California",
+            tagline: "A refined Cabernet Sauvignon with exceptional depth.",
+            desc: "A luxurious, full-bodied red wine with layers of dark fruit and earthy undertones.",
+            fullDesc: "Austin Hope Bottle is a Napa Valley Cabernet Sauvignon with a beautifully balanced profile, featuring aromas of dark chocolate, plum, and tobacco, perfect for connoisseurs and casual drinkers alike.",
+            metrics: "$110",
+            image: "./assets/img/modal-images/food-menu/austin-hope.jpg", // Adjust the image path as needed
             chefSpecial: false,
           },
         ],
@@ -836,6 +876,16 @@ let barMenuData = [
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
+          {
+            title: "Old Monk",
+            origin: "India",
+            tagline: "A rich, dark rum with a legacy of smoothness.",
+            desc: "A legendary Indian rum known for its rich taste and smooth finish.",
+            fullDesc: "Old Monk is a premium dark rum from India, made with a blend of the finest aged rums, delivering a smooth and rich flavor with hints of vanilla and caramel.",
+            metrics: "$8.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
         ],
       },
       {
@@ -844,7 +894,7 @@ let barMenuData = [
         backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
-            title: "Glenlivet 12 Yr",
+            title: "Glenlivet 12",
             origin: "Scotland",
             tagline: "Smooth and balanced single malt whisky.",
             desc: "",
@@ -852,6 +902,38 @@ let barMenuData = [
               "The Glenlivet 12 Yr offers a smooth and balanced single malt with floral and fruity notes, perfect for both newcomers and connoisseurs.",
             metrics: "$17",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Glenlivet 15",
+            origin: "Scotland",
+            tagline: "Rich and creamy single malt experience.",
+            desc: "",
+            fullDesc:
+              "Glenlivet 15 offers a rich and creamy flavor profile, aged in French oak casks for a refined whisky experience.",
+            metrics: "$27",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Glenlivet 18",
+            origin: "Scotland",
+            tagline: "Elegant and well-aged single malt.",
+            desc: "",
+            fullDesc:
+              "Glenlivet 18 offers a perfect balance of flavors, with hints of oak and a lingering finish, making it a connoisseur’s choice.",
+            metrics: "$32",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Glenlivet 21",
+            origin: "Scotland",
+            tagline: "A rich single malt scotch with a history of excellence.",
+            desc: "",
+            fullDesc: "Glenlivet 21 is a distinguished single malt Scotch whisky, aged to perfection with a smooth, balanced flavor that carries notes of oak, spice, and dried fruits.",
+            metrics: "$55",
+            image: "./assets/img/modal-images/food-menu/glenlivet21.jpg", // Adjust the image path as needed
             chefSpecial: false,
           },
           {
@@ -920,17 +1002,7 @@ let barMenuData = [
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
-          {
-            title: "Glenlivet 15",
-            origin: "Scotland",
-            tagline: "Rich and creamy single malt experience.",
-            desc: "",
-            fullDesc:
-              "Glenlivet 15 offers a rich and creamy flavor profile, aged in French oak casks for a refined whisky experience.",
-            metrics: "$27",
-            image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false,
-          },
+          
           {
             title: "JW Blue Label",
             origin: "Scotland",
@@ -942,17 +1014,7 @@ let barMenuData = [
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
-          {
-            title: "Glenlivet 18",
-            origin: "Scotland",
-            tagline: "Elegant and well-aged single malt.",
-            desc: "",
-            fullDesc:
-              "Glenlivet 18 offers a perfect balance of flavors, with hints of oak and a lingering finish, making it a connoisseur’s choice.",
-            metrics: "$32",
-            image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false,
-          },
+        
           {
             title: "Highland Park 12",
             origin: "Scotland",
@@ -1334,7 +1396,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Blue Moon is a Belgian-style wheat beer brewed with orange peel and coriander for a unique flavor.",
-            metrics: "$6",
+            metrics: "$8",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1370,7 +1432,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Yuengling is an American lager, smooth and rich with a malty sweetness.",
-            metrics: "$7",
+            metrics: "$8",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1382,7 +1444,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Angry Orchard is a crisp and refreshing hard cider with a sweet apple flavor.",
-            metrics: "$7",
+            metrics: "$8",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1394,7 +1456,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Sam Adams Boston Lager is a well-balanced American lager with a rich malty flavor.",
-            metrics: "$7",
+            metrics: "$8",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1406,7 +1468,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Sam Adams Winter Lager is a spiced lager brewed with cinnamon, ginger, and orange peel.",
-            metrics: "$7",
+            metrics: "$8",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1458,6 +1520,16 @@ let barMenuData = [
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
+          },
+          {
+            title: "Taj Mahal",
+            origin: "India",
+            tagline: "A majestic beer inspired by India’s iconic monument.",
+            desc: "",
+            fullDesc: "Taj Mahal is a premium lager from India, offering a crisp and smooth flavor with subtle hints of malt and hops. A perfect beer to enjoy on a warm day, embodying the spirit of India’s grandeur.",
+            metrics: "$6",
+            image: "./assets/img/modal-images/food-menu/taj-mahal.jpg", // Adjust the image path as needed
+            chefSpecial: false,
           },
         ],
       },
@@ -1563,12 +1635,12 @@ let barMenuData = [
             vegan: !0,
           },
           {
-            title: "Modelo Negro",
+            title: "Modelo Negra",
             origin: "Mexico",
             tagline: "",
             desc: "",
             fullDesc:
-              "Modelo Negro is a dark lager with rich malt flavors and a smooth finish.",
+              "Modelo Negra is a dark lager with rich malt flavors and a smooth finish.",
             metrics: "$5",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -1744,6 +1816,18 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Corona is a pale lager known for its light, refreshing taste and smooth finish.",
+            metrics: "$5",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+            vegan: !0,
+          },
+          {
+            title: "Corona (Non-Alcoholic)",
+            origin: "Mexico",
+            tagline: "",
+            desc: "",
+            fullDesc:
+              "Corona Non-Alcoholic",
             metrics: "$5",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
