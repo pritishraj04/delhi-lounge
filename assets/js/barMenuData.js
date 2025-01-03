@@ -202,7 +202,40 @@ let barMenuData = [
             desc: "A sparkling blend of classic soda flavors to cool and delight.",
             fullDesc:
               "Experience the ultimate refreshment with our fizzy cold drinks. Bursting with vibrant flavors, each sip is perfectly carbonated and ice-cold, delivering a delightful zing that quenches your thirst and lifts your mood.",
-             metrics: "$4",
+            metrics: "$4",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Virgin Mai Tai",
+            origin: "N/A",
+            tagline: "A refreshing, non-alcoholic tropical delight.",
+            desc: "A vibrant, alcohol-free version of the classic Mai Tai, perfect for any occasion.",
+            fullDesc:
+              "Virgin Mai Tai is a flavorful mix of tropical juices with a hint of lime and almond, offering a refreshing taste without alcohol.",
+            metrics: "$10",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Coke",
+            origin: "Classic",
+            tagline: "The original taste of refreshment.",
+            desc: "A timeless fizzy drink with bold flavor and perfect carbonation.",
+            fullDesc:
+              "Enjoy the classic and refreshing taste of Coke. Its bold flavor and sparkling fizz make it the ultimate companion to any meal or moment of relaxation.",
+            metrics: "$4",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Diet Coke",
+            origin: "Classic",
+            tagline: "Light, fizzy, and full of flavor.",
+            desc: "A guilt-free version of the classic soda with the same bold taste.",
+            fullDesc:
+              "Savor the light and refreshing taste of Diet Coke. With zero calories and the same bold fizz, it’s the perfect choice for those who want flavor without compromise.",
+            metrics: "$4",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -268,6 +301,17 @@ let barMenuData = [
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
+          {
+            title: "Pani Puri Martini",
+            origin: "India",
+            tagline: "A fusion of traditional street food and classic martini.",
+            desc: "An innovative cocktail inspired by the popular Indian street snack.",
+            fullDesc:
+              "The Pani Puri Martini combines the flavors of tangy tamarind, spicy mint, and crisp puri, blended with vodka for a unique twist on the classic martini. A perfect fusion of tradition and innovation.",
+            metrics: "$15",
+            image: "./assets/img/modal-images/food-menu/pani-puri-martini.jpg", // Adjust the image path as needed
+            chefSpecial: false,
+          },
         ],
       },
     ],
@@ -285,81 +329,89 @@ let barMenuData = [
             origin: "Italy",
             tagline: "A sweet and aromatic white wine.",
             desc: "Glass of Castello Poggio Moscato.",
-            fullDesc: "Indulge in the delicate flavors of Castello Poggio Moscato Pavia IGT VT, a perfectly balanced sweet wine with floral and fruity notes.",
+            fullDesc:
+              "Indulge in the delicate flavors of Castello Poggio Moscato Pavia IGT VT, a perfectly balanced sweet wine with floral and fruity notes.",
             metrics: "$8.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false
-        },
-        {
+            chefSpecial: false,
+          },
+          {
             title: "Castello Poggio Moscato Pavia IGT VT Bottle",
             origin: "Italy",
             tagline: "A sweet and aromatic wine for celebrations.",
             desc: "Bottle of Castello Poggio Moscato.",
-            fullDesc: "Celebrate special moments with a bottle of Castello Poggio Moscato Pavia IGT VT, offering rich floral aromas and fruity sweetness.",
+            fullDesc:
+              "Celebrate special moments with a bottle of Castello Poggio Moscato Pavia IGT VT, offering rich floral aromas and fruity sweetness.",
             metrics: "$35.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false
-        },
-        {
+            chefSpecial: false,
+          },
+          {
             title: "Tobias Chardonnay",
             origin: "California",
             tagline: "A classic and refined white wine.",
             desc: "Glass of Tobias Chardonnay.",
-            fullDesc: "A delightful Chardonnay from California, Tobias offers a harmonious balance of crisp acidity and fruity richness.",
+            fullDesc:
+              "A delightful Chardonnay from California, Tobias offers a harmonious balance of crisp acidity and fruity richness.",
             metrics: "$10.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false
-        },
-        {
+            chefSpecial: false,
+          },
+          {
             title: "Tobias Chardonnay Bottle",
             origin: "California",
             tagline: "Perfect for sharing, a refined experience.",
             desc: "Bottle of Tobias Chardonnay.",
-            fullDesc: "Elevate your gatherings with a bottle of Tobias Chardonnay, a sophisticated choice featuring hints of citrus and oak.",
+            fullDesc:
+              "Elevate your gatherings with a bottle of Tobias Chardonnay, a sophisticated choice featuring hints of citrus and oak.",
             metrics: "$45.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false
-        },
-        {
+            chefSpecial: false,
+          },
+          {
             title: "Taft Street Sauvignon Blanc Russian VT",
             origin: "California",
             tagline: "Crisp and refreshing with a hint of herbs.",
             desc: "Glass of Taft Street Sauvignon Blanc.",
-            fullDesc: "Enjoy the vibrant flavors of Taft Street Sauvignon Blanc, featuring zesty citrus and herbal undertones for a refreshing sip.",
+            fullDesc:
+              "Enjoy the vibrant flavors of Taft Street Sauvignon Blanc, featuring zesty citrus and herbal undertones for a refreshing sip.",
             metrics: "$12.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false
-        },
-        {
+            chefSpecial: false,
+          },
+          {
             title: "Taft Street Sauvignon Blanc Russian VT Bottle",
             origin: "California",
             tagline: "A refreshing choice for any occasion.",
             desc: "Bottle of Taft Street Sauvignon Blanc.",
-            fullDesc: "Perfect for dinners and celebrations, this bottle of Taft Street Sauvignon Blanc offers a crisp and invigorating wine experience.",
+            fullDesc:
+              "Perfect for dinners and celebrations, this bottle of Taft Street Sauvignon Blanc offers a crisp and invigorating wine experience.",
             metrics: "$50.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false
-        },
-        {
+            chefSpecial: false,
+          },
+          {
             title: "Terracotta Pinot Grigio",
             origin: "Italy",
             tagline: "Light and lively with fruity notes.",
             desc: "Glass of Terracotta Pinot Grigio.",
-            fullDesc: "Discover the vibrant charm of Terracotta Pinot Grigio, a light-bodied Italian white wine with fresh fruit flavors.",
+            fullDesc:
+              "Discover the vibrant charm of Terracotta Pinot Grigio, a light-bodied Italian white wine with fresh fruit flavors.",
             metrics: "$8.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false
-        },
-        {
+            chefSpecial: false,
+          },
+          {
             title: "Terracotta Pinot Grigio Bottle",
             origin: "Italy",
             tagline: "Perfect for gatherings with a taste of Italy.",
             desc: "Bottle of Terracotta Pinot Grigio.",
-            fullDesc: "A bottle of Terracotta Pinot Grigio is an excellent companion for lively gatherings, offering crisp and fruity notes.",
+            fullDesc:
+              "A bottle of Terracotta Pinot Grigio is an excellent companion for lively gatherings, offering crisp and fruity notes.",
             metrics: "$35.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false
-        },
+            chefSpecial: false,
+          },
         ],
       },
       {
@@ -368,118 +420,93 @@ let barMenuData = [
         backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
-            title: "Glenlivet 12 Yr",
-            origin: "Scotland",
-            tagline: "Smooth and elegant single malt.",
-            desc: "A glass of Glenlivet 12 Year Old.",
-            fullDesc: "Savor the smooth and fruity flavors of Glenlivet 12 Year Old, a classic Scotch whisky with hints of pear and oak.",
-            metrics: "$23.00",
+            title: "Highway 12 Vineyards Cabernet Sauvignon Sonoma County",
+            origin: "Sonoma County",
+            tagline: "Rich and full-bodied red wine.",
+            desc: "A robust cabernet sauvignon with flavors of dark fruit, oak, and spice.",
+            fullDesc:
+              "The Highway 12 Vineyards Cabernet Sauvignon offers a luxurious, full-bodied experience with rich notes of dark fruits, a hint of oak, and a smooth finish. Perfect for pairing with hearty meals or enjoying on its own.",
+            metrics: "$14",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false
-        },
-        {
-            title: "Macallan 12 Yr",
-            origin: "Scotland",
-            tagline: "Rich and full-bodied Scotch.",
-            desc: "A glass of Macallan 12 Year Old.",
-            fullDesc: "Macallan 12 Year Old offers a luxurious experience with its rich flavors of dried fruits, sherry, and a hint of spice.",
-            metrics: "$23.00",
+            chefSpecial: false,
+          },
+          {
+            title: "Cru Pinot Noir",
+            origin: "California",
+            tagline: "Elegant and smooth pinot noir.",
+            desc: "A velvety red wine with notes of cherry, raspberry, and subtle spice.",
+            fullDesc:
+              "Cru Pinot Noir is a classic, smooth wine that brings forward elegant notes of cherry, raspberry, and a touch of spice. A versatile wine that pairs beautifully with lighter dishes or serves as a delightful sipper.",
+            metrics: "$10",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false
-        },
-        {
-            title: "Macallan 18 Yr",
-            origin: "Scotland",
-            tagline: "Premium whisky aged to perfection.",
-            desc: "A glass of Macallan 18 Year Old.",
-            fullDesc: "Indulge in the exquisite taste of Macallan 18 Year Old, a premium Scotch with complex flavors of oak, spice, and dried fruits.",
-            metrics: "$45.00",
+            chefSpecial: false,
+          },
+          {
+            title: "CRU MONTEREY PINOT NOIR Bottle",
+            origin: "Monterey, California",
+            tagline: "Premium pinot noir with vibrant flavors.",
+            desc: "A bottle of CRU Monterey Pinot Noir featuring bold fruit flavors and an exquisite finish.",
+            fullDesc:
+              "The CRU Monterey Pinot Noir Bottle is crafted with care, showcasing the finest of Monterey's vineyards. Enjoy vibrant notes of ripe cherries, delicate spices, and a luxurious, smooth texture.",
+            metrics: "$40",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false
-        },
-        {
-            title: "Glenfiddich 12 Yr",
-            origin: "Scotland",
-            tagline: "The world's favorite single malt.",
-            desc: "A glass of Glenfiddich 12 Year Old.",
-            fullDesc: "Enjoy the signature fruity notes of Glenfiddich 12 Year Old, a light and refreshing single malt Scotch.",
-            metrics: "$23.00",
+            chefSpecial: false,
+          },
+          {
+            title: "HIGHWAY 12 CABERNET SAUVIGNON SONOMA Bottle",
+            origin: "Sonoma County",
+            tagline: "Full-bodied cabernet sauvignon.",
+            desc: "A premium bottle of Highway 12 Cabernet Sauvignon with intense flavors of dark berries and oak.",
+            fullDesc:
+              "The Highway 12 Cabernet Sauvignon Sonoma Bottle brings a rich, bold experience with a deep concentration of flavors, including blackcurrant, dark cherry, and subtle oak nuances. Ideal for special occasions.",
+            metrics: "$60",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false
-        },
-        {
-            title: "JW Black Label",
-            origin: "Scotland",
-            tagline: "A rich blend of fine whiskies.",
-            desc: "A glass of Johnnie Walker Black Label.",
-            fullDesc: "Johnnie Walker Black Label is a masterful blend with a bold, smoky flavor and smooth finish.",
-            metrics: "$14.00",
+            chefSpecial: false,
+          },
+          {
+            title: "MUIRWOOD MERLOT CALIFORNIA VT",
+            origin: "California",
+            tagline: "Smooth and approachable merlot.",
+            desc: "A balanced merlot with hints of plum, chocolate, and soft tannins.",
+            fullDesc:
+              "Muirwood Merlot California VT delivers a smooth and approachable taste, featuring balanced notes of plum, chocolate, and soft tannins. A great choice for any occasion.",
+            metrics: "$10",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false
-        },
-        {
-            title: "Amrut Single Malt",
-            origin: "India",
-            tagline: "India's finest single malt whisky.",
-            desc: "A glass of Amrut Single Malt.",
-            fullDesc: "Discover the rich and intense flavors of Amrut Single Malt, crafted in the heart of India.",
-            metrics: "$12.00",
+            chefSpecial: false,
+          },
+          {
+            title: "MUIRWOOD MERLOT CALIFORNIA VT Bottle",
+            origin: "California",
+            tagline: "Elegant merlot in a premium bottle.",
+            desc: "A full bottle of Muirwood Merlot, rich with flavors of dark fruit and silky tannins.",
+            fullDesc:
+              "The Muirwood Merlot California VT Bottle is a testament to California's winemaking excellence. Offering rich flavors of dark fruit and a velvety finish, this merlot is perfect for gatherings or quiet evenings.",
+            metrics: "$40",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false
-        },
-        {
-            title: "Indri Single Malt",
-            origin: "India",
-            tagline: "A modern Indian single malt.",
-            desc: "A glass of Indri Single Malt.",
-            fullDesc: "Indri Single Malt showcases a blend of tradition and innovation, with a smooth, malty character and hints of spices.",
-            metrics: "$12.00",
-            image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false
-        },
-        {
-            title: "Glenlivet 15",
-            origin: "Scotland",
-            tagline: "Aged for depth and complexity.",
-            desc: "A glass of Glenlivet 15 Year Old.",
-            fullDesc: "Experience the rich and spicy notes of Glenlivet 15 Year Old, matured in French oak casks for an enhanced flavor.",
-            metrics: "$27.00",
-            image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false
-        },
-        {
-            title: "JW Blue Label",
-            origin: "Scotland",
-            tagline: "The pinnacle of luxury blended whisky.",
-            desc: "A glass of Johnnie Walker Blue Label.",
-            fullDesc: "Johnnie Walker Blue Label is an exceptional whisky with unparalleled smoothness and a rich, velvety flavor.",
-            metrics: "$45.00",
-            image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false
-        },
-        {
-            title: "Glenlivet 18",
-            origin: "Scotland",
-            tagline: "A masterfully aged single malt.",
-            desc: "A glass of Glenlivet 18 Year Old.",
-            fullDesc: "Savor the sophisticated flavors of Glenlivet 18 Year Old, featuring a perfect balance of sweet, floral, and woody notes.",
-            metrics: "$32.00",
-            image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false
-        },
-        {
-            title: "Highland Park 12",
-            origin: "Scotland",
-            tagline: "An iconic Orcadian single malt.",
-            desc: "A glass of Highland Park 12 Year Old.",
-            fullDesc: "Highland Park 12 Year Old is a vibrant whisky with a smoky sweetness and a gentle floral aroma.",
-            metrics: "$12.00",
-            image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false
-        },
-        
-        
-          
+            chefSpecial: false,
+          },
+          {
+            title: "Caymus Bottle",
+            origin: "California, USA",
+            tagline: "A premium Napa Valley wine that epitomizes quality.",
+            desc: "A bold red wine known for its rich flavors and full-bodied profile.",
+            fullDesc:
+              "Caymus Bottle offers an exquisite Napa Valley Cabernet Sauvignon with deep, rich flavors of blackberry, currant, and a touch of oak, ideal for wine lovers seeking sophistication.",
+            metrics: "$130",
+            image: "./assets/img/modal-images/food-menu/caymus.jpg", // Adjust the image path as needed
+            chefSpecial: false,
+          },
+          {
+            title: "Austin Hope Bottle",
+            origin: "Paso Robles, California",
+            tagline: "A refined Cabernet Sauvignon with exceptional depth.",
+            desc: "A luxurious, full-bodied red wine with layers of dark fruit and earthy undertones.",
+            fullDesc:
+              "Austin Hope Bottle is a Napa Valley Cabernet Sauvignon with a beautifully balanced profile, featuring aromas of dark chocolate, plum, and tobacco, perfect for connoisseurs and casual drinkers alike.",
+            metrics: "$110",
+            image: "./assets/img/modal-images/food-menu/austin-hope.jpg", // Adjust the image path as needed
+            chefSpecial: false,
+          },
         ],
       },
       // {
@@ -759,7 +786,8 @@ let barMenuData = [
             origin: "N/A",
             tagline: "A classic choice for rum lovers.",
             desc: "Smooth and versatile silver rum.",
-            fullDesc: "A timeless silver rum known for its smoothness and versatility, perfect for cocktails or sipping neat.",
+            fullDesc:
+              "A timeless silver rum known for its smoothness and versatility, perfect for cocktails or sipping neat.",
             metrics: "$8.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -769,7 +797,8 @@ let barMenuData = [
             origin: "N/A",
             tagline: "A tropical delight in every sip.",
             desc: "Coconut-infused rum with a sweet finish.",
-            fullDesc: "A light, coconut-flavored rum that adds a touch of tropical sweetness to any cocktail or occasion.",
+            fullDesc:
+              "A light, coconut-flavored rum that adds a touch of tropical sweetness to any cocktail or occasion.",
             metrics: "$9.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -779,7 +808,8 @@ let barMenuData = [
             origin: "N/A",
             tagline: "Spiced to perfection.",
             desc: "Bold spiced rum with a smooth finish.",
-            fullDesc: "A rich, spiced rum with bold flavors and a smooth finish, perfect for adding depth to your drinks.",
+            fullDesc:
+              "A rich, spiced rum with bold flavors and a smooth finish, perfect for adding depth to your drinks.",
             metrics: "$11.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -789,7 +819,8 @@ let barMenuData = [
             origin: "Brazil",
             tagline: "Authentic Brazilian spirit.",
             desc: "Premium cachaca with a smooth finish.",
-            fullDesc: "A premium cachaca crafted in Brazil, offering a smooth and refined taste ideal for caipirinhas.",
+            fullDesc:
+              "A premium cachaca crafted in Brazil, offering a smooth and refined taste ideal for caipirinhas.",
             metrics: "$10.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -799,7 +830,8 @@ let barMenuData = [
             origin: "Nicaragua",
             tagline: "Aged to perfection.",
             desc: "Rich and full-bodied aged rum.",
-            fullDesc: "An exceptional 7-year-aged rum with rich, full-bodied flavors that elevate any sipping or cocktail experience.",
+            fullDesc:
+              "An exceptional 7-year-aged rum with rich, full-bodied flavors that elevate any sipping or cocktail experience.",
             metrics: "$10.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -809,7 +841,8 @@ let barMenuData = [
             origin: "Barbados",
             tagline: "Caribbean excellence in a bottle.",
             desc: "Smooth rum with tropical notes.",
-            fullDesc: "A smooth and flavorful Barbados rum with hints of tropical spices and caramel, embodying Caribbean excellence.",
+            fullDesc:
+              "A smooth and flavorful Barbados rum with hints of tropical spices and caramel, embodying Caribbean excellence.",
             metrics: "$10.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -819,7 +852,8 @@ let barMenuData = [
             origin: "N/A",
             tagline: "Bold and unforgettable.",
             desc: "Rich spiced rum with a vanilla finish.",
-            fullDesc: "A bold spiced rum infused with hints of vanilla and cinnamon, delivering a unique and unforgettable taste.",
+            fullDesc:
+              "A bold spiced rum infused with hints of vanilla and cinnamon, delivering a unique and unforgettable taste.",
             metrics: "$10.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -829,7 +863,8 @@ let barMenuData = [
             origin: "N/A",
             tagline: "Tropical vibes in every sip.",
             desc: "Coconut-flavored rum with a sweet touch.",
-            fullDesc: "A tropical classic, Malibu Coconut Rum adds a smooth and sweet coconut flavor to any cocktail.",
+            fullDesc:
+              "A tropical classic, Malibu Coconut Rum adds a smooth and sweet coconut flavor to any cocktail.",
             metrics: "$10.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -839,7 +874,19 @@ let barMenuData = [
             origin: "N/A",
             tagline: "A touch of gold in every glass.",
             desc: "Smooth golden rum with a hint of vanilla.",
-            fullDesc: "A smooth golden rum with subtle notes of vanilla and caramel, perfect for cocktails or on the rocks.",
+            fullDesc:
+              "A smooth golden rum with subtle notes of vanilla and caramel, perfect for cocktails or on the rocks.",
+            metrics: "$8.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Old Monk",
+            origin: "India",
+            tagline: "A rich, dark rum with a legacy of smoothness.",
+            desc: "A legendary Indian rum known for its rich taste and smooth finish.",
+            fullDesc:
+              "Old Monk is a premium dark rum from India, made with a blend of the finest aged rums, delivering a smooth and rich flavor with hints of vanilla and caramel.",
             metrics: "$8.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -852,46 +899,231 @@ let barMenuData = [
         backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
           {
-            title: "Macallan 12",
+            title: "Glenlivet 12",
             origin: "Scotland",
-            tagline: "A premium single malt with rich character.",
-            desc: "Smooth and well-balanced with hints of dried fruit.",
+            tagline: "Smooth and balanced single malt whisky.",
+            desc: "",
             fullDesc:
-              "Macallan 12 is a luxurious single malt scotch, aged in sherry-seasoned oak casks, offering a rich and full-bodied flavor experience.",
+              "The Glenlivet 12 Yr offers a smooth and balanced single malt with floral and fruity notes, perfect for both newcomers and connoisseurs.",
+            metrics: "$17",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Glenlivet 15",
+            origin: "Scotland",
+            tagline: "Rich and creamy single malt experience.",
+            desc: "",
+            fullDesc:
+              "Glenlivet 15 offers a rich and creamy flavor profile, aged in French oak casks for a refined whisky experience.",
             metrics: "$27",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
           {
-            title: "Macallan 18",
+            title: "Glenlivet 18",
             origin: "Scotland",
-            tagline: "An exceptional single malt aged to perfection.",
-            desc: "Rich and complex with notes of dried fruits and spice.",
+            tagline: "Elegant and well-aged single malt.",
+            desc: "",
             fullDesc:
-              "Macallan 18 delivers a superior single malt experience, aged in fine oak casks, offering a harmonious blend of flavor and depth.",
-            metrics: "$42",
+              "Glenlivet 18 offers a perfect balance of flavors, with hints of oak and a lingering finish, making it a connoisseur’s choice.",
+            metrics: "$32",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
           {
-            title: "Glenlivet 12",
+            title: "Glenlivet 21",
             origin: "Scotland",
-            tagline: "A smooth single malt with a fruity profile.",
-            desc: "Elegant and floral with a hint of sweetness.",
+            tagline: "A rich single malt scotch with a history of excellence.",
+            desc: "",
             fullDesc:
-              "Glenlivet 12 is a classic Speyside single malt, known for its smooth texture and delicate flavors of pear and honey.",
-            metrics: "$21",
-            image: "./assets/img/modal-images/food-menu/imag.jpg",
+              "Glenlivet 21 is a distinguished single malt Scotch whisky, aged to perfection with a smooth, balanced flavor that carries notes of oak, spice, and dried fruits.",
+            metrics: "$55",
+            image: "./assets/img/modal-images/food-menu/glenlivet21.jpg", // Adjust the image path as needed
             chefSpecial: false,
           },
           {
-            title: "Glenfiddich 12",
+            title: "Macallan 12 Yr",
             origin: "Scotland",
-            tagline: "A pioneering single malt with timeless appeal.",
-            desc: "Fresh and fruity with hints of oak and orchard fruits.",
+            tagline: "Rich and complex with sherry oak influence.",
+            desc: "",
             fullDesc:
-              "Glenfiddich 12 is a renowned single malt scotch, celebrated for its signature pear notes and smooth, balanced finish.",
+              "Macallan 12 Yr is renowned for its rich complexity and sherry oak cask influence, delivering a whisky with depth and character.",
             metrics: "$23",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Macallan 18 Yr",
+            origin: "Scotland",
+            tagline: "Exquisite and luxurious aged whisky.",
+            desc: "",
+            fullDesc:
+              "Macallan 18 Yr is a masterpiece of aging, offering unparalleled richness and depth with a luxurious sherry oak finish.",
+            metrics: "$58",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Glenfiddich 12 Yr",
+            origin: "Scotland",
+            tagline: "Iconic single malt with fresh pear notes.",
+            desc: "",
+            fullDesc:
+              "Glenfiddich 12 Yr is a classic single malt known for its fresh pear and subtly oaky character, a staple in whisky collections worldwide.",
+            metrics: "$23",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "JW Black Label",
+            origin: "Scotland",
+            tagline: "Blended perfection with smoky and rich notes.",
+            desc: "",
+            fullDesc:
+              "JW Black Label is a well-crafted blend of fine whiskies, offering a balance of smoky, rich, and fruity flavors.",
+            metrics: "$14",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Amrut Single Malt",
+            origin: "India",
+            tagline: "India's finest single malt whisky.",
+            desc: "",
+            fullDesc:
+              "Amrut Single Malt showcases India’s craftsmanship in whisky making, with complex flavors and a smooth finish.",
+            metrics: "$12",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Indri Single Malt",
+            origin: "India",
+            tagline: "Unique and flavorful Indian single malt.",
+            desc: "",
+            fullDesc:
+              "Indri Single Malt delivers a distinctive taste, crafted with precision and innovation in India.",
+            metrics: "$12",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+
+          {
+            title: "JW Blue Label",
+            origin: "Scotland",
+            tagline: "Exclusively rare and luxurious blend.",
+            desc: "",
+            fullDesc:
+              "JW Blue Label represents the pinnacle of blending, with rare and aged whiskies coming together for a luxurious taste.",
+            metrics: "$45",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+
+          {
+            title: "Highland Park 12",
+            origin: "Scotland",
+            tagline: "Orkney's signature single malt.",
+            desc: "",
+            fullDesc:
+              "Highland Park 12 offers a harmonious balance of smoky and sweet flavors, crafted in Orkney's rugged environment.",
+            metrics: "$12",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Highland Park 18",
+            origin: "Scotland",
+            tagline: "Aged to perfection with smoky elegance.",
+            desc: "",
+            fullDesc:
+              "Highland Park 18 showcases smoky elegance with layers of sweet and rich flavors, making it a standout whisky.",
+            metrics: "$32",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+        ],
+      },
+      {
+        subCategory: "Scotch",
+        type: "",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
+        items: [
+          {
+            title: "Chivas Regal 12",
+            origin: "Scotland",
+            tagline: "A classic blend of smooth richness.",
+            desc: "",
+            fullDesc:
+              "Chivas Regal 12 is a harmonious blend of malt and grain whiskies, offering smooth and rich flavors.",
+            metrics: "$10",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Chivas Regal 18",
+            origin: "Scotland",
+            tagline: "Aged for deeper and richer flavor.",
+            desc: "",
+            fullDesc:
+              "Chivas Regal 18 offers a deeper and richer whisky experience, aged to perfection for a sophisticated palate.",
+            metrics: "$20",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Chivas Regal 21",
+            origin: "Scotland",
+            tagline: "Aged to perfection for an even deeper and richer flavor.",
+            desc: "",
+            fullDesc:
+              "Chivas Regal 21 delivers an exceptional and refined whisky experience, masterfully aged to perfection for the most sophisticated palate.",
+            metrics: "$38",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "JW Gold Label Reserve",
+            origin: "Scotland",
+            tagline: "A luxurious blend with creamy texture.",
+            desc: "",
+            fullDesc:
+              "JW Gold Label Reserve is a luxurious blend of smooth and creamy flavors, perfect for celebrations.",
+            metrics: "$20",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Glenfiddich 14 Year Old",
+            origin: "Scotland",
+            tagline: "Aged with rich bourbon cask influence.",
+            desc: "",
+            fullDesc:
+              "Glenfiddich 14 Yr offers a bold and rich flavor profile, influenced by aging in bourbon casks.",
+            metrics: "$25",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Glenfiddich 15 Year Old",
+            origin: "Scotland",
+            tagline: "A unique Solera aged single malt.",
+            desc: "",
+            fullDesc:
+              "Glenfiddich 15 Yr is uniquely aged using the Solera system, delivering layers of rich and complex flavors.",
+            metrics: "$27",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Dalmore 12 Year Single Malt Scotch",
+            origin: "Scotland",
+            tagline: "A masterpiece of Highland single malt.",
+            desc: "",
+            fullDesc:
+              "Dalmore 12 Yr showcases a balance of rich and bold flavors, crafted with precision and expertise.",
+            metrics: "$17",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -1022,7 +1254,8 @@ let barMenuData = [
             origin: "USA",
             tagline: "Crafted to perfection.",
             desc: "Smooth and gluten-free vodka.",
-            fullDesc: "A high-quality gluten-free vodka known for its clean and smooth taste, perfect for cocktails or sipping neat.",
+            fullDesc:
+              "A high-quality gluten-free vodka known for its clean and smooth taste, perfect for cocktails or sipping neat.",
             metrics: "$8.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -1032,7 +1265,8 @@ let barMenuData = [
             origin: "France",
             tagline: "Exceptionally smooth.",
             desc: "Premium French vodka.",
-            fullDesc: "A premium French vodka crafted with the finest wheat, offering exceptional smoothness and flavor.",
+            fullDesc:
+              "A premium French vodka crafted with the finest wheat, offering exceptional smoothness and flavor.",
             metrics: "$12.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -1042,7 +1276,8 @@ let barMenuData = [
             origin: "Russia",
             tagline: "Russian elegance in a bottle.",
             desc: "Ultra-premium vodka with a refined taste.",
-            fullDesc: "An ultra-premium Russian vodka known for its refined taste, crafted from pure artesian water and malt spirit.",
+            fullDesc:
+              "An ultra-premium Russian vodka known for its refined taste, crafted from pure artesian water and malt spirit.",
             metrics: "$13.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -1052,7 +1287,8 @@ let barMenuData = [
             origin: "France",
             tagline: "Distilled from fine French grapes.",
             desc: "Distinctive vodka with fruity undertones.",
-            fullDesc: "A distinctive vodka distilled from fine French grapes, delivering a smooth texture and fruity undertones.",
+            fullDesc:
+              "A distinctive vodka distilled from fine French grapes, delivering a smooth texture and fruity undertones.",
             metrics: "$10.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -1062,7 +1298,8 @@ let barMenuData = [
             origin: "Sweden",
             tagline: "A global favorite.",
             desc: "Smooth Swedish vodka.",
-            fullDesc: "A globally loved Swedish vodka known for its purity, smoothness, and versatility in cocktails.",
+            fullDesc:
+              "A globally loved Swedish vodka known for its purity, smoothness, and versatility in cocktails.",
             metrics: "$10.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -1072,7 +1309,8 @@ let barMenuData = [
             origin: "USA",
             tagline: "Crafted for smoothness.",
             desc: "Affordable and versatile vodka.",
-            fullDesc: "An affordable vodka crafted for smoothness, perfect for mixing in cocktails or enjoying on the rocks.",
+            fullDesc:
+              "An affordable vodka crafted for smoothness, perfect for mixing in cocktails or enjoying on the rocks.",
             metrics: "$10.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -1082,7 +1320,8 @@ let barMenuData = [
             origin: "Poland",
             tagline: "Sustainably crafted.",
             desc: "Certified organic Polish vodka.",
-            fullDesc: "A certified organic vodka crafted in Poland, offering a clean and smooth taste with a commitment to sustainability.",
+            fullDesc:
+              "A certified organic vodka crafted in Poland, offering a clean and smooth taste with a commitment to sustainability.",
             metrics: "$10.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -1092,7 +1331,8 @@ let barMenuData = [
             origin: "France",
             tagline: "A vodka like no other.",
             desc: "Premium vodka with a hint of cognac.",
-            fullDesc: "A luxurious vodka infused with a subtle hint of cognac, delivering an unparalleled smoothness and complexity.",
+            fullDesc:
+              "A luxurious vodka infused with a subtle hint of cognac, delivering an unparalleled smoothness and complexity.",
             metrics: "$45.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -1102,7 +1342,8 @@ let barMenuData = [
             origin: "Netherlands",
             tagline: "Craftsmanship at its finest.",
             desc: "Smooth Dutch vodka with a rich heritage.",
-            fullDesc: "A smooth and versatile Dutch vodka, crafted with care and a rich heritage spanning generations.",
+            fullDesc:
+              "A smooth and versatile Dutch vodka, crafted with care and a rich heritage spanning generations.",
             metrics: "$10.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -1112,7 +1353,8 @@ let barMenuData = [
             origin: "USA",
             tagline: "Pure mountain spirit.",
             desc: "Smooth and crisp American vodka.",
-            fullDesc: "A smooth and crisp American vodka inspired by the pure mountain waters of Aspen, perfect for any occasion.",
+            fullDesc:
+              "A smooth and crisp American vodka inspired by the pure mountain waters of Aspen, perfect for any occasion.",
             metrics: "$10.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -1160,7 +1402,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Blue Moon is a Belgian-style wheat beer brewed with orange peel and coriander for a unique flavor.",
-            metrics: "$6",
+            metrics: "$8",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1196,7 +1438,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Yuengling is an American lager, smooth and rich with a malty sweetness.",
-            metrics: "$7",
+            metrics: "$8",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1208,7 +1450,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Angry Orchard is a crisp and refreshing hard cider with a sweet apple flavor.",
-            metrics: "$7",
+            metrics: "$8",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1220,7 +1462,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Sam Adams Boston Lager is a well-balanced American lager with a rich malty flavor.",
-            metrics: "$7",
+            metrics: "$8",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1232,7 +1474,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Sam Adams Winter Lager is a spiced lager brewed with cinnamon, ginger, and orange peel.",
-            metrics: "$7",
+            metrics: "$8",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1284,6 +1526,17 @@ let barMenuData = [
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
+          },
+          {
+            title: "Taj Mahal",
+            origin: "India",
+            tagline: "A majestic beer inspired by India’s iconic monument.",
+            desc: "",
+            fullDesc:
+              "Taj Mahal is a premium lager from India, offering a crisp and smooth flavor with subtle hints of malt and hops. A perfect beer to enjoy on a warm day, embodying the spirit of India’s grandeur.",
+            metrics: "$6",
+            image: "./assets/img/modal-images/food-menu/taj-mahal.jpg", // Adjust the image path as needed
+            chefSpecial: false,
           },
         ],
       },
@@ -1389,12 +1642,12 @@ let barMenuData = [
             vegan: !0,
           },
           {
-            title: "Modelo Negro",
+            title: "Modelo Negra",
             origin: "Mexico",
             tagline: "",
             desc: "",
             fullDesc:
-              "Modelo Negro is a dark lager with rich malt flavors and a smooth finish.",
+              "Modelo Negra is a dark lager with rich malt flavors and a smooth finish.",
             metrics: "$5",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -1576,6 +1829,17 @@ let barMenuData = [
             vegan: !0,
           },
           {
+            title: "Corona (Non-Alcoholic)",
+            origin: "Mexico",
+            tagline: "",
+            desc: "",
+            fullDesc: "Corona Non-Alcoholic",
+            metrics: "$5",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+            vegan: !0,
+          },
+          {
             title: "Corona Premier",
             origin: "Mexico",
             tagline: "",
@@ -1600,6 +1864,68 @@ let barMenuData = [
             vegan: !0,
           },
         ],
+      },
+    ],
+  },
+  {
+    category: "Happy Hour",
+    type: "3:00 PM to 6:00 PM",
+    backgroundImage: "../assets/img/menu-images/pageg.jpg",
+    items: [
+      {
+        title: "Jim Beam Whiskey (Old Fashioned)",
+        origin: "USA",
+        tagline: "Bold and timeless.",
+        desc: "Ideal for a classic Old Fashioned.",
+        fullDesc:
+          "A classic bourbon whiskey with rich caramel and oak flavors, ideal for crafting an Old Fashioned.",
+        metrics: "$10.00",
+        image: "./assets/img/modal-images/food-menu/imag.jpg",
+        chefSpecial: false,
+      },
+      {
+        title: "El Jimador Tequila (Margarita)",
+        origin: "Mexico",
+        tagline: "Authentic and smooth.",
+        desc: "Perfect base for Margaritas.",
+        fullDesc:
+          "A premium tequila made from 100% agave, offering a smooth and vibrant flavor, perfect for a Margarita.",
+        metrics: "$9.00",
+        image: "./assets/img/modal-images/food-menu/imag.jpg",
+        chefSpecial: false,
+      },
+      {
+        title: "Tito's Vodka (Lemon Drop Martini)",
+        origin: "USA",
+        tagline: "Handcrafted perfection.",
+        desc: "Great for a Lemon Drop Martini.",
+        fullDesc:
+          "A handcrafted vodka with clean, smooth notes, ideal for a refreshing Lemon Drop Martini.",
+        metrics: "$9.00",
+        image: "./assets/img/modal-images/food-menu/imag.jpg",
+        chefSpecial: false,
+      },
+      {
+        title: "Pinot Grigio & Chardonnay (White Wine)",
+        origin: "Various",
+        tagline: "Crisp and elegant.",
+        desc: "Perfect pairings for white wine lovers.",
+        fullDesc:
+          "A selection of crisp Pinot Grigio and rich Chardonnay, offering elegant flavors for any occasion.",
+        metrics: "$9.00",
+        image: "./assets/img/modal-images/food-menu/imag.jpg",
+        chefSpecial: false,
+      },
+      {
+        title: "Merlot & Pinot Noir (Red Wine)",
+        origin: "Various",
+        tagline: "Smooth and flavorful.",
+        desc: "Classic red wines for all occasions.",
+        fullDesc:
+          "A selection of velvety Merlot and refined Pinot Noir, showcasing rich and smooth flavors.",
+        metrics: "$9.00",
+        image: "./assets/img/modal-images/food-menu/imag.jpg",
+        chefSpecial: false,
       },
     ],
   },
