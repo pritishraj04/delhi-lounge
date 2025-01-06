@@ -601,7 +601,7 @@ let menuData = [
             desc: "Whole chicken marinated in spicy yogurt marinade, char-grilled, cranberry & ginger launji.",
             fullDesc:
               "Experience the rich flavors of our Tandoori Chicken—succulent chicken marinated in a blend of spices, char-grilled to perfection, and served with a zesty lemon and black pepper chutney. A true delight for the senses!",
-            metrics: "750Gms | 1529Kcal | $24",
+            metrics: "750Gms | 1529Kcal | $28",
             image:
               "./assets/img/modal-images/food-menu/tandoori-chicken-(full).jpg",
             chefSpecial: false,
