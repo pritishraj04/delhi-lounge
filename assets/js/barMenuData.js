@@ -1863,7 +1863,7 @@ let barMenuData = [
   },
   {
     category: "Happy Hour",
-    type: "3:00 PM to 6:00 PM",
+    type: "5:00 PM to 7:00 PM",
     backgroundImage: "../assets/img/menu-images/pageg.jpg",
     items: [
       {
