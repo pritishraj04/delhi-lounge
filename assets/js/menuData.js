@@ -1308,10 +1308,10 @@ let menuData = [
         peanutAllergy: false,
       },
       {
-        title: "Baileys Rasmalai",
+        title: "Baileys Rasmalai (Contains alcohol)",
         origin: "Vegetarian",
         tagline: "",
-        desc: "Rasmalai enhanced with Baileys Irish Cream.",
+        desc: "Rasmalai enhanced with Baileys Irish Cream and contains alcohol.",
         fullDesc:
           "Delicate paneer discs soaked in rich and creamy Baileys-infused milk, topped with nuts.",
         metrics: "100Gms | 368Kcal | $10",
