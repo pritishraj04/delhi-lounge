@@ -1348,5 +1348,11 @@ let menuData = [
       },
     ],
   },
+  {
+    category: "Lunch",
+    type: "",
+    backgroundImage: "../assets/img/menu-images/lunch.jpg",
+    items: [],
+  },
 ];
 export default menuData;

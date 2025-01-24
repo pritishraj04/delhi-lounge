@@ -145,15 +145,17 @@ function createMenuPage(category, type, backgroundImage, items) {
   const menuHeadingsDiv = document.createElement("div");
   menuHeadingsDiv.classList.add("menu-headings");
 
-  const categoryName = document.createElement("h1");
-  categoryName.classList.add("category-name");
-  categoryName.textContent = category;
-  if (category.length > 13 && category.length <= 16) {
-    categoryName.style.fontSize = "52px";
-  } else if (category.length > 16) {
-    categoryName.style.fontSize = "42px";
+  if (items.length > 0) {
+    const categoryName = document.createElement("h1");
+    categoryName.classList.add("category-name");
+    categoryName.textContent = category;
+    if (category.length > 13 && category.length <= 16) {
+      categoryName.style.fontSize = "52px";
+    } else if (category.length > 16) {
+      categoryName.style.fontSize = "42px";
+    }
+    menuHeadingsDiv.appendChild(categoryName);
   }
-  menuHeadingsDiv.appendChild(categoryName);
 
   const typeName = document.createElement("h2");
   typeName.classList.add("type-name");
