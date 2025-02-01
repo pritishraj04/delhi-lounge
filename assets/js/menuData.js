@@ -1110,12 +1110,12 @@ let menuData = [
     backgroundImage: "../assets/img/menu-images/pageg.jpg",
     items: [
       {
-        title: "Tandoori Roti (Plain | Butter)",
+        title: "Tandoori Roti (Plain|Butter)",
         origin: "Vegetarian",
         tagline: "",
-        desc: "Traditional Indian unleavened bread baked in a tandoor.",
-        fullDesc:
-          "Soft and warm tandoori roti, served plain or brushed with butter for an extra touch of richness.",
+        // desc: "Traditional Indian unleavened bread baked in a tandoor.",
+        // fullDesc:
+        //   "Soft and warm tandoori roti, served plain or brushed with butter for an extra touch of richness.",
         metrics: "180 Kcal (Plain) | 224 Kcal (Butter) | 60g | $3",
         image: "./assets/img/modal-images/food-menu/missi-roti.jpg",
         chefSpecial: false,
@@ -1123,12 +1123,12 @@ let menuData = [
         peanutAllergy: false,
       },
       {
-        title: "Missi Roti (Plain | Butter)",
+        title: "Missi Roti (Plain|Butter)",
         origin: "Vegetarian",
         tagline: "",
-        desc: "Flavored Indian bread made from a mixture of whole wheat flour and gram flour.",
-        fullDesc:
-          "Nutritious missi roti made from a blend of whole wheat and gram flour, served plain or with butter for a delightful taste.",
+        // desc: "Flavored Indian bread made from a mixture of whole wheat flour and gram flour.",
+        // fullDesc:
+        //   "Nutritious missi roti made from a blend of whole wheat and gram flour, served plain or with butter for a delightful taste.",
         metrics: "150 Kcal (Plain) | 194 Kcal (Butter) | 60g | $4",
         image: "./assets/img/modal-images/food-menu/butter-laccha-paratha.jpg",
         chefSpecial: false,
@@ -1139,9 +1139,9 @@ let menuData = [
         title: "Laccha Paratha (Plain | Butter | Pudina | Mirchi)",
         origin: "Vegetarian",
         tagline: "",
-        desc: "Layered flatbread cooked on a tawa, crispy and flaky.",
-        fullDesc:
-          "Flaky and crispy laccha paratha, layered and cooked on a tawa, available in plain, butter, pudina, or mirchi flavors.",
+        // desc: "Layered flatbread cooked on a tawa, crispy and flaky.",
+        // fullDesc:
+        //   "Flaky and crispy laccha paratha, layered and cooked on a tawa, available in plain, butter, pudina, or mirchi flavors.",
         metrics: "360Kcal | 90g | $6",
         image: "./assets/img/modal-images/food-menu/butter-naan.jpg",
         chefSpecial: false,
@@ -1152,9 +1152,9 @@ let menuData = [
         title: "Naan (Plain | Chur Chur | Garlic | Cheese)",
         origin: "Vegetarian",
         tagline: "",
-        desc: "Leavened Indian bread baked in a tandoor.",
-        fullDesc:
-          "Soft and fluffy naan, made with leavened dough and cooked in a tandoor, available plain, buttered, with garlic, or stuffed with cheese.",
+        // desc: "Leavened Indian bread baked in a tandoor.",
+        // fullDesc:
+        //   "Soft and fluffy naan, made with leavened dough and cooked in a tandoor, available plain, buttered, with garlic, or stuffed with cheese.",
         metrics:
           "275-315 Kcal | 70-90g | Plain $3, Chur Chur $5, Garlic $5, Cheese $6",
         image: "./assets/img/modal-images/food-menu/scotch-whiskey-naan.jpg",
@@ -1166,9 +1166,9 @@ let menuData = [
         title: "Kulcha (Aloo Pyaaz | Onion | Chicken & Cheese)",
         origin: "Vegetarian",
         tagline: "",
-        desc: "Stuffed Indian bread with various fillings.",
-        fullDesc:
-          "Soft kulchas stuffed with a choice of potato, onion, or patties, baked in a tandoor for a perfect texture.",
+        // desc: "Stuffed Indian bread with various fillings.",
+        // fullDesc:
+        //   "Soft kulchas stuffed with a choice of potato, onion, or patties, baked in a tandoor for a perfect texture.",
         metrics:
           "410 Kcal (Aloo Pyaaz) | 390 Kcal (Onion) | 490 Kcal (Chicken) | 150g | $8-$9",
         image: "./assets/img/modal-images/food-menu/chicken-cheese-kulcha.jpg",
@@ -1180,9 +1180,9 @@ let menuData = [
         title: "Bread Basket",
         origin: "Vegetarian",
         tagline: "",
-        desc: "Missi Roti, Pudina Parantha, Chur Chur Naan.",
-        fullDesc:
-          "A delightful assortment of tandoori roti, laccha parantha, and garlic naan, perfect for sharing.",
+        // desc: "Missi Roti, Pudina Parantha, Chur Chur Naan.",
+        // fullDesc:
+        //   "A delightful assortment of tandoori roti, laccha parantha, and garlic naan, perfect for sharing.",
         metrics: "873 Kcal | ~230g | $12",
         image: "./assets/img/modal-images/food-menu/assorted-bread-basket.jpg",
         chefSpecial: false,
@@ -1200,9 +1200,9 @@ let menuData = [
         title: "Plain Dahi",
         origin: "Vegetarian",
         tagline: "",
-        desc: "A refreshing yogurt with herbs, best match with everything.",
-        fullDesc:
-          "A simple and refreshing yogurt with herbs, providing a cool and creamy accompaniment to any meal.",
+        // desc: "A refreshing yogurt with herbs, best match with everything.",
+        // fullDesc:
+        //   "A simple and refreshing yogurt with herbs, providing a cool and creamy accompaniment to any meal.",
         metrics: "180Gms | 110Kcal | $4",
         image: "./assets/img/modal-images/food-menu/burrhani-raita.jpg",
         chefSpecial: false,
@@ -1213,9 +1213,9 @@ let menuData = [
         title: "Anardana Boondi Raita",
         origin: "Vegetarian",
         tagline: "",
-        desc: "A flavorful raita made with yogurt, boondi, and pomegranate seeds, offering a delightful crunch.",
-        fullDesc:
-          "A tangy and creamy yogurt raita with crispy boondi and sweet pomegranate seeds, creating a perfect balance of flavors.",
+        // desc: "A flavorful raita made with yogurt, boondi, and pomegranate seeds, offering a delightful crunch.",
+        // fullDesc:
+        //   "A tangy and creamy yogurt raita with crispy boondi and sweet pomegranate seeds, creating a perfect balance of flavors.",
         metrics: "180Gms | 165Kcal | $6",
         image: "./assets/img/modal-images/food-menu/anardana-boondi-raita.jpg",
         chefSpecial: false,
@@ -1226,9 +1226,9 @@ let menuData = [
         title: "Mixed Vegetable Raita",
         origin: "Vegetarian",
         tagline: "",
-        desc: "A classic raita featuring a mix of fresh vegetables in yogurt, making it a perfect accompaniment for spicy dishes.",
-        fullDesc:
-          "Creamy yogurt mixed with fresh vegetables like cucumber, tomato, and carrot, offering a cooling effect to balance spicy meals.",
+        // desc: "A classic raita featuring a mix of fresh vegetables in yogurt, making it a perfect accompaniment for spicy dishes.",
+        // fullDesc:
+        //   "Creamy yogurt mixed with fresh vegetables like cucumber, tomato, and carrot, offering a cooling effect to balance spicy meals.",
         metrics: "180Gms | 140Kcal | $6",
         image: "./assets/img/modal-images/food-menu/mixed-vegetable-raita.jpg",
         chefSpecial: false,
@@ -1239,9 +1239,9 @@ let menuData = [
         title: "Green Salad",
         origin: "Vegetarian",
         tagline: "",
-        desc: "A fresh and crunchy green salad made with seasonal vegetables, providing a light and healthy side dish.",
-        fullDesc:
-          "A healthy and refreshing salad made with crisp seasonal vegetables, offering a perfect balance to heavier dishes.",
+        // desc: "A fresh and crunchy green salad made with seasonal vegetables, providing a light and healthy side dish.",
+        // fullDesc:
+        //   "A healthy and refreshing salad made with crisp seasonal vegetables, offering a perfect balance to heavier dishes.",
         metrics: "150Gms | 60Kcal | $6",
         image: "./assets/img/modal-images/food-menu/green-salad.jpg",
         chefSpecial: false,
