@@ -264,7 +264,7 @@ function createLastPage() {
   // Create the 'next' button
   const nextBtn = document.createElement("button");
   nextBtn.classList.add("navbtn", "next");
-  nextBtn.onclick = turnPageNext;
+  nextBtn.onclick = () => turnPageTo(1);
   menuPageDiv.appendChild(nextBtn);
 
   // Append the menuPageDiv to the lastPageDiv
