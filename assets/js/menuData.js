@@ -1343,7 +1343,7 @@ let menuData = [
         fullDesc:
           "Soft and spongy dumplings made from chhena, sweetened with jaggery and soaked in syrup.",
         metrics: "120Gms | 425Kcal | $10",
-        image: "./assets/img/modal-images/food-menu/jaggery-rasgulla.jpg",
+        image: "./assets/img/modal-images/food-menu/imag.jpg",
         chefSpecial: false,
         vegan: false,
         peanutAllergy: false,
