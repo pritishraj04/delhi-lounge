@@ -441,7 +441,7 @@ let menuData = [
             image:
               "./assets/img/modal-images/food-menu/tandoori-russet-potatoes.jpg",
             chefSpecial: false,
-            vegan: true,
+            vegan: false,
             peanutAllergy: false,
           },
           {
@@ -649,7 +649,7 @@ let menuData = [
       },
     ],
   },
-  
+
   {
     category: "Entr\xe9es",
     subCategories: [
@@ -748,7 +748,7 @@ let menuData = [
             metrics: "440Gms | 920Kcal | $22",
             image: "./assets/img/modal-images/food-menu/dum-aloo-kashmiri.jpg",
             chefSpecial: false,
-            vegan: true,
+            vegan: false,
             peanutAllergy: false,
           },
           {
@@ -762,7 +762,7 @@ let menuData = [
             image:
               "./assets/img/modal-images/food-menu/charcoal-roasted-baingan-bharta.jpg",
             chefSpecial: false,
-            vegan: true,
+            vegan: false,
             peanutAllergy: false,
           },
           {
@@ -1161,7 +1161,7 @@ let menuData = [
           "275-315 Kcal | 70-90g | Plain $3, Chur Chur $5, Garlic $5, Cheese $6",
         image: "./assets/img/modal-images/food-menu/scotch-whiskey-naan.jpg",
         chefSpecial: false,
-        vegan: true,
+        vegan: false,
         peanutAllergy: false,
       },
       {
