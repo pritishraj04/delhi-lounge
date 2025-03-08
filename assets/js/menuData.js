@@ -1348,19 +1348,19 @@ let menuData = [
         vegan: false,
         peanutAllergy: false,
       },
-      {
-        title: "Meetha Paan",
-        origin: "Vegetarian",
-        tagline: "",
-        desc: "A fragrant betel leaf delicacy, filled with candied fennel, and aromatic spices. Refreshing and indulgent.",
-        fullDesc:
-          "A fragrant betel leaf delicacy, filled with candied fennel, and aromatic spices. Refreshing and indulgent.",
-        metrics: "$3.99",
-        image: "./assets/img/modal-images/food-menu/imag.jpg",
-        chefSpecial: false,
-        vegan: false,
-        peanutAllergy: false,
-      },
+      // {
+      //   title: "Meetha Paan",
+      //   origin: "Vegetarian",
+      //   tagline: "",
+      //   desc: "A fragrant betel leaf delicacy, filled with candied fennel, and aromatic spices. Refreshing and indulgent.",
+      //   fullDesc:
+      //     "A fragrant betel leaf delicacy, filled with candied fennel, and aromatic spices. Refreshing and indulgent.",
+      //   metrics: "$3.99",
+      //   image: "./assets/img/modal-images/food-menu/imag.jpg",
+      //   chefSpecial: false,
+      //   vegan: false,
+      //   peanutAllergy: false,
+      // },
     ],
   },
   {

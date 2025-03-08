@@ -1358,6 +1358,56 @@ let barMenuData = [
     ],
   },
   {
+    category: "Beers (Indian)",
+    subCategories: [
+      {
+        subCategory: "Beers (Import: India)",
+        type: "",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
+        items: [
+          {
+            title: "Arka (India)",
+            origin: "India",
+            tagline: "",
+            desc: "",
+            fullDesc: "",
+            metrics: "$5",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+            vegan: false,
+            peanutAllergy: false,
+          },
+          {
+            title: "Maharaja IPA",
+            origin: "India",
+            tagline: "",
+            desc: "",
+            fullDesc: "",
+            metrics: "$10",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+            vegan: false,
+            peanutAllergy: false,
+          },
+
+          {
+            title: "Taj Mahal",
+            origin: "India",
+            tagline: "A majestic beer inspired by India’s iconic monument.",
+            desc: "",
+            fullDesc: "Taj Mahal is a premium lager from India, offering a crisp and smooth flavor with subtle hints of malt and hops. A perfect beer to enjoy on a warm day, embodying the spirit of India’s grandeur.",
+            metrics: "$6",
+            image: "./assets/img/modal-images/food-menu/taj-mahal.jpg", // Adjust the image path as needed
+            chefSpecial: false,
+          },
+
+          
+        ],
+      },
+    ],
+  },
+
+  {
     category: "Beers",
     subCategories: [
       {
@@ -1859,6 +1909,7 @@ let barMenuData = [
           },
         ],
       },
+
     ],
   },
   // {
