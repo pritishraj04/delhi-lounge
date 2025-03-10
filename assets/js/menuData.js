@@ -334,7 +334,7 @@ let menuData = [
         desc: "Street style puffs stuffed with chickpeas and potatoes, topped with flavored waters.",
         fullDesc:
           "A classic Indian street snack featuring crispy puris filled with a tangy mix of flavored waters, chickpeas, and potatoes, providing an explosion of taste.",
-        metrics: "180Gms | 197Kcal | $10",
+        metrics: "180Gms | 197Kcal | $12",
         image: "./assets/img/modal-images/food-menu/pani-puri.jpg",
         chefSpecial: false,
         vegan: true,
@@ -386,7 +386,7 @@ let menuData = [
         desc: "Crispy fried spinach leaves tossed with spices, yogurt, and chutneys.",
         fullDesc:
           "Crispy fried spinach leaves drizzled with yogurt and spicy chutneys, creating a delightful contrast of flavors.",
-        metrics: "160Gms | 198Kcal | $10",
+        metrics: "160Gms | 198Kcal | $12",
         image: "./assets/img/modal-images/food-menu/palak-patta-chaat.jpg",
         chefSpecial: false,
         vegan: true,
@@ -409,7 +409,7 @@ let menuData = [
             desc: "Stuffed paneer, capsicum and onions marinated in yogurt and char-grilled, lemon & black pepper chutney.",
             fullDesc:
               "Marinated cottage cheese, capsicum, and onions char-grilled to perfection, served with a zesty lemon and black pepper chutney.",
-            metrics: "250Gms | 643Kcal | $20",
+            metrics: "250Gms | 643Kcal | $22",
             image:
               "./assets/img/modal-images/food-menu/tandoori-cottage-cheese.jpg",
             chefSpecial: false,
@@ -451,7 +451,7 @@ let menuData = [
             desc: "Ground green pea patties enhanced with fresh mint and stuffed with cheese, cranberry & ginger launji.",
             fullDesc:
               "Light and flavorful ground green pea patties infused with fresh mint, served with a tangy cranberry and ginger launji.",
-            metrics: "250Gms | 337Kcal | $16",
+            metrics: "250Gms | 337Kcal | $18",
             image: "./assets/img/modal-images/food-menu/matar-ke-kebab.jpg",
             chefSpecial: false,
             vegan: false,
@@ -464,7 +464,7 @@ let menuData = [
             desc: "Melt-in-mouth beetroot patties stuffed with hung yogurt, lemon & black pepper chutney.",
             fullDesc:
               "Delicately spiced beetroot patties served with a refreshing lemon and black pepper chutney that enhances the earthy flavors.",
-            metrics: "250Gms | 311Kcal | $16",
+            metrics: "250Gms | 311Kcal | $18",
             image:
               "./assets/img/modal-images/food-menu/betroot-shammi-labgeer.jpg",
             chefSpecial: false,
@@ -478,7 +478,7 @@ let menuData = [
             desc: "Minced vegetables marinated and skewered, char-grilled, pineapple & green chili chutney.",
             fullDesc:
               "Grilled minced vegetable kebabs, skewered and served with a sweet and spicy pineapple and green chili chutney.",
-            metrics: "250Gms | 325Kcal | $16",
+            metrics: "250Gms | 325Kcal | $18",
             image:
               "./assets/img/modal-images/food-menu/garden-grill-seekh-kebab.jpg",
             chefSpecial: false,
@@ -526,7 +526,7 @@ let menuData = [
             desc: "Whole silver Pomfret, marinated with spices, char-grilled, lemon & black pepper chutney.",
             fullDesc:
               "Whole silver pomfret marinated in spices and char-grilled to perfection, served with a flavorful garlic chutney.",
-            metrics: "220Gms | 359Kcal | $28",
+            metrics: "220Gms | 359Kcal | $30",
             image: "./assets/img/modal-images/food-menu/tandoori-pomfret.jpg",
             chefSpecial: false,
             vegan: false,
@@ -547,7 +547,7 @@ let menuData = [
             desc: "Morsels of chicken marinated in a spicy yogurt marinade, char-grilled, pineapple & green chili chutney.",
             fullDesc:
               "Succulent morsels of chicken marinated in a spicy yogurt marinade and char-grilled, served with a refreshing pineapple and green chili chutney.",
-            metrics: "260Gms | 684Kcal | $22",
+            metrics: "260Gms | 684Kcal | $24",
             image: "./assets/img/modal-images/food-menu/chicken-tikka.jpg",
             chefSpecial: false,
             vegan: false,
@@ -560,7 +560,7 @@ let menuData = [
             desc: "Creamy chicken kebabs marinated in cream and spices, char-grilled, adorned with silver leaf, garlic chutney.",
             fullDesc:
               "Creamy chicken kebabs marinated in rich cream and spices, char-grilled and served with a flavorful garlic chutney.",
-            metrics: "260Gms | 729Kcal | $22",
+            metrics: "260Gms | 729Kcal | $24",
             image:
               "./assets/img/modal-images/food-menu/chicken-malai-tikka.jpg",
             chefSpecial: false,
@@ -574,7 +574,7 @@ let menuData = [
             desc: "Minced chicken kebabs marinated and skewered, char-grilled, lemon & black pepper chutney.",
             fullDesc:
               "Juicy minced chicken kebabs marinated with spices, skewered, char-grilled, and served with a zesty lemon and black pepper chutney.",
-            metrics: "260Gms | 976Kcal | $22",
+            metrics: "260Gms | 976Kcal | $24",
             image: "./assets/img/modal-images/food-menu/reshmi-seekh-kebab.jpg",
             chefSpecial: false,
             vegan: false,
@@ -587,7 +587,7 @@ let menuData = [
             desc: "Whole chicken marinated in spicy yogurt marinade, char-grilled, cranberry & ginger launji.",
             fullDesc:
               "Experience the rich flavors of our Tandoori Chicken—succulent chicken marinated in a blend of spices, char-grilled to perfection, and served with a zesty lemon and black pepper chutney. A true delight for the senses!",
-            metrics: "350Gms | 732Kcal | $18",
+            metrics: "350Gms | 732Kcal | $20",
             image:
               "./assets/img/modal-images/food-menu/tandoori-chicken-(half).jpg",
             chefSpecial: false,
@@ -601,7 +601,7 @@ let menuData = [
             desc: "Whole chicken marinated in spicy yogurt marinade, char-grilled, cranberry & ginger launji.",
             fullDesc:
               "Experience the rich flavors of our Tandoori Chicken—succulent chicken marinated in a blend of spices, char-grilled to perfection, and served with a zesty lemon and black pepper chutney. A true delight for the senses!",
-            metrics: "750Gms | 1529Kcal | $28",
+            metrics: "750Gms | 1529Kcal | $30",
             image:
               "./assets/img/modal-images/food-menu/tandoori-chicken-(full).jpg",
             chefSpecial: false,
@@ -623,7 +623,7 @@ let menuData = [
             desc: "Minced goat meat marinated in spices, skewered and char-grilled, cranberry & ginger launji.",
             fullDesc:
               "Minced goat meat skewered with colorful peppers, char-grilled, and served with a zesty cranberry and ginger chutney.",
-            metrics: "260Gms | 718Kcal | $25",
+            metrics: "260Gms | 718Kcal | $28",
             image:
               "./assets/img/modal-images/food-menu/mutton-seekh-gilafi.jpg",
             chefSpecial: false,
@@ -637,7 +637,7 @@ let menuData = [
             desc: "Flavorful and marinated lamb chops char-grilled to perfection, pineapple & green chili chutney.",
             fullDesc:
               "Juicy lamb chops marinated in aromatic spices, char-grilled to perfection, and served with a refreshing pineapple and green chili chutney.",
-            metrics: "260Gms | 804Kcal | $35",
+            metrics: "260Gms | 804Kcal | $38",
             image:
               "./assets/img/modal-images/food-menu/tandoori-lamb-chops.jpg",
             chefSpecial: false,

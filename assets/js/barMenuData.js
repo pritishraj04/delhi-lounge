@@ -211,7 +211,8 @@ let barMenuData = [
             origin: "N/A",
             tagline: "A refreshing, non-alcoholic tropical delight.",
             desc: "A vibrant, alcohol-free version of the classic Mai Tai, perfect for any occasion.",
-            fullDesc: "Virgin Mai Tai is a flavorful mix of tropical juices with a hint of lime and almond, offering a refreshing taste without alcohol.",
+            fullDesc:
+              "Virgin Mai Tai is a flavorful mix of tropical juices with a hint of lime and almond, offering a refreshing taste without alcohol.",
             metrics: "$10",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -305,7 +306,8 @@ let barMenuData = [
             origin: "India",
             tagline: "A fusion of traditional street food and classic martini.",
             desc: "An innovative cocktail inspired by the popular Indian street snack.",
-            fullDesc: "The Pani Puri Martini combines the flavors of tangy tamarind, spicy mint, and crisp puri, blended with vodka for a unique twist on the classic martini. A perfect fusion of tradition and innovation.",
+            fullDesc:
+              "The Pani Puri Martini combines the flavors of tangy tamarind, spicy mint, and crisp puri, blended with vodka for a unique twist on the classic martini. A perfect fusion of tradition and innovation.",
             metrics: "$15",
             image: "./assets/img/modal-images/food-menu/pani-puri-martini.jpg", // Adjust the image path as needed
             chefSpecial: false,
@@ -488,7 +490,8 @@ let barMenuData = [
             origin: "California, USA",
             tagline: "A premium Napa Valley wine that epitomizes quality.",
             desc: "A bold red wine known for its rich flavors and full-bodied profile.",
-            fullDesc: "Caymus Bottle offers an exquisite Napa Valley Cabernet Sauvignon with deep, rich flavors of blackberry, currant, and a touch of oak, ideal for wine lovers seeking sophistication.",
+            fullDesc:
+              "Caymus Bottle offers an exquisite Napa Valley Cabernet Sauvignon with deep, rich flavors of blackberry, currant, and a touch of oak, ideal for wine lovers seeking sophistication.",
             metrics: "$130",
             image: "./assets/img/modal-images/food-menu/caymus.jpg", // Adjust the image path as needed
             chefSpecial: false,
@@ -498,7 +501,8 @@ let barMenuData = [
             origin: "Paso Robles, California",
             tagline: "A refined Cabernet Sauvignon with exceptional depth.",
             desc: "A luxurious, full-bodied red wine with layers of dark fruit and earthy undertones.",
-            fullDesc: "Austin Hope Bottle is a Napa Valley Cabernet Sauvignon with a beautifully balanced profile, featuring aromas of dark chocolate, plum, and tobacco, perfect for connoisseurs and casual drinkers alike.",
+            fullDesc:
+              "Austin Hope Bottle is a Napa Valley Cabernet Sauvignon with a beautifully balanced profile, featuring aromas of dark chocolate, plum, and tobacco, perfect for connoisseurs and casual drinkers alike.",
             metrics: "$110",
             image: "./assets/img/modal-images/food-menu/austin-hope.jpg", // Adjust the image path as needed
             chefSpecial: false,
@@ -881,7 +885,8 @@ let barMenuData = [
             origin: "India",
             tagline: "A rich, dark rum with a legacy of smoothness.",
             desc: "A legendary Indian rum known for its rich taste and smooth finish.",
-            fullDesc: "Old Monk is a premium dark rum from India, made with a blend of the finest aged rums, delivering a smooth and rich flavor with hints of vanilla and caramel.",
+            fullDesc:
+              "Old Monk is a premium dark rum from India, made with a blend of the finest aged rums, delivering a smooth and rich flavor with hints of vanilla and caramel.",
             metrics: "$8.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -931,7 +936,8 @@ let barMenuData = [
             origin: "Scotland",
             tagline: "A rich single malt scotch with a history of excellence.",
             desc: "",
-            fullDesc: "Glenlivet 21 is a distinguished single malt Scotch whisky, aged to perfection with a smooth, balanced flavor that carries notes of oak, spice, and dried fruits.",
+            fullDesc:
+              "Glenlivet 21 is a distinguished single malt Scotch whisky, aged to perfection with a smooth, balanced flavor that carries notes of oak, spice, and dried fruits.",
             metrics: "$55",
             image: "./assets/img/modal-images/food-menu/glenlivet21.jpg", // Adjust the image path as needed
             chefSpecial: false,
@@ -1002,7 +1008,7 @@ let barMenuData = [
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
-          
+
           {
             title: "JW Blue Label",
             origin: "Scotland",
@@ -1014,7 +1020,7 @@ let barMenuData = [
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
-        
+
           {
             title: "Highland Park 12",
             origin: "Scotland",
@@ -1371,7 +1377,7 @@ let barMenuData = [
             tagline: "",
             desc: "",
             fullDesc: "",
-            metrics: "$5",
+            metrics: "$6",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: false,
@@ -1395,13 +1401,23 @@ let barMenuData = [
             origin: "India",
             tagline: "A majestic beer inspired by India’s iconic monument.",
             desc: "",
-            fullDesc: "Taj Mahal is a premium lager from India, offering a crisp and smooth flavor with subtle hints of malt and hops. A perfect beer to enjoy on a warm day, embodying the spirit of India’s grandeur.",
+            fullDesc:
+              "Taj Mahal is a premium lager from India, offering a crisp and smooth flavor with subtle hints of malt and hops. A perfect beer to enjoy on a warm day, embodying the spirit of India’s grandeur.",
             metrics: "$6",
             image: "./assets/img/modal-images/food-menu/taj-mahal.jpg", // Adjust the image path as needed
             chefSpecial: false,
           },
-
-          
+          {
+            title: "Taj Mahal 650ML",
+            origin: "India",
+            tagline: "A majestic beer inspired by India’s iconic monument.",
+            desc: "",
+            fullDesc:
+              "Taj Mahal is a premium lager from India, offering a crisp and smooth flavor with subtle hints of malt and hops. A perfect beer to enjoy on a warm day, embodying the spirit of India’s grandeur.",
+            metrics: "$12",
+            image: "./assets/img/modal-images/food-menu/taj-mahal.jpg", // Adjust the image path as needed
+            chefSpecial: false,
+          },
         ],
       },
     ],
@@ -1422,7 +1438,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Miller Lite is a light American lager known for its crisp, refreshing taste.",
-            metrics: "$5",
+            metrics: "$6",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1434,7 +1450,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Coors Lite is a crisp, light lager with a clean, refreshing taste.",
-            metrics: "$5",
+            metrics: "$6",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1576,7 +1592,8 @@ let barMenuData = [
             origin: "India",
             tagline: "A majestic beer inspired by India’s iconic monument.",
             desc: "",
-            fullDesc: "Taj Mahal is a premium lager from India, offering a crisp and smooth flavor with subtle hints of malt and hops. A perfect beer to enjoy on a warm day, embodying the spirit of India’s grandeur.",
+            fullDesc:
+              "Taj Mahal is a premium lager from India, offering a crisp and smooth flavor with subtle hints of malt and hops. A perfect beer to enjoy on a warm day, embodying the spirit of India’s grandeur.",
             metrics: "$6",
             image: "./assets/img/modal-images/food-menu/taj-mahal.jpg", // Adjust the image path as needed
             chefSpecial: false,
@@ -1691,7 +1708,18 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Modelo Negra is a dark lager with rich malt flavors and a smooth finish.",
-            metrics: "$5",
+            metrics: "$6",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+            vegan: !0,
+          },
+          {
+            title: "Modelo",
+            origin: "Mexico",
+            tagline: "",
+            desc: "",
+            fullDesc: "",
+            metrics: "$6",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1727,7 +1755,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Stella Artois is a classic Belgian lager with a balanced flavor and crisp finish.",
-            metrics: "$5",
+            metrics: "$6",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1739,7 +1767,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Heineken is a pale lager with a light, crisp taste and a mild bitterness.",
-            metrics: "$5",
+            metrics: "$6",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1854,7 +1882,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Pacifico is a light, crisp lager brewed with a smooth, slightly sweet finish.",
-            metrics: "$5",
+            metrics: "$6",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1866,7 +1894,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Corona is a pale lager known for its light, refreshing taste and smooth finish.",
-            metrics: "$5",
+            metrics: "$6",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1876,8 +1904,7 @@ let barMenuData = [
             origin: "Mexico",
             tagline: "",
             desc: "",
-            fullDesc:
-              "Corona Non-Alcoholic",
+            fullDesc: "Corona Non-Alcoholic",
             metrics: "$5",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -1890,7 +1917,7 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "Corona Premier is a light lager with a crisp, clean flavor and fewer calories.",
-            metrics: "$5",
+            metrics: "$6",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: !0,
@@ -1907,9 +1934,30 @@ let barMenuData = [
             chefSpecial: false,
             vegan: !0,
           },
+          {
+            title: "Flyin Horse Royal 650ML",
+            origin: "USA",
+            tagline: "",
+            desc: "",
+            fullDesc: "",
+            metrics: "$12",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+            vegan: !0,
+          },
+          {
+            title: "DOS XX",
+            origin: "USA",
+            tagline: "",
+            desc: "",
+            fullDesc: "",
+            metrics: "$6",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+            vegan: !0,
+          },
         ],
       },
-
     ],
   },
   // {
@@ -1969,6 +2017,5 @@ let barMenuData = [
   //     },
   //   ],
   // },
-
 ];
 export default barMenuData;
