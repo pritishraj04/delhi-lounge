@@ -584,10 +584,10 @@ let barMenuData = [
             title: "Jim Beam (bourbon)",
             origin: "USA",
             tagline: "A classic taste of Kentucky's finest.",
-            desc: "Smooth and versatile, perfect for sipping or mixing.",
+            // desc: "Smooth and versatile, perfect for sipping or mixing.",
             fullDesc:
               "Jim Beam bourbon delivers a timeless flavor profile with notes of vanilla, caramel, and oak, embodying the spirit of traditional Kentucky craftsmanship.",
-            metrics: "$7",
+            metrics: "$7.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -595,10 +595,10 @@ let barMenuData = [
             title: "Makers Mark (bourbon)",
             origin: "USA",
             tagline: "Handcrafted for a smooth and sweet experience.",
-            desc: "Rich and flavorful with notes of caramel and vanilla.",
+            // desc: "Rich and flavorful with notes of caramel and vanilla.",
             fullDesc:
               "Makers Mark bourbon is a handcrafted classic, offering a rich balance of sweet caramel, vanilla, and a subtle oak finish for a smooth sipping experience.",
-            metrics: "$11",
+            metrics: "$11.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -606,10 +606,10 @@ let barMenuData = [
             title: "Four Roses (bourbon)",
             origin: "USA",
             tagline: "A delicate balance of flavor and smoothness.",
-            desc: "Crisp, smooth, and slightly fruity.",
+            // desc: "Crisp, smooth, and slightly fruity.",
             fullDesc:
               "Four Roses bourbon delivers a unique blend of delicate fruit flavors, spices, and a smooth finish, crafted with precision and care.",
-            metrics: "$8",
+            metrics: "$8.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -617,10 +617,10 @@ let barMenuData = [
             title: "Woodford Reserve (bourbon)",
             origin: "USA",
             tagline: "A refined bourbon with a complex character.",
-            desc: "Rich and bold with notes of dark chocolate and spices.",
+            // desc: "Rich and bold with notes of dark chocolate and spices.",
             fullDesc:
               "Woodford Reserve bourbon is a premium choice, offering layers of complex flavors including dark chocolate, spices, and a hint of tobacco for a luxurious finish.",
-            metrics: "$13",
+            metrics: "$13.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -628,10 +628,10 @@ let barMenuData = [
             title: "Knob Creek (bourbon)",
             origin: "USA",
             tagline: "A full-bodied bourbon with bold flavors.",
-            desc: "Robust and intense with hints of maple and nutmeg.",
+            // desc: "Robust and intense with hints of maple and nutmeg.",
             fullDesc:
               "Knob Creek bourbon is crafted to perfection, offering a bold flavor profile with maple syrup sweetness, nutmeg spice, and a lingering smoky finish.",
-            metrics: "$13",
+            metrics: "$13.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -639,10 +639,10 @@ let barMenuData = [
             title: "TX Bourbon (bourbon)",
             origin: "USA",
             tagline: "A Texas-made bourbon with a unique twist.",
-            desc: "Rich, smooth, and distinctly Texan.",
+            // desc: "Rich, smooth, and distinctly Texan.",
             fullDesc:
               "TX Bourbon delivers a bold and distinctive flavor with hints of vanilla, caramel, and a uniquely smooth finish that pays homage to its Texan roots.",
-            metrics: "$17",
+            metrics: "$17.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -650,15 +650,148 @@ let barMenuData = [
             title: "Remy Martin VSOP (cognac)",
             origin: "France",
             tagline: "The epitome of smooth French elegance.",
-            desc: "Harmonious and rich with fruity and floral notes.",
+            // desc: "Harmonious and rich with fruity and floral notes.",
             fullDesc:
               "Remy Martin VSOP cognac is a perfectly balanced spirit, showcasing harmonious notes of ripe fruit, subtle floral tones, and a silky smooth finish.",
-            metrics: "$20",
+            metrics: "$20.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
+          // Basil Hayden ($14.00)
+{
+  title: "Basil Hayden Bourbon",
+  origin: "Kentucky, USA",
+  tagline: "A refined bourbon with a touch of spice and smooth sophistication.",
+  // desc: "Light-bodied yet complex, featuring hints of peppery rye and honeyed sweetness.",
+  fullDesc: "Basil Hayden's high-rye mash bill creates a uniquely smooth sip with subtle oak, cinnamon, and a crisp peppery finish. Perfect for sipping neat or crafting elevated cocktails.",
+  metrics: "$14.00",
+  image: "./assets/img/modal-images/food-menu/imag.jpg",
+  chefSpecial: false,
+},
+
+// Buffalo Trace Bourbon ($12.00)
+{
+  title: "Buffalo Trace Bourbon",
+  origin: "Kentucky, USA",
+  tagline: "A timeless Kentucky classic, aged to perfection.",
+  // desc: "Rich caramel and vanilla notes balanced with warm oak undertones.",
+  fullDesc: "Buffalo Trace Bourbon is crafted using centuries-old traditions, offering a velvety texture and flavors of toffee, dried fruit, and a touch of spice. Ideal for Old Fashioneds or sipping straight.",
+  metrics: "$12.00",
+  image: "./assets/img/modal-images/food-menu/imag.jpg",
+  chefSpecial: false,
+},
+
+// Bullet Bourbon ($12.00)
+{
+  title: "Bullet Bourbon",
+  origin: "Kentucky, USA",
+  tagline: "Bold, unfiltered flavor for the purist.",
+  // desc: "Robust and full-bodied with a smoky charred oak character.",
+  fullDesc: "Bullet Bourbon embraces its straight-from-the-barrel intensity, delivering bold notes of toasted caramel, dark chocolate, and a lingering smoky finish. A favorite for Manhattan enthusiasts.",
+  metrics: "$12.00",
+  image: "./assets/img/modal-images/food-menu/imag.jpg",
+  chefSpecial: false,
+},
+
+// Bullet Rye ($12.00)
+{
+  title: "Bullet Rye",
+  origin: "Kentucky, USA",
+  tagline: "Spicy rye meets smooth bourbon craftsmanship.",
+  // desc: "Bold and peppery with a crisp, clean finish.",
+  fullDesc: "Bullet Rye combines 95% rye grain for a lively spice profile, balanced by hints of honey and citrus. A versatile choice for whiskey sours or bold sipping.",
+  metrics: "$12.00",
+  image: "./assets/img/modal-images/food-menu/imag.jpg",
+  chefSpecial: false,
+},
+
+// Four Roses ($10.00)
+{
+  title: "Four Roses Bourbon",
+  origin: "Kentucky, USA",
+  tagline: "A mellow sip with floral elegance.",
+  // desc: "Smooth and approachable with delicate fruit and floral notes.",
+  fullDesc: "Four Roses Bourbon blends ten unique recipes for a harmonious flavor of ripe pear, apricot, and gentle vanilla. A crowd-pleaser for casual sipping or mixed drinks.",
+  metrics: "$10.00",
+  image: "./assets/img/modal-images/food-menu/imag.jpg",
+  chefSpecial: false,
+},
+
+// Jim Beam ($8.00)
+{
+  title: "Jim Beam Bourbon",
+  origin: "Kentucky, USA",
+  tagline: "America’s iconic Kentucky straight bourbon.",
+  // desc: "Warm oak and caramel with a touch of nutty sweetness.",
+  fullDesc: "Jim Beam’s seven-generation legacy shines in this balanced bourbon, offering flavors of toasted oak, honey, and a hint of smoke. Perfect for classic whiskey highballs.",
+  metrics: "$8.00",
+  image: "./assets/img/modal-images/food-menu/imag.jpg",
+  chefSpecial: false,
+},
+
+
         ],
       },
+
+
+      {
+        subCategory: "Bourbon & Cognac",
+        type: "",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
+        items: [
+          
+          // Knob Creek ($15.00)
+{
+  title: "Knob Creek Bourbon",
+  origin: "Kentucky, USA",
+  tagline: "Small-batch bourbon with big, bold character.",
+  // desc: "Deep caramel richness layered with toasted oak and spice.",
+  fullDesc: "Aged nine years, Knob Creek Bourbon packs intense flavors of maple, toasted nuts, and a long, warming finish. Best enjoyed neat or in a robust Boulevardier.",
+  metrics: "$15.00",
+  image: "./assets/img/modal-images/food-menu/imag.jpg",
+  chefSpecial: false,
+},
+
+// Maker's Mark ($12.00)
+{
+  title: "Maker's Mark Bourbon",
+  origin: "Kentucky, USA",
+  tagline: "Sip-worthy bourbon with a signature red wax seal.",
+  // desc: "Velvety smooth with notes of vanilla and toasted wheat.",
+  fullDesc: "Maker’s Mark uses red winter wheat for a softer, sweeter profile, featuring flavors of caramel, baking spices, and a creamy finish. A star in Mint Juleps.",
+  metrics: "$12.00",
+  image: "./assets/img/modal-images/food-menu/imag.jpg",
+  chefSpecial: false,
+},
+
+// TX Bourbon ($20.00)
+{
+  title: "TX Bourbon",
+  origin: "Texas, USA",
+  tagline: "Southern pride distilled into bold bourbon.",
+  // desc: "Bold and smoky with a touch of Texas terroir.",
+  fullDesc: "TX Bourbon celebrates Lone State craftsmanship, blending local grains for flavors of charred oak, dark honey, and a hint of pecan. Sip it slow or pair with barbecue.",
+  metrics: "$20.00",
+  image: "./assets/img/modal-images/food-menu/imag.jpg",
+  chefSpecial: false,
+},
+
+// Woodford Reserve ($15.00)
+{
+  title: "Woodford Reserve Bourbon",
+  origin: "Kentucky, USA",
+  tagline: "A masterful blend of tradition and complexity.",
+  // desc: "Layered with dried fruit, cocoa, and toasted oak.",
+  fullDesc: "Woodford Reserve’s small-batch process delivers rich notes of vanilla, citrus peel, and a touch of leather. A premium choice for savoring neat or in refined cocktails.",
+  metrics: "$15.00",
+  image: "./assets/img/modal-images/food-menu/imag.jpg",
+  chefSpecial: false,
+},
+
+        ],
+      },
+
+
       {
         subCategory: "Gin & Liqueur",
         type: "",
