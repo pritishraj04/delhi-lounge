@@ -995,41 +995,41 @@ let menuData = [
       },
     ],
   },
-  {
-    category: "Combos",
-    type: "",
-    backgroundImage: "../assets/img/menu-images/pageg.jpg",
-    items: [
-      {
-        title: "Purani Dilli Chole Bhature",
-        origin: "Vegetarian",
-        tagline: "",
-        desc: "A semi-dry specialty preparation of spicy chickpea served with leavened deep-fried bread.",
-        fullDesc:
-          "A classic combination of spicy chickpeas served with fluffy bhature, a popular dish from Old Delhi.",
-        metrics: "675 Kcal | 320g | $18",
-        image:
-          "./assets/img/modal-images/food-menu/purani-dilli-chole-bhature.jpg",
-        chefSpecial: false,
-        vegan: false,
-        peanutAllergy: false,
-      },
-      {
-        title: "Sarson Ka Saag, Makke ki Roti",
-        origin: "Vegetarian",
-        tagline: "",
-        desc: "Punjabi specialty of mustard greens served with cornmeal flatbread, ghee, and jaggery.",
-        fullDesc:
-          "A traditional dish of mustard greens paired with freshly made makke ki roti, served with a dollop of ghee and a touch of jaggery for sweetness.",
-        metrics: "415 Kcal | 320g | $18",
-        image:
-          "./assets/img/modal-images/food-menu/sarson-ka-saag-makke-ki-roti.jpg",
-        chefSpecial: false,
-        vegan: false,
-        peanutAllergy: false,
-      },
-    ],
-  },
+  // {
+  //   category: "Combos",
+  //   type: "",
+  //   backgroundImage: "../assets/img/menu-images/pageg.jpg",
+  //   items: [
+  //     {
+  //       title: "Purani Dilli Chole Bhature",
+  //       origin: "Vegetarian",
+  //       tagline: "",
+  //       desc: "A semi-dry specialty preparation of spicy chickpea served with leavened deep-fried bread.",
+  //       fullDesc:
+  //         "A classic combination of spicy chickpeas served with fluffy bhature, a popular dish from Old Delhi.",
+  //       metrics: "675 Kcal | 320g | $18",
+  //       image:
+  //         "./assets/img/modal-images/food-menu/purani-dilli-chole-bhature.jpg",
+  //       chefSpecial: false,
+  //       vegan: false,
+  //       peanutAllergy: false,
+  //     },
+  //     {
+  //       title: "Sarson Ka Saag, Makke ki Roti",
+  //       origin: "Vegetarian",
+  //       tagline: "",
+  //       desc: "Punjabi specialty of mustard greens served with cornmeal flatbread, ghee, and jaggery.",
+  //       fullDesc:
+  //         "A traditional dish of mustard greens paired with freshly made makke ki roti, served with a dollop of ghee and a touch of jaggery for sweetness.",
+  //       metrics: "415 Kcal | 320g | $18",
+  //       image:
+  //         "./assets/img/modal-images/food-menu/sarson-ka-saag-makke-ki-roti.jpg",
+  //       chefSpecial: false,
+  //       vegan: false,
+  //       peanutAllergy: false,
+  //     },
+  //   ],
+  // },
 
   {
     category: "Rice",
