@@ -658,135 +658,152 @@ let barMenuData = [
             chefSpecial: false,
           },
           // Basil Hayden ($14.00)
-{
-  title: "Basil Hayden Bourbon",
-  origin: "Kentucky, USA",
-  tagline: "A refined bourbon with a touch of spice and smooth sophistication.",
-  // desc: "Light-bodied yet complex, featuring hints of peppery rye and honeyed sweetness.",
-  fullDesc: "Basil Hayden's high-rye mash bill creates a uniquely smooth sip with subtle oak, cinnamon, and a crisp peppery finish. Perfect for sipping neat or crafting elevated cocktails.",
-  metrics: "$14.00",
-  image: "./assets/img/modal-images/food-menu/imag.jpg",
-  chefSpecial: false,
-},
+          {
+            title: "Basil Hayden Bourbon",
+            origin: "Kentucky, USA",
+            tagline: "A refined bourbon with a touch of spice and smooth sophistication.",
+            // desc: "Light-bodied yet complex, featuring hints of peppery rye and honeyed sweetness.",
+            fullDesc: "Basil Hayden's high-rye mash bill creates a uniquely smooth sip with subtle oak, cinnamon, and a crisp peppery finish. Perfect for sipping neat or crafting elevated cocktails.",
+            metrics: "$14.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
 
-// Buffalo Trace Bourbon ($12.00)
-{
-  title: "Buffalo Trace Bourbon",
-  origin: "Kentucky, USA",
-  tagline: "A timeless Kentucky classic, aged to perfection.",
-  // desc: "Rich caramel and vanilla notes balanced with warm oak undertones.",
-  fullDesc: "Buffalo Trace Bourbon is crafted using centuries-old traditions, offering a velvety texture and flavors of toffee, dried fruit, and a touch of spice. Ideal for Old Fashioneds or sipping straight.",
-  metrics: "$12.00",
-  image: "./assets/img/modal-images/food-menu/imag.jpg",
-  chefSpecial: false,
-},
+          // Buffalo Trace Bourbon ($12.00)
+          {
+            title: "Buffalo Trace Bourbon",
+            origin: "Kentucky, USA",
+            tagline: "A timeless Kentucky classic, aged to perfection.",
+            // desc: "Rich caramel and vanilla notes balanced with warm oak undertones.",
+            fullDesc: "Buffalo Trace Bourbon is crafted using centuries-old traditions, offering a velvety texture and flavors of toffee, dried fruit, and a touch of spice. Ideal for Old Fashioneds or sipping straight.",
+            metrics: "$12.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
 
-// Bullet Bourbon ($12.00)
-{
-  title: "Bullet Bourbon",
-  origin: "Kentucky, USA",
-  tagline: "Bold, unfiltered flavor for the purist.",
-  // desc: "Robust and full-bodied with a smoky charred oak character.",
-  fullDesc: "Bullet Bourbon embraces its straight-from-the-barrel intensity, delivering bold notes of toasted caramel, dark chocolate, and a lingering smoky finish. A favorite for Manhattan enthusiasts.",
-  metrics: "$12.00",
-  image: "./assets/img/modal-images/food-menu/imag.jpg",
-  chefSpecial: false,
-},
+          // Bullet Bourbon ($12.00)
+          {
+            title: "Bullet Bourbon",
+            origin: "Kentucky, USA",
+            tagline: "Bold, unfiltered flavor for the purist.",
+            // desc: "Robust and full-bodied with a smoky charred oak character.",
+            fullDesc: "Bullet Bourbon embraces its straight-from-the-barrel intensity, delivering bold notes of toasted caramel, dark chocolate, and a lingering smoky finish. A favorite for Manhattan enthusiasts.",
+            metrics: "$12.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
 
-// Bullet Rye ($12.00)
-{
-  title: "Bullet Rye",
-  origin: "Kentucky, USA",
-  tagline: "Spicy rye meets smooth bourbon craftsmanship.",
-  // desc: "Bold and peppery with a crisp, clean finish.",
-  fullDesc: "Bullet Rye combines 95% rye grain for a lively spice profile, balanced by hints of honey and citrus. A versatile choice for whiskey sours or bold sipping.",
-  metrics: "$12.00",
-  image: "./assets/img/modal-images/food-menu/imag.jpg",
-  chefSpecial: false,
-},
+          // Bullet Rye ($12.00)
+          {
+            title: "Bullet Rye",
+            origin: "Kentucky, USA",
+            tagline: "Spicy rye meets smooth bourbon craftsmanship.",
+            // desc: "Bold and peppery with a crisp, clean finish.",
+            fullDesc: "Bullet Rye combines 95% rye grain for a lively spice profile, balanced by hints of honey and citrus. A versatile choice for whiskey sours or bold sipping.",
+            metrics: "$12.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
 
-// Four Roses ($10.00)
-{
-  title: "Four Roses Bourbon",
-  origin: "Kentucky, USA",
-  tagline: "A mellow sip with floral elegance.",
-  // desc: "Smooth and approachable with delicate fruit and floral notes.",
-  fullDesc: "Four Roses Bourbon blends ten unique recipes for a harmonious flavor of ripe pear, apricot, and gentle vanilla. A crowd-pleaser for casual sipping or mixed drinks.",
-  metrics: "$10.00",
-  image: "./assets/img/modal-images/food-menu/imag.jpg",
-  chefSpecial: false,
-},
+          // Four Roses ($10.00)
+          {
+            title: "Four Roses Bourbon",
+            origin: "Kentucky, USA",
+            tagline: "A mellow sip with floral elegance.",
+            // desc: "Smooth and approachable with delicate fruit and floral notes.",
+            fullDesc: "Four Roses Bourbon blends ten unique recipes for a harmonious flavor of ripe pear, apricot, and gentle vanilla. A crowd-pleaser for casual sipping or mixed drinks.",
+            metrics: "$10.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
 
-// Jim Beam ($8.00)
-{
-  title: "Jim Beam Bourbon",
-  origin: "Kentucky, USA",
-  tagline: "America’s iconic Kentucky straight bourbon.",
-  // desc: "Warm oak and caramel with a touch of nutty sweetness.",
-  fullDesc: "Jim Beam’s seven-generation legacy shines in this balanced bourbon, offering flavors of toasted oak, honey, and a hint of smoke. Perfect for classic whiskey highballs.",
-  metrics: "$8.00",
-  image: "./assets/img/modal-images/food-menu/imag.jpg",
-  chefSpecial: false,
-},
+          // Jim Beam ($8.00)
+          {
+            title: "Jim Beam Bourbon",
+            origin: "Kentucky, USA",
+            tagline: "America’s iconic Kentucky straight bourbon.",
+            // desc: "Warm oak and caramel with a touch of nutty sweetness.",
+            fullDesc: "Jim Beam’s seven-generation legacy shines in this balanced bourbon, offering flavors of toasted oak, honey, and a hint of smoke. Perfect for classic whiskey highballs.",
+            metrics: "$8.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
 
 
         ],
       },
-
-
       {
         subCategory: "Bourbon & Cognac",
         type: "",
         backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
-          
           // Knob Creek ($15.00)
-{
-  title: "Knob Creek Bourbon",
-  origin: "Kentucky, USA",
-  tagline: "Small-batch bourbon with big, bold character.",
-  // desc: "Deep caramel richness layered with toasted oak and spice.",
-  fullDesc: "Aged nine years, Knob Creek Bourbon packs intense flavors of maple, toasted nuts, and a long, warming finish. Best enjoyed neat or in a robust Boulevardier.",
-  metrics: "$15.00",
-  image: "./assets/img/modal-images/food-menu/imag.jpg",
-  chefSpecial: false,
-},
+          {
+            title: "Knob Creek Bourbon",
+            origin: "Kentucky, USA",
+            tagline: "Small-batch bourbon with big, bold character.",
+            // desc: "Deep caramel richness layered with toasted oak and spice.",
+            fullDesc: "Aged nine years, Knob Creek Bourbon packs intense flavors of maple, toasted nuts, and a long, warming finish. Best enjoyed neat or in a robust Boulevardier.",
+            metrics: "$15.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
 
-// Maker's Mark ($12.00)
-{
-  title: "Maker's Mark Bourbon",
-  origin: "Kentucky, USA",
-  tagline: "Sip-worthy bourbon with a signature red wax seal.",
-  // desc: "Velvety smooth with notes of vanilla and toasted wheat.",
-  fullDesc: "Maker’s Mark uses red winter wheat for a softer, sweeter profile, featuring flavors of caramel, baking spices, and a creamy finish. A star in Mint Juleps.",
-  metrics: "$12.00",
-  image: "./assets/img/modal-images/food-menu/imag.jpg",
-  chefSpecial: false,
-},
+          // Maker's Mark ($12.00)
+          {
+            title: "Maker's Mark Bourbon",
+            origin: "Kentucky, USA",
+            tagline: "Sip-worthy bourbon with a signature red wax seal.",
+            // desc: "Velvety smooth with notes of vanilla and toasted wheat.",
+            fullDesc: "Maker’s Mark uses red winter wheat for a softer, sweeter profile, featuring flavors of caramel, baking spices, and a creamy finish. A star in Mint Juleps.",
+            metrics: "$12.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
 
-// TX Bourbon ($20.00)
-{
-  title: "TX Bourbon",
-  origin: "Texas, USA",
-  tagline: "Southern pride distilled into bold bourbon.",
-  // desc: "Bold and smoky with a touch of Texas terroir.",
-  fullDesc: "TX Bourbon celebrates Lone State craftsmanship, blending local grains for flavors of charred oak, dark honey, and a hint of pecan. Sip it slow or pair with barbecue.",
-  metrics: "$20.00",
-  image: "./assets/img/modal-images/food-menu/imag.jpg",
-  chefSpecial: false,
-},
+          // TX Bourbon ($20.00)
+          {
+            title: "TX Bourbon",
+            origin: "Texas, USA",
+            tagline: "Southern pride distilled into bold bourbon.",
+            // desc: "Bold and smoky with a touch of Texas terroir.",
+            fullDesc: "TX Bourbon celebrates Lone State craftsmanship, blending local grains for flavors of charred oak, dark honey, and a hint of pecan. Sip it slow or pair with barbecue.",
+            metrics: "$20.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
 
-// Woodford Reserve ($15.00)
-{
-  title: "Woodford Reserve Bourbon",
-  origin: "Kentucky, USA",
-  tagline: "A masterful blend of tradition and complexity.",
-  // desc: "Layered with dried fruit, cocoa, and toasted oak.",
-  fullDesc: "Woodford Reserve’s small-batch process delivers rich notes of vanilla, citrus peel, and a touch of leather. A premium choice for savoring neat or in refined cocktails.",
-  metrics: "$15.00",
-  image: "./assets/img/modal-images/food-menu/imag.jpg",
-  chefSpecial: false,
-},
+          // Woodford Reserve ($15.00)
+          {
+            title: "Woodford Reserve Bourbon",
+            origin: "Kentucky, USA",
+            tagline: "A masterful blend of tradition and complexity.",
+            // desc: "Layered with dried fruit, cocoa, and toasted oak.",
+            fullDesc: "Woodford Reserve’s small-batch process delivers rich notes of vanilla, citrus peel, and a touch of leather. A premium choice for savoring neat or in refined cocktails.",
+            metrics: "$15.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "WhistlePig Black Bourbon (6Years)",
+            origin: "USA",
+            tagline: "A masterful blend of tradition and complexity.",
+            // desc: "Layered with dried fruit, cocoa, and toasted oak.",
+            fullDesc: "WWhistlePig Whiskey, the premier independent craft whiskey brand, leads the industry by pushing boundaries to create the boldest and best rye whiskeys globally. Situated off the grid in Vermont, our whiskey is meticulously crafted by a new generation of distillers and blenders who reimagine and unlock the essence of Rye Whiskey. ",
+            metrics: "$10.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "WhistlePig Small Batch Bourbon (10Years)",
+            origin: "USA",
+            tagline: "A masterful blend of tradition and complexity.",
+            // desc: "Layered with dried fruit, cocoa, and toasted oak.",
+            fullDesc: "WWhistlePig Whiskey, the premier independent craft whiskey brand, leads the industry by pushing boundaries to create the boldest and best rye whiskeys globally. Situated off the grid in Vermont, our whiskey is meticulously crafted by a new generation of distillers and blenders who reimagine and unlock the essence of Rye Whiskey. ",
+            metrics: "$15.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
 
         ],
       },
