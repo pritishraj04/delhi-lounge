@@ -1363,11 +1363,11 @@ let menuData = [
       // },
     ],
   },
-  // {
-  //   category: "Lunch",
-  //   type: "",
-  //   backgroundImage: "../assets/img/menu-images/lunch.jpg",
-  //   items: [],
-  // },
+  {
+    category: "Weekend Brunch",
+    type: "",
+    backgroundImage: "../assets/img/menu-images/brunchmenu.jpg",
+    items: [],
+  },
 ];
 export default menuData;
