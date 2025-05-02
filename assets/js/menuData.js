@@ -1119,7 +1119,7 @@ let menuData = [
         // fullDesc:
         //   "Soft and warm tandoori roti, served plain or brushed with butter for an extra touch of richness.",
         metrics: "180 Kcal (Plain) | 224 Kcal (Butter) | 60g | $3",
-        image: "./assets/img/modal-images/food-menu/missi-roti.jpg",
+        image: "./assets/img/modal-images/food-menu/butter-tandoori-roti.jpg",
         chefSpecial: false,
         vegan: true,
         peanutAllergy: false,
@@ -1132,7 +1132,7 @@ let menuData = [
         // fullDesc:
         //   "Nutritious missi roti made from a blend of whole wheat and gram flour, served plain or with butter for a delightful taste.",
         metrics: "150 Kcal (Plain) | 194 Kcal (Butter) | 60g | $4",
-        image: "./assets/img/modal-images/food-menu/butter-laccha-paratha.jpg",
+        image: "./assets/img/modal-images/food-menu/missi-roti.jpg",
         chefSpecial: false,
         vegan: true,
         peanutAllergy: false,
@@ -1145,7 +1145,7 @@ let menuData = [
         // fullDesc:
         //   "Flaky and crispy laccha paratha, layered and cooked on a tawa, available in plain, butter, pudina, or mirchi flavors.",
         metrics: "360Kcal | 90g | $6",
-        image: "./assets/img/modal-images/food-menu/butter-naan.jpg",
+        image: "./assets/img/modal-images/food-menu/butter-laccha-paratha.jpg",
         chefSpecial: false,
         vegan: false,
         peanutAllergy: false,
@@ -1159,7 +1159,7 @@ let menuData = [
         //   "Soft and fluffy naan, made with leavened dough and cooked in a tandoor, available plain, buttered, with garlic, or stuffed with cheese.",
         metrics:
           "275-315 Kcal | 70-90g | Plain $3, Chur Chur $5, Garlic $5, Cheese $6",
-        image: "./assets/img/modal-images/food-menu/scotch-whiskey-naan.jpg",
+        image: "./assets/img/modal-images/food-menu/butter-naan.jpg",
         chefSpecial: false,
         vegan: false,
         peanutAllergy: false,
