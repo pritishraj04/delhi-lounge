@@ -666,7 +666,7 @@ let menuData = [
             fullDesc:
               "Tender cottage cheese cubes cooked in a savory onion-tomato masala, infused with aromatic basil for a delightful flavor.",
             metrics: "460Gms | 955Kcal | $26",
-            image: "./assets/img/modal-images/food-menu/basil-paneer-rarah.jpg",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
             vegan: false,
             peanutAllergy: false,
