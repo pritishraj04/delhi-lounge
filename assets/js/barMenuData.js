@@ -1,4 +1,4 @@
-let barMenuData = [
+elet barMenuData = [
   {
     category: "Classic Cocktails",
     subCategories: [
@@ -461,6 +461,17 @@ let barMenuData = [
             chefSpecial: false,
           },
           {
+            title: "HIGHWAY 12 CABERNET SAUVIGNON SONOMA Bottle",
+            origin: "Sonoma County",
+            tagline: "Full-bodied cabernet sauvignon.",
+            desc: "A premium bottle of Highway 12 Cabernet Sauvignon with intense flavors of dark berries and oak.",
+            fullDesc:
+              "The Highway 12 Cabernet Sauvignon Sonoma Bottle brings a rich, bold experience with a deep concentration of flavors, including blackcurrant, dark cherry, and subtle oak nuances. Ideal for special occasions.",
+            metrics: "$60",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
             title: "Cru Pinot Noir",
             origin: "California",
             tagline: "Elegant and smooth pinot noir.",
@@ -482,17 +493,7 @@ let barMenuData = [
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
-          {
-            title: "HIGHWAY 12 CABERNET SAUVIGNON SONOMA Bottle",
-            origin: "Sonoma County",
-            tagline: "Full-bodied cabernet sauvignon.",
-            desc: "A premium bottle of Highway 12 Cabernet Sauvignon with intense flavors of dark berries and oak.",
-            fullDesc:
-              "The Highway 12 Cabernet Sauvignon Sonoma Bottle brings a rich, bold experience with a deep concentration of flavors, including blackcurrant, dark cherry, and subtle oak nuances. Ideal for special occasions.",
-            metrics: "$60",
-            image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false,
-          },
+         
           {
             title: "MUIRWOOD MERLOT CALIFORNIA VT",
             origin: "California",
