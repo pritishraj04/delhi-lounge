@@ -1445,6 +1445,17 @@ let barMenuData = [
             chefSpecial: false,
           },
           {
+            title: "Grey Goose VX",
+            origin: "France",
+            tagline: "A vodka like no other.",
+            desc: "Premium vodka with a hint of cognac.",
+            fullDesc:
+              "A luxurious vodka infused with a subtle hint of cognac, delivering an unparalleled smoothness and complexity.",
+            metrics: "$45.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
             title: "Beluga Noble",
             origin: "Russia",
             tagline: "Russian elegance in a bottle.",
@@ -1499,17 +1510,7 @@ let barMenuData = [
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
-          {
-            title: "Grey Goose VX",
-            origin: "France",
-            tagline: "A vodka like no other.",
-            desc: "Premium vodka with a hint of cognac.",
-            fullDesc:
-              "A luxurious vodka infused with a subtle hint of cognac, delivering an unparalleled smoothness and complexity.",
-            metrics: "$45.00",
-            image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false,
-          },
+         
           {
             title: "Ketel One Vodka",
             origin: "Netherlands",
