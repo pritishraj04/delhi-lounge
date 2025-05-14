@@ -1366,7 +1366,7 @@ let menuData = [
   {
     category: "Weekend Brunch",
     type: "",
-    backgroundImage: "../assets/img/menu-images/brunchmenu5.jpg",
+    backgroundImage: "../assets/img/menu-images/brunchmenu6.jpg",
     items: [],
   },
 ];
