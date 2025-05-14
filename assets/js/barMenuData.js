@@ -14,7 +14,7 @@ let barMenuData = [
             desc: "Smooth rum mixed with refreshing cola for a simple yet satisfying cocktail.",
             fullDesc:
               "A universally loved combination of smooth rum and cola, served over ice, making it a perfect companion for relaxed evenings or lively celebrations.",
-            metrics: "$10",
+            metrics: "$11",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -25,7 +25,7 @@ let barMenuData = [
             desc: "Vodka and orange juice combine for a refreshing, zesty cocktail.",
             fullDesc:
               "A simple yet vibrant cocktail featuring smooth vodka and freshly squeezed orange juice, delivering a refreshing citrus kick with every sip.",
-            metrics: "$10",
+            metrics: "$11",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -36,7 +36,7 @@ let barMenuData = [
             desc: "A zesty mix of vodka, lime, cranberry juice, and triple sec.",
             fullDesc:
               "A stylish cocktail combining the tartness of cranberry and lime juices with smooth vodka and triple sec, served in a chilled martini glass for a touch of sophistication.",
-            metrics: "$10",
+            metrics: "$11",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -47,7 +47,7 @@ let barMenuData = [
             desc: "Bourbon, bitters, sugar, and orange peel create a timeless drink.",
             fullDesc:
               "A classic cocktail that highlights the bold flavors of bourbon, perfectly balanced with bitters, a touch of sugar, and the zest of orange peel, making it a true icon.",
-            metrics: "$10",
+            metrics: "$11",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -58,7 +58,7 @@ let barMenuData = [
             desc: "A cool mix of white rum, mint, lime, sugar, and club soda.",
             fullDesc:
               "This Cuban classic blends white rum with fresh mint leaves, lime juice, sugar, and sparkling soda for a refreshing cocktail perfect for warm days.",
-            metrics: "$10",
+            metrics: "$11",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -69,7 +69,7 @@ let barMenuData = [
             desc: "A refined blend of gin, vermouth, and bitters, garnished with an olive or lemon twist.",
             fullDesc:
               "The ultimate cocktail of elegance, made with gin and dry vermouth, enhanced by a dash of bitters, and served with a choice of olive or lemon twist for a polished finish.",
-            metrics: "$10",
+            metrics: "$11",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -80,21 +80,21 @@ let barMenuData = [
             desc: "A unique mix of vodka, tomato juice, and lemon, garnished with a celery stalk.",
             fullDesc:
               "This savory cocktail features vodka and tangy tomato juice, accented with lemon and spices, and garnished with a crisp celery stalk for a bold and refreshing experience.",
-            metrics: "$10",
+            metrics: "$11",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
-          {
-            title: "Tom Collins",
-            origin: "England",
-            tagline: "A fizzy classic to brighten your day.",
-            desc: "Gin, lemon juice, sugar, and sparkling water create a delightful cocktail.",
-            fullDesc:
-              "A refreshing cocktail featuring gin, fresh lemon juice, sugar, and sparkling water, served over ice for a light and bubbly experience.",
-            metrics: "$10",
-            image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false,
-          },
+          // {
+          //   title: "Tom Collins",
+          //   origin: "England",
+          //   tagline: "A fizzy classic to brighten your day.",
+          //   desc: "Gin, lemon juice, sugar, and sparkling water create a delightful cocktail.",
+          //   fullDesc:
+          //     "A refreshing cocktail featuring gin, fresh lemon juice, sugar, and sparkling water, served over ice for a light and bubbly experience.",
+          //   metrics: "$11",
+          //   image: "./assets/img/modal-images/food-menu/imag.jpg",
+          //   chefSpecial: false,
+          // },
           {
             title: "Manhattan",
             origin: "USA",
@@ -102,7 +102,7 @@ let barMenuData = [
             desc: "Whiskey, vermouth, and bitters, garnished with a maraschino cherry.",
             fullDesc:
               "A rich and sophisticated cocktail made with whiskey, sweet vermouth, and bitters, topped with a maraschino cherry for a perfect blend of flavors.",
-            metrics: "$10",
+            metrics: "$11",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -113,7 +113,7 @@ let barMenuData = [
             desc: "A vibrant mix of white and dark rums, orange cura\xe7ao, syrup, and lime juice.",
             fullDesc:
               "This tropical cocktail combines the bold flavors of white and dark rums, balanced with orange cura\xe7ao, syrup, and fresh lime juice for a vibrant and refreshing experience.",
-            metrics: "$10",
+            metrics: "$11",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -124,7 +124,7 @@ let barMenuData = [
             desc: "A bold mix of vodka, tequila, rum, gin, triple sec, and cola.",
             fullDesc:
               "A robust cocktail featuring a unique blend of vodka, tequila, light rum, gin, triple sec, and a splash of cola, delivering a dynamic and refreshing taste.",
-            metrics: "$10",
+            metrics: "$11",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -415,6 +415,36 @@ let barMenuData = [
         ],
       },
       {
+        subCategory: "Sparkling/Rose Wine",
+        type: "",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
+        items: [
+          {
+            title: "Social Bird Rose 2023",
+            origin: "Italy",
+            tagline: "A sweet and aromatic white wine.",
+            // desc: "Glass of Castello Poggio Moscato.",
+            // fullDesc:
+            //   "Indulge in the delicate flavors of Castello Poggio Moscato Pavia IGT VT, a perfectly balanced sweet wine with floral and fruity notes.",
+            metrics: "$12.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Social Bird Rose 2025 Bottle",
+            origin: "Italy",
+            tagline: "A sweet and aromatic wine for celebrations.",
+            // desc: "Bottle of Castello Poggio Moscato.",
+            // fullDesc:
+            //   "Celebrate special moments with a bottle of Castello Poggio Moscato Pavia IGT VT, offering rich floral aromas and fruity sweetness.",
+            metrics: "$50.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+         
+        ],
+      },
+      {
         subCategory: "Red Wine",
         type: "",
         backgroundImage: "../assets/img/menu-images/pageg.jpg",
@@ -598,7 +628,7 @@ let barMenuData = [
             // desc: "Rich and flavorful with notes of caramel and vanilla.",
             fullDesc:
               "Makers Mark bourbon is a handcrafted classic, offering a rich balance of sweet caramel, vanilla, and a subtle oak finish for a smooth sipping experience.",
-            metrics: "$11.00",
+            metrics: "$12.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -620,7 +650,7 @@ let barMenuData = [
             // desc: "Rich and bold with notes of dark chocolate and spices.",
             fullDesc:
               "Woodford Reserve bourbon is a premium choice, offering layers of complex flavors including dark chocolate, spices, and a hint of tobacco for a luxurious finish.",
-            metrics: "$13.00",
+            metrics: "$15.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -631,7 +661,7 @@ let barMenuData = [
             // desc: "Robust and intense with hints of maple and nutmeg.",
             fullDesc:
               "Knob Creek bourbon is crafted to perfection, offering a bold flavor profile with maple syrup sweetness, nutmeg spice, and a lingering smoky finish.",
-            metrics: "$13.00",
+            metrics: "$15.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -642,7 +672,7 @@ let barMenuData = [
             // desc: "Rich, smooth, and distinctly Texan.",
             fullDesc:
               "TX Bourbon delivers a bold and distinctive flavor with hints of vanilla, caramel, and a uniquely smooth finish that pays homage to its Texan roots.",
-            metrics: "$17.00",
+            metrics: "$20.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
@@ -659,7 +689,7 @@ let barMenuData = [
           },
           // Basil Hayden ($14.00)
           {
-            title: "Basil Hayden Bourbon",
+            title: "Basil Hayden (bourbon)",
             origin: "Kentucky, USA",
             tagline: "A refined bourbon with a touch of spice and smooth sophistication.",
             // desc: "Light-bodied yet complex, featuring hints of peppery rye and honeyed sweetness.",
@@ -671,7 +701,7 @@ let barMenuData = [
 
           // Buffalo Trace Bourbon ($12.00)
           {
-            title: "Buffalo Trace Bourbon",
+            title: "Buffalo Trace (bourbon)",
             origin: "Kentucky, USA",
             tagline: "A timeless Kentucky classic, aged to perfection.",
             // desc: "Rich caramel and vanilla notes balanced with warm oak undertones.",
@@ -683,7 +713,7 @@ let barMenuData = [
 
           // Bullet Bourbon ($12.00)
           {
-            title: "Bullet Bourbon",
+            title: "Bullet (bourbon)",
             origin: "Kentucky, USA",
             tagline: "Bold, unfiltered flavor for the purist.",
             // desc: "Robust and full-bodied with a smoky charred oak character.",
@@ -695,7 +725,7 @@ let barMenuData = [
 
           // Bullet Rye ($12.00)
           {
-            title: "Bullet Rye",
+            title: "Bullet Rye (bourbon)",
             origin: "Kentucky, USA",
             tagline: "Spicy rye meets smooth bourbon craftsmanship.",
             // desc: "Bold and peppery with a crisp, clean finish.",
@@ -707,7 +737,7 @@ let barMenuData = [
 
           // Four Roses ($10.00)
           {
-            title: "Four Roses Bourbon",
+            title: "Four Roses (bourbon)",
             origin: "Kentucky, USA",
             tagline: "A mellow sip with floral elegance.",
             // desc: "Smooth and approachable with delicate fruit and floral notes.",
@@ -719,7 +749,7 @@ let barMenuData = [
 
           // Jim Beam ($8.00)
           {
-            title: "Jim Beam Bourbon",
+            title: "Jim Beam (bourbon)",
             origin: "Kentucky, USA",
             tagline: "America’s iconic Kentucky straight bourbon.",
             // desc: "Warm oak and caramel with a touch of nutty sweetness.",
@@ -728,62 +758,18 @@ let barMenuData = [
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
+          
 
 
         ],
       },
+
       {
         subCategory: "Bourbon & Cognac",
         type: "",
         backgroundImage: "../assets/img/menu-images/pageg.jpg",
         items: [
-          // Knob Creek ($15.00)
-          {
-            title: "Knob Creek Bourbon",
-            origin: "Kentucky, USA",
-            tagline: "Small-batch bourbon with big, bold character.",
-            // desc: "Deep caramel richness layered with toasted oak and spice.",
-            fullDesc: "Aged nine years, Knob Creek Bourbon packs intense flavors of maple, toasted nuts, and a long, warming finish. Best enjoyed neat or in a robust Boulevardier.",
-            metrics: "$15.00",
-            image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false,
-          },
-
-          // Maker's Mark ($12.00)
-          {
-            title: "Maker's Mark Bourbon",
-            origin: "Kentucky, USA",
-            tagline: "Sip-worthy bourbon with a signature red wax seal.",
-            // desc: "Velvety smooth with notes of vanilla and toasted wheat.",
-            fullDesc: "Maker’s Mark uses red winter wheat for a softer, sweeter profile, featuring flavors of caramel, baking spices, and a creamy finish. A star in Mint Juleps.",
-            metrics: "$12.00",
-            image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false,
-          },
-
-          // TX Bourbon ($20.00)
-          {
-            title: "TX Bourbon",
-            origin: "Texas, USA",
-            tagline: "Southern pride distilled into bold bourbon.",
-            // desc: "Bold and smoky with a touch of Texas terroir.",
-            fullDesc: "TX Bourbon celebrates Lone State craftsmanship, blending local grains for flavors of charred oak, dark honey, and a hint of pecan. Sip it slow or pair with barbecue.",
-            metrics: "$20.00",
-            image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false,
-          },
-
-          // Woodford Reserve ($15.00)
-          {
-            title: "Woodford Reserve Bourbon",
-            origin: "Kentucky, USA",
-            tagline: "A masterful blend of tradition and complexity.",
-            // desc: "Layered with dried fruit, cocoa, and toasted oak.",
-            fullDesc: "Woodford Reserve’s small-batch process delivers rich notes of vanilla, citrus peel, and a touch of leather. A premium choice for savoring neat or in refined cocktails.",
-            metrics: "$15.00",
-            image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false,
-          },
+        
           {
             title: "WhistlePig Black Bourbon (6Years)",
             origin: "USA",
@@ -804,6 +790,18 @@ let barMenuData = [
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
+          {
+            title: " Angel Envy (bourbon)",
+            origin: "USA",
+            tagline: "A masterful blend of tradition and complexity.",
+            // desc: "Layered with dried fruit, cocoa, and toasted oak.",
+            fullDesc: "WWhistlePig Whiskey, the premier independent craft whiskey brand, leads the industry by pushing boundaries to create the boldest and best rye whiskeys globally. Situated off the grid in Vermont, our whiskey is meticulously crafted by a new generation of distillers and blenders who reimagine and unlock the essence of Rye Whiskey. ",
+            metrics: "$15.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+
+
 
         ],
       },
