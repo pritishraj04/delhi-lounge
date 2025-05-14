@@ -2137,6 +2137,188 @@ let barMenuData = [
       },
     ],
   },
+
+  {
+    category: "Soft Drinks",
+    subCategories: [
+      {
+        subCategory: "Soft Drinks",
+        type: "",
+        backgroundImage: "../assets/img/menu-images/pageg.jpg",
+        items: [
+          {
+            title: "Coke",
+            origin: "India",
+            tagline: "",
+            desc: "",
+            fullDesc: "",
+            metrics: "$3",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+            vegan: false,
+            peanutAllergy: false,
+          },
+          {
+            title: "Coke Diet",
+            origin: "India",
+            tagline: "",
+            desc: "",
+            fullDesc: "",
+            metrics: "$3",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+            vegan: false,
+            peanutAllergy: false,
+          },
+          {
+            title: "Pepsi",
+            origin: "India",
+            tagline: "",
+            desc: "",
+            fullDesc: "",
+            metrics: "$3",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+            vegan: false,
+            peanutAllergy: false,
+          },
+          {
+            title: "Diet Pepsi",
+            origin: "India",
+            tagline: "A majestic beer inspired by India’s iconic monument.",
+            desc: "",
+            fullDesc:
+              "Taj Mahal is a premium lager from India, offering a crisp and smooth flavor with subtle hints of malt and hops. A perfect beer to enjoy on a warm day, embodying the spirit of India’s grandeur.",
+            metrics: "$3",
+            image: "./assets/img/modal-images/food-menu/taj-mahal.jpg", // Adjust the image path as needed
+            chefSpecial: false,
+          },
+          {
+            title: "Sprite",
+            origin: "India",
+            tagline: "",
+            desc: "",
+            fullDesc: "",
+            metrics: "$3",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+            vegan: false,
+            peanutAllergy: false,
+          },
+
+
+          {
+            title: "Cranberry Juice",
+            origin: "India",
+            tagline: "A majestic beer inspired by India’s iconic monument.",
+            desc: "",
+            fullDesc:
+              "Taj Mahal is a premium lager from India, offering a crisp and smooth flavor with subtle hints of malt and hops. A perfect beer to enjoy on a warm day, embodying the spirit of India’s grandeur.",
+            metrics: "$3",
+            image: "./assets/img/modal-images/food-menu/taj-mahal.jpg", // Adjust the image path as needed
+            chefSpecial: false,
+          },
+         
+          {
+            title: "Dr. Pepper",
+            origin: "India",
+            tagline: "",
+            desc: "",
+            fullDesc: "",
+            metrics: "$3",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+            vegan: false,
+            peanutAllergy: false,
+          },
+          {
+            title: "Ginger Ale",
+            origin: "India",
+            tagline: "",
+            desc: "",
+            fullDesc: "",
+            metrics: "$3",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+            vegan: false,
+            peanutAllergy: false,
+          },
+
+          {
+            title: "Lemonade",
+            origin: "India",
+            tagline: "A majestic beer inspired by India’s iconic monument.",
+            desc: "",
+            fullDesc:
+              "Taj Mahal is a premium lager from India, offering a crisp and smooth flavor with subtle hints of malt and hops. A perfect beer to enjoy on a warm day, embodying the spirit of India’s grandeur.",
+            metrics: "$3",
+            image: "./assets/img/modal-images/food-menu/taj-mahal.jpg", // Adjust the image path as needed
+            chefSpecial: false,
+          },
+          {
+            title: "Orange Juice",
+            origin: "India",
+            tagline: "A majestic beer inspired by India’s iconic monument.",
+            desc: "",
+            fullDesc:
+              "Taj Mahal is a premium lager from India, offering a crisp and smooth flavor with subtle hints of malt and hops. A perfect beer to enjoy on a warm day, embodying the spirit of India’s grandeur.",
+            metrics: "$3",
+            image: "./assets/img/modal-images/food-menu/taj-mahal.jpg", // Adjust the image path as needed
+            chefSpecial: false,
+          },
+         
+          {
+            title: "Red Bull",
+            origin: "India",
+            tagline: "",
+            desc: "",
+            fullDesc: "",
+            metrics: "$5",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+            vegan: false,
+            peanutAllergy: false,
+          },
+
+          {
+            title: "Starry",
+            origin: "India",
+            tagline: "A majestic beer inspired by India’s iconic monument.",
+            desc: "",
+            fullDesc:
+              "Taj Mahal is a premium lager from India, offering a crisp and smooth flavor with subtle hints of malt and hops. A perfect beer to enjoy on a warm day, embodying the spirit of India’s grandeur.",
+            metrics: "$3",
+            image: "./assets/img/modal-images/food-menu/taj-mahal.jpg", // Adjust the image path as needed
+            chefSpecial: false,
+          },
+          {
+            title: "Club Soda",
+            origin: "India",
+            tagline: "A majestic beer inspired by India’s iconic monument.",
+            desc: "",
+            fullDesc:
+              "Taj Mahal is a premium lager from India, offering a crisp and smooth flavor with subtle hints of malt and hops. A perfect beer to enjoy on a warm day, embodying the spirit of India’s grandeur.",
+            metrics: "$2",
+            image: "./assets/img/modal-images/food-menu/taj-mahal.jpg", // Adjust the image path as needed
+            chefSpecial: false,
+          },
+          {
+            title: "Club Soda with Lime",
+            origin: "India",
+            tagline: "",
+            desc: "",
+            fullDesc: "",
+            metrics: "$2.50",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+            vegan: false,
+            peanutAllergy: false,
+          },
+          
+        ],
+      },
+    ],
+  },
   // {
   //   category: "Happy Hour",
   //   type: "5:00 PM to 7:00 PM",
