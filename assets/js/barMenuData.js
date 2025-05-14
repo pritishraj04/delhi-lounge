@@ -1,4 +1,4 @@
-elet barMenuData = [
+let barMenuData = [
   {
     category: "Classic Cocktails",
     subCategories: [
@@ -493,7 +493,7 @@ elet barMenuData = [
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
-         
+        
           {
             title: "MUIRWOOD MERLOT CALIFORNIA VT",
             origin: "California",
