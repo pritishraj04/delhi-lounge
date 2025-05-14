@@ -939,7 +939,19 @@ let barMenuData = [
             metrics: "$8.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
+          }, 
+          {
+            title: "Bacardi Gold",
+            origin: "N/A",
+            tagline: "A touch of gold in every glass.",
+            desc: "Smooth golden rum with a hint of vanilla.",
+            fullDesc:
+              "A smooth golden rum with subtle notes of vanilla and caramel, perfect for cocktails or on the rocks.",
+            metrics: "$8.00",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
           },
+
           {
             title: "Malibu",
             origin: "N/A",
@@ -1013,21 +1025,11 @@ let barMenuData = [
             desc: "Coconut-flavored rum with a sweet touch.",
             fullDesc:
               "A tropical classic, Malibu Coconut Rum adds a smooth and sweet coconut flavor to any cocktail.",
-            metrics: "$10.00",
-            image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false,
-          },
-          {
-            title: "Bacardi Gold",
-            origin: "N/A",
-            tagline: "A touch of gold in every glass.",
-            desc: "Smooth golden rum with a hint of vanilla.",
-            fullDesc:
-              "A smooth golden rum with subtle notes of vanilla and caramel, perfect for cocktails or on the rocks.",
             metrics: "$8.00",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
+         
           {
             title: "Old Monk",
             origin: "India",
