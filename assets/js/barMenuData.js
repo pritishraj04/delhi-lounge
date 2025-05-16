@@ -1056,17 +1056,17 @@ let barMenuData = [
             desc: "",
             fullDesc:
               "The Glenlivet 12 Yr offers a smooth and balanced single malt with floral and fruity notes, perfect for both newcomers and connoisseurs.",
-            metrics: "$17",
+            metrics: "$18",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
           {
             title: "Glenlivet 15",
             origin: "Scotland",
-            tagline: "Rich and creamy single malt experience.",
+            tagline: "Smooth and balanced single malt whisky.",
             desc: "",
             fullDesc:
-              "Glenlivet 15 offers a rich and creamy flavor profile, aged in French oak casks for a refined whisky experience.",
+              "The Glenlivet 15 Yr offers a smooth and balanced single malt with floral and fruity notes, perfect for both newcomers and connoisseurs.",
             metrics: "$27",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -1074,10 +1074,10 @@ let barMenuData = [
           {
             title: "Glenlivet 18",
             origin: "Scotland",
-            tagline: "Elegant and well-aged single malt.",
+            tagline: "Rich and creamy single malt experience.",
             desc: "",
             fullDesc:
-              "Glenlivet 18 offers a perfect balance of flavors, with hints of oak and a lingering finish, making it a connoisseur’s choice.",
+              "Glenlivet 18 offers a rich and creamy flavor profile, aged in French oak casks for a refined whisky experience.",
             metrics: "$32",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
@@ -1085,14 +1085,15 @@ let barMenuData = [
           {
             title: "Glenlivet 21",
             origin: "Scotland",
-            tagline: "A rich single malt scotch with a history of excellence.",
+            tagline: "Elegant and well-aged single malt.",
             desc: "",
             fullDesc:
-              "Glenlivet 21 is a distinguished single malt Scotch whisky, aged to perfection with a smooth, balanced flavor that carries notes of oak, spice, and dried fruits.",
+              "Glenlivet 21 offers a perfect balance of flavors, with hints of oak and a lingering finish, making it a connoisseur’s choice.",
             metrics: "$55",
-            image: "./assets/img/modal-images/food-menu/glenlivet21.jpg", // Adjust the image path as needed
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
+         
           {
             title: "Macallan 12 Yr",
             origin: "Scotland",
@@ -1115,17 +1116,7 @@ let barMenuData = [
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
-          {
-            title: "Glenfiddich 12 Yr",
-            origin: "Scotland",
-            tagline: "Iconic single malt with fresh pear notes.",
-            desc: "",
-            fullDesc:
-              "Glenfiddich 12 Yr is a classic single malt known for its fresh pear and subtly oaky character, a staple in whisky collections worldwide.",
-            metrics: "$23",
-            image: "./assets/img/modal-images/food-menu/imag.jpg",
-            chefSpecial: false,
-          },
+         
           {
             title: "JW Black Label",
             origin: "Scotland",
@@ -1246,24 +1237,35 @@ let barMenuData = [
             chefSpecial: false,
           },
           {
-            title: "Glenfiddich 14 Year Old",
+            title: "Glenfiddich 12 Yr",
+            origin: "Scotland",
+            tagline: "Iconic single malt with fresh pear notes.",
+            desc: "",
+            fullDesc:
+              "Glenfiddich 12 Yr is a classic single malt known for its fresh pear and subtly oaky character, a staple in whisky collections worldwide.",
+            metrics: "$16",
+            image: "./assets/img/modal-images/food-menu/imag.jpg",
+            chefSpecial: false,
+          },
+          {
+            title: "Glenfiddich 14 Yr",
             origin: "Scotland",
             tagline: "Aged with rich bourbon cask influence.",
             desc: "",
             fullDesc:
               "Glenfiddich 14 Yr offers a bold and rich flavor profile, influenced by aging in bourbon casks.",
-            metrics: "$25",
+            metrics: "$21",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
           {
-            title: "Glenfiddich 15 Year Old",
+            title: "Glenfiddich 15 Yr",
             origin: "Scotland",
             tagline: "A unique Solera aged single malt.",
             desc: "",
             fullDesc:
               "Glenfiddich 15 Yr is uniquely aged using the Solera system, delivering layers of rich and complex flavors.",
-            metrics: "$27",
+            metrics: "$25",
             image: "./assets/img/modal-images/food-menu/imag.jpg",
             chefSpecial: false,
           },
